@@ -37,8 +37,15 @@ export const POST: APIRoute = async ({ request }) => {
   if (message.length > 10_000) return redirectBack(request, '?error=length');
 
   const { RESEND_API_KEY, CONTACT_EMAIL, FROM_EMAIL } = env;
-  if (!RESEND_API_KEY || !CONTACT_EMAIL || !FROM_EMAIL) {
-    console.error('contact form: missing env vars');
+  const missing = [
+    ['RESEND_API_KEY', RESEND_API_KEY],
+    ['CONTACT_EMAIL', CONTACT_EMAIL],
+    ['FROM_EMAIL', FROM_EMAIL],
+  ]
+    .filter(([, value]) => !value)
+    .map(([name]) => name);
+  if (missing.length > 0) {
+    console.error(`contact form: missing env vars: ${missing.join(', ')}`);
     return redirectBack(request, '?error=server');
   }
 
