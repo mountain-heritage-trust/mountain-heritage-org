@@ -137,9 +137,13 @@ main {
   width: auto;
 }
 
+.site-header__inner > nav {
+  margin-left: auto;
+}
+
 .site-nav {
   list-style: none;
-  margin: 0 0 0 auto;
+  margin: 0;
   padding: 0;
   display: flex;
   gap: 1.5rem;
@@ -458,9 +462,13 @@ main {
     flex-wrap: wrap;
   }
 
-  .site-nav {
+  .site-header__inner > nav {
     order: 3;
     flex-basis: 100%;
+    margin-left: 0;
+  }
+
+  .site-nav {
     flex-wrap: wrap;
     gap: 1rem;
   }
