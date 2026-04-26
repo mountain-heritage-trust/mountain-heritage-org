@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// JustGiving widget URL carried over from the previous site (CharityId
+// 2927521). Lands the donor on the trust's JustGiving donation page.
+// JustGiving handles Gift Aid for UK donors automatically.
+//
+// Future: CAF Donate is being considered as an alternative — see
+// docs/donations.md and docs/todos.md.
+const justGivingUrl =
+  'https://widgets.justgiving.com/Button/Redirect?p=eyJJZCI6ImI5MzlkYWE1LTc5NTEtNDZlMi1hNTFkLWQwMzc5NDczODBhNyIsIkNoYXJpdHlJZCI6MjkyNzUyMSwiU2l6ZSI6ImwiLCJSZWZlcmVuY2UiOiJNSFR3ZWJzaXQiLCJUeXBlIjoiRG9uYXRlIn0=';
+---
+<BaseLayout
+  title="Donate"
+  description="Support Mountain Heritage Trust. Donations fund our archivist, conservation work and the preservation of British mountaineering heritage."
+>
+  <article class="article">
+    <h1>Donate</h1>
+    <p class="article-summary">
+      Help us preserve the stories, objects and archives of British mountaineering for
+      future generations. Every donation directly funds our archivist, our collections
+      care and our public exhibitions.
+    </p>
+
+    <div class="donate-cta">
+      <a class="donate-button donate-button--large" href={justGivingUrl} rel="noopener">
+        Donate via JustGiving
+      </a>
+      <p class="donate-cta-note">
+        UK taxpayers — Gift Aid is collected automatically through JustGiving, increasing
+        the value of your gift by 25% at no cost to you.
+      </p>
+    </div>
+
+    <h2>Why donate?</h2>
+    <p>
+      Britain has a rich mountaineering history. Mountain Heritage Trust holds a crucial
+      part of this heritage — collections spanning the growth of rock climbing in the
+      20th century, the great Himalayan expeditions, and the rise of indoor climbing
+      walls. We actively curate and showcase this heritage, and target specific
+      collections to grow the archive.
+    </p>
+
+    <h2>How we use your donation</h2>
+    <ul>
+      <li>Funding a full-time archivist to manage and catalogue the collections.</li>
+      <li>Training staff and volunteers in archival and conservation skills.</li>
+      <li>Conserving and re-housing fragile material so it survives long-term.</li>
+      <li>Supporting public exhibitions and learning resources.</li>
+    </ul>
+
+    <h2>Other ways to give</h2>
+
+    <h3>Bank transfer</h3>
+    <p>
+      You can transfer directly to our account at Unity Trust Bank.
+    </p>
+    <ul>
+      <li>Account name: <strong>Mountain Heritage Trust</strong></li>
+      <li>Sort code: <strong>60-83-01</strong></li>
+      <li>Account number: <strong>20495831</strong></li>
+      <li>Reference: please use your surname followed by <code>MHT</code> — e.g. <code>Smith MHT</code>.</li>
+    </ul>
+
+    <h3>Cheque</h3>
+    <p>
+      Make cheques payable to <strong>Mountain Heritage Trust</strong> and post to:
+    </p>
+    <address class="contact-details">
+      Mountain Heritage Trust<br />
+      Blencathra Field Centre<br />
+      Threlkeld<br />
+      Keswick<br />
+      Cumbria CA12 4SG
+    </address>
+
+    <h2>Gift Aid</h2>
+    <p>
+      If you are a UK taxpayer, Gift Aid increases the value of your donation by 25% at
+      no cost to you. Donations made through JustGiving have Gift Aid handled
+      automatically. For bank transfers and cheques, please email
+      <a href="mailto:enquiries@mountain-heritage.org">enquiries@mountain-heritage.org</a>
+      and we will send you a Gift Aid declaration form.
+    </p>
+
+    <h2>Other ways to help</h2>
+    <p>
+      We welcome volunteers — to work alongside the archivist at the office, or to help
+      spread awareness of the Trust's work at events, climbing walls and clubs. If you
+      would like to get involved, please <a href="/contact">get in touch</a>.
+    </p>
+  </article>
+</BaseLayout>

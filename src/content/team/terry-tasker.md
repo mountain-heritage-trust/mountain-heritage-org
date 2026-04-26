@@ -1,0 +1,6 @@
+---
+name: "Terry Tasker"
+role: "Patron"
+photo: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/62d01245b80fc13d77fbbb06_Terry%20Tasker.jpg"
+---
+MS TERRY TASKER, has been with the Mountain Heritage Trust for many years in the roles of Chair, Vice Chair and is staying on as a Trustee. She has walked and camped in the Lake District fells and around England and Scotland. She has a wealth of experience in collaborating with community groups and young peoples’ projects. She comes from the field of Youth & Community work, Personal Coaching and Training. She is now retired but has been an independent consultant in her own right and instrumental in developing and setting up non-formal education programmes in a range of learning situations. She has written a range of papers and advised the Department for Education and Qualifications Curriculum Authority on structures of learning qualifications. She is also a Trustee of the Boardman Tasker Charitable Trust, which provides an annual literature award to books themed on mountains. She has helped MHT compiling the diaries and writing collections of her brother, Joe Tasker, for the ‘Towering Talent’ Archive Collection and is currently supporting the MHT office operations at Blencathra.

@@ -1,0 +1,84 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const url = Astro.url;
+const sent = url.searchParams.get('sent') === '1';
+const error = url.searchParams.get('error');
+
+const errorMessages: Record<string, string> = {
+  missing: 'Please complete your name, email and message.',
+  email: 'That email address does not look right.',
+  length: 'Your message is too long. Please shorten it and try again.',
+  server: 'Something went wrong sending your message. Please email enquiries@mountain-heritage.org directly.',
+};
+const errorText = error ? errorMessages[error] ?? errorMessages.server : null;
+---
+<BaseLayout
+  title="Contact"
+  description="Get in touch with Mountain Heritage Trust. We are based at Blencathra Field Centre near Keswick, Cumbria."
+>
+  <article class="article">
+    <h1>Contact</h1>
+    <p>
+      We are always looking for items, stories and connections that contribute to the
+      history of British mountaineering. If there is something you would like to discuss,
+      please get in touch.
+    </p>
+
+    <h2>Where to find us</h2>
+    <address class="contact-details">
+      Mountain Heritage Trust<br />
+      Blencathra Field Centre<br />
+      Threlkeld<br />
+      Keswick<br />
+      Cumbria CA12 4SG<br />
+      <br />
+      <a href="tel:+441768779911">+44 (0)1768 779911</a><br />
+      <a href="mailto:enquiries@mountain-heritage.org">enquiries@mountain-heritage.org</a>
+    </address>
+    <p>
+      The Trust is based at the Blencathra Centre, near Threlkeld, between Keswick and
+      Penrith. From the A66, exit at Threlkeld; in the middle of the village take Blease
+      Road (signed for Blencathra) and follow for one mile to the Field Centre. There is
+      dedicated parking for Mountain Heritage Trust ahead of you as you come down the
+      hill into the centre.
+    </p>
+
+    <h2>Send us a message</h2>
+
+    {sent && (
+      <p class="form-feedback form-feedback--success" role="status">
+        Thank you — your message has been sent. We will be in touch.
+      </p>
+    )}
+    {errorText && (
+      <p class="form-feedback form-feedback--error" role="alert">
+        {errorText}
+      </p>
+    )}
+
+    <form method="POST" action="/api/contact" class="contact-form">
+      <div class="field">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" required autocomplete="name" />
+      </div>
+      <div class="field">
+        <label for="email">Your email</label>
+        <input id="email" name="email" type="email" required autocomplete="email" />
+      </div>
+      <div class="field">
+        <label for="subject">Subject (optional)</label>
+        <input id="subject" name="subject" type="text" />
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
+      <div class="field field--honeypot" aria-hidden="true">
+        <label for="website">Website</label>
+        <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+      </div>
+      <button type="submit">Send message</button>
+    </form>
+  </article>
+</BaseLayout>

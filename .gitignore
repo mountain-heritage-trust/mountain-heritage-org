@@ -1,0 +1,21 @@
+# Audit output (mirror of the existing site, not part of the deployed site)
+_audit/
+
+# Astro
+node_modules/
+dist/
+.astro/
+
+# Cloudflare / Wrangler
+.wrangler/
+.dev.vars
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Env
+.env
+.env.*
+!.env.example

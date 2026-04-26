@@ -1,0 +1,37 @@
+---
+const year = new Date().getFullYear();
+
+const footerLinks = [
+  { href: '/about/about-us', label: 'About us' },
+  { href: '/contact', label: 'Contact' },
+  { href: '/terms-of-use', label: 'Terms of Use' },
+  { href: '/privacy-notice', label: 'Privacy Notice' },
+];
+
+const social = [
+  { href: 'https://www.facebook.com/MountainHeritageTrust/', label: 'Facebook' },
+  { href: 'https://twitter.com/mtn_heritage', label: 'Twitter' },
+  { href: 'https://www.instagram.com/mountainheritagetrust/', label: 'Instagram' },
+  { href: 'https://www.linkedin.com/company/mountainheritagetrust', label: 'LinkedIn' },
+  { href: 'https://www.youtube.com/@mountainheritagetrust2106', label: 'YouTube' },
+];
+---
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <nav aria-label="Footer">
+      <ul class="footer-nav">
+        {footerLinks.map((item) => (
+          <li><a href={item.href}>{item.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+    <ul class="social-links">
+      {social.map((item) => (
+        <li><a href={item.href} rel="noopener" target="_blank">{item.label}</a></li>
+      ))}
+    </ul>
+    <p class="footer-meta">
+      &copy; {year} Mountain Heritage Trust. Registered Charity Number 1083219.
+    </p>
+  </div>
+</footer>

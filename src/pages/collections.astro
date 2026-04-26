@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const items = await getCollection('archive');
+items.sort((a, b) => {
+  const ao = a.data.order ?? 999;
+  const bo = b.data.order ?? 999;
+  if (ao !== bo) return ao - bo;
+  return a.data.title.localeCompare(b.data.title);
+});
+---
+<BaseLayout title="Collections" description="Archive collections held by the Mountain Heritage Trust.">
+  <h1>Collections</h1>
+  <p>Mountain Heritage Trust holds a growing archive of papers, photographs, artefacts and ephemera documenting British mountaineering.</p>
+  <ul class="post-list">
+    {items.map((item) => (
+      <li class="post-list__item">
+        <h2><a href={`/collections/${item.id}`}>{item.data.title}</a></h2>
+        {item.data.summary && <p>{item.data.summary}</p>}
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

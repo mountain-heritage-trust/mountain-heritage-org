@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const exhibitions = await getCollection('exhibitions');
+exhibitions.sort((a, b) => {
+  const ad = a.data.startDate?.getTime() ?? 0;
+  const bd = b.data.startDate?.getTime() ?? 0;
+  return bd - ad;
+});
+
+const formatDate = (d: Date) =>
+  d.toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+<BaseLayout title="Events & Exhibitions" description="Current and past exhibitions from the Mountain Heritage Trust.">
+  <h1>Events &amp; Exhibitions</h1>
+  <ul class="post-list">
+    {exhibitions.map((item) => (
+      <li class="post-list__item">
+        <h2><a href={`/exhibitions/${item.id}`}>{item.data.title}</a></h2>
+        {(item.data.startDate || item.data.venue) && (
+          <p class="article-meta">
+            {item.data.startDate && formatDate(item.data.startDate)}
+            {item.data.startDate && item.data.endDate && ` – ${formatDate(item.data.endDate)}`}
+            {item.data.venue && (item.data.startDate ? ` · ${item.data.venue}` : item.data.venue)}
+          </p>
+        )}
+        {item.data.summary && <p>{item.data.summary}</p>}
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

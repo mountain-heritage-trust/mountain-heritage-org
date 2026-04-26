@@ -1,0 +1,24 @@
+---
+import DonateButton from './DonateButton.astro';
+
+const navItems = [
+  { href: '/events-exhibitions', label: 'Events & Exhibitions' },
+  { href: '/collections', label: 'Collections' },
+  { href: '/news-blog', label: 'News & Blog' },
+  { href: '/about/about-us', label: 'About' },
+  { href: '/contact', label: 'Contact' },
+];
+---
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="site-header__logo">Mountain Heritage Trust</a>
+    <nav aria-label="Primary">
+      <ul class="site-nav">
+        {navItems.map((item) => (
+          <li><a href={item.href}>{item.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+    <DonateButton />
+  </div>
+</header>

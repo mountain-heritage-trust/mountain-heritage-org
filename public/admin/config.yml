@@ -1,0 +1,141 @@
+# Sveltia CMS configuration.
+#
+# This file defines what trustees can edit through the /admin UI. Field
+# definitions here MUST stay in sync with the Astro schemas in
+# `src/content.config.ts`. If you add or change a field there, update it here
+# too — otherwise the CMS UI and the build will disagree.
+#
+# See docs/cms.md for setup, auth, and naming notes.
+
+backend:
+  name: github
+  repo: REPLACE_WITH_GITHUB_OWNER/REPLACE_WITH_GITHUB_REPO  # TODO: set once repo is on GitHub
+  branch: main
+  # Sveltia uses its own OAuth proxy by default. If self-hosting auth, see
+  # docs/cms.md for the alternative (auth_endpoint setting).
+
+# Media uploads are written to /public/uploads/ so they are served as-is at
+# /uploads/<file>. We do not run Astro image optimisation on user uploads.
+media_folder: public/uploads
+public_folder: /uploads
+
+# Show a preview link on the dashboard.
+site_url: https://www.mountain-heritage.org
+display_url: https://www.mountain-heritage.org
+
+collections:
+  # Blog posts — /blog/<slug>
+  - name: blog
+    label: Blog posts
+    label_singular: Blog post
+    folder: src/content/blog
+    extension: md
+    format: frontmatter
+    create: true
+    slug: '{{slug}}'
+    summary: '{{title}} — {{date | date(''D MMMM YYYY'')}}'
+    sortable_fields: [date, title]
+    view_filters:
+      - { label: Drafts, field: draft, pattern: true }
+      - { label: Published, field: draft, pattern: false }
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime, date_format: 'YYYY-MM-DD', time_format: false, picker_utc: false }
+      - { label: Summary, name: summary, widget: text, required: false, hint: 'Short standfirst shown on listing pages and used as the meta description.' }
+      - { label: Cover image, name: cover, widget: image, required: false, allow_multiple: false }
+      - { label: Author, name: author, widget: string, required: false }
+      - { label: Tags, name: tags, widget: list, required: false, default: [] }
+      - { label: Draft, name: draft, widget: boolean, default: false, hint: 'Drafts do not appear on the public site.' }
+      - { label: Body, name: body, widget: markdown }
+
+  # Team & trustees — /team/<slug>
+  - name: team
+    label: Team & trustees
+    label_singular: Team member
+    folder: src/content/team
+    extension: md
+    format: frontmatter
+    create: true
+    slug: '{{slug}}'
+    summary: '{{name}} — {{role}}'
+    sortable_fields: [order, name]
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Role, name: role, widget: string, hint: 'e.g. Trustee, Patron, Archivist.' }
+      - label: Category
+        name: category
+        widget: select
+        required: false
+        options:
+          - { label: Trustee, value: trustee }
+          - { label: Staff, value: staff }
+          - { label: Patron, value: patron }
+          - { label: Advisor, value: advisor }
+      - { label: Order, name: order, widget: number, required: false, value_type: int, hint: 'Lower numbers show first on listing pages.' }
+      - { label: Photo, name: photo, widget: image, required: false }
+      - { label: Bio, name: body, widget: markdown }
+
+  # Archive collections — /collections/<slug>
+  # NOTE: the Astro collection is named `archive` but the public URL is
+  # /collections/<slug>. The folder must match the Astro collection.
+  - name: archive
+    label: Archive collections
+    label_singular: Archive collection
+    folder: src/content/archive
+    extension: md
+    format: frontmatter
+    create: true
+    slug: '{{slug}}'
+    summary: '{{title}}'
+    sortable_fields: [order, title]
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Summary, name: summary, widget: text, required: false }
+      - { label: Cover image, name: cover, widget: image, required: false }
+      - { label: Order, name: order, widget: number, required: false, value_type: int }
+      - { label: Body, name: body, widget: markdown }
+
+  # Exhibitions — /exhibitions/<slug>
+  - name: exhibitions
+    label: Exhibitions
+    label_singular: Exhibition
+    folder: src/content/exhibitions
+    extension: md
+    format: frontmatter
+    create: true
+    slug: '{{slug}}'
+    summary: '{{title}}'
+    sortable_fields: [startDate, title]
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Start date, name: startDate, widget: datetime, date_format: 'YYYY-MM-DD', time_format: false, required: false }
+      - { label: End date, name: endDate, widget: datetime, date_format: 'YYYY-MM-DD', time_format: false, required: false }
+      - { label: Venue, name: venue, widget: string, required: false }
+      - { label: Summary, name: summary, widget: text, required: false }
+      - { label: Cover image, name: cover, widget: image, required: false }
+      - label: Status
+        name: status
+        widget: select
+        required: false
+        options:
+          - { label: Upcoming, value: upcoming }
+          - { label: Current, value: current }
+          - { label: Past, value: past }
+      - { label: Body, name: body, widget: markdown }
+
+  # About pages — /about/<slug>
+  - name: about
+    label: About pages
+    label_singular: About page
+    folder: src/content/about
+    extension: md
+    format: frontmatter
+    create: true
+    slug: '{{slug}}'
+    summary: '{{title}}'
+    sortable_fields: [order, title]
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Order, name: order, widget: number, required: false, value_type: int }
+      - { label: Summary, name: summary, widget: text, required: false }
+      - { label: Body, name: body, widget: markdown }

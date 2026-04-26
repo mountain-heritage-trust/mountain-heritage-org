@@ -1,0 +1,12 @@
+---
+// The donate button links to /donate, which will host the chosen donation
+// provider (Donorbox / Stripe Payment Link / CAF Donate). Decision pending.
+// See docs/donations.md once written.
+interface Props {
+  label?: string;
+  class?: string;
+}
+
+const { label = 'Donate', class: className } = Astro.props;
+---
+<a href="/donate" class:list={['donate-button', className]}>{label}</a>

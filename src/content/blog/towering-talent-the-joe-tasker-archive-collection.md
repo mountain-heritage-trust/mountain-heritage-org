@@ -1,0 +1,17 @@
+---
+title: "Towering Talent – The Joe Tasker Archive Collection"
+date: 2014-02-25
+summary: "The Mountain Heritage Trust is delighted to announce the news that it has successfully achieved a Heritage Lottery Fund (HLF) Grant of £40,400 to preserve and make accessible the papers and writings…"
+cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c643c1185a2f0e7b6b9f20b_WEBTAS%20K2%20climb%20team%2C%201978%20photo%20T%20Tasker%20query.jpg"
+---
+The Mountain Heritage Trust is delighted to announce the news that it has successfully achieved a Heritage Lottery Fund (HLF) Grant of £40,400 to preserve and make accessible the papers and writings of one of mountaineering’s most iconic figures – Joe Tasker.
+
+The Joe Tasker archive comprises correspondence, papers, photographs and literary manuscripts relating to his life as a premier climber and mountaineer plus his ability to illustrate this in outstanding photographic and literary formats.
+
+Particularly poignant are letters written home to his parents whilst on expedition as well as their responses to him. Joe’s family is extensive and their love, memory and respect has resulted in this collection being donated to MHT in order to share Joe’s achievements with an aim to inspire and stimulate similar talent.
+
+Joe Tasker, together with Peter Boardman, lost his life on Mount Everest in 1982.  In order to mark their lives, the Boardman Tasker Literary Award was established which rewards the talent for writing gripping and thought-provoking climbing literature which Joe himself excelled at.
+
+This Collection superbly complements the Chris Bonington Collection in that they were friends and climbing partners, thus the contents reflect the close bonds such a lifestyle encourages. MHT also holds several artefacts belonging to Joe including ice axes, a cine film camera and posthumous commemorative awards.
+
+Julie Summers, Chair of MHT remarked  ‘We are delighted that the Heritage Lottery Fund has recognised the enormous contribution Joe Tasker’s collection will make to mountaineering heritage and we look forward to being able to celebrate his inspiring achievements widely through exhibitions and education programmes in the future.’

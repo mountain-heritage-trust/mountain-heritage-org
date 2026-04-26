@@ -1,0 +1,8 @@
+# Cloudflare Pages redirects.
+# Format: <from>  <to>  <status>
+# See https://developers.cloudflare.com/pages/configuration/redirects/
+
+# /style-guide existed on the previous site as an internal design reference.
+# It is intentionally not migrated; redirect any inbound links to the home
+# page rather than serving a 404.
+/style-guide  /  301
