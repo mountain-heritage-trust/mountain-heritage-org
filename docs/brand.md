@@ -11,13 +11,19 @@ Horizontal lockup: stylised mountain mark and the wordmark "MOUNTAIN
 HERITAGE TRUST" set in capitals, all rendered in brand blue.
 
 - **File:** `public/brand/logo.svg` (193×50 viewBox, ~6 KB).
-- **Public URL:** `/brand/logo.svg`. Also referenced as the favicon in
-  `src/layouts/BaseLayout.astro`.
+- **Public URL:** `/brand/logo.svg`.
 - **Usage:** the only home-page link in the top-left of the site header.
   Sized to 44px tall (≈170px wide).
-- **Future:** if a square / monogram variant of the logo becomes available,
-  consider using it as a tighter favicon — the wordmark is unreadable at
-  16×16 px. For now the SVG scales acceptably as a favicon at any size.
+
+## Favicon / monogram
+
+A square version of just the mountain mark in brand blue, used for the
+favicon and Apple touch icon.
+
+- **File:** `public/brand/favicon.png` (289×289 PNG).
+- **Public URL:** `/brand/favicon.png`. Wired up in
+  `src/layouts/BaseLayout.astro` as both `rel="icon"` and
+  `rel="apple-touch-icon"`.
 
 ## Colour palette
 
