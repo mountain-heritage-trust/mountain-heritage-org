@@ -11,7 +11,9 @@ const navItems = [
 ---
 <header class="site-header">
   <div class="site-header__inner">
-    <a href="/" class="site-header__logo">Mountain Heritage Trust</a>
+    <a href="/" class="site-header__logo" aria-label="Mountain Heritage Trust home">
+      <img src="/brand/logo.svg" alt="Mountain Heritage Trust" width="170" height="44" />
+    </a>
     <nav aria-label="Primary">
       <ul class="site-nav">
         {navItems.map((item) => (

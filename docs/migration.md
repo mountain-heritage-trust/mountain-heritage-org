@@ -74,12 +74,12 @@ The bulk migration (Task #5) is complete. Coverage:
 | Team profiles               |    24/24 | 3 missing from the wget mirror were fetched directly.          |
 | Archive collections         |      6/6 | Title, summary, body. Sitemap counted 7 (the index page).      |
 | Exhibitions                 |      4/4 | Title, summary, body. `startDate`/`endDate`/`venue` are TODOs. |
-| About pages                 |      5/4 | Includes `/about/regional-advocacy` (in nav, not in sitemap).  |
+| About pages                 |      4/4 | `/about/regional-advocacy` removed (stub on old site).         |
 | Standalone pages (`.astro`) |      6/6 | privacy-notice, terms-of-use, supporters, learning-resources, contact, donate. |
 | Listing pages               |      3/3 | news-blog, events-exhibitions, collections.                    |
-| Style guide                 |      0/1 | Intentionally not migrated — `/style-guide` was old design ref. |
+| Style guide                 |      0/1 | Removed — `/style-guide` was an internal design ref on the old site. |
 
-**Result: 225/225 sitemap URLs build, plus 1 bonus URL discovered (`/about/regional-advocacy`).** Only `/style-guide` is missing — needs a redirect (see Task #11).
+**Result: 225/225 sitemap URLs build.** `/style-guide` (an internal design reference on the old site) is removed and 404s — it was never a public-facing page. `/about/regional-advocacy` (a stub linked from the old nav) is removed but redirects to `/about/about-us` in `public/_redirects` in case of stray inbound links.
 
 ## Migration scripts
 

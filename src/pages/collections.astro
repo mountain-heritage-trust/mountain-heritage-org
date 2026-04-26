@@ -9,16 +9,45 @@ items.sort((a, b) => {
   if (ao !== bo) return ao - bo;
   return a.data.title.localeCompare(b.data.title);
 });
+
+const catalogueUrl = 'http://calmview.co.uk/mht/calmview/';
 ---
-<BaseLayout title="Collections" description="Archive collections held by the Mountain Heritage Trust.">
-  <h1>Collections</h1>
-  <p>Mountain Heritage Trust holds a growing archive of papers, photographs, artefacts and ephemera documenting British mountaineering.</p>
-  <ul class="post-list">
-    {items.map((item) => (
-      <li class="post-list__item">
-        <h2><a href={`/collections/${item.id}`}>{item.data.title}</a></h2>
-        {item.data.summary && <p>{item.data.summary}</p>}
-      </li>
-    ))}
-  </ul>
+<BaseLayout
+  title="Collections"
+  description="Search the Mountain Heritage Trust's online catalogue and browse our archive collections."
+>
+  <section class="catalogue-hero">
+    <div class="catalogue-hero__inner">
+      <p class="catalogue-hero__eyebrow">Online catalogue</p>
+      <h1>Search our catalogue</h1>
+      <p class="catalogue-hero__lead">
+        Since moving to our archive at Blencathra we have catalogued a substantial
+        amount of significant material documenting British climbing and mountaineering
+        history. Browse the full catalogue to see what we hold.
+      </p>
+      <a class="button button--on-blue" href={catalogueUrl} rel="noopener">
+        Explore the catalogue
+      </a>
+      <p class="catalogue-hero__note">
+        To make an appointment to view material in person, email
+        <a href="mailto:enquiries@mountain-heritage.org">enquiries@mountain-heritage.org</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="article">
+    <h2>Featured collections</h2>
+    <p>
+      A selection of the standout collections held by the Trust. Each links through to
+      a fuller description.
+    </p>
+    <ul class="post-list">
+      {items.map((item) => (
+        <li class="post-list__item">
+          <h3><a href={`/collections/${item.id}`}>{item.data.title}</a></h3>
+          {item.data.summary && <p>{item.data.summary}</p>}
+        </li>
+      ))}
+    </ul>
+  </section>
 </BaseLayout>

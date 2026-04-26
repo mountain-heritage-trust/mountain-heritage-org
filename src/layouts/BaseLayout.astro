@@ -38,6 +38,14 @@ const absoluteOgImage = ogImage ? new URL(ogImage, Astro.site).toString() : unde
     {absoluteOgImage && <meta name="twitter:image" content={absoluteOgImage} />}
 
     <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
+    <link rel="icon" type="image/svg+xml" href="/brand/logo.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+    />
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to main content</a>

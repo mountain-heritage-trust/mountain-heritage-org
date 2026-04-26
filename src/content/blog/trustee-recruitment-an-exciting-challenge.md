@@ -14,4 +14,4 @@ We welcome interest from people with a range of skill sets and who are passionat
 
 If you feel you fit these requirements and want more information; description of the full role; details on how to submit an expression of interest, or discuss this position further, please email: [enquiries@mountain-heritage.org](mailto:enquiries@mountain-heritage.org?subject=Job%20Enquiry%3A%20Trustee%20Recruitment) and you will be sent further contact information.
 
-For an in-depth look at the Trust please visit: [www.mountain-heritage.org](../about/regional-advocacy.html)
+For an in-depth look at the Trust please see [our About page](/about/about-us).

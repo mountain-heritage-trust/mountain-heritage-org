@@ -14,6 +14,7 @@ This file is the entry point for anyone — human or LLM — working on the proj
 - [docs/architecture.md](docs/architecture.md) — overall architecture
 - [docs/development.md](docs/development.md) — local development setup and day-to-day commands
 - [docs/design.md](docs/design.md) — design system, tokens, component conventions
+- [docs/brand.md](docs/brand.md) — brand identity: logo, palette, typography
 - [docs/content.md](docs/content.md) — content collections, schemas, and how to add entries / fields / collections
 - [docs/cms.md](docs/cms.md) — Sveltia CMS configuration and trustee auth flow
 - [docs/deployment.md](docs/deployment.md) — Cloudflare Pages build and deploy

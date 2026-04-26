@@ -1,19 +1,30 @@
 :root {
+  /* Brand identity */
+  --color-brand-blue: #1c3278;       /* matches the logo SVG fill */
+
+  /* Brand action (links, buttons, focus rings) */
+  --color-accent: #990066;
+  --color-accent-hover: #6f0049;
+
+  /* Donate button — same purple as accents per brand. Kept as a
+     separate token so the donate CTA can be retoned independently
+     in future without affecting links/buttons. */
+  --color-donate: var(--color-accent);
+  --color-donate-hover: var(--color-accent-hover);
+
+  /* Neutrals */
   --color-bg: #fafaf7;
   --color-surface: #ffffff;
-  --color-text: #1f1f1f;
-  --color-muted: #5a5a5a;
-  --color-accent: #1f4068;
-  --color-accent-hover: #16304d;
-  --color-donate: #c2410c;
-  --color-donate-hover: #9a330a;
+  --color-text: #333333;
+  --color-muted: #5d6c7b;
   --color-border: #e5e5e0;
+
   --color-footer-bg: #2a2a2a;
   --color-footer-text: #e5e5e0;
   --color-footer-muted: #a5a5a0;
 
-  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --font-heading: Georgia, 'Times New Roman', serif;
+  --font-body: 'Helvetica Neue', Helvetica, 'Segoe UI', Verdana, sans-serif;
+  --font-heading: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 
   --max-width: 72rem;
   --content-width: 42rem;
@@ -47,6 +58,7 @@ h2,
 h3,
 h4 {
   font-family: var(--font-heading);
+  font-weight: 700;
   line-height: 1.2;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
@@ -113,11 +125,16 @@ main {
 }
 
 .site-header__logo {
-  font-family: var(--font-heading);
-  font-weight: 600;
-  font-size: 1.125rem;
-  color: var(--color-text);
+  display: inline-flex;
+  align-items: center;
   text-decoration: none;
+  line-height: 0;
+}
+
+.site-header__logo img {
+  display: block;
+  height: 2.75rem;
+  width: auto;
 }
 
 .site-nav {
@@ -145,7 +162,11 @@ main {
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: var(--radius);
-  font-weight: 600;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.875rem;
 }
 
 .donate-button:hover {
@@ -212,6 +233,82 @@ main {
 .article img {
   border-radius: var(--radius);
   margin: 1.5rem 0;
+}
+
+/* Catalogue hero (collections page) */
+.catalogue-hero {
+  background: var(--color-brand-blue);
+  color: #ffffff;
+  margin: -2rem -1.5rem 2.5rem;
+  padding: 3rem 1.5rem;
+}
+
+.catalogue-hero__inner {
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+.catalogue-hero h1 {
+  margin: 0.25rem 0 1rem;
+  color: #ffffff;
+  font-size: 2.25rem;
+}
+
+.catalogue-hero__eyebrow {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.catalogue-hero__lead {
+  font-size: 1.125rem;
+  margin: 0 0 1.5rem;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.catalogue-hero__note {
+  margin: 1.25rem 0 0;
+  font-size: 0.9375rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.catalogue-hero__note a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Generic button (used inside the catalogue hero) */
+.button {
+  display: inline-block;
+  background: var(--color-accent);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.625rem 1.25rem;
+  border-radius: var(--radius);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.9375rem;
+}
+
+.button:hover {
+  background: var(--color-accent-hover);
+  color: #ffffff;
+}
+
+.button--on-blue {
+  background: #ffffff;
+  color: var(--color-brand-blue);
+}
+
+.button--on-blue:hover {
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--color-brand-blue);
 }
 
 /* Listing pages */
@@ -320,8 +417,11 @@ main {
 }
 
 .contact-form button {
-  font: inherit;
-  font-weight: 600;
+  font-family: var(--font-heading);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   background: var(--color-accent);
   color: #ffffff;
   border: 0;

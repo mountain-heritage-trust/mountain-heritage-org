@@ -15,24 +15,11 @@ needs to action them.
 - See `docs/donations.md` for context.
 
 ### Brand colours, logo, typography
-- `docs/design.md` lists the placeholder design tokens currently in use
-  (deep blue accent, rust donate button, Georgia headings, plain-text
-  wordmark in the header).
-- **Action:** if MHT has brand guidelines, swap the tokens in
-  `src/styles/global.css` (`:root` block) and replace the wordmark with a
-  logo image in `src/components/Header.astro`.
-
-### `/about/regional-advocacy` page
-- Discovered during migration — linked from the old homepage but not in
-  the sitemap.
-- **Action:** decide whether to keep, archive, or remove this page. If
-  removing, add a redirect to `public/_redirects`.
-
-### Style guide
-- The old `/style-guide` URL is intentionally not migrated.
-- A redirect from `/style-guide` → `/` is already in `public/_redirects`.
-- **Action:** confirm this is the right destination, or change to a more
-  appropriate target.
+- Brand guidelines are in [brand.md](brand.md). Tokens are applied in
+  `src/styles/global.css`. Brand blue `#1c3278` (matches the logo SVG) and
+  brand purple `#990066` are the two primary colours; Montserrat is the
+  heading font; the logo SVG is wired up in the header and as the favicon.
+- *(No outstanding action.)*
 
 ---
 
@@ -79,14 +66,13 @@ needs to action them.
 ## Content cleanup (trustees, after launch)
 
 ### About pages
-- 5 about pages were migrated with thin content because the original
+- 4 about pages were migrated with thin content because the original
   Webflow layouts didn't translate into markdown.
 - Each `src/content/about/*.md` has a `# TODO` note in its frontmatter.
 - **Action:** review and rewrite via the CMS:
   - `about/about-us.md`
   - `about/accessions.md`
   - `about/annual-report.md`
-  - `about/regional-advocacy.md` (also see decision above)
   - `about/trustees-staff-patrons-and-advisors.md`
 
 ### Exhibitions metadata
@@ -121,9 +107,9 @@ needs to action them.
   `docs/donations.md`.
 - **Cloudflare Turnstile** on the contact form for stronger spam protection
   (free, takes 5 minutes once a Cloudflare account exists).
-- **Custom heading font** — Georgia is fine but a self-hosted serif
-  (e.g. Crimson Pro) would be more distinctive.
-- **Logo SVG** in the header instead of a text wordmark.
+- **Self-host Montserrat** — currently loaded from Google Fonts. Self-hosting
+  is faster and more privacy-friendly but takes a few extra steps (fetch
+  woff2 files, add `@font-face` rules, drop the Google Fonts `<link>`).
 - **RSS feed** for the blog (`/blog/rss.xml`) — Astro has an integration.
 - **Tag/category pages** for blog posts (tags are already stored but not
   surfaced).
