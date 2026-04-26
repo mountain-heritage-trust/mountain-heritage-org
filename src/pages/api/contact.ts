@@ -2,14 +2,9 @@
 // See docs/forms.md.
 
 import type { APIRoute } from 'astro';
+import { env } from 'cloudflare:workers';
 
 export const prerender = false;
-
-interface Env {
-  RESEND_API_KEY?: string;
-  CONTACT_EMAIL?: string;
-  FROM_EMAIL?: string;
-}
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -19,9 +14,7 @@ function redirectBack(request: Request, query: string): Response {
   return Response.redirect(url.toString(), 303);
 }
 
-export const POST: APIRoute = async ({ request, locals }) => {
-  const env = (locals as { runtime?: { env: Env } }).runtime?.env ?? {};
-
+export const POST: APIRoute = async ({ request }) => {
   let form: FormData;
   try {
     form = await request.formData();
