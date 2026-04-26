@@ -1,0 +1,13 @@
+{
+	"compatibility_date": "2026-04-26",
+	"compatibility_flags": ["global_fetch_strictly_public"],
+	"name": "mountain-heritage-org",
+	"main": "@astrojs/cloudflare/entrypoints/server",
+	"assets": {
+		"directory": "./dist",
+		"binding": "ASSETS"
+	},
+	"observability": {
+		"enabled": true
+	}
+}
