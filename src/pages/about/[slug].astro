@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import TeamGallery from '../../components/TeamGallery.astro';
 
 export async function getStaticPaths() {
   const items = await getCollection('about');
@@ -19,4 +20,5 @@ const { Content } = await render(item);
     {item.data.summary && <p class="article-summary">{item.data.summary}</p>}
     <Content />
   </article>
+  {item.data.showTeam && <TeamGallery />}
 </BaseLayout>

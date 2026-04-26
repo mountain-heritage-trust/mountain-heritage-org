@@ -70,7 +70,9 @@ collections:
           - { label: Trustee, value: trustee }
           - { label: Staff, value: staff }
           - { label: Patron, value: patron }
+          - { label: Ambassador, value: ambassador }
           - { label: Advisor, value: advisor }
+      - { label: Former, name: former, widget: boolean, default: false, hint: 'Tick for past trustees / patrons / etc. They appear at the bottom of the team gallery.' }
       - { label: Order, name: order, widget: number, required: false, value_type: int, hint: 'Lower numbers show first on listing pages.' }
       - { label: Photo, name: photo, widget: image, required: false }
       - { label: Bio, name: body, widget: markdown }
@@ -138,4 +140,5 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Order, name: order, widget: number, required: false, value_type: int }
       - { label: Summary, name: summary, widget: text, required: false }
+      - { label: Show team gallery, name: showTeam, widget: boolean, default: false, hint: 'Show the team / patrons / trustees gallery underneath the page body. Currently only used on About us.' }
       - { label: Body, name: body, widget: markdown }

@@ -1,6 +1,8 @@
 ---
 name: "Mike Margeson OBE"
 role: "Trustee"
+category: trustee
+former: false
 photo: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/66d8bb60a68a0cb4e5d02daf_Mike%20Norway.jpeg"
 ---
 Mike has climbed and adventured and led groups all over the world including Africa, Iceland, Norway, North and South America, and most parts of the European Alps. Mike is a qualified Winter Mountaineering and Climbing Instructor as well as an International Mountain Leader and is presently Operations and Safety Manager at YMCA Lakeside Centre. His love for adventure has been mirrored by a 45-year career as an Outdoor Education and Mountaineering Instructor.

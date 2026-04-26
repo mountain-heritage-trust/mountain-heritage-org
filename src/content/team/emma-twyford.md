@@ -1,6 +1,8 @@
 ---
 name: "Emma Twyford"
 role: "Ambassador"
+category: ambassador
+former: false
 photo: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/67402af4f351ac898cdf9c8d_Screenshot%202024-11-22%20at%2007.53.36.png"
 ---
 Emma Twyford is one of the reigning queens of British climbing, best known for her trad climbing prowess. Her exceptional CV of on-sights and flashes up to E8, alongside hard E9 headpoints, provides convincing evidence of her comfort on the sharp end and sets an impressive bar for modern day British trad climbing. She has also bouldered 7C+ and, in September 2019, she became the first British woman to break into the ninth grade with her ascent of *The Big Bang* in North Wales. As well as being a top climber, Emma has a BSc in Sport Science and Coaching, is a successful freelance route setter, runs women’s route setting workshops and bakes a mean meringue roulade.

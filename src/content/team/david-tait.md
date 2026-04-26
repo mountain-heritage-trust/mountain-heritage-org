@@ -1,6 +1,8 @@
 ---
 name: "David (Dave) Tait"
 role: "Trustee"
+category: trustee
+former: false
 photo: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/64c7d51d0e551e5295270f19_David%20Tait.jpeg"
 ---
 DAVID (DAVE) TAIT, has had a love of mountains which can be traced to his childhood when regular trips to the Peak District and his progression through the Duke of Edinburgh’s Award scheme, fostered his interest. In David’s late teens, he discovered rock-climbing and was able to develop his skills after joining the Royal Air Force in 1988, through its Mountaineering Association.

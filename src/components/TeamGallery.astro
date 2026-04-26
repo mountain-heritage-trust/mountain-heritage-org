@@ -1,0 +1,85 @@
+---
+import { getCollection } from 'astro:content';
+
+type TeamCategory = 'patron' | 'ambassador' | 'trustee' | 'staff' | 'advisor';
+
+const all = await getCollection('team');
+
+const sortByName = (a: { data: { name: string } }, b: { data: { name: string } }) =>
+  a.data.name.localeCompare(b.data.name);
+
+function group(category: TeamCategory, former = false) {
+  return all
+    .filter((m) => m.data.category === category && Boolean(m.data.former) === former)
+    .sort((a, b) => {
+      const ao = a.data.order ?? Number.MAX_SAFE_INTEGER;
+      const bo = b.data.order ?? Number.MAX_SAFE_INTEGER;
+      if (ao !== bo) return ao - bo;
+      return sortByName(a, b);
+    });
+}
+
+const sections: { title: string; members: typeof all }[] = [
+  { title: 'Patrons',     members: group('patron')     },
+  { title: 'Ambassadors', members: group('ambassador') },
+  { title: 'Trustees',    members: group('trustee')    },
+  { title: 'Staff',       members: group('staff')      },
+];
+
+const inMemoriam = all
+  .filter((m) => m.data.former === true)
+  .sort(sortByName);
+---
+<section class="team-gallery">
+  {sections.map((section) => section.members.length > 0 && (
+    <div class="team-gallery__section">
+      <h2>{section.title}</h2>
+      <ul class="team-grid">
+        {section.members.map((member) => (
+          <li>
+            <a href={`/team/${member.id}`} class="team-card">
+              {member.data.photo ? (
+                <img
+                  class="team-card__photo"
+                  src={member.data.photo}
+                  alt={member.data.name}
+                  loading="lazy"
+                />
+              ) : (
+                <span class="team-card__photo team-card__photo--placeholder" aria-hidden="true"></span>
+              )}
+              <span class="team-card__name">{member.data.name}</span>
+              <span class="team-card__role">{member.data.role}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  ))}
+
+  {inMemoriam.length > 0 && (
+    <div class="team-gallery__section team-gallery__section--memoriam">
+      <h2>In memoriam</h2>
+      <ul class="team-grid">
+        {inMemoriam.map((member) => (
+          <li>
+            <a href={`/team/${member.id}`} class="team-card">
+              {member.data.photo ? (
+                <img
+                  class="team-card__photo"
+                  src={member.data.photo}
+                  alt={member.data.name}
+                  loading="lazy"
+                />
+              ) : (
+                <span class="team-card__photo team-card__photo--placeholder" aria-hidden="true"></span>
+              )}
+              <span class="team-card__name">{member.data.name}</span>
+              <span class="team-card__role">{member.data.role}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+</section>

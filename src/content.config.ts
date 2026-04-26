@@ -20,7 +20,11 @@ const team = defineCollection({
   schema: z.object({
     name: z.string(),
     role: z.string(),
-    category: z.enum(['trustee', 'staff', 'patron', 'advisor']).optional(),
+    category: z.enum(['trustee', 'staff', 'patron', 'ambassador', 'advisor']).optional(),
+    // Mark as `former: true` for past trustees / patrons / etc. (e.g. those
+    // who have stepped down or are deceased). They are grouped under
+    // "In memoriam" / similar at the bottom of listing pages.
+    former: z.boolean().default(false),
     order: z.number().optional(),
     photo: z.string().optional(),
   }),
@@ -57,6 +61,9 @@ const about = defineCollection({
     title: z.string(),
     order: z.number().optional(),
     summary: z.string().optional(),
+    // Render the team gallery (patrons / ambassadors / trustees / staff)
+    // beneath the page body when true. Only intended for about-us today.
+    showTeam: z.boolean().default(false),
   }),
 });
 
