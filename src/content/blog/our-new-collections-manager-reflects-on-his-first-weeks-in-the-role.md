@@ -24,6 +24,6 @@ We look forward to gradually reopening our collections to the public again in th
 
 If you want to contact us here at the MHT please do write to [enquiries@mountain-heritage.org](<mailto: enquiries@mountain-heritage.org>), or call us on [+44 (0)1768 779911](tel:+441768779911).  
 
-[David Johnston-Smith](../team/david-johnston-smith.html)
+David Johnston-Smith
 
 Collections Manager

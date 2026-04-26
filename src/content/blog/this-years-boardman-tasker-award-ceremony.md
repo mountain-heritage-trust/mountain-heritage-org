@@ -28,7 +28,7 @@ The two-hour event drew to a close with a speech from Paul Tasker, Joe’s young
 
 The evening closed with well-deserved book sales and signings.  Finally – a big thumbs up to the [Kendal Mountain Festival](https://www.kendalmountainfestival.com/) organisers for another fantastic event, and the Brewery Arts Centre team for hosting (and for the excellent Gluten Free pizza which John and I shared before the event - this often disappointed coeliac was very satisfied with the fare on offer).  The whole evening was hugely enjoyable and a very great success.  Congratulations to everybody involved.  I cannot wait until next year.
 
-[David Johnston-Smith](../team/david-johnston-smith.html)
+David Johnston-Smith
 
 Collections Manager
 

@@ -14,6 +14,6 @@ When we receive donations of printed material we always ask the donor if we are 
 
 I hope you have enjoyed this brief glimpse into the world of guidebooks and their collecting.  If you want to get in touch with me about this or anything else, you can contact me at Blencathra via email at [collections@mountain-heritage.org](mailto:collections@mountain-heritage.org) or by phone on [+44 (0)1768 779911](tel:+441768779911)
 
-[David Johnston-Smith](../team/david-johnston-smith.html)
+David Johnston-Smith
 
 Collections Manager

@@ -5,3 +5,10 @@
 # /about/regional-advocacy was a stub on the old site (linked from the nav
 # but with no real content). Redirect any inbound links to the about page.
 /about/regional-advocacy  /about/about-us  301
+
+# Past team members removed from the gallery. Inbound links from external
+# sites or search engines redirect to the about / team gallery instead of
+# 404'ing.
+/team/david-johnston-smith  /about/about-us  301
+/team/david-litherland      /about/about-us  301
+/team/fiona-bennett         /about/about-us  301
