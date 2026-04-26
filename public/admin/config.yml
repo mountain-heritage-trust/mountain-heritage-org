@@ -9,7 +9,7 @@
 
 backend:
   name: github
-  repo: REPLACE_WITH_GITHUB_OWNER/REPLACE_WITH_GITHUB_REPO  # TODO: set once repo is on GitHub
+  repo: mountain-heritage-trust/mountain-heritage-org
   branch: main
   # Sveltia uses its own OAuth proxy by default. If self-hosting auth, see
   # docs/cms.md for the alternative (auth_endpoint setting).

@@ -41,8 +41,9 @@ Two layers of auth:
 
 ## Required setup (one-off, by an administrator)
 
-1. **Push the repo to GitHub.** Set `backend.repo` in `public/admin/config.yml`
-   to `<owner>/<repo>` (e.g. `mountain-heritage-trust/mountain-heritage-org`).
+1. **GitHub repo.** Already set up at
+   `mountain-heritage-trust/mountain-heritage-org`. `backend.repo` in
+   `public/admin/config.yml` points at it.
 2. **Sveltia OAuth** — Sveltia ships with a hosted OAuth proxy by default.
    Most setups need no extra configuration, but if commits fail with auth
    errors, follow the [self-hosted auth guide](https://github.com/sveltia/sveltia-cms#authentication).

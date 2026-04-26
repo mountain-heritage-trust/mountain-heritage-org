@@ -1,15 +1,9 @@
-// Cloudflare Pages Function for the contact form.
-//
-// Expects:
-//   - POST application/x-www-form-urlencoded with fields name, email, subject, message
-//   - A honeypot field "website" that real users will leave empty
-//
-// Env vars (set in Cloudflare Pages → Settings → Environment variables):
-//   - RESEND_API_KEY  — Resend API token
-//   - CONTACT_EMAIL   — destination, e.g. enquiries@mountain-heritage.org
-//   - FROM_EMAIL      — verified sender, e.g. noreply@mountain-heritage.org
-//
+// Contact form handler — runs in the Cloudflare Worker (via @astrojs/cloudflare).
 // See docs/forms.md.
+
+import type { APIRoute } from 'astro';
+
+export const prerender = false;
 
 interface Env {
   RESEND_API_KEY?: string;
@@ -25,8 +19,8 @@ function redirectBack(request: Request, query: string): Response {
   return Response.redirect(url.toString(), 303);
 }
 
-export const onRequestPost: PagesFunction<Env> = async (context) => {
-  const { request, env } = context;
+export const POST: APIRoute = async ({ request, locals }) => {
+  const env = (locals as { runtime?: { env: Env } }).runtime?.env ?? {};
 
   let form: FormData;
   try {
@@ -45,15 +39,9 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   const subject = ((form.get('subject') as string) ?? '').trim() || 'Contact form submission';
   const message = ((form.get('message') as string) ?? '').trim();
 
-  if (!name || !email || !message) {
-    return redirectBack(request, '?error=missing');
-  }
-  if (!EMAIL_RE.test(email)) {
-    return redirectBack(request, '?error=email');
-  }
-  if (message.length > 10_000) {
-    return redirectBack(request, '?error=length');
-  }
+  if (!name || !email || !message) return redirectBack(request, '?error=missing');
+  if (!EMAIL_RE.test(email)) return redirectBack(request, '?error=email');
+  if (message.length > 10_000) return redirectBack(request, '?error=length');
 
   const { RESEND_API_KEY, CONTACT_EMAIL, FROM_EMAIL } = env;
   if (!RESEND_API_KEY || !CONTACT_EMAIL || !FROM_EMAIL) {

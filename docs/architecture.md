@@ -21,7 +21,7 @@ The website for Mountain Heritage Trust, a small UK charity. It replaces the exi
 | CMS              | [Sveltia CMS](https://github.com/sveltia/sveltia-cms)                 | Browser-based editor for trustees. Commits to GitHub on save.         |
 | Hosting          | [Cloudflare Pages](https://pages.cloudflare.com)                      | Watches the repo, builds on push, serves the static output globally.  |
 | Auth for `/admin`| Cloudflare Access (Zero Trust)                                        | Restricts CMS access to `@mountain-heritage.org` Google accounts.     |
-| Forms            | Cloudflare Pages Functions                                            | Handles contact form submissions.                                     |
+| Forms            | Astro API route (`src/pages/api/contact.ts`) + Cloudflare Worker      | Handles contact form submissions via `@astrojs/cloudflare` adapter.   |
 | Donations        | TBD (Donorbox / Stripe Payment Link / CAF Donate)                     | Embedded link or button. Not built in-house.                          |
 
 ## How content flows
@@ -58,7 +58,7 @@ A trustee never sees git, the build, or any code. They open `/admin`, log in wit
 ├── public/
 │   ├── admin/             — Sveltia CMS bundle and config.yml
 │   └── _redirects         — Cloudflare redirects (preserves old URLs)
-├── functions/             — Cloudflare Pages Functions (e.g., /api/contact)
+├── wrangler.jsonc         — Cloudflare Worker config (used at deploy time)
 └── astro.config.mjs
 ```
 

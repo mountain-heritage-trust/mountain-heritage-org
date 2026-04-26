@@ -1,7 +1,11 @@
 # Deployment
 
-The site deploys to **Cloudflare Pages**. Hosting and bandwidth are free at
-this scale; the only cost is the domain renewal.
+The site deploys to **Cloudflare Workers** with Static Assets, using the
+[@astrojs/cloudflare](https://docs.astro.build/en/guides/integrations-guide/cloudflare/)
+adapter. Static pages prerender at build time and are served from the
+Worker's `ASSETS` binding; routes that opt out of prerender (e.g.
+`/api/contact`) run dynamically in the Worker. Hosting and bandwidth are
+free at this scale; the only cost is the domain renewal.
 
 ## One-off setup
 
@@ -40,6 +44,13 @@ backend:
 
 ### 3. Attach the custom domain
 
+> **Staging note.** While DNS for `mountain-heritage.org` lives at the
+> trust's existing provider, the new site runs on its `*.pages.dev` URL
+> only. Skip step 3 until DNS is migrated to Cloudflare. Pages, Resend
+> (with the shared sender) and Cloudflare Access all work fine on the
+> pages.dev URL in the meantime.
+
+
 1. **Workers & Pages → mountain-heritage-org → Custom domains → Set up a custom domain**.
 2. Add `www.mountain-heritage.org`.
 3. Update DNS: Cloudflare prompts you to point a CNAME at the Pages subdomain.
@@ -57,10 +68,11 @@ Pages dashboard → **Settings → Environment variables**. Set for both
 | ----------------- | --------------------------------------- |
 | `RESEND_API_KEY`  | Resend dashboard → API Keys.            |
 | `CONTACT_EMAIL`   | `enquiries@mountain-heritage.org`.      |
-| `FROM_EMAIL`      | A Resend-verified address on the trust's domain, e.g. `noreply@mountain-heritage.org`. |
+| `FROM_EMAIL`      | A Resend-verified sender. **Staging:** `onboarding@resend.dev` (Resend's shared sender — works without domain verification). **Production:** `noreply@mountain-heritage.org` once the domain is verified in Resend (needs DNS access). |
 
-Verify the trust's domain in Resend before setting `FROM_EMAIL` — Resend
-won't send from an unverified domain.
+In production, verify the trust's domain in Resend before setting
+`FROM_EMAIL` to a custom address — Resend won't send from an unverified
+domain.
 
 ### 5. Cloudflare Access on `/admin`
 

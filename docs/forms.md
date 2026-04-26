@@ -1,8 +1,14 @@
 # Contact form
 
 The site has a single form: `src/pages/contact.astro` posting to
-`functions/api/contact.ts`, a Cloudflare Pages Function. The function
-forwards messages by email via [Resend](https://resend.com).
+`src/pages/api/contact.ts`, an Astro API route that runs as a Cloudflare
+Worker handler (via `@astrojs/cloudflare`). The handler forwards messages
+by email via [Resend](https://resend.com).
+
+> **Note.** The route opts out of static prerender via
+> `export const prerender = false`, so it runs dynamically. Every other
+> page in the site is still prerendered and served as plain static HTML
+> via the Worker's static-assets binding.
 
 ## Why Resend
 
@@ -43,9 +49,22 @@ appropriate message above the form.
 
 ## Local development
 
-The contact form will not actually send mail in `npm run dev` (the function
-runs in Pages, not in Astro's dev server). Test the page UI in dev; test the
-function via Cloudflare's `wrangler pages dev` (see `docs/deployment.md`).
+In `npm run dev` the page UI works but the API route does not actually send
+mail (no env vars, no real Worker runtime). To exercise the route end-to-end
+locally:
+
+```sh
+npm run build
+npx wrangler dev --local
+```
+
+Pass env vars via a gitignored `.dev.vars` file at the repo root:
+
+```
+RESEND_API_KEY=re_...
+CONTACT_EMAIL=enquiries@mountain-heritage.org
+FROM_EMAIL=onboarding@resend.dev
+```
 
 ## Future improvements
 

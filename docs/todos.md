@@ -26,40 +26,66 @@ needs to action them.
 ## External setup (one-off, by an administrator)
 
 ### GitHub
-- [ ] Create a GitHub repository for the project (e.g.
-  `mountain-heritage-trust/mountain-heritage-org`) and push.
-- [ ] Update `public/admin/config.yml`:
-  - Set `backend.repo` to the actual `<owner>/<repo>`.
+- ✅ Repo lives at `mountain-heritage-trust/mountain-heritage-org`.
+- ✅ `public/admin/config.yml` now points Sveltia at this repo.
 - [ ] Invite each trustee/staff member who will edit the site as a
-  **collaborator with Write access**.
+  **collaborator with Write access** on the GitHub repo. Without this they
+  can sign in to `/admin` (via Cloudflare Access) but Sveltia's commits
+  will be rejected by GitHub.
+
+### DNS — deferred
+- The trust does not currently have access to the DNS provider for
+  `mountain-heritage.org`. Until DNS can be migrated to Cloudflare, the new
+  site will live on its `*.pages.dev` URL only.
+- Items blocked on DNS migration (revisit when access is regained):
+  - [ ] Move DNS to Cloudflare.
+  - [ ] Attach `www.mountain-heritage.org` as a custom domain on the Pages
+    project. Set up apex redirect `mountain-heritage.org` →
+    `www.mountain-heritage.org`.
+  - [ ] Verify the `mountain-heritage.org` domain in Resend (DKIM + SPF DNS
+    records). Once verified, change Pages env var `FROM_EMAIL` from
+    `onboarding@resend.dev` to `noreply@mountain-heritage.org` (or
+    similar) so emails come from the trust's domain.
+  - [ ] Update the Cloudflare Access application path from the pages.dev
+    URL to `www.mountain-heritage.org/admin/*` (or add it as an
+    additional path).
 
 ### Cloudflare Pages (hosting)
-- [ ] Create the Pages project, connect to GitHub, deploy.
-- [ ] Attach `www.mountain-heritage.org` as a custom domain.
-- [ ] Set up apex redirect `mountain-heritage.org` → `www.mountain-heritage.org`.
-- [ ] Set environment variables (Production + Preview):
-  - `RESEND_API_KEY`
-  - `CONTACT_EMAIL` (e.g. `enquiries@mountain-heritage.org`)
-  - `FROM_EMAIL` (e.g. `noreply@mountain-heritage.org`)
+- ✅ Cloudflare account is set up.
+- [ ] In the Cloudflare dashboard: **Workers & Pages → Create → Pages →
+  Connect to Git** → select
+  `mountain-heritage-trust/mountain-heritage-org`. Configure build:
+  - Framework preset: **Astro**
+  - Build command: `npm run build`
+  - Build output: `dist`
+  - Node version: 20+
+- [ ] After the first deploy, set environment variables for **Production**
+  (and **Preview** if desired):
+  - `RESEND_API_KEY` — from the Resend dashboard (see below).
+  - `CONTACT_EMAIL` = `enquiries@mountain-heritage.org`
+  - `FROM_EMAIL` = `onboarding@resend.dev` *(temporary — Resend's
+    shared sender, until the trust's domain is verified)*
 - See `docs/deployment.md`.
-
-### Cloudflare Zero Trust (CMS access)
-- [ ] Enable Zero Trust on the Cloudflare account (Free plan).
-- [ ] Add Google Workspace as an identity provider.
-- [ ] Create an Access application for `/admin/*` with a policy allowing
-  emails ending `@mountain-heritage.org`.
-- See `docs/auth.md`.
 
 ### Resend (contact form email)
 - [ ] Sign up at <https://resend.com> (free tier).
-- [ ] Verify the `mountain-heritage.org` domain (DKIM + SPF DNS records).
-- [ ] Generate an API key and add as `RESEND_API_KEY` in Cloudflare Pages.
+- [ ] Generate an API key.
+- [ ] Add the API key as the `RESEND_API_KEY` env var in Cloudflare Pages
+  (Production + Preview).
+- *(Domain verification happens once DNS is on Cloudflare — see DNS
+  section. Until then, sending uses Resend's shared `onboarding@resend.dev`
+  address as FROM.)*
 
-### DNS
-- [ ] Move DNS to Cloudflare (recommended, makes everything else easier).
-- [ ] Point `www` and apex at the Pages project.
-- [ ] Add Resend's DKIM/SPF/DMARC records once the Resend domain is
-  verified.
+### Cloudflare Zero Trust (CMS access)
+- [ ] Enable Zero Trust on the Cloudflare account (Free plan, up to 50
+  users).
+- [ ] Add Google Workspace as an identity provider (full instructions in
+  `docs/auth.md`).
+- [ ] Create an Access application for the **pages.dev URL** initially:
+  `<project-name>.pages.dev/admin/*`. Policy: allow emails ending
+  `@mountain-heritage.org`.
+- (Update the path to the custom domain once DNS migrates — see DNS
+  section.)
 
 ---
 
