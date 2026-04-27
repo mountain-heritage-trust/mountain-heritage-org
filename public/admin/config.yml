@@ -11,8 +11,13 @@ backend:
   name: github
   repo: mountain-heritage-trust/mountain-heritage-org
   branch: main
-  # Sveltia uses its own OAuth proxy by default. If self-hosting auth, see
-  # docs/cms.md for the alternative (auth_endpoint setting).
+  # Custom auth shim. Trustees reach /admin only after Cloudflare Access
+  # has authenticated them via Google. The shim at /admin/auth-callback
+  # then returns a server-side bot GitHub token without a real OAuth
+  # round trip — trustees never see a GitHub sign-in screen. See
+  # docs/cms.md.
+  base_url: https://mountain-heritage-org.remus-ddf.workers.dev
+  auth_endpoint: admin/auth-callback
 
 # Media uploads are written to /public/uploads/ so they are served as-is at
 # /uploads/<file>. We do not run Astro image optimisation on user uploads.

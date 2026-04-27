@@ -11,5 +11,8 @@ declare namespace Cloudflare {
     RESEND_API_KEY: string;
     CONTACT_EMAIL: string;
     FROM_EMAIL: string;
+    // GitHub PAT used by the /admin auth shim to commit on behalf of
+    // Cloudflare-Access-authenticated trustees. See docs/cms.md.
+    GITHUB_BOT_TOKEN: string;
   }
 }

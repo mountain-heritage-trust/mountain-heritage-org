@@ -28,10 +28,12 @@ needs to action them.
 ### GitHub
 - ✅ Repo lives at `mountain-heritage-trust/mountain-heritage-org`.
 - ✅ `public/admin/config.yml` now points Sveltia at this repo.
-- [ ] Invite each trustee/staff member who will edit the site as a
-  **collaborator with Write access** on the GitHub repo. Without this they
-  can sign in to `/admin` (via Cloudflare Access) but Sveltia's commits
-  will be rejected by GitHub.
+- ✅ With the auto-auth shim, trustees no longer need individual GitHub
+  access — only the bot does. See `docs/cms.md`.
+- [ ] **One-off**: generate a bot fine-grained PAT (Contents: read/write
+  on this repo) and add it to Cloudflare as the `GITHUB_BOT_TOKEN`
+  secret. Without this, the auth shim returns 500 and trustees can't
+  save edits.
 
 ### DNS — deferred
 - The trust does not currently have access to the DNS provider for

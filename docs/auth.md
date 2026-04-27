@@ -111,31 +111,29 @@ If something goes wrong, **Zero Trust → Logs → Access** shows every
 attempt and the reason. Most issues are typos in the policy or in the
 OAuth redirect URI.
 
-## What if a trustee logs in but Sveltia still won't let them save?
+## How GitHub auth works
 
-That means Cloudflare Access let them through but GitHub refused the
-commit. Sveltia uses GitHub auth (a PAT or OAuth) to actually push edits.
+Trustees themselves do **not** authenticate to GitHub. The site has an
+auth shim at `/admin/auth-callback` that returns a server-side **bot
+GitHub PAT** to Sveltia immediately, on the basis that the request
+already came through Cloudflare Access. See `docs/cms.md` for the full
+flow.
 
-Cloudflare Access and GitHub auth are entirely separate identity systems.
-Adding a trustee is a two-step process:
+This means adding a trustee is a one-step process:
 
-1. **Cloudflare side** — automatic for any `@mountain-heritage.org`
-   Workspace account.
-2. **GitHub side** — invite their GitHub user to the repo with **Write**
-   access (`Settings → Collaborators → Add people`).
+- They get a Workspace account on `@mountain-heritage.org`. That's it.
 
-If a trustee doesn't have a GitHub OAuth proxy set up, Sveltia falls back
-to asking for a Personal Access Token. Generating a fine-grained PAT is
-documented at <https://github.com/settings/personal-access-tokens> —
-needs Contents: Read & write on this repo.
+No GitHub repo invitation, no PAT generation per trustee. The trade-off
+is that all CMS commits are attributed to a single bot GitHub user.
 
 ## Removing access
 
 If a trustee leaves the trust:
 
-- Disable their Google Workspace account → Cloudflare Access denies them
-  immediately. Nothing else needed for the CMS UI.
-- Remove their GitHub user from the repo → they can no longer push commits.
-- Revoke any GitHub PATs they created — `https://github.com/settings/tokens`.
+- **Disable their Google Workspace account** — Cloudflare Access denies
+  them immediately. They can no longer reach `/admin`.
+- That's it. They never had GitHub repo access, so there's nothing to
+  revoke on GitHub for them.
 
-All three steps are needed. Stopping just one is incomplete.
+If you want to rotate the *bot* token (e.g. you suspect it leaked or it's
+expiring), see `docs/cms.md` → "Rotating the bot token".
