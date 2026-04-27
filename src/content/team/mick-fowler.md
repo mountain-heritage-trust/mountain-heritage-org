@@ -5,7 +5,7 @@ category: ambassador
 former: false
 photo: "/uploads/674028df686488681befe711_mick_fowler_portrait.jpg"
 ---
-Mick has balanced holding a full-time job with being a family man and a leading figure in the climbing world for over 45 years. He continues to climb despite a cancer problem which resulted in removal of his anus and rectum in 2018.
+Mick has balanced a full-time job with being a family man and a leading figure in the climbing world for over 45 years. He continues to climb following major surgery for cancer in 2018.
 
 In the UK he is renowned as a leading adventure climber with numerous ground-breaking first ascents on chalk, shale, London drainpipes and other cliffs not previously viewed as suitable for climbing. Throughout the 1980s and 90s he was a leading pioneer of Scottish winter climbing, his record being 11 consecutive weekends travelling up from London. He was the first ascentionist of the first Scottish winter climb to be graded VI and some of the first rock climbs in the UK to be graded E6.
 
@@ -15,4 +15,4 @@ He was voted the Mountaineers’ Mountaineer in *The Observer* newspaper, has wo
 
 Until retiring in January 2017 all his climbing was done in his holidays from his job in the UK tax office where he held the position of Assistant Director of Shares and Assets Valuation. 
 
-He has served as President of the Alpine Club and is a Patron of the British Mountaineering Council and an Honorary Fellow of the University of Cumbia and he recently became an Honorary Doctor of the University (HonDUniv) at the University of Derby. He lives in Derbyshire, England with his wife Nicki. They have two grown up children.
+He has served as President of the Alpine Club and is a Patron of the British Mountaineering Council and an Honorary Fellow of the University of Cumbria and he recently became an Honorary Doctor of the University (HonDUniv) at the University of Derby. He lives in Derbyshire, England with his wife Nicki. They have two grown up children.
