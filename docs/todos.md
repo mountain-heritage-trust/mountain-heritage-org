@@ -30,10 +30,8 @@ needs to action them.
 - ✅ `public/admin/config.yml` now points Sveltia at this repo.
 - ✅ With the auto-auth shim, trustees no longer need individual GitHub
   access — only the bot does. See `docs/cms.md`.
-- [ ] **One-off**: generate a bot fine-grained PAT (Contents: read/write
-  on this repo) and add it to Cloudflare as the `GITHUB_BOT_TOKEN`
-  secret. Without this, the auth shim returns 500 and trustees can't
-  save edits.
+- ✅ Bot fine-grained PAT generated and stored in Cloudflare as the
+  `GITHUB_BOT_TOKEN` secret.
 
 ### DNS — deferred
 - The trust does not currently have access to the DNS provider for
@@ -52,42 +50,32 @@ needs to action them.
     URL to `www.mountain-heritage.org/admin/*` (or add it as an
     additional path).
 
-### Cloudflare Pages (hosting)
+### Cloudflare Workers (hosting)
 - ✅ Cloudflare account is set up.
-- [ ] In the Cloudflare dashboard: **Workers & Pages → Create → Pages →
-  Connect to Git** → select
-  `mountain-heritage-trust/mountain-heritage-org`. Configure build:
-  - Framework preset: **Astro**
-  - Build command: `npm run build`
-  - Build output: `dist`
-  - Node version: 20+
-- [ ] After the first deploy, set environment variables for **Production**
-  (and **Preview** if desired):
-  - `RESEND_API_KEY` — from the Resend dashboard (see below).
-  - `CONTACT_EMAIL` = `enquiries@mountain-heritage.org`
-  - `FROM_EMAIL` = `onboarding@resend.dev` *(temporary — Resend's
-    shared sender, until the trust's domain is verified)*
+- ✅ Project deployed at `mountain-heritage-org.remus-ddf.workers.dev` via
+  the `@astrojs/cloudflare` adapter (Workers + Static Assets).
+- ✅ `GITHUB_BOT_TOKEN` Worker secret set — Sveltia auto-auths trustees.
 - See `docs/deployment.md`.
 
 ### Resend (contact form email)
-- [ ] Sign up at <https://resend.com> (free tier).
-- [ ] Generate an API key.
-- [ ] Add the API key as the `RESEND_API_KEY` env var in Cloudflare Pages
-  (Production + Preview).
+- ✅ Sign-up done.
+- [ ] **Verify**: open the deployed `/contact` form and send a real
+  test message. If you receive it at `enquiries@mountain-heritage.org`,
+  Resend is wired correctly. If not, check the Worker logs for
+  `contact form: missing env vars: ...` to see which one is empty.
 - *(Domain verification happens once DNS is on Cloudflare — see DNS
   section. Until then, sending uses Resend's shared `onboarding@resend.dev`
   address as FROM.)*
 
 ### Cloudflare Zero Trust (CMS access)
-- [ ] Enable Zero Trust on the Cloudflare account (Free plan, up to 50
-  users).
-- [ ] Add Google Workspace as an identity provider (full instructions in
-  `docs/auth.md`).
-- [ ] Create an Access application for the **pages.dev URL** initially:
-  `<project-name>.pages.dev/admin/*`. Policy: allow emails ending
-  `@mountain-heritage.org`.
-- (Update the path to the custom domain once DNS migrates — see DNS
-  section.)
+- ✅ Zero Trust enabled (Free plan).
+- ✅ Google IdP configured.
+- ✅ Access application gating
+  `mountain-heritage-org.remus-ddf.workers.dev/admin/*` with policy
+  restricting to `@mountain-heritage.org` emails.
+- [ ] Once DNS migrates, **add `www.mountain-heritage.org/admin/*` as an
+  additional path on the same Access application** (keep the workers.dev
+  path during transition).
 
 ---
 
