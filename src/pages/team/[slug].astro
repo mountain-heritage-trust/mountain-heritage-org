@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Image from '../../components/Image.astro';
 import { personSchema } from '../../lib/schema';
 
@@ -25,6 +26,11 @@ const schema = personSchema(member, pageUrl, Astro.site as URL);
   schemas={[schema]}
 >
   <article class="article team-profile">
+    <Breadcrumbs items={[
+      { href: '/', label: 'Home' },
+      { href: '/about/about-us', label: 'About' },
+      { label: member.data.name },
+    ]} />
     <h1>{member.data.name}</h1>
     <p class="team-profile__role">{member.data.role}</p>
     {member.data.photo && (

@@ -414,6 +414,48 @@ main {
   }
 }
 
+/* Breadcrumb trail (above article content) */
+.breadcrumb {
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  margin: -0.5rem 0 1.5rem;
+}
+
+.breadcrumb ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.breadcrumb li {
+  display: inline-flex;
+  align-items: center;
+}
+
+.breadcrumb li + li::before {
+  content: '/';
+  margin-right: 0.4rem;
+  color: var(--color-border);
+}
+
+.breadcrumb a {
+  color: var(--color-muted);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.breadcrumb [aria-current='page'] {
+  color: var(--color-text);
+}
+
 /* Article (blog post, team profile, etc.) */
 .article {
   max-width: var(--content-width);

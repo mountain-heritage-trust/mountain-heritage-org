@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Image from '../../components/Image.astro';
 import { exhibitionSchema } from '../../lib/schema';
 
@@ -35,6 +36,11 @@ const schema = exhibitionSchema(item, pageUrl, Astro.site as URL);
   schemas={[schema]}
 >
   <article class="article">
+    <Breadcrumbs items={[
+      { href: '/', label: 'Home' },
+      { href: '/events-exhibitions', label: 'Events & Exhibitions' },
+      { label: item.data.title },
+    ]} />
     {item.data.cover && (
       <Image
         src={item.data.cover}

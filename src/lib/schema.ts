@@ -145,6 +145,29 @@ export function archiveCollectionSchema(
   return data;
 }
 
+export interface BreadcrumbItem {
+  href?: string;
+  label: string;
+}
+
+export function breadcrumbSchema(items: BreadcrumbItem[], siteUrl: URL) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, i) => {
+      const entry: Record<string, unknown> = {
+        '@type': 'ListItem',
+        position: i + 1,
+        name: item.label,
+      };
+      if (item.href) {
+        entry.item = new URL(item.href, siteUrl).toString();
+      }
+      return entry;
+    }),
+  };
+}
+
 /**
  * Encode a JSON-LD object as a string safe for embedding inside a
  * <script type="application/ld+json"> tag. Escapes `<` so any

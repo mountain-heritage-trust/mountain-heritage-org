@@ -1,0 +1,31 @@
+---
+// Visible breadcrumb trail above article content, plus a matching
+// BreadcrumbList JSON-LD block. The last item is rendered as plain
+// text marked aria-current="page".
+
+import { breadcrumbSchema, safeJsonLd, type BreadcrumbItem } from '../lib/schema';
+
+interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+const schema = breadcrumbSchema(items, Astro.site as URL);
+---
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol>
+    {items.map((item, i) => {
+      const isLast = i === items.length - 1;
+      return (
+        <li>
+          {item.href && !isLast ? (
+            <a href={item.href}>{item.label}</a>
+          ) : (
+            <span aria-current={isLast ? 'page' : undefined}>{item.label}</span>
+          )}
+        </li>
+      );
+    })}
+  </ol>
+</nav>
+<script type="application/ld+json" set:html={safeJsonLd(schema)} />

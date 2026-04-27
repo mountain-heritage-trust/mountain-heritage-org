@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import TeamGallery from '../../components/TeamGallery.astro';
 
 export async function getStaticPaths() {
@@ -13,9 +14,22 @@ export async function getStaticPaths() {
 
 const { item } = Astro.props;
 const { Content } = await render(item);
+
+const breadcrumbs =
+  item.id === 'about-us'
+    ? [
+        { href: '/', label: 'Home' },
+        { label: item.data.title },
+      ]
+    : [
+        { href: '/', label: 'Home' },
+        { href: '/about/about-us', label: 'About' },
+        { label: item.data.title },
+      ];
 ---
-<BaseLayout title={item.data.title} description={item.data.summary}>
+<BaseLayout title={item.data.title} description={item.data.summary ?? undefined}>
   <article class="article">
+    <Breadcrumbs items={breadcrumbs} />
     <h1>{item.data.title}</h1>
     {item.data.summary && <p class="article-summary">{item.data.summary}</p>}
     <Content />
