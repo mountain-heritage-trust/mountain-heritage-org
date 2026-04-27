@@ -1,0 +1,22 @@
+---
+// Site-wide banner. Edited by trustees via Sveltia at /admin →
+// Site settings → Site banner. Renders nothing when disabled or empty.
+
+import banner from '../content/settings/banner.json';
+
+const message = (banner.message ?? '').trim();
+const visible = banner.enabled === true && message.length > 0;
+const linkText = (banner.linkText ?? '').trim();
+const linkUrl = (banner.linkUrl ?? '').trim();
+const showLink = linkText.length > 0 && linkUrl.length > 0;
+---
+{visible && (
+  <div class="site-banner" role="status">
+    <div class="site-banner__inner">
+      <p class="site-banner__message">{message}</p>
+      {showLink && (
+        <a class="site-banner__link" href={linkUrl}>{linkText}</a>
+      )}
+    </div>
+  </div>
+)}

@@ -109,6 +109,46 @@ main {
   padding: 2rem 1.5rem;
 }
 
+/* Site banner (editable in Sveltia → Site settings → Site banner) */
+.site-banner {
+  background: var(--color-brand-blue);
+  color: #ffffff;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.9375rem;
+}
+
+.site-banner__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.site-banner__message {
+  margin: 0;
+  text-align: center;
+}
+
+.site-banner__link {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.site-banner__link:hover {
+  background: rgba(255, 255, 255, 0.32);
+  color: #ffffff;
+}
+
 /* Header */
 .site-header {
   background: var(--color-surface);

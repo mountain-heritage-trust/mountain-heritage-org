@@ -33,6 +33,21 @@ site_url: https://www.mountain-heritage.org
 display_url: https://www.mountain-heritage.org
 
 collections:
+  # Site-wide settings — singleton files trustees can edit
+  - name: settings
+    label: Site settings
+    files:
+      - name: banner
+        label: Site banner
+        file: src/content/settings/banner.json
+        format: json
+        description: 'A short message shown across the top of every page. Use it for closures, calls to action, event reminders. Untick "Show banner" to hide it again.'
+        fields:
+          - { label: Show banner, name: enabled, widget: boolean, default: false, hint: 'Tick to display the banner across the whole site. Untick to hide.' }
+          - { label: Message, name: message, widget: string, required: false, hint: 'Keep it to one short sentence — banners work best when brief.' }
+          - { label: Link text, name: linkText, widget: string, required: false, hint: 'Optional. Text on the call-to-action button (e.g. "Donate").' }
+          - { label: Link URL, name: linkUrl, widget: string, required: false, hint: 'Optional. Where the button goes. Can be a path on this site (e.g. /donate) or a full URL.' }
+
   # Blog posts — /blog/<slug>
   - name: blog
     label: Blog posts

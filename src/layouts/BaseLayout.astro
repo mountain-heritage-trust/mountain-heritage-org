@@ -1,4 +1,5 @@
 ---
+import Banner from '../components/Banner.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
@@ -50,6 +51,7 @@ const absoluteOgImage = ogImage ? new URL(ogImage, Astro.site).toString() : unde
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to main content</a>
+    <Banner />
     <Header />
     <main id="main">
       <slot />
