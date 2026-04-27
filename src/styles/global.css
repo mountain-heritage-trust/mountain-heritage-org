@@ -113,6 +113,7 @@ main {
 .site-header {
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
+  position: relative;
 }
 
 .site-header__inner {
@@ -122,6 +123,62 @@ main {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+}
+
+/* Hamburger — hidden on desktop, replaces nav on mobile */
+.hamburger {
+  display: none;
+  background: transparent;
+  border: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  color: var(--color-text);
+}
+
+.hamburger__icon,
+.hamburger__icon::before,
+.hamburger__icon::after {
+  position: absolute;
+  left: 50%;
+  width: 1.375rem;
+  height: 2px;
+  background: currentColor;
+  transform: translateX(-50%);
+  transition: transform 0.2s ease, opacity 0.15s ease, top 0.2s ease;
+}
+
+.hamburger__icon {
+  top: 50%;
+}
+
+.hamburger__icon::before,
+.hamburger__icon::after {
+  content: '';
+}
+
+.hamburger__icon::before {
+  top: -7px;
+}
+
+.hamburger__icon::after {
+  top: 7px;
+}
+
+.hamburger[aria-expanded='true'] .hamburger__icon {
+  background: transparent;
+}
+
+.hamburger[aria-expanded='true'] .hamburger__icon::before {
+  top: 0;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.hamburger[aria-expanded='true'] .hamburger__icon::after {
+  top: 0;
+  transform: translateX(-50%) rotate(-45deg);
 }
 
 .site-header__logo {
@@ -705,19 +762,57 @@ main {
 
 /* Mobile */
 @media (max-width: 48rem) {
-  .site-header__inner {
-    flex-wrap: wrap;
+  .hamburger {
+    display: block;
   }
 
+  /* Nav stops being a flex item on mobile. It drops into an absolutely-
+     positioned panel below the header that opens/closes via the hamburger.
+     The donate button takes over right-alignment via margin-left: auto. */
   .site-header__inner > nav {
-    order: 3;
-    flex-basis: 100%;
     margin-left: 0;
   }
 
+  .donate-button {
+    margin-left: auto;
+    padding: 0.4rem 0.85rem;
+    font-size: 0.8125rem;
+  }
+
+  .site-header__inner > nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    display: none;
+    z-index: 10;
+  }
+
+  .site-header.is-nav-open > .site-header__inner > nav {
+    display: block;
+  }
+
   .site-nav {
-    flex-wrap: wrap;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 0;
+    padding: 0.5rem 0;
+  }
+
+  .site-nav li {
+    border-top: 1px solid var(--color-border);
+  }
+
+  .site-nav li:first-child {
+    border-top: 0;
+  }
+
+  .site-nav a {
+    display: block;
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
   }
 
   h1 { font-size: 1.875rem; }

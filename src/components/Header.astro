@@ -15,12 +15,55 @@ const navItems = [
       <img src="/brand/logo.svg" alt="Mountain Heritage Trust" width="170" height="44" />
     </a>
     <nav aria-label="Primary">
-      <ul class="site-nav">
+      <ul id="primary-nav" class="site-nav">
         {navItems.map((item) => (
           <li><a href={item.href}>{item.label}</a></li>
         ))}
       </ul>
     </nav>
     <DonateButton />
+    <button
+      type="button"
+      class="hamburger"
+      aria-expanded="false"
+      aria-controls="primary-nav"
+      aria-label="Open menu"
+    >
+      <span class="hamburger__icon" aria-hidden="true"></span>
+    </button>
   </div>
 </header>
+
+<script is:inline>
+  (function () {
+    var header = document.querySelector('.site-header');
+    var button = header && header.querySelector('.hamburger');
+    if (!header || !button) return;
+
+    function setOpen(open) {
+      button.setAttribute('aria-expanded', String(open));
+      button.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      header.classList.toggle('is-nav-open', open);
+    }
+
+    button.addEventListener('click', function () {
+      var open = button.getAttribute('aria-expanded') === 'true';
+      setOpen(!open);
+    });
+
+    // Close on Escape, including when focus is anywhere on the page.
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && header.classList.contains('is-nav-open')) {
+        setOpen(false);
+        button.focus();
+      }
+    });
+
+    // Reset state if the viewport widens past the mobile breakpoint
+    // while the menu is open (avoids stuck open-state on resize).
+    var mql = window.matchMedia('(min-width: 48em)');
+    mql.addEventListener('change', function (ev) {
+      if (ev.matches) setOpen(false);
+    });
+  })();
+</script>
