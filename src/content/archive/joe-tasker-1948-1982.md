@@ -1,6 +1,7 @@
 ---
 title: "Joe Tasker (1948 - 1982)"
 summary: "The Mountain Heritage Trust is delighted to house the papers, writings and images of one of mountaineering’s most iconic figures, Joe Tasker, following a Heritage Lottery Fund (HLF) Grant of £40,400."
+cover: "/uploads/5c5aba9d48bed86e5f3f3893_11186-Joe-Tasker-approaching-summit-Junction-Peak.jpg"
 ---
 The Mountain Heritage Trust is delighted to house the papers, writings and images of one of mountaineering’s most iconic figures, Joe Tasker, following a Heritage Lottery Fund (HLF) Grant of £40,400.
 

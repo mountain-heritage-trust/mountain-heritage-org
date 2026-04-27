@@ -2,6 +2,7 @@
 title: "Peak Preview: Recent Arrivals into the Mountain Heritage Trust"
 summary: "The Mountain Heritage Trust (MHT) are pleased to launch their new exhibition entitled Peak Preview: Recent Arrivals into the Mountain Heritage Trust."
 # TODO: add startDate, endDate, venue, status from old site
+cover: "/uploads/5e43ef894f340c902e9f1f3f_IMG_2265.JPG"
 ---
 The Mountain Heritage Trust (MHT) are pleased to launch their new exhibition entitled *Peak Preview: Recent Arrivals into the Mountain Heritage Trust.*
 

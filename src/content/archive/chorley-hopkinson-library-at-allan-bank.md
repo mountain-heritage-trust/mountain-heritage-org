@@ -1,6 +1,7 @@
 ---
 title: "Chorley Hopkinson Library"
 summary: "The Chorley Hopkinson Mountaineering Library is an outstanding collection of climbing and mountaineering books built up over three generations of the Chorley family beginning in the mid-nineteenth…"
+cover: "/uploads/5c5ab3f77b2e58c679b91336_30606149378_d749005e99_o-min.jpg"
 ---
 The Chorley Hopkinson Mountaineering Library is an outstanding collection of climbing and mountaineering books built up over three generations of the Chorley family beginning in the mid-nineteenth century. Over 700 separate volumes date from 1776-2011, the earliest book being the second English edition of *A Relation of a Journey to the Glaciers in the Duchy of Savoy* by Marc-Théodore Bourrit. The majority of books were published in the 19th and 20th centuries, both privately and publicly, in Britain, France, Italy, Switzerland, USA and India. Volumes are in English, French and Italian.
 

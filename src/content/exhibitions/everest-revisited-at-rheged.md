@@ -2,6 +2,7 @@
 title: "Everest Revisited at Rheged"
 summary: "Visit Everest Revisited, the brand new exhibition in Rheged's Gallery, near Penrith and experience the most significant mountain-focused exhibition since the National Mountaineering Exhibition at…"
 # TODO: add startDate, endDate, venue, status from old site
+cover: "/uploads/6763e2e4f79f051352a27127_1921-Everest-last-day-of-the-Expedition-1-2-scaled.jpg"
 ---
 Visit Everest Revisited, the brand new exhibition in Rheged's Gallery, near Penrith and experience the most significant mountain-focused exhibition since the National Mountaineering Exhibition at Rheged nearly 20 years ago.
 

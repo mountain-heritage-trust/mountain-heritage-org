@@ -1,6 +1,7 @@
 ---
 title: "Sir Chris Bonington's Papers"
 summary: "Thanks to funding supplied by the Heritage Lottery Fund and the British Mountaineering Council, the MHT Archivist, with volunteer assistance, has been working to catalogue this outstanding collection…"
+cover: "/uploads/5c5ada9b7b2e585283b915a4_20090513_sir_Chris_Bonington_Archive_Project-31-Chris-at-15.jpg"
 ---
 Thanks to funding supplied by the Heritage Lottery Fund and the British Mountaineering Council, the MHT Archivist, with volunteer assistance, has been working to catalogue this outstanding collection and re-house the papers to ensure long-term preservation.
 

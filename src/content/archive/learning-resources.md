@@ -1,6 +1,7 @@
 ---
 title: "Learning Resources"
 summary: "We're committed to educating young people about the history of British mountaineering and how our mountainous environments are changing. To achieve this goal we're working to expand our learning…"
+cover: "/uploads/5cac709f75fdf1dc8756fec4_2436-Chris-on-Shepherds-Crag.jpg"
 ---
 We're committed to educating young people about the history of British mountaineering and how our mountainous environments are changing. To achieve this goal we're working to expand our learning resources that KS1 and KS2 teachers can use as part of their lessons. These are a great way to introduce more context to the likes of English, Geography, PSHE and Design/Technology classes.
 

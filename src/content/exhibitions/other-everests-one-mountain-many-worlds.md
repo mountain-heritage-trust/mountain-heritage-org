@@ -2,6 +2,7 @@
 title: "Other Everests: One Mountain, Many Worlds"
 summary: "Following our previous article, we're delighted to finally reveal more details about the much-anticipated exhibition Other Everests: One Mountain, Many Worlds. Hosted by the National Trust at Wray…"
 # TODO: add startDate, endDate, venue, status from old site
+cover: "/uploads/6639ca2679f0373ee72cc917_Members-in-camp-1924-Mount-Everest-Expediti-on-Royal-Geographical-Society-with-IBG.jpg"
 ---
 Following our previous article, we're delighted to finally reveal more details about the much-anticipated exhibition **Other Everests: One Mountain, Many Worlds**. Hosted by the National Trust at Wray Castle in the Lake District from 8 June to 24 November 2024, this exhibition marks the centenary of the 1924 Mount Everest expedition. The display will explore the stories of legendary climbers while shedding light on the lesser-known indigenous Sherpas and porters whose contributions were crucial to the success of early mountaineering expeditions.
 

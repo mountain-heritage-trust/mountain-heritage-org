@@ -1,6 +1,7 @@
 ---
 title: "Journals and Magazines"
 summary: "Journals and magazines were once the lifeblood of the community, every major club and organisation had one. Early journals such as the Alpine Journal were fundamental to both recording the…"
+cover: "/uploads/5c5ac8b9ec84844fad046575_12d36e8b-07e2-4c24-af30-3ed6c0fa7715.jpg"
 ---
 Journals and magazines were once the lifeblood of the community, every major club and organisation had one. Early journals such as the Alpine Journal were fundamental to both recording the proceedings of a club and maintaining up to date on what was being climbed.
 

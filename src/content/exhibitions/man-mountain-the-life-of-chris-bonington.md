@@ -2,6 +2,7 @@
 title: "Man + Mountain: The Life of Chris Bonington"
 summary: "Please note: this exhibition has now closed, but please enjoy this illustrated article exploring the life and achievements of Sir Chris Bonington."
 # TODO: add startDate, endDate, venue, status from old site
+cover: "/uploads/5c3f26d2bac5b6adad45e481_14095-Pertemba-and-Chris-below-South-summit-Everest-1985-photo-Bjorn-Myrer-Lund.jpg"
 ---
 **Please note:** this exhibition has now closed, but please enjoy this illustrated article exploring the life and achievements of Sir Chris Bonington.
 

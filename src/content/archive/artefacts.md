@@ -1,6 +1,7 @@
 ---
 title: "Artefacts"
 summary: "Our collection of artefacts starts from the late 1800s right up to the present day. This collection shows much of the development of mountaineering equipment throughout the 21st Century and…"
+cover: "/uploads/5c4f1a34b984d0c271a80bb0_Entry329c-Alex-MacIntyre-Hammock-and-Rohan-Salopettes.jpg"
 ---
 Our collection of artefacts starts from the late 1800s right up to the present day. This collection shows much of the development of mountaineering equipment throughout the 21st Century and compliments our separate handling collection which is available for use by school groups and other education projects.
 

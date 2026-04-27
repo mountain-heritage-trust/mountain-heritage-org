@@ -35,17 +35,21 @@ const catalogueUrl = 'http://calmview.co.uk/mht/calmview/';
     </div>
   </section>
 
-  <section class="article">
+  <section class="home-section">
     <h2>Featured collections</h2>
-    <p>
-      A selection of the standout collections held by the Trust. Each links through to
-      a fuller description.
-    </p>
-    <ul class="post-list">
+    <p>A selection of the standout collections held by the Trust.</p>
+    <ul class="post-cards">
       {items.map((item) => (
-        <li class="post-list__item">
-          <h3><a href={`/collections/${item.id}`}>{item.data.title}</a></h3>
-          {item.data.summary && <p>{item.data.summary}</p>}
+        <li>
+          <a href={`/collections/${item.id}`} class="post-card">
+            {item.data.cover ? (
+              <img class="post-card__image" src={item.data.cover} alt="" loading="lazy" />
+            ) : (
+              <span class="post-card__image post-card__image--placeholder" aria-hidden="true"></span>
+            )}
+            <h3>{item.data.title}</h3>
+            {item.data.summary && <p class="post-card__summary">{item.data.summary}</p>}
+          </a>
         </li>
       ))}
     </ul>
