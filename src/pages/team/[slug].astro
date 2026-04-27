@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Image from '../../components/Image.astro';
 import { personSchema } from '../../lib/schema';
 
 export async function getStaticPaths() {
@@ -27,7 +28,12 @@ const schema = personSchema(member, pageUrl, Astro.site as URL);
     <h1>{member.data.name}</h1>
     <p class="team-profile__role">{member.data.role}</p>
     {member.data.photo && (
-      <img class="team-portrait" src={member.data.photo} alt={member.data.name} />
+      <Image
+        src={member.data.photo}
+        alt={member.data.name}
+        class="team-portrait"
+        sizes="(max-width: 576px) 100vw, 13rem"
+      />
     )}
     <Content />
   </article>

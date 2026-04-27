@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Image from '../components/Image.astro';
 
 const items = await getCollection('archive');
 items.sort((a, b) => {
@@ -43,7 +44,12 @@ const catalogueUrl = 'http://calmview.co.uk/mht/calmview/';
         <li>
           <a href={`/collections/${item.id}`} class="post-card">
             {item.data.cover ? (
-              <img class="post-card__image" src={item.data.cover} alt="" loading="lazy" />
+              <Image
+                src={item.data.cover}
+                alt=""
+                class="post-card__image"
+                sizes="(max-width: 768px) 100vw, 400px"
+              />
             ) : (
               <span class="post-card__image post-card__image--placeholder" aria-hidden="true"></span>
             )}

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Image from '../components/Image.astro';
 
 const url = Astro.url;
 const sent = url.searchParams.get('sent') === '1';
@@ -19,10 +20,11 @@ const errorText = error ? errorMessages[error] ?? errorMessages.server : null;
 >
   <article class="article">
     <h1>Contact</h1>
-    <img
+    <Image
       class="article-cover"
       src="/uploads/62fcff59160fc774dda18054_Archive-Store-ii.jpg"
       alt="Inside the Trust's archive store at Blencathra: shelves of catalogued boxes alongside boots, ice axes and other historic mountaineering artefacts."
+      sizes="(max-width: 720px) 100vw, 720px"
     />
     <p>
       We are always looking for items, stories and connections that contribute to the

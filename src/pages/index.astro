@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Image from '../components/Image.astro';
 
 const posts = (await getCollection('blog'))
   .filter((p) => !p.data.draft)
@@ -18,10 +19,16 @@ const heroImage =
   description="Mountain Heritage Trust preserves and promotes the heritage of British mountaineering — collecting, conserving and sharing the stories, objects and archives of the climbers and mountains that have shaped the sport."
   ogImage={heroImage}
 >
-  <section
-    class="home-hero"
-    style={`background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.65)), url(${heroImage})`}
-  >
+  <section class="home-hero">
+    <Image
+      src={heroImage}
+      alt=""
+      class="home-hero__image"
+      sizes="100vw"
+      loading="eager"
+      fetchpriority="high"
+    />
+    <div class="home-hero__overlay" aria-hidden="true"></div>
     <div class="home-hero__inner">
       <h1>Preserving the heritage of British mountaineering</h1>
       <p class="home-hero__tagline">
@@ -42,7 +49,12 @@ const heroImage =
         <li>
           <a href={`/blog/${post.id}`} class="post-card">
             {post.data.cover ? (
-              <img class="post-card__image" src={post.data.cover} alt="" loading="lazy" />
+              <Image
+                src={post.data.cover}
+                alt=""
+                class="post-card__image"
+                sizes="(max-width: 768px) 100vw, 400px"
+              />
             ) : (
               <span class="post-card__image post-card__image--placeholder" aria-hidden="true"></span>
             )}

@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Image from '../../components/Image.astro';
 import { exhibitionSchema } from '../../lib/schema';
 
 export async function getStaticPaths() {
@@ -35,7 +36,14 @@ const schema = exhibitionSchema(item, pageUrl, Astro.site as URL);
 >
   <article class="article">
     {item.data.cover && (
-      <img class="article-cover" src={item.data.cover} alt="" />
+      <Image
+        src={item.data.cover}
+        alt=""
+        class="article-cover"
+        sizes="(max-width: 720px) 100vw, 720px"
+        loading="eager"
+        fetchpriority="high"
+      />
     )}
     <h1>{item.data.title}</h1>
     {(dateRange || item.data.venue) && (

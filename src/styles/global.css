@@ -443,16 +443,33 @@ main {
 
 /* Home hero (full-width image with overlay) */
 .home-hero {
+  position: relative;
   margin: -2rem -1.5rem 3rem;
   padding: 5rem 1.5rem;
-  background-size: cover;
-  background-position: center;
   color: #ffffff;
   text-align: center;
   border-radius: var(--radius);
   min-height: 22rem;
   display: flex;
   align-items: center;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.home-hero__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.home-hero__overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.65));
 }
 
 .home-hero__inner {

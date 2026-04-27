@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import Image from './Image.astro';
 
 type TeamCategory = 'patron' | 'ambassador' | 'trustee' | 'staff' | 'advisor';
 
@@ -39,11 +40,11 @@ const inMemoriam = all
           <li>
             <a href={`/team/${member.id}`} class="team-card">
               {member.data.photo ? (
-                <img
-                  class="team-card__photo"
+                <Image
                   src={member.data.photo}
                   alt={member.data.name}
-                  loading="lazy"
+                  class="team-card__photo"
+                  sizes="(max-width: 768px) 50vw, 200px"
                 />
               ) : (
                 <span class="team-card__photo team-card__photo--placeholder" aria-hidden="true"></span>
@@ -65,11 +66,11 @@ const inMemoriam = all
           <li>
             <a href={`/team/${member.id}`} class="team-card">
               {member.data.photo ? (
-                <img
-                  class="team-card__photo"
+                <Image
                   src={member.data.photo}
                   alt={member.data.name}
-                  loading="lazy"
+                  class="team-card__photo"
+                  sizes="(max-width: 768px) 50vw, 200px"
                 />
               ) : (
                 <span class="team-card__photo team-card__photo--placeholder" aria-hidden="true"></span>
