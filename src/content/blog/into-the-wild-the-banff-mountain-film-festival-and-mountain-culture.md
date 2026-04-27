@@ -2,7 +2,7 @@
 title: "Into the Wild: The Banff Mountain Film Festival and Mountain Culture"
 date: 2023-10-23
 summary: "In the heart of the Canadian Rockies, where rugged peaks pierce the sky and untamed wilderness stretches as far as the eye can see, a remarkable event unfolds each year — the Banff Mountain Film…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/651e860f142a6326a42aa5fd_into-the-wild.webp"
+cover: "/uploads/651e860f142a6326a42aa5fd_into-the-wild.webp"
 ---
 In the heart of the Canadian Rockies, where rugged peaks pierce the sky and untamed wilderness stretches as far as the eye can see, a remarkable event unfolds each year — the Banff Mountain Film Festival. This celebrated festival has become a global phenomenon, drawing adventurers, explorers, and nature enthusiasts from all corners of the world. Through a curated collection of short films and documentaries, it breathes life into the ethos of mountain culture, adventure, and exploration. This festival is so popular that it now tours the world including regularly engaging the mountaineering communities in England & Ireland. Let’s embark on a journey into the heart of the Festival, exploring its profound impact on inspiring people to connect with the great outdoors and kindling a passion for exploration.
 

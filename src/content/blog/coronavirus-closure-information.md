@@ -2,7 +2,7 @@
 title: "Coronavirus closure information"
 date: 2020-03-17
 summary: "Following government advice on Friday 16th March the Mountain Heritage Trust have advised their staff to work from home."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f8eb9369b040a81c4b49196_Handling%20rucksack%20small.jpg"
+cover: "/uploads/5f8eb9369b040a81c4b49196_Handling-rucksack-small.jpg"
 ---
 Following government advice on Friday 16th March the Mountain Heritage Trust have advised their staff to work from home.
 

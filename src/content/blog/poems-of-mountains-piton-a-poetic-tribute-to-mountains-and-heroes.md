@@ -2,7 +2,7 @@
 title: "Poems of Mountains: \"Piton\" a Poetic Tribute to Mountains and Heroes"
 date: 2023-10-16
 summary: "In the world where mountains stand as enduring symbols of challenge, triumph, and the unwavering spirit of exploration, a poem emerges as a heartfelt tribute to the core of mountaineering. Penned by…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/65297e18bb384c4b30b7f954_big-paul%20cropper%20piton%20route%20woodhouse%20scar%20%20%201978%20p1.jpeg"
+cover: "/uploads/65297e18bb384c4b30b7f954_big-paul-cropper-piton-route-woodhouse-scar-1978-p1.jpeg"
 ---
 In the world where mountains stand as enduring symbols of challenge, triumph, and the unwavering spirit of exploration, a poem emerges as a heartfelt tribute to the core of mountaineering. Penned by Phil Houghton, the poem titled "Piton" resonates with the endeavours of mountaineers, and marked the inauguration of the MHT (Mountain Heritage Trust) head office at Blencathra back in 2017. Through its verses, the poem encapsulates the relentless determination of climbers, the rich history of human exploration, and the enduring bond between humanity and mountain peaks.
 

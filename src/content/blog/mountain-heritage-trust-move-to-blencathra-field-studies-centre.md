@@ -2,7 +2,7 @@
 title: "Mountain Heritage Trust move to Blencathra Field Studies Centre"
 date: 2016-12-19
 summary: "The Blencathra Centre has a national reputation for fieldwork and was established by the Field Studies Council in 1993. The centre’s main building is a former sanatorium which was converted into a…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c4f233dfb3e2c2570804ad6_Video%20Still%20Blencathra%20Field%20Centre%20Terry%20Abraham.jpg"
+cover: "/uploads/5c4f233dfb3e2c2570804ad6_Video-Still-Blencathra-Field-Centre-Terry-Abraham.jpg"
 ---
 The Blencathra Centre has a national reputation for fieldwork and was established by the Field Studies Council in 1993. The centre’s main building is a former sanatorium which was converted into a residential field centre and occupies an inspiring site 300m above sea level on the south facing slope of Blencathra. The remainder of the site utilises the original farm and Sanatorium buildings for teaching, accommodation and ancillary use. These unique buildings provide field courses for schools and universities at all levels as well as a programme of courses for individuals and families. Every year the Centre hosts more than 8000 education visitors from over 300 schools and universities along with learned societies such as the Royal Geographical Society.   Our visitors come from all over the UK, and for many it is their first trip to the Lake District.
 

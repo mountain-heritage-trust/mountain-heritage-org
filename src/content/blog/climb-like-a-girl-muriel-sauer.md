@@ -2,9 +2,9 @@
 title: "Climb like a girl: Muriel Sauer"
 date: 2019-02-06
 summary: "Muriel on Great Gable 1948. © Muriel Sauer"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c3f378cbac5b6861145e66e_Muriel%20Borrowdale%20MRT%20at%20Kern%20Knotts%20April%2011th%201948.jpg"
+cover: "/uploads/5c3f378cbac5b6861145e66e_Muriel-Borrowdale-MRT-at-Kern-Knotts-April-11th-1948.jpg"
 ---
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c3f378cbac5b6861145e66e_Muriel%20Borrowdale%20MRT%20at%20Kern%20Knotts%20April%2011th%201948.jpg)
+![](/uploads/5c3f378cbac5b6861145e66e_Muriel-Borrowdale-MRT-at-Kern-Knotts-April-11th-1948.jpg)
 
 Muriel on Great Gable 1948. **©** Muriel Sauer
 

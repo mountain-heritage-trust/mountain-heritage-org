@@ -2,7 +2,7 @@
 title: "Embracing Adventure: The Keswick Mountain Festival Experience"
 date: 2024-04-08
 summary: "The annual Keswick Mountain Festival is a celebration of all things related to outdoor adventure and mountain culture. This year, it takes place on the 17th-19th May, 2024. Each year, outdoor…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/660a52ad75d51e3272e57602_keswick.webp"
+cover: "/uploads/660a52ad75d51e3272e57602_keswick.webp"
 ---
 The annual [Keswick Mountain Festival](https://keswickmountainfestival.co.uk/) is a celebration of all things related to outdoor adventure and mountain culture. This year, it takes place on the 17th-19th May, 2024. Each year, outdoor enthusiasts from around the world gather in Keswick, a picturesque town nestled in the heart of the Lake District, to participate in a diverse range of activities, listen to inspiring speakers, and connect with like-minded individuals. In this article, we'll dive into what makes the Keswick Mountain Festival so special and why it's a must-attend event for anyone passionate about mountains, nature, and outdoor exploration.
 

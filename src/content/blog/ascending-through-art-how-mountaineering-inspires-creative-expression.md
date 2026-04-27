@@ -2,7 +2,7 @@
 title: "Ascending Through Art: How Mountaineering Inspires Creative Expression"
 date: 2024-06-10
 summary: "Mountaineering is not merely a physical pursuit; it is also a journey of the soul—an exploration of the human spirit amidst the grandeur of nature's most majestic landscapes. In this article, we…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/665ecf5f9f007fc8da9685aa_abstract-mountain-art.webp"
+cover: "/uploads/665ecf5f9f007fc8da9685aa_abstract-mountain-art.webp"
 ---
 Mountaineering is not merely a physical pursuit; it is also a journey of the soul—an exploration of the human spirit amidst the grandeur of nature's most majestic landscapes. In this article, we delve into the artistic aspects of mountaineering, exploring how climbers are inspired to express their experiences through various forms of art. From paintings and photography to literature and poetry, the mountains have long served as muse and canvas for creative expression, capturing the emotional depth and beauty of the alpine world.
 

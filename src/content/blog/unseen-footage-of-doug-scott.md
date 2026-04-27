@@ -2,7 +2,7 @@
 title: "Unseen footage of Doug Scott"
 date: 2021-01-14
 summary: "In February 2020, our Trustee and legendary mountaineer Doug Scott came to talk to us on film about his love of climbing and his support for the Mountain Heritage Trust."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/60002c0ff421cffad1ca7c95_Doug%20Scott%20in%20film%20still.jpg"
+cover: "/uploads/60002c0ff421cffad1ca7c95_Doug-Scott-in-film-still.jpg"
 ---
 In February 2020, our Trustee and legendary mountaineer Doug Scott came to talk to us on film about his love of climbing and his support for the Mountain Heritage Trust.
 

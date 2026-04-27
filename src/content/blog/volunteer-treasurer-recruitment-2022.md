@@ -2,7 +2,7 @@
 title: "Volunteer Treasurer Recruitment 2022"
 date: 2022-06-06
 summary: "The Mountain Heritage Trust (MHT), is a non-profit charity established in 2000 to record and preserve Britain’s rich heritage in the fields of climbing, mountaineering and mountain culture. Second to…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/629ded738092dfd6ede82e4b_treasurer-job.jpg"
+cover: "/uploads/629ded738092dfd6ede82e4b_treasurer-job.jpg"
 ---
 The Mountain Heritage Trust (MHT), is a non-profit charity established in 2000 to record and preserve Britain’s rich heritage in the fields of climbing, mountaineering and mountain culture. Second to none in terms of breadth, Britain has a proud legacy in the Alps, the Himalaya, and the other great mountain ranges as well as closer to home on British rock.
 

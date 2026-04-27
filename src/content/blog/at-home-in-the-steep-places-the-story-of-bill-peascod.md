@@ -2,7 +2,7 @@
 title: "At Home In The Steep Places: The Story of Bill Peascod"
 date: 2021-09-06
 summary: "Watch the film over the on the MHT YouTube channel now."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/6135cb382959e29003596a56_079.jpg"
+cover: "/uploads/6135cb382959e29003596a56_079.jpg"
 ---
 Watch the film over the on the MHT YouTube channel now.
 

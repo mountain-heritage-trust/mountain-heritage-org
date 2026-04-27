@@ -2,9 +2,9 @@
 title: "North to South, East to West: Five regions that inspired young Chris Bonington"
 date: 2019-02-19
 summary: "It was an early photo taken from the summit of Bidean nam Bian that looked out towards the Cuillins that Chris first came across in a book whilst staying with his aunt in Wallasey. Captivated by this…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c6c03fdee8cc61fba50dbd0_33494424984_29ce8abd7e_o.jpg"
+cover: "/uploads/5c6c03fdee8cc61fba50dbd0_33494424984_29ce8abd7e_o.jpg"
 ---
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c6c03fdee8cc61fba50dbd0_33494424984_29ce8abd7e_o.jpg)
+![](/uploads/5c6c03fdee8cc61fba50dbd0_33494424984_29ce8abd7e_o.jpg)
 
 ## Glencoe
 

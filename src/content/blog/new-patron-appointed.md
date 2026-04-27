@@ -1,7 +1,7 @@
 ---
 title: "New Patron appointed"
 date: 2020-12-01
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5fc6491265bea1313d654968_JPTibet1.jpg"
+cover: "/uploads/5fc6491265bea1313d654968_JPTibet1.jpg"
 ---
 ##### **We are delighted to announce that John Porter has been appointed as Patron for the Mountain Heritage Trust.**
 

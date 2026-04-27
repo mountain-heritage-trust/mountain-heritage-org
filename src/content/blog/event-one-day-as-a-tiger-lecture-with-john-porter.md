@@ -2,7 +2,7 @@
 title: "Event: One Day as a Tiger, lecture with John Porter"
 date: 2019-08-11
 summary: "John Porter discusses his award-winning, humorous and poignant memoir of mountaineering legend Alex MacIntyre. Step into the world of fast and light Alpinism in the 1970s and 80s with glorious images…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5dc55281c03bbe9fec4f70fe_RGS%2022-11-2019a.jpg"
+cover: "/uploads/5dc55281c03bbe9fec4f70fe_RGS-22-11-2019a.jpg"
 ---
 John Porter discusses his award-winning, humorous and poignant memoir of mountaineering legend Alex MacIntyre. Step into the world of fast and light Alpinism in the 1970s and 80s with glorious images and inspirational storytelling - this is an evening not to be missed.
 

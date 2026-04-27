@@ -2,7 +2,7 @@
 title: "Temporary closure statement"
 date: 2020-05-28
 summary: "MHT would welcome the continued support of the BMC in these uncertain times, and hope that support will be forthcoming to a level that allows us to re-instate Kelda Roe, our Collections Manager."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f8eb6db2210957ad1e896f8_Dorothy%20Kellogg%20epic%20view%201951%20sm.jpg"
+cover: "/uploads/5f8eb6db2210957ad1e896f8_Dorothy-Kellogg-epic-view-1951-sm.jpg"
 ---
 MHT would welcome the continued support of the BMC in these uncertain times, and hope that support will be forthcoming to a level that allows us to re-instate Kelda Roe, our Collections Manager.    
 

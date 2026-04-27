@@ -2,7 +2,7 @@
 title: "Joe Tasker Collection set for preservation"
 date: 2014-02-25
 summary: "Joe Tasker, together with Peter Boardman, lost his life on Mount Everest in 1982. In order to mark their lives, the Boardman Tasker Literary Award was established which rewards the talent for writing…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c4f091a1fec801359f06bbd_WEBwind%20on%20Kangchenjunga%20-%20photo%20by%20J%20Tasker%2C%201979.jpg"
+cover: "/uploads/5c4f091a1fec801359f06bbd_WEBwind-on-Kangchenjunga-photo-by-J-Tasker-1979.jpg"
 ---
 Joe Tasker, together with Peter Boardman, lost his life on Mount Everest in 1982.  In order to mark their lives, the Boardman Tasker Literary Award was established which rewards the talent for writing gripping and thought-provoking climbing literature which Joe himself excelled at.
 

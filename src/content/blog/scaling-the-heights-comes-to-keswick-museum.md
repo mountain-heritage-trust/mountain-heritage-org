@@ -2,9 +2,9 @@
 title: "Scaling the Heights comes to Keswick Museum"
 date: 2019-02-26
 summary: "The Action Man team, fully equipped and dressed inappropriate climbing gear, are posed in a series of around thirty scenarios improvised on the shelves, stacks and stores. The setups are videoed and…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c75599eeb03571f15b0dfad_20190214_153413.jpg"
+cover: "/uploads/5c75599eeb03571f15b0dfad_20190214_153413.jpg"
 ---
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c75599eeb03571f15b0dfad_20190214_153413.jpg)
+![](/uploads/5c75599eeb03571f15b0dfad_20190214_153413.jpg)
 
 The Action Man team, fully equipped and dressed inappropriate climbing gear, are posed in a series of around thirty scenarios improvised on the shelves, stacks and stores. The setups are videoed and then stills are selected for inclusion in the foldout books.
 

@@ -2,7 +2,7 @@
 title: "How they got there: Joe Tasker"
 date: 2019-02-06
 summary: "In the winter of 1980-1981 Joe Tasker was part of an eight-man expedition to climb the West Ridge of Everest without supplementary oxygen as Joe had achieved on Kangchenjunga in 1979. The expedition…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c3f418ebac5b6790145e780_TAS-3-3%20Joe%20Tasker%20and%20Dick%20Renshaw%20K2%20-%20query.jpg"
+cover: "/uploads/5c3f418ebac5b6790145e780_TAS-3-3-Joe-Tasker-and-Dick-Renshaw-K2-query.jpg"
 ---
 ## Expeditions to Everest
 

@@ -2,9 +2,9 @@
 title: "How they got there: Johnnie Lees"
 date: 2019-02-06
 summary: "Johnnie’s philosophy was extending throughout the RAF and influencing mountain rescue at the highest level. A posting in 1952 to Kinloss in Scotland saw him develop challenging and comprehensive…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c6406dd6e0d8980594c9204_Roll%20114_1112%20copy.jpg"
+cover: "/uploads/5c6406dd6e0d8980594c9204_Roll-114_1112-copy.jpg"
 ---
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c6406dd6e0d8980594c9204_Roll%20114_1112%20copy.jpg)
+![](/uploads/5c6406dd6e0d8980594c9204_Roll-114_1112-copy.jpg)
 
 ## **First hand experience**
 

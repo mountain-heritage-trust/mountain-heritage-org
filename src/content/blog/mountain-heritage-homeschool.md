@@ -2,7 +2,7 @@
 title: "Mountain heritage homeschool"
 date: 2020-03-30
 summary: "Looking for some inspiration for homeschooling your children? We've got some fantastic resources covering a range of mountain topics: from camping, food and exploration, to knot tying, litter and…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5e81f7ab54e3ba17c28c6705_kanch.JPG"
+cover: "/uploads/5e81f7ab54e3ba17c28c6705_kanch.JPG"
 ---
 Looking for some inspiration for homeschooling your children? We've got some fantastic resources covering a range of mountain topics: from camping, food and exploration, to knot tying, litter and mountain equipment.
 

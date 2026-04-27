@@ -2,7 +2,7 @@
 title: "The 1953 Mount Everest Expedition: A Remarkable Achievement"
 date: 2023-05-09
 summary: "Seventy years ago, in 1953, a team of climbers accomplished what was once thought to be impossible: they successfully reached the summit of Mount Everest, the highest peak in the world. The 1953…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/64595a60870b9bdfe0fdc838_everest-70.jpg"
+cover: "/uploads/64595a60870b9bdfe0fdc838_everest-70.jpg"
 ---
 Seventy years ago, in 1953, a team of climbers accomplished what was once thought to be impossible: they successfully reached the summit of Mount Everest, the highest peak in the world. The 1953 Everest Expedition marked a pivotal moment in mountaineering history and remains an inspiration for adventurers to this day. As we commemorate the 70th anniversary of this historic expedition, let us take a closer look at the remarkable achievement and its lasting impact.
 

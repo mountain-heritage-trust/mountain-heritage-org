@@ -2,7 +2,7 @@
 title: "Closure Update February 2021"
 date: 2021-02-09
 summary: "With the countrywide lockdown continuing, the Mountain Heritage Trust remains closed to visitors and researchers. We have made the decision to part-furlough our Collections Manager (who will be…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/6010289c1911b21add293d57_we%20collect.jpg"
+cover: "/uploads/6010289c1911b21add293d57_we-collect.jpg"
 ---
 With the countrywide lockdown continuing, the Mountain Heritage Trust remains closed to visitors and researchers. We have made the decision to part-furlough our Collections Manager (who will be working from home) from Monday 15th February until the end of March, although essential checks on collections will continue on a regular basis. During this time we will unfortunately not be able to offer a remote enquiry service.
 

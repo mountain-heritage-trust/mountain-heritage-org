@@ -2,7 +2,7 @@
 title: "Everest lecture in support of MHT at Longlands"
 date: 2014-08-06
 summary: "Everest needs you Mr Irvine"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c4f124cd30fb9edd694e3e3_Irvine%20Sandy%20Archive%202413%2C%20courtesy%20of%20the%20Warden%20and%20Fellows%20of%20Merton%20College%20Oxford.jpg"
+cover: "/uploads/5c4f124cd30fb9edd694e3e3_Irvine-Sandy-Archive-2413-courtesy-of-the-Warden-and-Fellows-of-Merton-College-Oxford.jpg"
 ---
 **Everest needs you Mr Irvine**
 

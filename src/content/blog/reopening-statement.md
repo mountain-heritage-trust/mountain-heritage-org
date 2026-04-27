@@ -2,7 +2,7 @@
 title: "Reopening statement"
 date: 2020-08-21
 summary: "After three months of furlough, we are delighted to welcome back to work our Collections Manager, Kelda Roe."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f3fc29f12b688c0ea5276c7_English%20logo%20-%20Colour%20(JPEG).jpg"
+cover: "/uploads/5f3fc29f12b688c0ea5276c7_English-logo-Colour-JPEG-.jpg"
 ---
 After three months of furlough, we are delighted to welcome back to work our Collections Manager, Kelda Roe.
 

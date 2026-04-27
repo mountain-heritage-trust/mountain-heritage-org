@@ -2,7 +2,7 @@
 title: "Closure update January 2021"
 date: 2021-01-12
 summary: "Following the government announcement of a countrywide lockdown, the Mountain Heritage Trust remains closed to visitors and researchers. Our staff will be working from home although essential checks…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f8eb735aa6c7ba4ededb4db_wethree%20small.jpg"
+cover: "/uploads/5f8eb735aa6c7ba4ededb4db_wethree-small.jpg"
 ---
 Following the government announcement of a countrywide lockdown, the Mountain Heritage Trust remains closed to visitors and researchers. Our staff will be working from home although essential checks on collections will continue on a regular basis. While staff are working from home we can only offer a very limited remote enquiry service.
 

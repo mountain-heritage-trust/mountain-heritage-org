@@ -2,7 +2,7 @@
 title: "How Did We End Up Here?"
 date: 2024-07-26
 summary: "The Paris Olympics will feature three disciplines of climbing: lead climbing, bouldering, and speed climbing, each offering its own unique challenges and thrills. Athletes from around the world will…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/66a34abcb7880b45bf2c71e1_paris-2024.jpg"
+cover: "/uploads/66a34abcb7880b45bf2c71e1_paris-2024.jpg"
 ---
 ### A Triumphant Appearance
 

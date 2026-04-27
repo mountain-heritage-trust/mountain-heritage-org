@@ -2,7 +2,7 @@
 title: "Job vacancy - Collections Manager/Archivist opportunity"
 date: 2022-04-07
 summary: "We're recruiting! Could you be our next Collections Manager/Archivist?"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/624ef90d3659b27086ce401f_volunteers%20Jim%20Curran%20slides.jpg"
+cover: "/uploads/624ef90d3659b27086ce401f_volunteers-Jim-Curran-slides.jpg"
 ---
 We're recruiting! Could you be our next Collections Manager/Archivist?
 

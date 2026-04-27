@@ -2,7 +2,7 @@
 title: "Keswick Museum and Mountain Heritage Trust launch first exhibition"
 date: 2014-05-20
 summary: "Founded in 2000, MHT conserves the vibrant history of British mountaineering and mountain culture, and has ambitious plans to make its archive relevant and accessible today through exhibitions,…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c4f0a20cd5bc13141725568_Alpine%20warfare.jpg"
+cover: "/uploads/5c4f0a20cd5bc13141725568_Alpine-warfare.jpg"
 ---
 Founded in 2000, MHT conserves the vibrant history of British mountaineering and mountain culture, and has ambitious plans to make its archive relevant and accessible today through exhibitions, events and new projects, such as with the Keswick museum. From their home crags to the Alps, the Himalaya and the greater ranges British climbers and mountaineers have left an incredible legacy of dreams and achievements. MHT exists to preserve their stories.
 

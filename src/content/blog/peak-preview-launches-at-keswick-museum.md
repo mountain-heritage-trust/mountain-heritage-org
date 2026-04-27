@@ -2,7 +2,7 @@
 title: "Peak Preview launches at Keswick Museum"
 date: 2020-02-11
 summary: "The Mountain Heritage Trust (MHT) are pleased to launch their new exhibition entitled Peak Preview: Recent Arrivals into the Mountain Heritage Trust."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f92bb8da166af045dc91372_IMG_2265%20small.JPG"
+cover: "/uploads/5f92bb8da166af045dc91372_IMG_2265-small.JPG"
 ---
 The Mountain Heritage Trust (MHT) are pleased to launch their new exhibition entitled *Peak Preview: Recent Arrivals into the Mountain Heritage Trust.*
 
@@ -14,6 +14,6 @@ These include: George Band (who made the first ascent of Kangchenjunga and was t
 
 Keswick Museum is open every day 10am-4pm (closed 24th-27th December and 1st January).
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5e4d37e7341a245fe5e746cd_DSC_0036x.jpg)
+![](/uploads/5e4d37e7341a245fe5e746cd_DSC_0036x.jpg)
 
 Exhibition sponsors and the Chair of MHT in the Trust's new exhibition at the relaunch of Keswick Museum: (left to right) Vic Odell (President of The Climbers' Club), Terry Tasker (Chair of MHT) and Stephen Reid (Owner of Needle Sports)

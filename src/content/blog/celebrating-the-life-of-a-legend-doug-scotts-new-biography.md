@@ -2,7 +2,7 @@
 title: "Celebrating the Life of a Legend: Doug Scott's New Biography"
 date: 2024-01-09
 summary: "The Mountain Heritage Trust (MHT) is excited to support the recent release of a new biography, \"Mountain Guru: The Life of Doug Scott,\" celebrating the extraordinary life and achievements of our…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/6596c960f6289a7fa783ff18_big-webTAS%20Doug-Scott_%20Kanch-exped_1979.jpg"
+cover: "/uploads/6596c960f6289a7fa783ff18_big-webTAS-Doug-Scott_-Kanch-exped_1979.jpg"
 ---
 The Mountain Heritage Trust (MHT) is excited to support the recent release of a new biography, "Mountain Guru: The Life of Doug Scott," celebrating the extraordinary life and achievements of our esteemed former Patron and mountaineering icon, Doug Scott. Doug's remarkable journey not only redefined the limits of climbing but also left an indelible mark on the communities he so passionately supported.
 

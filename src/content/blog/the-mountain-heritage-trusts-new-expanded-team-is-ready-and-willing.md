@@ -2,7 +2,7 @@
 title: "The Mountain Heritage Trust’s new expanded team is ready and willing!"
 date: 2023-08-09
 summary: "The legacy of our past mountaineering feats, testing human endurance and discovering routes hitherto unclimbed, demonstrates why these legacies need preserving."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/64d383761d7df414217ead98_2023%20-%20Jun%207%20-%20FullMeeting%203.webp"
+cover: "/uploads/64d383761d7df414217ead98_2023-Jun-7-FullMeeting-3.webp"
 ---
 The legacy of our past mountaineering feats, testing human endurance and discovering routes hitherto unclimbed, demonstrates why these legacies need preserving.
 

@@ -2,7 +2,7 @@
 title: "Work experience/volunteer opportunity"
 date: 2020-02-11
 summary: "Following several expressions of interest, this role has now been filled. Please keep an eye on our website and social media pages for future volunteering roles and projects."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5e42cedf5939836c69deec07_boots%20b%26waa.jpg"
+cover: "/uploads/5e42cedf5939836c69deec07_boots-b-waa.jpg"
 ---
 **Following several expressions of interest, this role has now been filled. Please keep an eye on our website and social media pages for future volunteering roles and projects.**
 

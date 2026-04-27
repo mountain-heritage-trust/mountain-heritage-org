@@ -2,7 +2,7 @@
 title: "Mountain Heritage Trust Online Catalogue Launch"
 date: 2021-02-12
 summary: "We are delighted to announce the launch of our new online catalogue to share information about the collections we care for."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f801d00268e673f79fa911c_CRF-GENERIC-Twitter.png"
+cover: "/uploads/5f801d00268e673f79fa911c_CRF-GENERIC-Twitter.png"
 ---
 We are delighted to announce the launch of our new online catalogue to share information about the collections we care for.
 
@@ -26,4 +26,4 @@ A huge thank you to the funders who have supported the cataloguing of these coll
 
 You can [search the catalogue here](http://calmview.co.uk/mht/calmview/).
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/60264a9a55f7390e3dd6162c_Catalogue%20launch%20here%20for%20culture.jpg)
+![](/uploads/60264a9a55f7390e3dd6162c_Catalogue-launch-here-for-culture.jpg)

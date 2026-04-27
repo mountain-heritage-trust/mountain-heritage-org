@@ -2,7 +2,7 @@
 title: "Exciting experimental project funded by The National Archives"
 date: 2020-02-19
 summary: "In December we were delighted to receive the news that our application for a grant of £3,260 from The National Archives had been successful. This funding comes from a new fund called the Archive…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5e4d423666e7c9e66a2f365d_CCGoo3climbing.jpg"
+cover: "/uploads/5e4d423666e7c9e66a2f365d_CCGoo3climbing.jpg"
 ---
 In December we were delighted to receive the news that our application for a grant of £3,260 from [The National Archives](https://www.nationalarchives.gov.uk/) had been successful. This funding comes from a new fund called the [Archive Testbed Fund](https://www.nationalarchives.gov.uk/archives-sector/finding-funding/collaborate-and-innovate/archive-testbed-fund/current-projects/) which gives archives the freedom to try out something new and potentially transform the ways that archives across the UK work.
 

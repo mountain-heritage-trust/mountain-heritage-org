@@ -2,7 +2,7 @@
 title: "Celebrating Literary Excellence: The 2023 Boardman Tasker Award and Our Collection's Legacy"
 date: 2023-12-19
 summary: "The Mountain Heritage Trust is proud to house significant collections from renowned mountaineers Peter Boardman and Joe Tasker. These collections not only preserve their remarkable mountaineering…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/65830172aa5805e38318146a_658301179a13607780fc6e4e_031-Kangchenjunga-West-Ridge.webp"
+cover: "/uploads/65830172aa5805e38318146a_658301179a13607780fc6e4e_031-Kangchenjunga-West-Ridge.webp"
 ---
 The Mountain Heritage Trust is proud to house significant collections from renowned mountaineers Peter Boardman and Joe Tasker. These collections not only preserve their remarkable mountaineering achievements but also their contributions to mountain literature. It is with great enthusiasm that we highlight the recent announcement of the [2023 Boardman Tasker Award](https://www.boardmantasker.com/) for Mountain Literature, an award that commemorates their legacies.
 

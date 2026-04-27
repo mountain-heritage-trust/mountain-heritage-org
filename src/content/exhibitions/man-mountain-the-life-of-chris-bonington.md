@@ -17,7 +17,7 @@ Chris’ mother, Helen Bonington, and his grandmother, were the stalwarts of his
 
 A hair-raising expedition to Snowdon that summer was followed by more serious climbing on Harrison’s Rocks, near Tunbridge Wells. ‘Until that day on Harrison’s I had never found a complete release in physical expression… I had discovered the passion that was to guide my life.’
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c3f29dbf5a9461f7991972e_11830%2C%20CB%2C%20Harrison%27s%20aged%2016%2C%20CBPL.jpg)
+![](/uploads/5c3f29dbf5a9461f7991972e_11830-CB-Harrison-s-aged-16-CBPL.jpg)
 
 Chris Bonington on Harrison's Rock aged 16. © Chris Bonington Picture Library
 
@@ -47,7 +47,7 @@ In 1958 Chris Bonington, Don Whillans, Ian Clough and Hamish MacInnes completed 
 
 In early 1960 Chris was part of the successful joint-services expedition to Annapurna II (7,937m). A year later he joined Don Whillans and, having had no luck on the Eiger, they went to Chamonix to make the first ascent of the Central Pillar of Freney with Ian Clough and Jan Djuglosz from Poland.  
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c3f2a5f34363e7b7d8260f3_CB%20and%20D%20Whillans%2C%20%20Central%20Pillar%2C%201961%2C%20CBPL.jpg)
+![](/uploads/5c3f2a5f34363e7b7d8260f3_CB-and-D-Whillans-Central-Pillar-1961-CBPL.jpg)
 
 Chris Bonington and Don Whillans, Central Pillar, 1961. © Chris Bonington Picture Library
 

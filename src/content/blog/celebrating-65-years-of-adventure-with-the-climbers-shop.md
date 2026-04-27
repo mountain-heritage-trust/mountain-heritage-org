@@ -2,7 +2,7 @@
 title: "Celebrating 65 Years of Adventure with The Climbers Shop"
 date: 2024-03-06
 summary: "The Mountain Heritage Trust is thrilled to join hands with the Climbers Shop in celebrating their remarkable milestone: 65 years of supporting adventurers and explorers in the heart of the Lake…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/65e8891e8c04c7b8f0d2c1a2_Joe%20Brown%201970%20Hen%20Cloud%20-%20Nat%20Allen%20Collection%20(2).jpg"
+cover: "/uploads/65e8891e8c04c7b8f0d2c1a2_Joe-Brown-1970-Hen-Cloud-Nat-Allen-Collection-2-.jpg"
 ---
 The Mountain Heritage Trust is thrilled to join hands with the Climbers Shop in celebrating their remarkable milestone: 65 years of supporting adventurers and explorers in the heart of the Lake District. As the oldest independently owned outdoor clothing and equipment shop in the region, The Climbers Shop has woven its story into the fabric of mountaineering history, nurturing a legacy that resonates with climbers and outdoor enthusiasts alike.
 

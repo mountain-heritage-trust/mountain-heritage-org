@@ -2,7 +2,7 @@
 title: "Trustee opportunity: Treasurer to join our board"
 date: 2019-05-27
 summary: "This post has now been filled, please keep an eye on our website and social media for details of future roles with the Mountain Heritage Trust."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5cec0513d9e9b28b0c7554b2_CUR707.jpg"
+cover: "/uploads/5cec0513d9e9b28b0c7554b2_CUR707.jpg"
 ---
 This post has now been filled, please keep an eye on our website and social media for details of future roles with the Mountain Heritage Trust.
 

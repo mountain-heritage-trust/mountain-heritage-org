@@ -2,7 +2,7 @@
 title: "Lockdown service update"
 date: 2020-11-03
 summary: "Following government guidance, the Mountain Heritage Trust have advised their staff to work from home commencing Thursday 5th November."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5fa11f3330d50ef552ff2973_2020-11-03%20Blencathra%20small.jpg"
+cover: "/uploads/5fa11f3330d50ef552ff2973_2020-11-03-Blencathra-small.jpg"
 ---
 Following government guidance, the Mountain Heritage Trust have advised their staff to work from home commencing Thursday 5th November.
 
@@ -14,6 +14,6 @@ Thank you for your patience and understanding, we will issue updates via our web
 
 In lighter news - snow on Blencathra this morning!
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5fa11f3330d50ef552ff2973_2020-11-03%20Blencathra%20small.jpg)
+![](/uploads/5fa11f3330d50ef552ff2973_2020-11-03-Blencathra-small.jpg)
 
 Snow just about visible on Blencathra

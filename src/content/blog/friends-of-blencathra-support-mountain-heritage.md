@@ -2,7 +2,7 @@
 title: "Friends of Blencathra support mountain heritage"
 date: 2017-12-13
 summary: "After the Friends of Blencathra announced a failed bid to acquire Saddleback in January 2017, donors were invited to claim or disclaim their donations. This scheme has currently led to £20,000 of…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c4f3484590191504f67d7f5_IMG_1041.JPG"
+cover: "/uploads/5c4f3484590191504f67d7f5_IMG_1041.JPG"
 ---
 After the Friends of Blencathra announced a failed bid to acquire Saddleback in January 2017, donors were invited to claim or disclaim their donations. This scheme has currently led to £20,000 of formally disclaimed funds which has been authorised for allocation to other charities in the local area. Claims can still be submitted to return donations until the 2nd April 2018.
 

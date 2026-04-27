@@ -2,7 +2,7 @@
 title: "Arrangements for closure over the festive period 2020"
 date: 2020-12-14
 summary: "This year the Mountain Heritage Trust will be closed to enquiries from Thursday 17th December 2020 to Tuesday 5th January 2021. We will still be making regular checks on the collections in our care."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5fd74cc0065512a1467b1e6f_PBO-EX-1980-01-06-02-58%20small%20caption.jpg"
+cover: "/uploads/5fd74cc0065512a1467b1e6f_PBO-EX-1980-01-06-02-58-small-caption.jpg"
 ---
 This year the Mountain Heritage Trust will be closed to enquiries from Thursday 17th December 2020 to Tuesday 5th January 2021. We will still be making regular checks on the collections in our care.
 

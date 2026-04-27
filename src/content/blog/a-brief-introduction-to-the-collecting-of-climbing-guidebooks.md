@@ -2,11 +2,11 @@
 title: "A brief introduction to the collecting of climbing guidebooks"
 date: 2022-09-21
 summary: "Whilst researching the climbing guide bibliographies (and purchasing some copies for myself) I was delighted to make contact with David Price of Cockerel Books, a specialist climbing and…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/632b08a38e99f01d3e0ccf46_Guidebook%20blog%203.jpg"
+cover: "/uploads/632b08a38e99f01d3e0ccf46_Guidebook-blog-3.jpg"
 ---
 Whilst researching the climbing guide bibliographies (and purchasing some copies for myself) I was delighted to make contact with David Price of Cockerel Books, a specialist climbing and mountaineering bookseller, as well as holding one of the most significant collections of guidebooks himself.  The great news is that David has declared he is taking on the enormous challenge of compiling the next bibliography.  I for one cannot wait.
 
-![A set of 6 books](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/632b08c1db5a2b1af1e409fa_Guidebook%20blog%205.jpg)
+![A set of 6 books](/uploads/632b08c1db5a2b1af1e409fa_Guidebook-blog-5.jpg)
 
 The mountaineering bibliography rabbit hole has now fully opened for me, and I’m already trying to locate a moderately priced copy of Climbing Mount Everest - The Bibliography: The Literature and History of Climbing the World's Highest Mountain by Audrey Salkeld and John Boyle.  Disappointingly it seems the MHT Library doesn’t (as yet) hold a copy of this.  I have also obtained a copy of Neate’s Mountaineering in the Andes and The Lake District – a reader’s guide, both of which contain bibliographic material related to climbing, including guidebooks.  I have also come to understand how many relevant articles are available in journals like the Climbers’ Club Guidebook Centenary Journal, The Fell and Rock Centenary Journal and The Scottish Mountaineering Club Journal.  Can anybody suggest any others?
 

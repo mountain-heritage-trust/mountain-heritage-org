@@ -2,7 +2,7 @@
 title: "Meet the Climbers: Athletes to Watch in the Paris Olympics"
 date: 2024-05-27
 summary: "Here's the revised version with that bit improved: As the Paris Olympics draw nearer, anticipation is building for the return of climbing as an Olympic sport. With athletes from around the world…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/664b5fe05d4aac75f3a58b3d_paris-olimpycis.jpg"
+cover: "/uploads/664b5fe05d4aac75f3a58b3d_paris-olimpycis.jpg"
 ---
 Here's the revised version with that bit improved: As the Paris Olympics draw nearer, anticipation is building for the return of climbing as an Olympic sport. With athletes from around the world gearing up to compete on the world stage, all eyes are on the climbers who will vie for Olympic glory. In this article, we introduce you to some of the top contenders expected to make waves at the Paris Games.
 

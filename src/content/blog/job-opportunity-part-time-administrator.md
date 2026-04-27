@@ -2,7 +2,7 @@
 title: "Job opportunity: Part-time Administrator"
 date: 2019-05-27
 summary: "The Mountain Heritage Trust, is seeking a part-time Administrator (7 hours a week) to be based in the MHT office at the Blencathra Centre, near Threlkeld, Keswick. Initially this post will be for…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5cec0286e4d9c04ce39093e0_CUR789.jpg"
+cover: "/uploads/5cec0286e4d9c04ce39093e0_CUR789.jpg"
 ---
 The Mountain Heritage Trust, is seeking a part-time Administrator (7 hours a week) to be based in the MHT office at the Blencathra Centre, near Threlkeld, Keswick. Initially this post will be for four months and will be reviewed in September 2019. The role will involve working with the Board Trustees and the Collections Manager of MHT on administrative tasks. The role is offered for 7 hours per week either as one working day or two part-time days at £10 per hour on a freelance basis.
 

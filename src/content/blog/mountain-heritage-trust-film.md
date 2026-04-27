@@ -2,7 +2,7 @@
 title: "Mountain Heritage Trust film"
 date: 2020-05-07
 summary: "It's 20 years since the foundation of the Mountain Heritage Trust - find out about what we do in our new short film."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f8eb735aa6c7ba4ededb4db_wethree%20small.jpg"
+cover: "/uploads/5f8eb735aa6c7ba4ededb4db_wethree-small.jpg"
 ---
 It's 20 years since the foundation of the Mountain Heritage Trust - find out about what we do in [our new short film](https://www.youtube.com/watch?v=Ql8KZ-ZvusA).
 

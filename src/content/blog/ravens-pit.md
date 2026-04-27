@@ -2,7 +2,7 @@
 title: "Raven’s Pit"
 date: 2014-07-07
 summary: "On Friday the 25th of July, The National Trust and Mountain Heritage Trust invite you to Raven’s Pit, a night of fire, ale and tall tales of climbing heritage at the Sticklebarn, Langdale. Stoking…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c643a9144c18a5aeb852aad_IMG_0374.JPG"
+cover: "/uploads/5c643a9144c18a5aeb852aad_IMG_0374.JPG"
 ---
 On Friday the 25th of July, The National Trust and Mountain Heritage Trust invite you to [Raven’s Pit](https://www.facebook.com/events/803076139716580/?fref=ts), a night of fire, ale and tall tales of climbing heritage at the [Sticklebarn](http://www.nationaltrust.org.uk/sticklebarn-and-great-langdale/), Langdale. Stoking the fire will be the infamous Lakeland stalwarts Dave Birkett, James McHaffie, and Adam Hocking, compered by a sorry southerner, Andy Kirkpatrick.
 

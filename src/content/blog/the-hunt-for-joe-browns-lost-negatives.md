@@ -2,7 +2,7 @@
 title: "The Hunt for Joe Brown's lost negatives"
 date: 2019-08-12
 summary: "Joe Brown's daughter Zoe Brown takes up the story."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5d5c2222a911b85c1b40446b_CUR048.jpg"
+cover: "/uploads/5d5c2222a911b85c1b40446b_CUR048.jpg"
 ---
 Joe Brown's daughter Zoe Brown takes up the story.
 

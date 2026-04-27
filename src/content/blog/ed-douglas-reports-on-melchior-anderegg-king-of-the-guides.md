@@ -2,7 +2,7 @@
 title: "Ed Douglas reports on Melchior Anderegg, King of the Guides"
 date: 2014-08-22
 summary: "When Anderegg was born in 1828 just outside Meiringen in the hamlet of Zaun, mountaineering had barely started. His father was a farmer and Melchior’s early years were dominated by traditional…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c4f1343cfbdb947291b9d6b_ArticleImageHandler.JPG"
+cover: "/uploads/5c4f1343cfbdb947291b9d6b_ArticleImageHandler.JPG"
 ---
 When Anderegg was born in 1828 just outside Meiringen in the hamlet of Zaun, mountaineering had barely started. His father was a farmer and Melchior’s early years were dominated by traditional mountain activities: tending cattle, cutting and processing timber and hunting chamois. The latter activity, along with crystal hunting, gave Swiss guides the kind of physical skills and self-assurance that translated easily into guiding work.
 

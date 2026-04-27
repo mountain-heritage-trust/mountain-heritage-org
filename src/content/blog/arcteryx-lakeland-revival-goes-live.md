@@ -2,7 +2,7 @@
 title: "Arc'teryx Lakeland Revival goes live"
 date: 2014-08-06
 summary: "The revival process is as follows:"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c4f0ebcb70f119299821254_Panel%208c%20arcteryx%20Lakeland%20revival%2025757.JPG"
+cover: "/uploads/5c4f0ebcb70f119299821254_Panel-8c-arcteryx-Lakeland-revival-25757.JPG"
 ---
 The revival process is as follows:
 

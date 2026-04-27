@@ -2,7 +2,7 @@
 title: "2019 festive quiz answers"
 date: 2020-01-06
 summary: "SA (JT) = Savage Arena (Joe Tasker)"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5e43f1d0dc6596657a439ae0_spoiler.JPG"
+cover: "/uploads/5e43f1d0dc6596657a439ae0_spoiler.JPG"
 ---
 SA (JT) = Savage Arena (Joe Tasker)
 

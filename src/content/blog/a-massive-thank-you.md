@@ -2,7 +2,7 @@
 title: "A massive thank you!"
 date: 2020-10-16
 summary: "A huge thank you to everyone who has donated to our 20th anniversary fundraising campaign so far. We've been touched by the generous donations and messages from our supporters."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f89511036593c5c4f2d0b6c_Roll%2086A_805%20thank%20you.jpg"
+cover: "/uploads/5f89511036593c5c4f2d0b6c_Roll-86A_805-thank-you.jpg"
 ---
 A huge thank you to everyone who has donated to our 20th anniversary fundraising campaign so far. We've been touched by the generous donations and messages from our supporters.
 
@@ -26,6 +26,6 @@ We have also had at least two donations made in memory of a friend or family mem
 
 We know that it has been an incredibly tough year for many people for many reasons but every donation will make a difference to the future of Britain's climbing and mountaineering heritage, so a massive thank you to everyone who has donated.
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f89511036593c5c4f2d0b6c_Roll%2086A_805%20thank%20you.jpg)
+![](/uploads/5f89511036593c5c4f2d0b6c_Roll-86A_805-thank-you.jpg)
 
 # [www.justgiving.com/campaign/MHT20th](http://www.justgiving.com/campaign/MHT20th)

@@ -2,7 +2,7 @@
 title: "The Value of Heritage?"
 date: 2014-04-10
 summary: "An ice axe, formerly belonging to George Mallory, was auctioned at Christie’s today and sold for an impressive £108,000; £132,100 including commission. This was far beyond reserve of £8,000."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c643b6f6e0d89759e4c9724_G%20Hoyland%20in%20Mallory%20replica%20clothing%20on%20Everest.jpg"
+cover: "/uploads/5c643b6f6e0d89759e4c9724_G-Hoyland-in-Mallory-replica-clothing-on-Everest.jpg"
 ---
 An ice axe, formerly belonging to George Mallory, was auctioned at Christie’s today and sold for an impressive £108,000; £132,100 including commission.  This was far beyond reserve of £8,000.
 

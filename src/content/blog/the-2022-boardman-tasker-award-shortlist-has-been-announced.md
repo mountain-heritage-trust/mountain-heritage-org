@@ -2,7 +2,7 @@
 title: "The 2022 Boardman Tasker Award shortlist has been announced"
 date: 2022-09-12
 summary: "Tickets to the event are available here: https://tickets.kendalmountainfestival.com/events/18-11-2022-18-30-boardman-tasker-award-ceremony"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/631ee19b34ed9e4751cd5e97_library.jpg"
+cover: "/uploads/631ee19b34ed9e4751cd5e97_library.jpg"
 ---
 Tickets to the event are available here:  
 [https://tickets.kendalmountainfestival.com/events/18-11-2022-18-30-boardman-tasker-award-ceremony](the-2022-boardman-tasker-award-shortlist-has-been-announced.html#)

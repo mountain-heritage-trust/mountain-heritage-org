@@ -2,7 +2,7 @@
 title: "Support Britain's mountain heritage when you shop at amazon"
 date: 2020-05-01
 summary: "You can now support the Mountain Heritage Trust when you shop with amazon through the amazon smile programme."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5eac0bc8f4857683eeae2ece_MAINLOGO_UK_AmazonSmile.png"
+cover: "/uploads/5eac0bc8f4857683eeae2ece_MAINLOGO_UK_AmazonSmile.png"
 ---
 You can now support the Mountain Heritage Trust when you shop with amazon through the amazon smile programme.
 

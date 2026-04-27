@@ -2,7 +2,7 @@
 title: "Major new exhibition on Chris Bonington to open 19th May"
 date: 2018-04-05
 summary: "Yet against such global recognition it is Chris’ passion for and commitment to Cumbria and the Lake District that is perhaps most striking. Throughout a career of triumph and tragedy on the world’s…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c4f36d766ad2d545676c049_Chris%20on%20Shivling%20(Digital).jpg"
+cover: "/uploads/5c4f36d766ad2d545676c049_Chris-on-Shivling-Digital-.jpg"
 ---
 Yet against such global recognition it is Chris’ passion for and commitment to Cumbria and the Lake District that is perhaps most striking. Throughout a career of triumph and tragedy on the world’s most inhospitable peaks Chris has returned time and again to his home in the Lake District. In doing so his achievements have resonated locally at a level that is not often found in mountaineering. Chris’ natural flair for communication has seen him become a symbol of British mountaineering and patron of notable organisations such as the [Campaign for National Parks](https://www.cnp.org.uk/)and the [Outward Bound Trust](https://www.outwardbound.org.uk/), whilst his honesty and humility has repeatedly drawn the ordinary climbing community towards him.
 

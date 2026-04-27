@@ -2,7 +2,7 @@
 title: "Johnnie Lees' recycled mittens"
 date: 2020-11-23
 summary: "Mountaineers and hill walkers quickly learn that good quality gloves and woollen socks can make all the difference to comfort and enjoyment when out on the hills. Good quality socks and gloves are…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5fbbac392c35fa2d7eaddb4b_JRL%20mittens%20small.jpg"
+cover: "/uploads/5fbbac392c35fa2d7eaddb4b_JRL-mittens-small.jpg"
 ---
 Mountaineers and hill walkers quickly learn that good quality gloves and woollen socks can make all the difference to comfort and enjoyment when out on the hills. Good quality socks and gloves are still expensive today but in the 1950s they could be a significant financial investment - climbing legend, mountain guide and outdoor lover Gwen Moffat had a thrifty solution to this problem...
 
@@ -10,7 +10,7 @@ In the 1950s Gwen was married to RAF Mountain Rescue pioneer Johnnie Lees (find
 
 When Johnnie no longer needed these stockings, Gwen decided to make good use of the warm (and very importantly free!) wool. She first unravelled the stockings, then skeined, washed and balled the wool. Gwen then knitted herself a jumper and socks, as well as gloves and mittens for herself and Lees.
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5fbbac392c35fa2d7eaddb4b_JRL%20mittens%20small.jpg)
+![](/uploads/5fbbac392c35fa2d7eaddb4b_JRL-mittens-small.jpg)
 
 Johnnie Lees Collection, Mountain Heritage Trust
 

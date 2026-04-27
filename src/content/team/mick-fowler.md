@@ -3,7 +3,7 @@ name: "Mick Fowler"
 role: "Ambassador"
 category: ambassador
 former: false
-photo: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/674028df686488681befe711_mick_fowler_portrait.jpg"
+photo: "/uploads/674028df686488681befe711_mick_fowler_portrait.jpg"
 ---
 Mick has balanced holding a full-time job with being a family man and a leading figure in the climbing world for over 45 years. He continues to climb despite a cancer problem which resulted in removal of his anus and rectum in 2018.
 

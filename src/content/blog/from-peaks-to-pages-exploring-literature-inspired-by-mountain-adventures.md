@@ -2,7 +2,7 @@
 title: "From Peaks to Pages: Exploring Literature Inspired by Mountain Adventures"
 date: 2024-01-15
 summary: "The allure of the mountains has long captivated the human spirit, inspiring explorers, adventurers, and writers alike. From the formidable peaks that reach towards the sky to the untamed landscapes…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/659fcc1a4d6280ae3a527fd2_Books-and-helment.webp"
+cover: "/uploads/659fcc1a4d6280ae3a527fd2_Books-and-helment.webp"
 ---
 The allure of the mountains has long captivated the human spirit, inspiring explorers, adventurers, and writers alike. From the formidable peaks that reach towards the sky to the untamed landscapes that challenge the human will, mountains have served as both muse and metaphor for countless literary works. In this article, we embark on a literary expedition, celebrating the rich tapestry of literature inspired by mountain adventures. From classic to contemporary, these books, essays, and memoirs offer readers a unique perspective on the challenges, triumphs, and personal reflections of mountaineers, inviting them to connect with the shared passion for the world's most majestic heights.
 

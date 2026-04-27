@@ -2,7 +2,7 @@
 title: "British Women Climb opens to a packed crowd"
 date: 2017-09-29
 summary: "From pioneering travellers, to bold adventurers and elite athletes; the exhibition focuses on the experiences of women climbers, their challenges to social expectations, and their mountaineering…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c4f32ccfe98b206b32660cf_2.JPG"
+cover: "/uploads/5c4f32ccfe98b206b32660cf_2.JPG"
 ---
 From pioneering travellers, to bold adventurers and elite athletes; the exhibition focuses on the experiences of women climbers, their challenges to social expectations, and their mountaineering achievements across history.
 

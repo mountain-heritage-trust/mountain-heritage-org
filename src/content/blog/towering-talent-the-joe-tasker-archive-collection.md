@@ -2,7 +2,7 @@
 title: "Towering Talent – The Joe Tasker Archive Collection"
 date: 2014-02-25
 summary: "The Mountain Heritage Trust is delighted to announce the news that it has successfully achieved a Heritage Lottery Fund (HLF) Grant of £40,400 to preserve and make accessible the papers and writings…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c643c1185a2f0e7b6b9f20b_WEBTAS%20K2%20climb%20team%2C%201978%20photo%20T%20Tasker%20query.jpg"
+cover: "/uploads/5c643c1185a2f0e7b6b9f20b_WEBTAS-K2-climb-team-1978-photo-T-Tasker-query.jpg"
 ---
 The Mountain Heritage Trust is delighted to announce the news that it has successfully achieved a Heritage Lottery Fund (HLF) Grant of £40,400 to preserve and make accessible the papers and writings of one of mountaineering’s most iconic figures – Joe Tasker.
 

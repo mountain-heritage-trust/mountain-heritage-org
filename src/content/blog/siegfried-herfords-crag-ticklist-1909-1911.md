@@ -2,7 +2,7 @@
 title: "Siegfried Herford's crag ticklist 1909-1911"
 date: 2020-10-15
 summary: "As part of our 20th anniversary celebrations we are taking a trip through some of the highlights from the Mountain Heritage Trust's collections. For our first collection highlight we are visiting one…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f8868e936d2ac83e1665c25_SWH%20Complete%20Mountaineer%201%20flyleaf%20socks%20wet.jpg"
+cover: "/uploads/5f8868e936d2ac83e1665c25_SWH-Complete-Mountaineer-1-flyleaf-socks-wet.jpg"
 ---
 As part of our 20th anniversary celebrations we are taking a trip through some of the highlights from the Mountain Heritage Trust's collections. For our first collection highlight we are visiting one of the earliest collections in our care, which charts the climbing life of one the greatest rock-climbers of the pre-WWI era, Siegfried Herford. To celebrate this remarkable climber one of our dedicated volunteers, Fiona Cox (climber and writer) has written this piece for us.
 
@@ -11,13 +11,13 @@ As part of our 20th anniversary celebrations we are taking a trip through some o
   
 Lists - we all make lists: things we want to do, things we’ve done. Siegfried Herford made his on the flyleaves of his treasured copy of ‘The Complete Mountaineer’ by George Abraham (now in the safe-keeping of The Mountain Heritage Trust).
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f8eb5ee83508a009bbf6a77_SWH%20copy%20of%20The%20Complete%20Mountaineer%20small.JPG)
+![](/uploads/5f8eb5ee83508a009bbf6a77_SWH-copy-of-The-Complete-Mountaineer-small.JPG)
 
 Siegfried Herford's copy of The Complete Mountaineer
 
 All the available spare pages, at both the beginning and end of the book, are crammed with ink-written lists of routes he had climbed from July 1909 to September 1911. He had divided the North Wales and Lake District climbs into ‘Scrambles’ and ‘[Moderate, Difficult and Exceptionally Severe Courses](https://rockfax.com/climbing-guides/grades/)’, with the initials of his climbing partners and the occasional added remark – ‘socks wet, severe struggles’. 
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f8868e936d2ac83e1665c25_SWH%20Complete%20Mountaineer%201%20flyleaf%20socks%20wet.jpg)
+![](/uploads/5f8868e936d2ac83e1665c25_SWH-Complete-Mountaineer-1-flyleaf-socks-wet.jpg)
 
 Siegfried Herford's "socks wet, severe struggles" note
 
@@ -29,7 +29,7 @@ These lists have turned out to be a remarkable record of the climbing experience
 
 He was introduced to climbing in the Alps in 1907 and spent his holidays in the Cuillins, Lake District, North Wales and the Dolomites.  As an undergraduate, he climbed regularly on Derbyshire gritstone with John Laycock but Herford’s relentless determination soon overtook Laycock’s technical ability. ‘He almost always led, it was his right!’ Laycock observed. By all accounts, he was a tall, blond, likeable man, a climber of great thoughtfulness and steadiness and also great daring.
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f8eb61cdb936f03f517f191_SWH%20Complete%20Mountaineer%202%20flyleaf%20small.JPG)
+![](/uploads/5f8eb61cdb936f03f517f191_SWH-Complete-Mountaineer-2-flyleaf-small.JPG)
 
 Herford's list of North Wales climbs written inside the flyleaf of The Complete Mountaineer
 
@@ -55,11 +55,11 @@ A war memorial on the summit of Great Gable records the 20 members of the Fell a
 
 Written by Fiona Cox
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f886a9bbd19d4f94e9c1433_P6080065.JPG)
+![](/uploads/5f886a9bbd19d4f94e9c1433_P6080065.JPG)
 
 Herford's list of easy Lakes climbs followed by difficult climbs
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f886b025a96fe7c15b963ae_P6080067.JPG)
+![](/uploads/5f886b025a96fe7c15b963ae_P6080067.JPG)
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 

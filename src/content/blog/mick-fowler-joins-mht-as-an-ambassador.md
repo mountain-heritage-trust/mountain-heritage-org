@@ -2,13 +2,13 @@
 title: "Mick Fowler Joins MHT as an Ambassador"
 date: 2024-11-22
 summary: "The MHT is delighted to announce that Mick Fowler has agreed to become an Ambassador for the Trust joining long-standing Ambassador, Nigel Vardy, and the recently appointed Emma Twyford."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/674028df686488681befe711_mick_fowler_portrait.jpg"
+cover: "/uploads/674028df686488681befe711_mick_fowler_portrait.jpg"
 ---
 The MHT is delighted to announce that Mick Fowler has agreed to become an Ambassador for the Trust joining long-standing Ambassador, [Nigel Vardy](../team/nigel-vardy.html), and the recently appointed [Emma Twyford](../team/emma-twyford.html). 
 
 Mick has balanced holding a full-time job with being a family man and a leading figure in the climbing world for over 45 years. He continues to climb despite a cancer problem which resulted in removal of his anus and rectum in 2018.
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/67402dbba722b5ce833fead7_67402d795bd51710961627ad_mick_fowler_action.jpeg)
+![](/uploads/67402dbba722b5ce833fead7_67402d795bd51710961627ad_mick_fowler_action.jpeg)
 
 In the UK he is renowned as a leading adventure climber with numerous ground-breaking first ascents on chalk, shale, London drainpipes and other cliffs not previously viewed as suitable for climbing! Throughout the 1980s and 90s he was a leading pioneer of Scottish winter climbing, his record being 11 consecutive weekends travelling up from London. He was the first ascensionist of the first Scottish winter climb to be graded VI and some of the first rock climbs in the UK to be graded E6.
 

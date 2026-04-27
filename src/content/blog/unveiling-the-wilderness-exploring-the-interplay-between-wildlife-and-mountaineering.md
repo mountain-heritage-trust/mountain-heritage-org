@@ -2,7 +2,7 @@
 title: "Unveiling the Wilderness: Exploring the Interplay Between Wildlife and Mountaineering"
 date: 2023-11-06
 summary: "When we think of mountaineering, we often envision the triumphant climbers conquering towering peaks and overcoming challenging terrain. Yet, beyond the physical exertion and breathtaking vistas,…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/653a59a47eb6fd8866e56c44_wilderness.webp"
+cover: "/uploads/653a59a47eb6fd8866e56c44_wilderness.webp"
 ---
 When we think of mountaineering, we often envision the triumphant climbers conquering towering peaks and overcoming challenging terrain. Yet, beyond the physical exertion and breathtaking vistas, lies a delicate and intricate relationship between mountaineers and the wildlife that calls the mountains home. In this article, we embark on a journey to uncover the multifaceted connection between those who seek the heights and the creatures that inhabit these remote landscapes. As we delve into the world of mountaineering and its interplay with wildlife, we'll uncover the challenges, responsibilities, and ethical considerations that shape this fascinating relationship.
 

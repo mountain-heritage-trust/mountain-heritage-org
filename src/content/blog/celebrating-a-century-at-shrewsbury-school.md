@@ -2,7 +2,7 @@
 title: "Celebrating a Century at Shrewsbury School"
 date: 2024-03-20
 summary: "The Mountain Heritage Trust was delighted to support Shrewsbury School at its recent expedition and event to celebrate the centenary of the 1924 Everest expedition which featured its former pupil,…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/65fb1f0f8b088b81568a6690_93-February%2029_%202024-untitled%20shoot015A2465.jpg"
+cover: "/uploads/65fb1f0f8b088b81568a6690_93-February-29_-2024-untitled-shoot015A2465.jpg"
 ---
 The Mountain Heritage Trust was delighted to support Shrewsbury School at its recent expedition and event to celebrate the centenary of the 1924 Everest expedition which featured its former pupil, Sandy Irvine, who perished on the mountain with George Mallory. The replica climbing kit which was exhibited, and which is held in the MHT archives, was recreated from the fabrics found on Mallory’s body in 1999 in a significant project led by Mike Parsons and Mary B. Rose. Other exhibits were supplied by Merton College, Oxford and Magdalene College, Cambridge, and film footage was supplied by the Alpine Club.
 

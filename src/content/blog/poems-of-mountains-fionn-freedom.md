@@ -2,7 +2,7 @@
 title: "Poems of Mountains: “Fionn Freedom”"
 date: 2024-03-11
 summary: "In the realm of mountaineering, there exists a profound connection between climbers and the landscapes they traverse. This bond, marked by perseverance, acceptance, and a deep appreciation for the…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/65e887d8008044138e18ca68_poem-of-mountain-2.webp"
+cover: "/uploads/65e887d8008044138e18ca68_poem-of-mountain-2.webp"
 ---
 In the realm of mountaineering, there exists a profound connection between climbers and the landscapes they traverse. This bond, marked by perseverance, acceptance, and a deep appreciation for the natural world, is beautifully encapsulated in Terry Gifford's poignant poem dedicated to his climbing partner, Jim Curran. Through vivid imagery and heartfelt verses, the poem takes us on a journey through the rugged terrain of Wester Ross, inviting us to savour the challenges and rewards of the mountain experience.
 

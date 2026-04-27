@@ -2,7 +2,7 @@
 title: "Poems of Mountains: “Into Rock”"
 date: 2024-01-22
 summary: "He stretched to fit the rock"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/659fca4a817ef3cf6e63592e_into-rock.webp"
+cover: "/uploads/659fca4a817ef3cf6e63592e_into-rock.webp"
 ---
 *He stretched to fit the rock*
 

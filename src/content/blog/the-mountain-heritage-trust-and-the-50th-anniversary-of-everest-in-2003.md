@@ -2,7 +2,7 @@
 title: "The Mountain Heritage Trust and the 50th anniversary of Everest in 2003"
 date: 2023-05-22
 summary: "Early in April 2003 a telephone call from fellow trustee John Porter confirmed that the MHT had been granted £225,000 by the North West Development Agency towards the cost of building the Mount…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/64648ef45d0d2c49f4c20bea_Blair001-mht.webp"
+cover: "/uploads/64648ef45d0d2c49f4c20bea_Blair001-mht.webp"
 ---
 Early in April 2003 a telephone call from fellow trustee [John Porter](../team/john-porter.html) confirmed that the MHT had been granted £225,000 by the North West Development Agency towards the cost of building the Mount Everest 50th anniversary exhibition, to be held at the National Mountaineering Exhibition at the Rheged centre in Penrith.
 

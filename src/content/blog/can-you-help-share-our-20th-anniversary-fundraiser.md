@@ -1,7 +1,7 @@
 ---
 title: "Can you help share our 20th anniversary fundraiser?"
 date: 2020-10-23
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f92936a325c4484a35fc634_Flyer%20small.jpg"
+cover: "/uploads/5f92936a325c4484a35fc634_Flyer-small.jpg"
 ---
 #### Our 20th anniversary fundraiser to raise £10,000 is underway and we're grateful to everyone who has donated so far. A number of our regular website readers have already donated - thank you, your support is hugely appreciated.  
   
@@ -11,7 +11,7 @@ We've got a printable poster available to [download here as a pdf](https://drive
 
 #### Or you can just copy this image:
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f92936a325c4484a35fc634_Flyer%20small.jpg)
+![](/uploads/5f92936a325c4484a35fc634_Flyer-small.jpg)
 
 ### [And here's the link to the fundraiser.](http://www.justgiving.com/campaign/MHT20th)
 

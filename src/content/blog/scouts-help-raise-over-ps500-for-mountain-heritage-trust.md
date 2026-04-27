@@ -2,7 +2,7 @@
 title: "Scouts help raise over £500 for Mountain Heritage Trust"
 date: 2018-03-14
 summary: "Alongside this were stands from the local Scouts climbing group, the Duke of Edinburgh Award scheme, and the Mountain Heritage Trust where historic and modern climbing equipment such as ice axes and…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c4f361931a4caed9deb202a_1E9A0094-min.JPG"
+cover: "/uploads/5c4f361931a4caed9deb202a_1E9A0094-min.JPG"
 ---
 Alongside this were stands from the local Scouts climbing group, the Duke of Edinburgh Award scheme, and the Mountain Heritage Trust where historic and modern climbing equipment such as ice axes and down clothing could be handled.
 

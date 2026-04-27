@@ -2,9 +2,9 @@
 title: "Climb like a girl: Mabel Barker"
 date: 2019-01-28
 summary: "Mabel Barker on the Girdle Traverse, Dow Crag. 1930 © FRCC Archive \\[correction: she is in fact on the penultimate pitch of New West Climb on Pillar Rock, traversing from the chimney to the pile of…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c3f10f71618244437a6e54a_Panel%201%20Mabel%20Barker%20charcoal%20drawing%20-%20Ascent%20of%20Women.jpg"
+cover: "/uploads/5c3f10f71618244437a6e54a_Panel-1-Mabel-Barker-charcoal-drawing-Ascent-of-Women.jpg"
 ---
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c3f110d574f7416701de238_Mabel-Barker-440x800.jpg)
+![](/uploads/5c3f110d574f7416701de238_Mabel-Barker-440x800.jpg)
 
 Mabel Barker on the Girdle Traverse, Dow Crag. 1930 **©** FRCC Archive \[correction: she is in fact on the penultimate pitch of New West Climb on Pillar Rock, traversing from the chimney to the pile of blocks belay\]
 

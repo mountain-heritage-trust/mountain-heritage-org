@@ -2,7 +2,7 @@
 title: "We're joining the Heritage Compass business support programme"
 date: 2021-01-22
 summary: "We're delighted to report that the Mountain Heritage Trust has been accepted onto the Heritage Compass business support programme."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/600a9a20d14626eb5bf6be67_combo%20medium.jpg"
+cover: "/uploads/600a9a20d14626eb5bf6be67_combo-medium.jpg"
 ---
 We're delighted to report that the Mountain Heritage Trust has been accepted onto the Heritage Compass business support programme.
 

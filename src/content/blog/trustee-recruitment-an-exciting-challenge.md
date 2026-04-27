@@ -2,7 +2,7 @@
 title: "Trustee Recruitment an Exciting Challenge"
 date: 2023-02-16
 summary: "The Mountain Heritage Trust (MHT), is a non-profit charity established in 2000 to record and preserve Britain’s rich heritage in the fields of climbing, mountaineering and mountain culture hosting…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/63f3963bbe60f0243c5853aa_trustee-job.jpg"
+cover: "/uploads/63f3963bbe60f0243c5853aa_trustee-job.jpg"
 ---
 The Mountain Heritage Trust (MHT), is a non-profit charity established in 2000 to record and preserve Britain’s rich heritage in the fields of climbing, mountaineering and mountain culture hosting items from pioneers in techniques from the earliest days. Second to none in terms of breadth, Britain has a proud legacy in the Alps, the Himalaya, and the other great mountain ranges as well as closer to home on British rock. Collections of historic items from Britain’s rich mountaineering heritage have been preserved and archived to create an innovative and exciting heritage offer for local, national, and international audiences. Sir Chris Bonington is one of our patrons and the British Mountaineering Council work with MHT as their ‘heritage’ arm.
 

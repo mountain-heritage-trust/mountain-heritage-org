@@ -2,7 +2,7 @@
 title: "Mallory Replica Clothing revisited"
 date: 2020-10-26
 summary: "As part of our 20th anniversary celebrations we're looking back through our collections and revisiting some of our greatest successes."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f96b71a0c8d394d65cbe803_clothing%20outerwear.JPG"
+cover: "/uploads/5f96b71a0c8d394d65cbe803_clothing-outerwear.JPG"
 ---
 As part of our 20th anniversary celebrations we're looking back through our collections and revisiting some of our greatest successes.
 
@@ -14,13 +14,13 @@ Painstaking research was carried out on the fragile and degraded fragments of cl
 
 Once researchers knew what materials the clothing had been made from, further research was carried out to produce patterns for the woven and knitted garments. This involved study of the fragments themselves as well as study of historic photographs and knitting patterns; the project also drew substantially on the knowledge of the experts commissioned to construct the replicas (including [Joyce Meader](http://historicknit.co.uk/) and her extensive knitting pattern collection).
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f96b6d37cc1200b63a7dc06_clothing%20underwear.JPG)
+![](/uploads/5f96b6d37cc1200b63a7dc06_clothing-underwear.JPG)
 
 Layering was a key strategy in Mallory's 1924 high altitude expedition clothing
 
 The replicas were unveiled by mountaineer [Alan Hinkes](https://www.alanhinkes.info/) at the Clothing for Extremes conference at [Rheged](https://www.rheged.com/), Cumbria in 2005.
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f96b71a0c8d394d65cbe803_clothing%20outerwear.JPG)
+![](/uploads/5f96b71a0c8d394d65cbe803_clothing-outerwear.JPG)
 
 The outer layers of jacket and breeches were made by [Burberry](https://uk.burberry.com/our-history/)
 

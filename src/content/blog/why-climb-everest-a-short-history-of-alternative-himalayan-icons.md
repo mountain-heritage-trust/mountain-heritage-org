@@ -2,7 +2,7 @@
 title: "Why climb Everest? A short history of an alternative Himalayan icon"
 date: 2019-02-13
 summary: "Climbing without oxygen"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5c4f091a1fec801359f06bbd_WEBwind%20on%20Kangchenjunga%20-%20photo%20by%20J%20Tasker%2C%201979.jpg"
+cover: "/uploads/5c4f091a1fec801359f06bbd_WEBwind-on-Kangchenjunga-photo-by-J-Tasker-1979.jpg"
 ---
 **Climbing without oxygen**
 

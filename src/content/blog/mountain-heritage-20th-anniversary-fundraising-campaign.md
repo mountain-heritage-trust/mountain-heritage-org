@@ -2,7 +2,7 @@
 title: "Mountain heritage 20th anniversary fundraising campaign"
 date: 2020-09-29
 summary: "Every year the Mountain Heritage Trust needs to raise around £60,000 to ensure the ongoing safety and accessibility of the collections in our care. Usually this comes through a grant from the British…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f8eb689b59c8601d15e6ab5_PBO-EX-1980-01-06-02-244%20WITH%20LOGO%20resized.jpg"
+cover: "/uploads/5f8eb689b59c8601d15e6ab5_PBO-EX-1980-01-06-02-244-WITH-LOGO-resized.jpg"
 ---
 Every year the Mountain Heritage Trust needs to raise around £60,000 to ensure the ongoing safety and accessibility of the collections in our care. Usually this comes through a grant from the British Mountaineering Council and direct fundraising at events and festivals. In this, our 20th anniversary year, these have all been reduced due to the unprecedented coronavirus situation.
 
@@ -14,7 +14,7 @@ We've successfully bid for a grant from the [National Lottery Heritage Fund](h
 
 **Lynn Robinson, British Mountaineering Council President, 2020,** [**Mountain Heritage Trust film**](https://www.youtube.com/watch?v=Ql8KZ-ZvusA&t=19s)
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f6097ba358b1a2bbeb985a6_Lynn%20Robinson%20and%20Kelda%20Roe%20film%20still.jpg)
+![](/uploads/5f6097ba358b1a2bbeb985a6_Lynn-Robinson-and-Kelda-Roe-film-still.jpg)
 
 Lynn Robinson (left) explores ice axes at the Mountain Heritage trust
 

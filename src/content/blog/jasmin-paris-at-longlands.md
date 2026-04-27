@@ -2,7 +2,7 @@
 title: "Jasmin Paris at Longlands"
 date: 2024-10-31
 summary: "© Steve Razzetti"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/6723e0d68c04d47a38438320_2.%20Jasmin%20Paris.jpg"
+cover: "/uploads/6723e0d68c04d47a38438320_2.-Jasmin-Paris.jpg"
 ---
 © [Steve Razzetti](http://www.razzetti.com/)
 

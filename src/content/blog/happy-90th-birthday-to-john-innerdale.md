@@ -2,23 +2,23 @@
 title: "Happy 90th Birthday to John Innerdale!"
 date: 2023-02-11
 summary: "All of us here at the Mountain Heritage Trust are absolutely thrilled and delighted to be able to wish our Patron, John Innerdale a very Happy 90th Birthday today."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/63e3ad515243fe30ecbf055b_John-Innerdale.jpg"
+cover: "/uploads/63e3ad515243fe30ecbf055b_John-Innerdale.jpg"
 ---
 All of us here at the Mountain Heritage Trust are absolutely thrilled and delighted to be able to wish our Patron, John Innerdale a very Happy 90th Birthday today.
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/63e3acebc65bece2fa37d0a0_John%20in%20the%20Lakes%20with%20one%20of%20his%20grandchildren.webp)
+![](/uploads/63e3acebc65bece2fa37d0a0_John-in-the-Lakes-with-one-of-his-grandchildren.webp)
 
 John in the Lake District with one of his Grandchildren
 
 However, John is so very much more than simply being ‘our Patron’.  He was a founder trustee of MHT and, after being Vice-Chair to Sir Chris Bonington, was our Chair from 2005 to 2008 - a hugely important period during which his drive and leadership secured many vitally important collections which might otherwise have been sold or split apart.  He also recognised the crucial importance for the MHT of employing their own professionally qualified archivist, a practice that has continued to this day.  Alongside the MHT, John invested countless hours in helping establish the National Mountaineering Exhibition that ran at Rheged from 2001 to 2007.  This was opened by Tony Blair, attracted well over 250,000 visitors, and received a 99% visitor satisfaction rating.
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/63e3ad0c049dc1ed19e29146_John%20with%20his%20friend%2C%20and%20fellow%20MHT%20Patron%2C%20Chris%20Bonington.webp)
+![](/uploads/63e3ad0c049dc1ed19e29146_John-with-his-friend-and-fellow-MHT-Patron-Chris-Bonington.webp)
 
 John with his friend, and fellow Mountain Heritage Trust Patron, Chris Bonington
 
 After ‘retiring’ to the Lake District from a very successful architectural practice three decades ago, John’s boundless energy have amongst other endeavours been shared with a range of organisations and interests.  He was a member of two Mountain Rescue teams, is a keen apiarist, a skilled painter, an enthusiastic sailor and also fundraised for his local yacht club and to build a community play area in his village.  John’s enormous enthusiasm for the world around him was rightly recognised officially by the award of an MBE in 2014.
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/63e3ad2720155d8f4c93040a_John%20in%20Nepal%20when%20judge%20of%20the%20Kathmandu%20International%20Mountain%20Film%20Festival%202011.webp)
+![](/uploads/63e3ad2720155d8f4c93040a_John-in-Nepal-when-judge-of-the-Kathmandu-International-Mountain-Film-Festival-2011.webp)
 
 John in Nepal when judge of the Kathmandu International Mountain Film Festival 2011
 

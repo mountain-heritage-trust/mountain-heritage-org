@@ -2,7 +2,7 @@
 title: "Exploring New Heights: The Mountain Heritage Trust's Role in Upcoming Exhibitions"
 date: 2024-04-23
 summary: "The Mountain Heritage Trust (MHT) is thrilled to announce its participation in notable exhibitions showcasing the rich history of mountain exploration. Both events highlight unique artefacts from…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/66277543f7e79d3075b998a0_events.webp"
+cover: "/uploads/66277543f7e79d3075b998a0_events.webp"
 ---
 The Mountain Heritage Trust (MHT) is thrilled to announce its participation in notable exhibitions showcasing the rich history of mountain exploration. Both events highlight unique artefacts from MHT's collection, offering a rare glimpse into the legacy of iconic climbers.
 

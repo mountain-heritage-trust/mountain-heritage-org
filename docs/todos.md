@@ -98,13 +98,11 @@ needs to action them.
   page can sort by date and show the right "current vs past" tag.
 
 ### Image rehosting
-- 443 unique image URLs in the migrated content currently point to the
-  old Webflow CDN (`cdn.prod.website-files.com`).
-- These will break the moment the old Webflow site is taken down.
-- **Action (before old site goes down):** download the images we want
-  to keep into `public/uploads/` and update the markdown references.
-- A list of all referenced URLs is at `_audit/asset-urls.txt`. A small
-  script to download and rewrite would be straightforward to add.
+- ✅ 239 images referenced by migrated markdown have been downloaded into
+  `public/uploads/` and the markdown rewritten to use `/uploads/<file>`.
+  No content depends on the old Webflow CDN any more — the old site can
+  be taken down without breaking images.
+- The bulk-download script is at `scripts/rehost-images.mjs` (idempotent).
 
 ### PDFs and other downloads
 - Not yet inventoried — there may be PDFs linked from the standalone

@@ -2,7 +2,7 @@
 title: "Crowdfunder now live!"
 date: 2025-11-20
 summary: "The Mountain Heritage Trust needs your help to secure the future of this internationally important archive of climbing and mountaineering."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/691f0a2261a265651ec573bb_1670597.jpg"
+cover: "/uploads/691f0a2261a265651ec573bb_1670597.jpg"
 ---
 The Mountain Heritage Trust needs your help to secure the future of this internationally important archive of climbing and mountaineering.
 

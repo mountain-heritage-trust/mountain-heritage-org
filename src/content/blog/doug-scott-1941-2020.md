@@ -2,7 +2,7 @@
 title: "Doug Scott, 1941-2020"
 date: 2020-12-07
 summary: "We have just received the sad news that Doug Scott has passed away aged 79."
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5fce40bffcea31dd279e5bb3_Doug%20Scott%202%20cropped%20med.jpg"
+cover: "/uploads/5fce40bffcea31dd279e5bb3_Doug-Scott-2-cropped-med.jpg"
 ---
 We have just received the sad news that Doug Scott has passed away aged 79.
 
@@ -16,7 +16,7 @@ The 1970s and 80s saw Doug participate in some incredibly ambitious mountaineeri
 
 Some of these routes went down in history for their success, such as the first British ascent of Everest in 1975 (with Dougal Haston on a Chris Bonington-led expedition; Doug and Dougal Haston also made history on the same expedition by surviving an overnight bivouac not far below the summit).Then there was the first lightweight ascent of Kangchenjunga in 1979 (with Joe Tasker and Pete Boardman), and the first ascent of the East Pillar of Shivling in 1981 (with Rick White, Greg Child and Georges Bettembourg).
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5fce3fb0b047d31d596d53b2_PBO%2045%20caption%20small.jpg)
+![](/uploads/5fce3fb0b047d31d596d53b2_PBO-45-caption-small.jpg)
 
 Doug Scott (in tent) with Sherpas, 1979 Kangchenjunga expedition
 
@@ -34,7 +34,7 @@ Doug was awarded a CBE in 1994, a John Muir Lifetime Achievement Award in 2006 
 
 For many years, Doug delivered a lecture tour around the British Isles, fundraising for CAN and sharing stories with friends old and new. They were fixtures on the mountaineering winter calendar for decades, and no one expected Doug’s 2019 lecture tour to be his last. He will be sadly missed by family, friends and climbers around the world.
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5fce3e8fb41aa751cd0443a5_Doug%20Scott%203%20small%20-%20copyright%20Ian%20Smith.jpg)
+![](/uploads/5fce3e8fb41aa751cd0443a5_Doug-Scott-3-small-copyright-Ian-Smith.jpg)
 
 Photograph by Ian Smith, photographer and fellow Trustee of the Mountain Heritage Trust - this was Doug's lecture tour publicity photograph for a number of years.
 

@@ -2,7 +2,7 @@
 title: "Mountain Heritage Trust celebrates 20th anniversary"
 date: 2020-09-21
 summary: "2020 marks 20 years since the Mountain Heritage Trust was founded - after an initial suggestion from a British Mountaineering Council ordinary member that more should be done to preserve mountain and…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f686595bac4921969a8d9e1_PBO-EX-1980-01-06-02-244%20WITH%20LOGO.jpg"
+cover: "/uploads/5f686595bac4921969a8d9e1_PBO-EX-1980-01-06-02-244-WITH-LOGO.jpg"
 ---
 2020 marks 20 years since the Mountain Heritage Trust was founded - after an initial suggestion from a [British Mountaineering Council](https://www.thebmc.co.uk/) ordinary member that more should be done to preserve mountain and climbing heritage. 
 
@@ -10,7 +10,7 @@ cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5f686595bac4
 
 Since then we’ve shared some amazing stories and taken thousands of items into our care to preserve for and share with future generations.
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5e996d89b22d0d9fcbab63d4_IMG_1923.JPG)
+![](/uploads/5e996d89b22d0d9fcbab63d4_IMG_1923.JPG)
 
 Activities at our 2018 Chris Bonington exhibition, [Keswick Museum](https://keswickmuseum.org.uk/)
 
@@ -18,7 +18,7 @@ Activities at our 2018 Chris Bonington exhibition, [Keswick Museum](https://kesw
 
 We are now responsible for caring for more than 100,000 items. These date from the early 20th century to the present day and cover rock climbing, mountaineering and indoor climbing. Collections range from items linked to everyday climbers and the development of the sport, equipment and clothing, to some of the biggest names in the business as well as art and literature collections.
 
-![](https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/5e996dc9e8cad60fd1509f6c_Huddersfield%20Uni%20student.JPG)
+![](/uploads/5e996dc9e8cad60fd1509f6c_Huddersfield-Uni-student.JPG)
 
 A fashion student photographs leather climbing boots
 

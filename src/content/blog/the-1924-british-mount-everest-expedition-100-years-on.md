@@ -2,7 +2,7 @@
 title: "The 1924 British Mount Everest Expedition: 100 years on"
 date: 2024-03-05
 summary: "In 2024, we commemorate a pivotal moment in mountaineering history: the 100th anniversary of the 1924 British Mount Everest Expedition. Led by Charles Bruce and Edward Norton, this expedition marked…"
-cover: "https://cdn.prod.website-files.com/5c1269967ee050f15cb2f037/65e73d065f254191e4c87fda_mht-poem.webp"
+cover: "/uploads/65e73d065f254191e4c87fda_mht-poem.webp"
 ---
 In 2024, we commemorate a pivotal moment in mountaineering history: the 100th anniversary of the 1924 British Mount Everest Expedition. Led by Charles Bruce and Edward Norton, this expedition marked the culmination of years of ambitious attempts to conquer the world's highest peak. As we reflect on this historic event, we delve into the challenges, achievements, and enduring legacy of the expedition that captivated the world.
 
