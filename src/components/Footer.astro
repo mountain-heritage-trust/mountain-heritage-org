@@ -1,4 +1,6 @@
 ---
+import { commitHash, buildTime, repoUrl } from '../build-info';
+
 const year = new Date().getFullYear();
 
 const footerLinks = [
@@ -15,6 +17,8 @@ const social = [
   { href: 'https://www.linkedin.com/company/mountainheritagetrust', label: 'LinkedIn' },
   { href: 'https://www.youtube.com/@mountainheritagetrust2106', label: 'YouTube' },
 ];
+
+const commitUrl = commitHash !== 'unknown' ? `${repoUrl}/commit/${commitHash}` : null;
 ---
 <footer class="site-footer">
   <div class="site-footer__inner">
@@ -33,5 +37,43 @@ const social = [
     <p class="footer-meta">
       &copy; {year} Mountain Heritage Trust. Registered Charity Number 1083219.
     </p>
+    <p class="footer-build">
+      build {commitUrl ? <a href={commitUrl} rel="noopener" target="_blank">{commitHash}</a> : <span>{commitHash}</span>}
+      {' · deployed '}
+      <time datetime={buildTime} data-build-time>{buildTime}</time>
+    </p>
   </div>
 </footer>
+
+<script is:inline>
+  (function() {
+    var rtf = new Intl.RelativeTimeFormat('en', { numeric: 'auto' });
+    var units = [
+      { unit: 'year',   ms: 31536000000 },
+      { unit: 'month',  ms: 2592000000 },
+      { unit: 'week',   ms: 604800000 },
+      { unit: 'day',    ms: 86400000 },
+      { unit: 'hour',   ms: 3600000 },
+      { unit: 'minute', ms: 60000 }
+    ];
+    function relative(date) {
+      var diff = date.getTime() - Date.now();
+      for (var i = 0; i < units.length; i++) {
+        if (Math.abs(diff) >= units[i].ms) {
+          return rtf.format(Math.round(diff / units[i].ms), units[i].unit);
+        }
+      }
+      return 'just now';
+    }
+    function update() {
+      document.querySelectorAll('time[data-build-time]').forEach(function(el) {
+        var dt = new Date(el.dateTime);
+        if (!isNaN(dt.getTime())) el.textContent = relative(dt);
+      });
+    }
+    update();
+    // Refresh once a minute so the displayed text doesn't go stale on
+    // long-lived tabs.
+    setInterval(update, 60000);
+  })();
+</script>

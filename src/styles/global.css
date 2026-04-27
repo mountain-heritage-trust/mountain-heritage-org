@@ -211,6 +211,26 @@ main {
   color: var(--color-footer-muted);
 }
 
+.footer-build {
+  margin: 0.5rem 0 0;
+  font-size: 0.75rem;
+  color: var(--color-footer-muted);
+  opacity: 0.7;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.footer-build a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: rgba(255, 255, 255, 0.25);
+}
+
+.footer-build a:hover {
+  color: var(--color-footer-text);
+  text-decoration-color: rgba(255, 255, 255, 0.6);
+}
+
 /* Article (blog post, team profile, etc.) */
 .article {
   max-width: var(--content-width);
