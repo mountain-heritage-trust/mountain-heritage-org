@@ -1,0 +1,56 @@
+# Mountain Heritage Trust
+
+> Mountain Heritage Trust is a UK registered charity (number 1083219) that preserves and promotes the heritage of British mountaineering. We collect, conserve and share the stories, objects and archives of the climbers and mountains that have shaped the sport. The Trust is based at Blencathra Field Centre, Threlkeld, near Keswick, Cumbria.
+
+This site contains:
+
+- A searchable archive catalogue (held externally at calmview.co.uk).
+- News and history articles about British mountaineering, including obituaries, expedition retrospectives, and announcements.
+- Exhibition listings (current and past).
+- Profiles of the Trust's patrons, ambassadors, trustees and staff.
+
+## About
+
+- [About us](https://www.mountain-heritage.org/about/about-us): mission, history and team gallery.
+- [Trustees, staff, patrons and advisors](https://www.mountain-heritage.org/about/trustees-staff-patrons-and-advisors): governance and people.
+- [Annual report](https://www.mountain-heritage.org/about/annual-report): annual report and accounts.
+- [Accessions](https://www.mountain-heritage.org/about/accessions): how the Trust accepts donations of objects and archives.
+
+## Collections
+
+- [Collections overview](https://www.mountain-heritage.org/collections): featured archive collections held by the Trust.
+- [Online catalogue](http://calmview.co.uk/mht/calmview/): full searchable catalogue, hosted on CalmView.
+- [Sir Chris Bonington's Papers](https://www.mountain-heritage.org/collections/chris-bonington-papers)
+- [Joe Tasker (1948–1982) Archive](https://www.mountain-heritage.org/collections/joe-tasker-1948-1982)
+- [Chorley Hopkinson Library at Allan Bank](https://www.mountain-heritage.org/collections/chorley-hopkinson-library-at-allan-bank)
+- [Artefacts](https://www.mountain-heritage.org/collections/artefacts)
+- [Journals and magazines](https://www.mountain-heritage.org/collections/journals-and-magazines)
+- [Learning resources](https://www.mountain-heritage.org/collections/learning-resources)
+
+## Exhibitions
+
+- [Events & Exhibitions overview](https://www.mountain-heritage.org/events-exhibitions)
+- [Man & Mountain — The Life of Chris Bonington](https://www.mountain-heritage.org/exhibitions/man-mountain-the-life-of-chris-bonington)
+- [Other Everests: One Mountain, Many Worlds](https://www.mountain-heritage.org/exhibitions/other-everests-one-mountain-many-worlds)
+- [Everest Revisited at Rheged](https://www.mountain-heritage.org/exhibitions/everest-revisited-at-rheged)
+- [Peak Preview: Recent Arrivals](https://www.mountain-heritage.org/exhibitions/peak-preview-recent-arrivals-into-the-mountain-heritage-trust)
+
+## News and history
+
+- [News & Blog index](https://www.mountain-heritage.org/news-blog): all blog posts and news.
+- [RSS feed](https://www.mountain-heritage.org/rss.xml): machine-readable feed of the same.
+
+## Get in touch and support
+
+- [Contact](https://www.mountain-heritage.org/contact): address, phone, email, and a contact form.
+- [Donate](https://www.mountain-heritage.org/donate): JustGiving, bank transfer, cheque, Gift Aid information.
+- [Supporters](https://www.mountain-heritage.org/supporters): organisations supporting the Trust's work.
+
+## Legal
+
+- [Privacy notice](https://www.mountain-heritage.org/privacy-notice)
+- [Terms of use](https://www.mountain-heritage.org/terms-of-use)
+
+## Site metadata
+
+- [Sitemap (XML)](https://www.mountain-heritage.org/sitemap-index.xml): full URL inventory.

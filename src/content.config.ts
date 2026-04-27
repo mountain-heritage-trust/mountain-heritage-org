@@ -2,14 +2,18 @@ import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import * as z from 'zod';
 
+// Sveltia CMS writes `null` for any empty optional field rather than
+// omitting it from the YAML/JSON. We use `.nullish()` (≡ `.optional().nullable()`)
+// on optional fields so the schema accepts either missing or null values.
+
 const blog = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/blog' }),
   schema: z.object({
     title: z.string(),
     date: z.coerce.date(),
-    summary: z.string().optional(),
-    cover: z.string().optional(),
-    author: z.string().optional(),
+    summary: z.string().nullish(),
+    cover: z.string().nullish(),
+    author: z.string().nullish(),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
   }),
@@ -20,13 +24,13 @@ const team = defineCollection({
   schema: z.object({
     name: z.string(),
     role: z.string(),
-    category: z.enum(['trustee', 'staff', 'patron', 'ambassador', 'advisor']).optional(),
+    category: z.enum(['trustee', 'staff', 'patron', 'ambassador', 'advisor']).nullish(),
     // Mark as `former: true` for past trustees / patrons / etc. (e.g. those
     // who have stepped down or are deceased). They are grouped under
     // "In memoriam" / similar at the bottom of listing pages.
     former: z.boolean().default(false),
-    order: z.number().optional(),
-    photo: z.string().optional(),
+    order: z.number().nullish(),
+    photo: z.string().nullish(),
   }),
 });
 
@@ -36,9 +40,9 @@ const archive = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/archive' }),
   schema: z.object({
     title: z.string(),
-    summary: z.string().optional(),
-    cover: z.string().optional(),
-    order: z.number().optional(),
+    summary: z.string().nullish(),
+    cover: z.string().nullish(),
+    order: z.number().nullish(),
   }),
 });
 
@@ -46,12 +50,12 @@ const exhibitions = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/exhibitions' }),
   schema: z.object({
     title: z.string(),
-    startDate: z.coerce.date().optional(),
-    endDate: z.coerce.date().optional(),
-    venue: z.string().optional(),
-    summary: z.string().optional(),
-    cover: z.string().optional(),
-    status: z.enum(['upcoming', 'current', 'past']).optional(),
+    startDate: z.coerce.date().nullish(),
+    endDate: z.coerce.date().nullish(),
+    venue: z.string().nullish(),
+    summary: z.string().nullish(),
+    cover: z.string().nullish(),
+    status: z.enum(['upcoming', 'current', 'past']).nullish(),
   }),
 });
 
@@ -59,8 +63,8 @@ const about = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/about' }),
   schema: z.object({
     title: z.string(),
-    order: z.number().optional(),
-    summary: z.string().optional(),
+    order: z.number().nullish(),
+    summary: z.string().nullish(),
     // Render the team gallery (patrons / ambassadors / trustees / staff)
     // beneath the page body when true. Only intended for about-us today.
     showTeam: z.boolean().default(false),

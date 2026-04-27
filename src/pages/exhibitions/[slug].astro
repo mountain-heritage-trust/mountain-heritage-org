@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { exhibitionSchema } from '../../lib/schema';
 
 export async function getStaticPaths() {
   const items = await getCollection('exhibitions');
@@ -22,9 +23,20 @@ if (item.data.startDate && item.data.endDate) {
 } else if (item.data.startDate) {
   dateRange = `From ${formatDate(item.data.startDate)}`;
 }
+
+const pageUrl = new URL(Astro.url.pathname, Astro.site as URL);
+const schema = exhibitionSchema(item, pageUrl, Astro.site as URL);
 ---
-<BaseLayout title={item.data.title} description={item.data.summary}>
+<BaseLayout
+  title={item.data.title}
+  description={item.data.summary}
+  ogImage={item.data.cover}
+  schemas={[schema]}
+>
   <article class="article">
+    {item.data.cover && (
+      <img class="article-cover" src={item.data.cover} alt="" />
+    )}
     <h1>{item.data.title}</h1>
     {(dateRange || item.data.venue) && (
       <p class="article-meta">

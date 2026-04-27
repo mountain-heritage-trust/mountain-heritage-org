@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { personSchema } from '../../lib/schema';
 
 export async function getStaticPaths() {
   const members = await getCollection('team');
@@ -12,11 +13,15 @@ export async function getStaticPaths() {
 
 const { member } = Astro.props;
 const { Content } = await render(member);
+
+const pageUrl = new URL(Astro.url.pathname, Astro.site as URL);
+const schema = personSchema(member, pageUrl, Astro.site as URL);
 ---
 <BaseLayout
   title={member.data.name}
   description={`${member.data.role} at Mountain Heritage Trust`}
   ogImage={member.data.photo}
+  schemas={[schema]}
 >
   <article class="article team-profile">
     <h1>{member.data.name}</h1>

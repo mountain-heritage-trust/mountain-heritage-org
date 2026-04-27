@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { archiveCollectionSchema } from '../../lib/schema';
 
 export async function getStaticPaths() {
   const items = await getCollection('archive');
@@ -12,9 +13,20 @@ export async function getStaticPaths() {
 
 const { item } = Astro.props;
 const { Content } = await render(item);
+
+const pageUrl = new URL(Astro.url.pathname, Astro.site as URL);
+const schema = archiveCollectionSchema(item, pageUrl, Astro.site as URL);
 ---
-<BaseLayout title={item.data.title} description={item.data.summary}>
+<BaseLayout
+  title={item.data.title}
+  description={item.data.summary ?? undefined}
+  ogImage={item.data.cover ?? undefined}
+  schemas={[schema]}
+>
   <article class="article">
+    {item.data.cover && (
+      <img class="article-cover" src={item.data.cover} alt="" />
+    )}
     <h1>{item.data.title}</h1>
     {item.data.summary && <p class="article-summary">{item.data.summary}</p>}
     <Content />
