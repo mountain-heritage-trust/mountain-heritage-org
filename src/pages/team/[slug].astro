@@ -18,12 +18,12 @@ const { Content } = await render(member);
   description={`${member.data.role} at Mountain Heritage Trust`}
   ogImage={member.data.photo}
 >
-  <article class="article">
+  <article class="article team-profile">
+    <h1>{member.data.name}</h1>
+    <p class="team-profile__role">{member.data.role}</p>
     {member.data.photo && (
       <img class="team-portrait" src={member.data.photo} alt={member.data.name} />
     )}
-    <h1>{member.data.name}</h1>
-    <p class="article-meta">{member.data.role}</p>
     <Content />
   </article>
 </BaseLayout>
