@@ -13,8 +13,15 @@ export async function getStaticPaths() {
 const { member } = Astro.props;
 const { Content } = await render(member);
 ---
-<BaseLayout title={member.data.name} description={`${member.data.role} at Mountain Heritage Trust`}>
+<BaseLayout
+  title={member.data.name}
+  description={`${member.data.role} at Mountain Heritage Trust`}
+  ogImage={member.data.photo}
+>
   <article class="article">
+    {member.data.photo && (
+      <img class="team-portrait" src={member.data.photo} alt={member.data.name} />
+    )}
     <h1>{member.data.name}</h1>
     <p class="article-meta">{member.data.role}</p>
     <Content />

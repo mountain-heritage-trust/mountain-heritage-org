@@ -381,6 +381,19 @@ main {
   text-decoration-color: rgba(255, 255, 255, 0.6);
 }
 
+/* Team profile page — square portrait above the heading, matching
+   the aspect ratio of the gallery cards on /about/about-us */
+.team-portrait {
+  display: block;
+  width: 100%;
+  max-width: 18rem;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius);
+  background: var(--color-border);
+  margin: 0 auto 1.5rem;
+}
+
 /* Article (blog post, team profile, etc.) */
 .article {
   max-width: var(--content-width);
