@@ -109,46 +109,6 @@ main {
   padding: 2rem 1.5rem;
 }
 
-/* Floating deploy-status pill — bottom-right corner */
-.build-status-toast {
-  position: fixed;
-  right: 1rem;
-  bottom: 1rem;
-  z-index: 100;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 0.875rem;
-  border-radius: 999px;
-  font-family: var(--font-body);
-  font-size: 0.8125rem;
-  font-weight: 500;
-  color: #ffffff;
-  background: rgba(28, 50, 120, 0.92);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
-  display: none;
-  user-select: none;
-}
-
-.build-status-toast[data-state='deploying'],
-.build-status-toast[data-state='ready'] {
-  display: inline-flex;
-}
-
-.build-status-toast[data-state='ready'] {
-  background: rgba(28, 100, 50, 0.94);
-  cursor: pointer;
-}
-
-.build-status-toast[data-state='deploying'] .build-status-toast__icon {
-  display: inline-block;
-  animation: build-status-spin 1.6s linear infinite;
-}
-
-@keyframes build-status-spin {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
-}
-
 /* Site banner (editable in Sveltia → Site settings → Site banner) */
 .site-banner {
   background: var(--color-brand-blue);

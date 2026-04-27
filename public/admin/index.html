@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mountain Heritage Trust — CMS</title>
     <meta name="robots" content="noindex" />
+    <style>
+      /* Deploy-status pill, shown at the bottom-right of the CMS while
+         a recent save is being deployed. Polls /api/build-status. */
+      .build-status-toast {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 9999;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem 0.875rem;
+        border-radius: 999px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 0.8125rem;
+        font-weight: 500;
+        color: #ffffff;
+        background: rgba(28, 50, 120, 0.94);
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+        display: none;
+        user-select: none;
+      }
+      .build-status-toast[data-state='deploying'] { display: inline-flex; }
+      .build-status-toast__icon {
+        display: inline-block;
+        animation: build-status-spin 1.6s linear infinite;
+      }
+      @keyframes build-status-spin {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
+    </style>
   </head>
   <body>
     <!--
@@ -16,5 +47,48 @@
       type="module"
       src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"
     ></script>
+
+    <!--
+      Deploy-status pill. Shows 'Updates deploying…' for the ~1 minute
+      between a save in Sveltia and the new build going live. Hidden
+      otherwise. See src/pages/api/build-status.ts.
+    -->
+    <div
+      class="build-status-toast"
+      role="status"
+      aria-live="polite"
+      data-state="hidden"
+    >
+      <span class="build-status-toast__icon" aria-hidden="true">↻</span>
+      <span class="build-status-toast__text">Updates deploying…</span>
+    </div>
+    <script>
+      (function () {
+        var toast = document.querySelector('.build-status-toast');
+        if (!toast) return;
+
+        function check() {
+          if (document.hidden) return;
+          fetch('/api/build-status', { credentials: 'same-origin' })
+            .then(function (r) { return r.ok ? r.json() : null; })
+            .then(function (d) {
+              if (!d) return;
+              toast.setAttribute(
+                'data-state',
+                d.running === d.latest ? 'hidden' : 'deploying'
+              );
+            })
+            .catch(function () {});
+        }
+
+        check();
+        // Poll every 15s — trustees are actively watching for the
+        // pill to clear after a save.
+        setInterval(check, 15000);
+        document.addEventListener('visibilitychange', function () {
+          if (!document.hidden) check();
+        });
+      })();
+    </script>
   </body>
 </html>
