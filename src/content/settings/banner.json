@@ -1,6 +1,6 @@
 {
-  "enabled": false,
-  "message": "",
+  "enabled": true,
+  "message": "Banner test",
   "linkText": "",
   "linkUrl": ""
 }
