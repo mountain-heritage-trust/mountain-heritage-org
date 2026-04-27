@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Image from '../../components/Image.astro';
+import Pagination from '../../components/Pagination.astro';
+import { getPublishedPosts, paginate, POSTS_PER_PAGE } from '../../lib/blog';
+
+export async function getStaticPaths() {
+  const allPosts = await getPublishedPosts();
+  const totalPages = Math.max(1, Math.ceil(allPosts.length / POSTS_PER_PAGE));
+  // Page 1 lives at /news-blog (the bare path); generate pages 2..N here.
+  const pages = [];
+  for (let n = 2; n <= totalPages; n++) {
+    const { items, currentPage, totalPages: tp } = paginate(allPosts, n);
+    pages.push({
+      params: { page: String(n) },
+      props: { posts: items, currentPage, totalPages: tp },
+    });
+  }
+  return pages;
+}
+
+interface Props {
+  posts: Awaited<ReturnType<typeof getPublishedPosts>>;
+  currentPage: number;
+  totalPages: number;
+}
+
+const { posts, currentPage, totalPages } = Astro.props as Props;
+
+const formatDate = (d: Date) =>
+  d.toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+<BaseLayout
+  title={`News & Blog — page ${currentPage}`}
+  description={`Page ${currentPage} of ${totalPages} of news, history pieces and announcements from the Mountain Heritage Trust.`}
+>
+  <h1>News &amp; Blog</h1>
+  <p class="post-list-meta">Page {currentPage} of {totalPages}</p>
+  <ul class="post-cards">
+    {posts.map((post) => (
+      <li>
+        <a href={`/blog/${post.id}`} class="post-card">
+          {post.data.cover ? (
+            <Image
+              src={post.data.cover}
+              alt=""
+              class="post-card__image"
+              sizes="(max-width: 768px) 100vw, 400px"
+            />
+          ) : (
+            <span class="post-card__image post-card__image--placeholder" aria-hidden="true"></span>
+          )}
+          <h2>{post.data.title}</h2>
+          <p class="article-meta">
+            <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+          </p>
+          {post.data.summary && <p class="post-card__summary">{post.data.summary}</p>}
+        </a>
+      </li>
+    ))}
+  </ul>
+  <Pagination current={currentPage} total={totalPages} basePath="/news-blog" />
+</BaseLayout>

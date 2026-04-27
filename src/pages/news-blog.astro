@@ -1,16 +1,19 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Image from '../components/Image.astro';
+import Pagination from '../components/Pagination.astro';
+import { getPublishedPosts, paginate } from '../lib/blog';
 
-const posts = (await getCollection('blog'))
-  .filter((p) => !p.data.draft)
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const allPosts = await getPublishedPosts();
+const { items: posts, currentPage, totalPages } = paginate(allPosts, 1);
 
 const formatDate = (d: Date) =>
   d.toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
-<BaseLayout title="News & Blog" description="Stories, news and updates from the Mountain Heritage Trust.">
+<BaseLayout
+  title="News & Blog"
+  description="News, history pieces and announcements from the Mountain Heritage Trust."
+>
   <h1>News &amp; Blog</h1>
   <ul class="post-cards">
     {posts.map((post) => (
@@ -35,4 +38,5 @@ const formatDate = (d: Date) =>
       </li>
     ))}
   </ul>
+  <Pagination current={currentPage} total={totalPages} basePath="/news-blog" />
 </BaseLayout>

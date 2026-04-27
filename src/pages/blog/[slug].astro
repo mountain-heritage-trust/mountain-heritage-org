@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Image from '../../components/Image.astro';
 import { articleSchema } from '../../lib/schema';
+import { tagsForPost } from '../../lib/tags';
 
 export async function getStaticPaths() {
   const posts = (await getCollection('blog')).filter((p) => !p.data.draft);
@@ -23,6 +24,7 @@ const dateString = post.data.date.toLocaleDateString('en-GB', {
 
 const pageUrl = new URL(Astro.url.pathname, Astro.site as URL);
 const schema = articleSchema(post, pageUrl, Astro.site as URL);
+const tags = tagsForPost(post);
 ---
 <BaseLayout
   title={post.data.title}
@@ -60,5 +62,15 @@ const schema = articleSchema(post, pageUrl, Astro.site as URL);
     </p>
     {post.data.summary && <p class="article-summary">{post.data.summary}</p>}
     <Content />
+    {tags.length > 0 && (
+      <footer class="post-tags">
+        <span class="post-tags__label">Filed under:</span>
+        <ul>
+          {tags.map((t) => (
+            <li><a href={`/blog/tag/${t.slug}`}>{t.title}</a></li>
+          ))}
+        </ul>
+      </footer>
+    )}
   </article>
 </BaseLayout>

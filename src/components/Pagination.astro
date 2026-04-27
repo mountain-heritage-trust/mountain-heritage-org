@@ -1,0 +1,35 @@
+---
+// Simple pagination control: previous link, current page indicator,
+// next link. Page 1 lives at the bare basePath; pages 2+ at
+// `${basePath}/${page}`. Used by the news/blog listing.
+
+interface Props {
+  current: number;
+  total: number;
+  basePath: string;
+  itemNoun?: string;
+}
+
+const { current, total, basePath, itemNoun = 'posts' } = Astro.props;
+
+function pageUrl(n: number): string {
+  if (n <= 1) return basePath;
+  return `${basePath}/${n}`;
+}
+
+const prevHref = current > 1 ? pageUrl(current - 1) : null;
+const nextHref = current < total ? pageUrl(current + 1) : null;
+---
+{total > 1 && (
+  <nav class="pagination" aria-label={`${itemNoun} pagination`}>
+    {prevHref ? (
+      <a href={prevHref} rel="prev">&larr; Newer {itemNoun}</a>
+    ) : <span class="pagination__placeholder" aria-hidden="true"></span>}
+
+    <span class="pagination__current" aria-current="page">Page {current} of {total}</span>
+
+    {nextHref ? (
+      <a href={nextHref} rel="next">Older {itemNoun} &rarr;</a>
+    ) : <span class="pagination__placeholder" aria-hidden="true"></span>}
+  </nav>
+)}

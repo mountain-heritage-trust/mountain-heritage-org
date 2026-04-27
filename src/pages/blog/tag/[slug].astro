@@ -1,0 +1,66 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import Image from '../../../components/Image.astro';
+import { TAGS, postsForTag, findTag } from '../../../lib/tags';
+
+export async function getStaticPaths() {
+  return Promise.all(
+    TAGS.map(async (tag) => ({
+      params: { slug: tag.slug },
+      props: {
+        tag,
+        posts: await postsForTag(tag.slug),
+      },
+    })),
+  );
+}
+
+const { tag, posts } = Astro.props;
+
+const formatDate = (d: Date) =>
+  d.toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+<BaseLayout
+  title={`${tag.title} — News & Blog`}
+  description={tag.description.replace(/\*([^*]+)\*/g, '$1').slice(0, 280)}
+>
+  <article class="article tag-page">
+    <Breadcrumbs items={[
+      { href: '/', label: 'Home' },
+      { href: '/news-blog', label: 'News & Blog' },
+      { label: tag.title },
+    ]} />
+    <h1>{tag.title}</h1>
+    <p class="article-summary" set:html={tag.description.replace(/\*([^*]+)\*/g, '<em>$1</em>')} />
+    <p class="post-list-meta">
+      {posts.length} {posts.length === 1 ? 'post' : 'posts'} tagged <strong>{tag.title}</strong>.
+    </p>
+  </article>
+
+  {posts.length > 0 && (
+    <ul class="post-cards">
+      {posts.map((post) => (
+        <li>
+          <a href={`/blog/${post.id}`} class="post-card">
+            {post.data.cover ? (
+              <Image
+                src={post.data.cover}
+                alt=""
+                class="post-card__image"
+                sizes="(max-width: 768px) 100vw, 400px"
+              />
+            ) : (
+              <span class="post-card__image post-card__image--placeholder" aria-hidden="true"></span>
+            )}
+            <h2>{post.data.title}</h2>
+            <p class="article-meta">
+              <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+            </p>
+            {post.data.summary && <p class="post-card__summary">{post.data.summary}</p>}
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+</BaseLayout>
