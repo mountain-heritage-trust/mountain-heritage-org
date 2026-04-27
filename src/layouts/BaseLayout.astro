@@ -1,7 +1,9 @@
 ---
 import Banner from '../components/Banner.astro';
+import BuildStatus from '../components/BuildStatus.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { commitHash } from '../build-info';
 import '../styles/global.css';
 
 interface Props {
@@ -38,6 +40,7 @@ const absoluteOgImage = ogImage ? new URL(ogImage, Astro.site).toString() : unde
     {description && <meta name="twitter:description" content={description} />}
     {absoluteOgImage && <meta name="twitter:image" content={absoluteOgImage} />}
 
+    <meta name="page-commit" content={commitHash} />
     <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
     <link rel="icon" type="image/png" sizes="any" href="/brand/favicon.png" />
     <link rel="apple-touch-icon" href="/brand/favicon.png" />
@@ -57,5 +60,6 @@ const absoluteOgImage = ogImage ? new URL(ogImage, Astro.site).toString() : unde
       <slot />
     </main>
     <Footer />
+    <BuildStatus />
   </body>
 </html>

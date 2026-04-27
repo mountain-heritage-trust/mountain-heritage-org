@@ -1,0 +1,62 @@
+---
+// Floating toast that surfaces deploy status to anyone on the site.
+// Compares the page's baked-in commit with the Worker's current commit
+// (running) and the latest commit on `main` (from GitHub).
+//
+// Three states:
+//  - in sync       → hide
+//  - deploy queued → "Updates deploying…"
+//  - stale page    → "New version ready — tap to refresh"
+//
+// Polls /api/build-status every 30 seconds while the page is visible.
+---
+<div
+  class="build-status-toast"
+  role="status"
+  aria-live="polite"
+  data-state="hidden"
+>
+  <span class="build-status-toast__icon" aria-hidden="true">↻</span>
+  <span class="build-status-toast__text">Updates deploying…</span>
+</div>
+
+<script is:inline>
+  (function () {
+    var toast = document.querySelector('.build-status-toast');
+    var text = toast && toast.querySelector('.build-status-toast__text');
+    var meta = document.querySelector('meta[name="page-commit"]');
+    if (!toast || !text || !meta) return;
+
+    var pageCommit = meta.getAttribute('content');
+    var pollHandle = null;
+
+    function setState(state, message) {
+      toast.setAttribute('data-state', state);
+      text.textContent = message;
+    }
+
+    function check() {
+      if (document.hidden) return;
+      fetch('/api/build-status', { credentials: 'same-origin' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d) {
+          if (!d) return;
+          if (pageCommit === d.latest) {
+            setState('hidden', '');
+          } else if (d.running === d.latest) {
+            setState('ready', 'New version ready — tap to refresh');
+            toast.onclick = function () { location.reload(); };
+          } else {
+            setState('deploying', 'Updates deploying…');
+          }
+        })
+        .catch(function () {});
+    }
+
+    check();
+    pollHandle = setInterval(check, 30000);
+    document.addEventListener('visibilitychange', function () {
+      if (!document.hidden) check();
+    });
+  })();
+</script>
