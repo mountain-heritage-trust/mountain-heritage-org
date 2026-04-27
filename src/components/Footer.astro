@@ -18,9 +18,34 @@ const social = [
   { href: 'https://www.youtube.com/@mountainheritagetrust2106', label: 'YouTube' },
 ];
 
+const supporters = [
+  {
+    href: 'https://www.heritagefund.org.uk/',
+    name: 'The National Lottery Heritage Fund',
+    src: '/brand/heritage-fund-logo.png',
+  },
+  {
+    href: 'https://www.thebmc.co.uk/',
+    name: 'British Mountaineering Council',
+    src: '/brand/bmc-logo.jpg',
+  },
+];
+
 const commitUrl = commitHash !== 'unknown' ? `${repoUrl}/commit/${commitHash}` : null;
 ---
 <footer class="site-footer">
+  <section class="footer-supporters" aria-label="Supporters">
+    <p class="footer-supporters__caption">Supported by</p>
+    <ul class="footer-supporters__logos">
+      {supporters.map((s) => (
+        <li>
+          <a href={s.href} rel="noopener" target="_blank" aria-label={s.name}>
+            <img src={s.src} alt={s.name} loading="lazy" />
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
   <div class="site-footer__inner">
     <nav aria-label="Footer">
       <ul class="footer-nav">

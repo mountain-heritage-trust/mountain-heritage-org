@@ -308,6 +308,59 @@ main {
   color: var(--color-footer-muted);
 }
 
+/* Supporter logos — white panel inside the dark footer so the
+   logos display in their native colours. */
+.footer-supporters {
+  background: #ffffff;
+  padding: 1.5rem 1.5rem;
+  text-align: center;
+}
+
+.footer-supporters__caption {
+  margin: 0 0 1rem;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.footer-supporters__logos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.footer-supporters__logos a {
+  display: inline-flex;
+  opacity: 0.85;
+  transition: opacity 0.15s ease;
+}
+
+.footer-supporters__logos a:hover {
+  opacity: 1;
+}
+
+.footer-supporters__logos img {
+  display: block;
+  height: 3rem;
+  width: auto;
+}
+
+@media (max-width: 30rem) {
+  .footer-supporters__logos {
+    gap: 1.5rem;
+  }
+  .footer-supporters__logos img {
+    height: 2.25rem;
+  }
+}
+
 .footer-build {
   margin: 0.5rem 0 0;
   font-size: 0.75rem;
