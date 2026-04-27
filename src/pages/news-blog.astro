@@ -11,14 +11,21 @@ const formatDate = (d: Date) =>
 ---
 <BaseLayout title="News & Blog" description="Stories, news and updates from the Mountain Heritage Trust.">
   <h1>News &amp; Blog</h1>
-  <ul class="post-list">
+  <ul class="post-cards">
     {posts.map((post) => (
-      <li class="post-list__item">
-        <h2><a href={`/blog/${post.id}`}>{post.data.title}</a></h2>
-        <p class="article-meta">
-          <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
-        </p>
-        {post.data.summary && <p>{post.data.summary}</p>}
+      <li>
+        <a href={`/blog/${post.id}`} class="post-card">
+          {post.data.cover ? (
+            <img class="post-card__image" src={post.data.cover} alt="" loading="lazy" />
+          ) : (
+            <span class="post-card__image post-card__image--placeholder" aria-hidden="true"></span>
+          )}
+          <h2>{post.data.title}</h2>
+          <p class="article-meta">
+            <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+          </p>
+          {post.data.summary && <p class="post-card__summary">{post.data.summary}</p>}
+        </a>
       </li>
     ))}
   </ul>

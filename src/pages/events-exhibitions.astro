@@ -14,18 +14,25 @@ const formatDate = (d: Date) =>
 ---
 <BaseLayout title="Events & Exhibitions" description="Current and past exhibitions from the Mountain Heritage Trust.">
   <h1>Events &amp; Exhibitions</h1>
-  <ul class="post-list">
+  <ul class="post-cards">
     {exhibitions.map((item) => (
-      <li class="post-list__item">
-        <h2><a href={`/exhibitions/${item.id}`}>{item.data.title}</a></h2>
-        {(item.data.startDate || item.data.venue) && (
-          <p class="article-meta">
-            {item.data.startDate && formatDate(item.data.startDate)}
-            {item.data.startDate && item.data.endDate && ` – ${formatDate(item.data.endDate)}`}
-            {item.data.venue && (item.data.startDate ? ` · ${item.data.venue}` : item.data.venue)}
-          </p>
-        )}
-        {item.data.summary && <p>{item.data.summary}</p>}
+      <li>
+        <a href={`/exhibitions/${item.id}`} class="post-card">
+          {item.data.cover ? (
+            <img class="post-card__image" src={item.data.cover} alt="" loading="lazy" />
+          ) : (
+            <span class="post-card__image post-card__image--placeholder" aria-hidden="true"></span>
+          )}
+          <h2>{item.data.title}</h2>
+          {(item.data.startDate || item.data.venue) && (
+            <p class="article-meta">
+              {item.data.startDate && formatDate(item.data.startDate)}
+              {item.data.startDate && item.data.endDate && ` – ${formatDate(item.data.endDate)}`}
+              {item.data.venue && (item.data.startDate ? ` · ${item.data.venue}` : item.data.venue)}
+            </p>
+          )}
+          {item.data.summary && <p class="post-card__summary">{item.data.summary}</p>}
+        </a>
       </li>
     ))}
   </ul>

@@ -258,6 +258,160 @@ main {
   margin: 1.5rem 0;
 }
 
+/* Home hero (full-width image with overlay) */
+.home-hero {
+  margin: -2rem -1.5rem 3rem;
+  padding: 5rem 1.5rem;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  border-radius: var(--radius);
+  min-height: 22rem;
+  display: flex;
+  align-items: center;
+}
+
+.home-hero__inner {
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+.home-hero h1 {
+  color: #ffffff;
+  margin: 0 0 1rem;
+  font-size: 2.75rem;
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+.home-hero__tagline {
+  font-size: 1.125rem;
+  margin: 0 0 1.75rem;
+  color: rgba(255, 255, 255, 0.92);
+  text-wrap: balance;
+}
+
+.home-hero__cta {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button--on-hero {
+  background: #ffffff;
+  color: var(--color-brand-blue);
+}
+
+.button--on-hero:hover {
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--color-brand-blue);
+}
+
+/* Home page sections under the hero */
+.home-section {
+  margin: 3rem 0;
+}
+
+.home-section h2 {
+  margin: 0 0 1.5rem;
+}
+
+.home-section__more {
+  margin-top: 1.5rem;
+}
+
+.home-section__more a {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+
+.home-section__more a:hover {
+  text-decoration: underline;
+}
+
+/* Article cover image (top of blog posts and similar) */
+.article-cover {
+  display: block;
+  width: 100%;
+  max-height: 28rem;
+  object-fit: cover;
+  border-radius: var(--radius);
+  margin: 0 0 1.5rem;
+  background: var(--color-border);
+}
+
+/* Card grid for blog and exhibition listings */
+.post-cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: 2rem 1.5rem;
+}
+
+.post-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.post-card__image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: var(--radius);
+  background: var(--color-border);
+  margin-bottom: 0.75rem;
+}
+
+.post-card__image--placeholder {
+  background:
+    linear-gradient(135deg, var(--color-brand-blue) 0%, #29478f 100%);
+}
+
+.post-card h2,
+.post-card h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.1875rem;
+  color: var(--color-text);
+}
+
+.post-card .article-meta {
+  margin: 0 0 0.5rem;
+}
+
+.post-card__summary {
+  margin: 0;
+  color: var(--color-text);
+}
+
+.post-card:hover h2,
+.post-card:hover h3 {
+  color: var(--color-accent);
+}
+
+.post-card:hover .post-card__image {
+  opacity: 0.92;
+}
+
+@media (max-width: 48rem) {
+  .home-hero {
+    padding: 3.5rem 1.25rem;
+    min-height: 18rem;
+  }
+  .home-hero h1 {
+    font-size: 2rem;
+  }
+}
+
 /* Catalogue hero (collections page) */
 .catalogue-hero {
   background: var(--color-brand-blue);

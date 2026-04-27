@@ -1,18 +1,61 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const posts = (await getCollection('blog'))
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
+
+const formatDate = (d: Date) =>
+  d.toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const heroImage =
+  '/uploads/5c3f2a5f34363e7b7d8260f3_CB-and-D-Whillans-Central-Pillar-1961-CBPL.jpg';
 ---
 <BaseLayout
   title="Mountain Heritage Trust"
   description="Mountain Heritage Trust preserves and promotes the heritage of British mountaineering."
 >
-  <h1>Mountain Heritage Trust</h1>
-  <p>
-    Mountain Heritage Trust preserves and promotes the heritage of British
-    mountaineering — collecting, conserving and sharing the stories, objects
-    and archives of the climbers and mountains that have shaped the sport.
-  </p>
-  <p>
-    <em>Site under construction. Content is being migrated from the previous
-    site.</em>
-  </p>
+  <section
+    class="home-hero"
+    style={`background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.65)), url(${heroImage})`}
+  >
+    <div class="home-hero__inner">
+      <h1>Preserving the heritage of British mountaineering</h1>
+      <p class="home-hero__tagline">
+        We collect, conserve and share the stories, objects and archives of the
+        climbers and mountains that have shaped the sport.
+      </p>
+      <div class="home-hero__cta">
+        <a class="button button--on-hero" href="/collections">Explore the collections</a>
+        <a class="donate-button donate-button--large" href="/donate">Donate</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-section">
+    <h2>Latest news</h2>
+    <ul class="post-cards">
+      {posts.map((post) => (
+        <li>
+          <a href={`/blog/${post.id}`} class="post-card">
+            {post.data.cover ? (
+              <img class="post-card__image" src={post.data.cover} alt="" loading="lazy" />
+            ) : (
+              <span class="post-card__image post-card__image--placeholder" aria-hidden="true"></span>
+            )}
+            <h3>{post.data.title}</h3>
+            <p class="article-meta">
+              <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+            </p>
+            {post.data.summary && <p class="post-card__summary">{post.data.summary}</p>}
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="home-section__more">
+      <a href="/news-blog">Read all news &rarr;</a>
+    </p>
+  </section>
 </BaseLayout>

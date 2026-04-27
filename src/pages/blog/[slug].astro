@@ -18,8 +18,16 @@ const dateString = post.data.date.toLocaleDateString('en-GB', {
   day: 'numeric',
 });
 ---
-<BaseLayout title={post.data.title} description={post.data.summary}>
+<BaseLayout
+  title={post.data.title}
+  description={post.data.summary}
+  ogType="article"
+  ogImage={post.data.cover}
+>
   <article class="article">
+    {post.data.cover && (
+      <img class="article-cover" src={post.data.cover} alt="" />
+    )}
     <h1>{post.data.title}</h1>
     <p class="article-meta">
       <time datetime={post.data.date.toISOString()}>{dateString}</time>
