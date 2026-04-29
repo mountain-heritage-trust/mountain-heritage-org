@@ -256,7 +256,9 @@ main {
 }
 
 .donate-button {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: var(--color-donate);
   color: #ffffff;
   text-decoration: none;
@@ -267,6 +269,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   font-size: 0.875rem;
+  line-height: 1.2;
 }
 
 .donate-button:hover {
@@ -702,7 +705,9 @@ main {
 
 /* Generic button (used inside the catalogue hero) */
 .button {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: var(--color-accent);
   color: #ffffff;
   text-decoration: none;
@@ -713,6 +718,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   font-size: 0.9375rem;
+  line-height: 1.2;
 }
 
 .button:hover {
