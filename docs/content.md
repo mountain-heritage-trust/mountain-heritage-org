@@ -82,10 +82,19 @@ Body in markdown...
 title: About us
 order: 1
 summary: Optional standfirst.
+showTeam: true            # render the team gallery beneath the body
+annualReports:            # optional list of downloadable report PDFs
+  - { year: 2024, file: /uploads/annual-reports/mht-annual-report-2024.pdf }
+  - { year: 2023, file: /uploads/annual-reports/mht-annual-report-2023.pdf }
 ---
 
 Body in markdown...
 ```
+
+`annualReports` renders a download section beneath the body (newest year
+first, regardless of list order). It is currently used only on the About us
+page. Trustees can add a year via the CMS "Annual reports" field, uploading the
+PDF directly. Report PDFs live in `public/uploads/annual-reports/`.
 
 ## Adding a new entry
 

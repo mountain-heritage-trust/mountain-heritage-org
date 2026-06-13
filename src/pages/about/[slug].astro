@@ -15,6 +15,10 @@ export async function getStaticPaths() {
 const { item } = Astro.props;
 const { Content } = await render(item);
 
+const annualReports = [...(item.data.annualReports ?? [])].sort(
+  (a, b) => b.year - a.year,
+);
+
 const breadcrumbs =
   item.id === 'about-us'
     ? [
@@ -33,6 +37,26 @@ const breadcrumbs =
     <h1>{item.data.title}</h1>
     {item.data.summary && <p class="article-summary">{item.data.summary}</p>}
     <Content />
+
+    {annualReports.length > 0 && (
+      <section class="annual-reports">
+        <h2>Annual reports</h2>
+        <p>
+          Read about our work over the past year. Annual reports are available to
+          download as PDFs.
+        </p>
+        <ul class="download-list">
+          {annualReports.map((report) => (
+            <li>
+              <a class="download-link" href={report.file} download>
+                <span class="download-link__title">{report.year} Annual Report</span>
+                <span class="download-link__meta">PDF</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
   </article>
   {item.data.showTeam && <TeamGallery />}
 </BaseLayout>

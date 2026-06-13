@@ -166,3 +166,13 @@ collections:
       - { label: Summary, name: summary, widget: text, required: false }
       - { label: Show team gallery, name: showTeam, widget: boolean, default: false, hint: 'Show the team / patrons / trustees gallery underneath the page body. Currently only used on About us.' }
       - { label: Body, name: body, widget: markdown }
+      - label: Annual reports
+        name: annualReports
+        widget: list
+        required: false
+        label_singular: Annual report
+        summary: '{{fields.year}} Annual Report'
+        hint: 'Downloadable annual report PDFs, shown beneath the page body. Newest year is listed first automatically.'
+        fields:
+          - { label: Year, name: year, widget: number, value_type: int }
+          - { label: PDF file, name: file, widget: file }

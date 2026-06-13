@@ -68,6 +68,17 @@ const about = defineCollection({
     // Render the team gallery (patrons / ambassadors / trustees / staff)
     // beneath the page body when true. Only intended for about-us today.
     showTeam: z.boolean().default(false),
+    // Optional list of downloadable annual reports (PDFs in /uploads).
+    // Rendered as a download section beneath the page body. Only used on
+    // about-us today. Newest year is shown first regardless of list order.
+    annualReports: z
+      .array(
+        z.object({
+          year: z.number(),
+          file: z.string(),
+        }),
+      )
+      .default([]),
   }),
 });
 
