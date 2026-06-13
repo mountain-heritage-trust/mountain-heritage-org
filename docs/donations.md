@@ -13,6 +13,13 @@ The donate button in the site header (`src/components/DonateButton.astro`)
 links to `/donate` rather than directly to a third-party page, so the page
 remains the single place where the giving options live.
 
+The page also has a **"Donate objects and archives"** section describing the
+kinds of material the Trust collects (equipment, clothing, photographs,
+records, books) and directing prospective donors to `/contact` rather than
+sending items unsolicited — the archive is near capacity, so each offer is
+assessed individually. This is plain content in `donate.astro`, not a CMS
+field.
+
 ## Current setup: JustGiving
 
 The trust already has a JustGiving page from the previous Webflow site. The
