@@ -2,6 +2,7 @@
 import Banner from '../components/Banner.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import DonateBanner from '../components/DonateBanner.astro';
 import { organizationSchema, safeJsonLd } from '../lib/schema';
 import '../styles/global.css';
 
@@ -36,6 +37,10 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
 const absoluteOgImage = ogImage ? new URL(ogImage, Astro.site).toString() : undefined;
 
 const allSchemas = [organizationSchema(Astro.site as URL), ...schemas];
+
+// Show the site-wide donate CTA everywhere except the donate page itself.
+const path = Astro.url.pathname.replace(/\/+$/, '') || '/';
+const showDonateBanner = path !== '/donate';
 ---
 <!doctype html>
 <html lang="en-GB">
@@ -95,6 +100,7 @@ const allSchemas = [organizationSchema(Astro.site as URL), ...schemas];
     <main id="main">
       <slot />
     </main>
+    {showDonateBanner && <DonateBanner />}
     <Footer />
   </body>
 </html>

@@ -63,6 +63,13 @@ links to `/donate`. If a future site-wide change is needed (e.g. to link
 directly to CAF Donate from the header), update only this component — every
 page picks up the change.
 
+## Site-wide donate banner
+
+`src/components/DonateBanner.astro` is a full-width call-to-action band shown
+above the footer. It is rendered from `BaseLayout.astro` on every page **except
+`/donate`** (the suppression is the `showDonateBanner` check in the layout, so
+no per-page wiring is needed). Like the header button it links to `/donate`.
+
 ## Reporting
 
 Donations themselves are handled by the chosen provider, not by this site.
