@@ -37,8 +37,11 @@ const breadcrumbs =
     <h1>{item.data.title}</h1>
     {item.data.summary && <p class="article-summary">{item.data.summary}</p>}
     <Content />
+  </article>
+  {item.data.showTeam && <TeamGallery />}
 
-    {annualReports.length > 0 && (
+  {annualReports.length > 0 && (
+    <div class="article">
       <section class="annual-reports">
         <h2>Annual reports</h2>
         <p>
@@ -56,7 +59,6 @@ const breadcrumbs =
           ))}
         </ul>
       </section>
-    )}
-  </article>
-  {item.data.showTeam && <TeamGallery />}
+    </div>
+  )}
 </BaseLayout>
