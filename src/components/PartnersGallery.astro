@@ -1,0 +1,31 @@
+---
+// Supporters & partners gallery, shown beneath the team gallery on the
+// About us page. Each card shows a logo and name and links to the
+// partner's /partners/<slug> detail page. Renders nothing when there are
+// no entries. Edited by trustees via Sveltia → Supporters & partners.
+import { getCollection } from 'astro:content';
+
+const partners = (await getCollection('partners')).sort((a, b) => {
+  const ao = a.data.order ?? Number.MAX_SAFE_INTEGER;
+  const bo = b.data.order ?? Number.MAX_SAFE_INTEGER;
+  if (ao !== bo) return ao - bo;
+  return a.data.name.localeCompare(b.data.name);
+});
+---
+{partners.length > 0 && (
+  <section class="partners-gallery">
+    <h2>Supporters and partners</h2>
+    <ul class="partner-grid">
+      {partners.map((partner) => (
+        <li>
+          <a href={`/partners/${partner.id}`} class="partner-card">
+            <span class="partner-card__logo">
+              <img src={partner.data.logo} alt={partner.data.name} loading="lazy" />
+            </span>
+            <span class="partner-card__name">{partner.data.name}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

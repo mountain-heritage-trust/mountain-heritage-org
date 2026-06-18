@@ -11,6 +11,7 @@ Astro's content collections power the site's structured content. Each collection
 | `archive`      | `src/content/archive/`     | `/collections/<slug>`   | Archive collection items.        |
 | `exhibitions`  | `src/content/exhibitions/` | `/exhibitions/<slug>`   | Exhibitions and events.          |
 | `about`        | `src/content/about/`       | `/about/<slug>`         | About-section pages.             |
+| `partners`     | `src/content/partners/`    | `/partners/<slug>`      | Supporters & partners.           |
 
 The Astro collection is named `archive` to avoid clashing with Astro's own term "content collection". Public URLs still live under `/collections/`. See [migration.md](migration.md).
 
@@ -51,6 +52,27 @@ photo: ../../assets/team/chris-bonington.jpg
 
 Bio in markdown...
 ```
+
+### partners (URL: `/partners/<slug>`)
+
+Supporters and partners shown beneath the team gallery on the About us page.
+Each entry renders as a clickable logo + name card linking to its detail page.
+
+```yaml
+---
+name: British Mountaineering Council
+logo: /uploads/bmc-logo.jpg          # logo on a transparent / white background
+url: https://www.thebmc.co.uk/       # optional link to their own website
+summary: One line shown under the name.   # optional
+order: 1                             # optional; lower numbers show first
+---
+
+Detail in markdown...
+```
+
+The gallery only appears on About us pages with `showTeam: true`. Logos are
+rendered as plain `<img>` (no image optimisation), so any uploaded logo works
+immediately.
 
 ### archive (URL: `/collections/<slug>`)
 

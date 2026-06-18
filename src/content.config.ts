@@ -86,4 +86,20 @@ const about = defineCollection({
   }),
 });
 
-export const collections = { blog, team, archive, exhibitions, about };
+// Supporters and partners shown on the About us page. Each entry has a
+// logo and name (rendered as a clickable card) and a body with more
+// detail, shown on its own /partners/<slug> page.
+const partners = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/partners' }),
+  schema: z.object({
+    name: z.string(),
+    logo: z.string(),
+    // Optional link to the organisation's own website, shown on the
+    // detail page.
+    url: z.string().nullish(),
+    summary: z.string().nullish(),
+    order: z.number().nullish(),
+  }),
+});
+
+export const collections = { blog, team, archive, exhibitions, about, partners };

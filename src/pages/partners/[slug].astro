@@ -1,0 +1,39 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+
+export async function getStaticPaths() {
+  const partners = await getCollection('partners');
+  return partners.map((partner) => ({
+    params: { slug: partner.id },
+    props: { partner },
+  }));
+}
+
+const { partner } = Astro.props;
+const { Content } = await render(partner);
+---
+<BaseLayout
+  title={partner.data.name}
+  description={partner.data.summary ?? `${partner.data.name} — a supporter of Mountain Heritage Trust.`}
+>
+  <article class="article article--full partner-profile">
+    <Breadcrumbs items={[
+      { href: '/', label: 'Home' },
+      { href: '/about/about-us', label: 'About' },
+      { label: partner.data.name },
+    ]} />
+    <span class="partner-profile__logo">
+      <img src={partner.data.logo} alt={partner.data.name} />
+    </span>
+    <h1>{partner.data.name}</h1>
+    {partner.data.summary && <p class="article-summary">{partner.data.summary}</p>}
+    <Content />
+    {partner.data.url && (
+      <p class="partner-profile__link">
+        <a href={partner.data.url} rel="noopener" target="_blank">Visit website</a>
+      </p>
+    )}
+  </article>
+</BaseLayout>

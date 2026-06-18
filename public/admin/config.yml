@@ -103,6 +103,25 @@ collections:
       - { label: Photo, name: photo, widget: image, required: false }
       - { label: Bio, name: body, widget: markdown }
 
+  # Supporters & partners — /partners/<slug>
+  - name: partners
+    label: Supporters & partners
+    label_singular: Supporter / partner
+    folder: src/content/partners
+    extension: md
+    format: frontmatter
+    create: true
+    slug: '{{slug}}'
+    summary: '{{name}}'
+    sortable_fields: [order, name]
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Logo, name: logo, widget: image, hint: 'A logo on a transparent or white background works best.' }
+      - { label: Website, name: url, widget: string, required: false, hint: "Optional link to the organisation's own website." }
+      - { label: Order, name: order, widget: number, required: false, value_type: int, hint: 'Lower numbers show first.' }
+      - { label: Short summary, name: summary, widget: text, required: false, hint: 'One line shown under the name on the detail page.' }
+      - { label: Detail, name: body, widget: markdown, hint: 'More about this supporter or partner, shown on their page.' }
+
   # Archive collections — /collections/<slug>
   # NOTE: the Astro collection is named `archive` but the public URL is
   # /collections/<slug>. The folder must match the Astro collection.

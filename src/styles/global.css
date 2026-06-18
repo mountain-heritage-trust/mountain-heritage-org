@@ -845,6 +845,98 @@ main {
   opacity: 0.92;
 }
 
+/* Supporters & partners gallery (beneath the team gallery on About us) */
+.partners-gallery {
+  max-width: var(--max-width);
+  margin: 3rem auto 0;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.partners-gallery h2 {
+  margin: 0 0 1.5rem;
+}
+
+.partner-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.partner-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.partner-card__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8rem;
+  padding: 1.25rem;
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.partner-card__logo img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+.partner-card__name {
+  display: block;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  margin-top: 0.625rem;
+  color: var(--color-text);
+}
+
+.partner-card:hover .partner-card__name {
+  color: var(--color-accent);
+}
+
+.partner-card:hover .partner-card__logo {
+  border-color: var(--color-accent);
+}
+
+@media (max-width: 36rem) {
+  .partner-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .partner-card__logo {
+    height: 6rem;
+    padding: 0.875rem;
+  }
+}
+
+/* Supporter / partner detail page */
+.partner-profile__logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 7rem;
+  margin: 0.5rem 0 0.5rem;
+}
+
+.partner-profile__logo img {
+  max-height: 100%;
+  max-width: 18rem;
+  width: auto;
+  object-fit: contain;
+}
+
+.partner-profile__link {
+  margin-top: 2rem;
+}
+
 /* Post tags (footer of blog posts + tag-page header) */
 .post-tags {
   margin: 2.5rem 0 0;

@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import TeamGallery from '../../components/TeamGallery.astro';
+import PartnersGallery from '../../components/PartnersGallery.astro';
 
 export async function getStaticPaths() {
   const items = await getCollection('about');
@@ -39,6 +40,7 @@ const breadcrumbs =
     <Content />
   </article>
   {item.data.showTeam && <TeamGallery />}
+  {item.data.showTeam && <PartnersGallery />}
 
   {annualReports.length > 0 && (
     <div class="article article--full">
