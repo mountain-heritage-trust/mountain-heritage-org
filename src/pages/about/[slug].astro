@@ -32,7 +32,7 @@ const breadcrumbs =
       ];
 ---
 <BaseLayout title={item.data.title} description={item.data.summary ?? undefined}>
-  <article class="article">
+  <article class:list={['article', item.data.showTeam && 'article--full']}>
     <Breadcrumbs items={breadcrumbs} />
     <h1>{item.data.title}</h1>
     {item.data.summary && <p class="article-summary">{item.data.summary}</p>}
@@ -41,7 +41,7 @@ const breadcrumbs =
   {item.data.showTeam && <TeamGallery />}
 
   {annualReports.length > 0 && (
-    <div class="article">
+    <div class="article article--full">
       <section class="annual-reports">
         <h2>Annual reports</h2>
         <p>

@@ -353,6 +353,7 @@ main {
   display: block;
   height: 3rem;
   width: auto;
+  padding: 0 0.75rem;
 }
 
 @media (max-width: 30rem) {
@@ -384,6 +385,14 @@ main {
   text-decoration-color: rgba(255, 255, 255, 0.6);
 }
 
+/* About-us and team profile pages span the full main column and align
+   left, rather than sitting in the narrow centred measure used for prose
+   pages like blog posts. */
+.team-profile,
+.article--full {
+  max-width: none;
+}
+
 /* Team profile page. Name + role at the top, then a square portrait
    floated to the left of the bio so the body copy wraps around it. */
 .team-profile::after {
@@ -402,18 +411,27 @@ main {
   display: block;
   width: 100%;
   max-width: 14rem;
+  margin: 0 0 1.25rem;
+}
+
+.team-portrait picture {
+  display: block;
+}
+
+.team-portrait img {
+  display: block;
+  width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: var(--radius);
   background: var(--color-border);
-  margin: 0 0 1.25rem;
 }
 
 @media (min-width: 36rem) {
   .team-portrait {
     float: left;
     width: 13rem;
-    margin: 0.25rem 1.5rem 0.75rem 0;
+    margin: 0.25rem 2rem 1rem 0;
   }
 }
 
@@ -1019,6 +1037,7 @@ main {
   padding: 0;
   display: grid;
   gap: 0.5rem;
+  max-width: 42rem;
 }
 
 .download-link {

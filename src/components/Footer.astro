@@ -20,14 +20,29 @@ const social = [
 
 const supporters = [
   {
+    href: 'https://www.thebmc.co.uk/',
+    name: 'British Mountaineering Council',
+    src: '/brand/bmc-logo.jpg',
+  },
+  {
     href: 'https://www.heritagefund.org.uk/',
     name: 'The National Lottery Heritage Fund',
     src: '/brand/heritage-fund-logo.png',
   },
   {
-    href: 'https://www.thebmc.co.uk/',
-    name: 'British Mountaineering Council',
-    src: '/brand/bmc-logo.jpg',
+    href: 'https://www.mountain.rescue.org.uk/',
+    name: 'Mountain Rescue England and Wales',
+    src: '/brand/mountain-rescue-logo.png',
+  },
+  {
+    href: 'https://dmmwales.com/',
+    name: 'DMM Wales',
+    src: '/brand/dmm-logo.svg',
+  },
+  {
+    href: 'https://www.betaclimbingdesigns.com/',
+    name: 'Beta Climbing Designs',
+    src: '/brand/beta-logo.webp',
   },
 ];
 
@@ -35,7 +50,7 @@ const commitUrl = commitHash !== 'unknown' ? `${repoUrl}/commit/${commitHash}` :
 ---
 <footer class="site-footer">
   <section class="footer-supporters" aria-label="Supporters">
-    <p class="footer-supporters__caption">Supported by</p>
+    <p class="footer-supporters__caption">Supporters and Partners</p>
     <ul class="footer-supporters__logos">
       {supporters.map((s) => (
         <li>

@@ -34,12 +34,13 @@ const schema = personSchema(member, pageUrl, Astro.site as URL);
     <h1>{member.data.name}</h1>
     <p class="team-profile__role">{member.data.role}</p>
     {member.data.photo && (
-      <Image
-        src={member.data.photo}
-        alt={member.data.name}
-        class="team-portrait"
-        sizes="(max-width: 576px) 100vw, 13rem"
-      />
+      <div class="team-portrait">
+        <Image
+          src={member.data.photo}
+          alt={member.data.name}
+          sizes="(max-width: 576px) 100vw, 13rem"
+        />
+      </div>
     )}
     <Content />
   </article>
