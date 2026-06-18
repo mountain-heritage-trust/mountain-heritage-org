@@ -96,4 +96,8 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: deploy --env production
+          # Deploy the same build to a separate worker via an explicit name
+          # override. The @astrojs/cloudflare adapter regenerates the wrangler
+          # config and drops [env.*] blocks, so `--env production` would just
+          # redeploy the staging worker. See docs/plans/prod-releases.md.
+          command: deploy --name mountain-heritage-org-prod

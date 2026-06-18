@@ -9,15 +9,14 @@
   },
   "observability": {
     "enabled": true
-  },
-  // The top-level config is the STAGING worker, built by Cloudflare's Git
-  // integration on every push to main. Production is a named environment
-  // deployed only by GitHub Actions (`wrangler deploy --env production`);
-  // it inherits everything above and only overrides the worker name. See
-  // docs/deployment.md and docs/plans/prod-releases.md.
-  "env": {
-    "production": {
-      "name": "mountain-heritage-org-prod"
-    }
   }
+  // This config defines the STAGING worker (mountain-heritage-org), built by
+  // Cloudflare's Git integration on every push to main.
+  //
+  // Production is the same build deployed to a separate worker by GitHub
+  // Actions, using `wrangler deploy --name mountain-heritage-org-prod`. We
+  // override the name on the CLI rather than using a wrangler [env.*] block,
+  // because the @astrojs/cloudflare adapter regenerates the wrangler config
+  // at build time and drops named environments. See docs/deployment.md and
+  // docs/plans/prod-releases.md.
 }

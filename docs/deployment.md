@@ -96,7 +96,7 @@ There are two Workers, both built from this repo (see `wrangler.jsonc` and
   Production is *not* touched until you promote it.
 - **Promote to production** → run `/deploy --patch|--minor|--major`, which tags
   a release and pushes the tag. `.github/workflows/deploy-production.yml` then
-  builds and runs `wrangler deploy --env production`.
+  builds and runs `wrangler deploy --name mountain-heritage-org-prod`.
 - **Edits in Sveltia CMS** → the trustee saves → a commit marked `[cms]` lands on
   `main` → staging rebuilds **and** the production workflow auto-bumps the patch
   version and deploys. Trustee edits go live with no extra steps.

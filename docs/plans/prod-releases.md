@@ -24,8 +24,11 @@ So production is driven by **GitHub Actions** instead, triggered by git tags.
 | Staging | `mountain-heritage-org` (existing) | Cloudflare Git build on every push to `main` (unchanged). URL: `mountain-heritage-org.remus-ddf.workers.dev`. |
 | Production | `mountain-heritage-org-prod` (new) | GitHub Actions only. Gets `www.mountain-heritage.org` when DNS migrates. |
 
-Both come from the same `wrangler.jsonc`; production is a named environment
-(`--env production`) that overrides only the Worker name.
+Both come from the same build. Production is deployed by GitHub Actions with
+`wrangler deploy --name mountain-heritage-org-prod`. We override the name on the
+CLI rather than using a wrangler `[env.*]` block because the `@astrojs/cloudflare`
+adapter regenerates the wrangler config at build time and drops named
+environments — so `--env production` would just redeploy the staging worker.
 
 ### What triggers a production deploy
 
@@ -73,7 +76,8 @@ These must be in place before the production workflow will succeed:
 1. **GitHub repository secrets:** `CLOUDFLARE_API_TOKEN` (scoped to
    *Workers Scripts: Edit*) and `CLOUDFLARE_ACCOUNT_ID`.
 2. **First production deploy** creates the `mountain-heritage-org-prod` Worker
-   (the token must allow it), or create it once via `wrangler deploy --env production`.
+   (the token must allow it), or create it once via
+   `wrangler deploy --name mountain-heritage-org-prod`.
 3. **Custom domain:** attach `www.mountain-heritage.org` to the production Worker
    when DNS migrates to Cloudflare (see [deployment.md](../deployment.md)).
 4. **Cloudflare Access:** protect the production `/admin` the same way as staging
