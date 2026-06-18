@@ -1,9 +1,12 @@
 ---
-title: "Crowdfunder now live!"
+title: Crowdfunder now live!
 date: 2025-11-20
-summary: "The Mountain Heritage Trust needs your help to secure the future of this internationally important archive of climbing and mountaineering."
-cover: "/uploads/691f0a2261a265651ec573bb_1670597.jpg"
+summary: The Mountain Heritage Trust needs your help to secure the future of this internationally important archive of climbing and mountaineering.
+cover: /uploads/691f0a2261a265651ec573bb_1670597.jpg
+author: ''
+hideFromHome: true
 ---
+
 The Mountain Heritage Trust needs your help to secure the future of this internationally important archive of climbing and mountaineering.
 
 It has been 25 years since the MHT was founded by Chris Bonnington, John Innerdale, Lord Roger Chorley, Audrey Salkeld, James Smith and John Porter to protect, share and help people engage with the UK’s rich climbing and mountaineering heritage.
