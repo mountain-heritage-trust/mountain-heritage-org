@@ -70,6 +70,7 @@ collections:
       - { label: Author, name: author, widget: string, required: false }
       - { label: Tags, name: tags, widget: list, required: false, default: [] }
       - { label: Draft, name: draft, widget: boolean, default: false, hint: 'Drafts do not appear on the public site.' }
+      - { label: Hide from home page, name: hideFromHome, widget: boolean, default: false, hint: 'Keeps the post in the blog, tags and RSS but hides it from the "Latest news" list on the home page. Use for older news that has gone stale.' }
       - { label: Body, name: body, widget: markdown }
 
   # Team & trustees — /team/<slug>

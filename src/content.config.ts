@@ -16,6 +16,10 @@ const blog = defineCollection({
     author: z.string().nullish(),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
+    // Hide from the home page's "Latest news" list while keeping the post
+    // live in the blog listing, tags and RSS. For news that has gone stale
+    // but is worth keeping for the historic record.
+    hideFromHome: z.boolean().default(false),
   }),
 });
 

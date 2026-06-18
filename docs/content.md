@@ -27,10 +27,16 @@ cover: ../../assets/blog/1922-medal.jpg   # optional
 author: Jane Climber                       # optional
 tags: [history, everest]                   # optional
 draft: false                               # optional, defaults to false
+hideFromHome: false                        # optional, defaults to false
 ---
 
 Body in markdown...
 ```
+
+`hideFromHome: true` keeps a post in the blog listing, tag pages and RSS but
+removes it from the home page's "Latest news" list — for older news that has
+gone stale but is worth keeping for the historic record. `draft: true` hides
+it from the public site entirely.
 
 ### team
 
