@@ -97,6 +97,7 @@ collections:
           - { label: Patron, value: patron }
           - { label: Ambassador, value: ambassador }
           - { label: Advisor, value: advisor }
+          - { label: Volunteer, value: volunteer }
       - { label: Former, name: former, widget: boolean, default: false, hint: 'Tick for past trustees / patrons / etc. They appear at the bottom of the team gallery.' }
       - { label: Order, name: order, widget: number, required: false, value_type: int, hint: 'Lower numbers show first on listing pages.' }
       - { label: Photo, name: photo, widget: image, required: false }

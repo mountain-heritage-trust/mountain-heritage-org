@@ -28,7 +28,7 @@ const team = defineCollection({
   schema: z.object({
     name: z.string(),
     role: z.string(),
-    category: z.enum(['trustee', 'staff', 'patron', 'ambassador', 'advisor']).nullish(),
+    category: z.enum(['trustee', 'staff', 'patron', 'ambassador', 'advisor', 'volunteer']).nullish(),
     // Mark as `former: true` for past trustees / patrons / etc. (e.g. those
     // who have stepped down or are deceased). They are grouped under
     // "In memoriam" / similar at the bottom of listing pages.

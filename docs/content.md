@@ -44,7 +44,7 @@ it from the public site entirely.
 ---
 name: Sir Chris Bonington
 role: Patron
-category: patron        # trustee | staff | patron | advisor
+category: patron        # trustee | staff | patron | ambassador | advisor | volunteer
 order: 1                # optional; for explicit ordering on listing pages
 photo: ../../assets/team/chris-bonington.jpg
 ---

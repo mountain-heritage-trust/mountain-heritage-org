@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Image from './Image.astro';
 
-type TeamCategory = 'patron' | 'ambassador' | 'trustee' | 'staff' | 'advisor';
+type TeamCategory = 'patron' | 'ambassador' | 'trustee' | 'staff' | 'advisor' | 'volunteer';
 
 const all = await getCollection('team');
 
@@ -25,6 +25,7 @@ const sections: { title: string; members: typeof all }[] = [
   { title: 'Ambassadors', members: group('ambassador') },
   { title: 'Trustees',    members: group('trustee')    },
   { title: 'Staff',       members: group('staff')      },
+  { title: 'Volunteers',  members: group('volunteer')  },
 ];
 
 const inMemoriam = all

@@ -1,7 +1,7 @@
 ---
 name: "David (Monty) Monteith"
-role: "Trustee"
-category: trustee
+role: "Volunteer"
+category: volunteer
 former: false
 photo: "/uploads/64c7c06ee5758292c5a6e03c_David-Monteith.jpg"
 ---
