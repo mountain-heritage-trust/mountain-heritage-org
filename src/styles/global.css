@@ -792,6 +792,15 @@ main {
   gap: 1.5rem;
 }
 
+/* On phones the 180px minimum only fits one card per row. Force two
+   smaller cards instead. */
+@media (max-width: 36rem) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
 .team-card {
   display: block;
   color: inherit;
