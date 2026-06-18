@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- Node.js **20.x or later** (24.x and 25.x both work; check `package.json` `engines`).
+- Node.js **22.12 or later** (Astro 6 requires it; 24.x works too; check `package.json` `engines`).
 - npm 10+ (ships with recent Node).
 - Git.
 
