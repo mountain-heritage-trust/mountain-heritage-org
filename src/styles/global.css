@@ -767,7 +767,6 @@ main {
 .team-gallery {
   max-width: var(--max-width);
   margin: 3rem auto 0;
-  padding: 0 1.5rem;
 }
 
 .team-gallery__section + .team-gallery__section {
