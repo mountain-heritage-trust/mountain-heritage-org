@@ -1,7 +1,10 @@
 ---
-title: "Reading Library"
-summary: "Our reading library holds a large collection of historically important fiction and non-fiction works, charting the literature of British and world mountaineering."
+title: Reading Library
+summary: Our reading library holds a large collection of historically important fiction and non-fiction works, charting the literature of British and world mountaineering.
+cover: /uploads/library.jpg
+order: null
 ---
+
 Our reading library holds a large collection of historically important fiction and non-fiction works, charting the literature of British and world mountaineering.
 
 Alongside expedition accounts, biographies and works of mountain history, the library includes novels, poetry and other writing inspired by the mountains. Together the collection reflects how climbing and the mountain landscape have been written about, and how that writing has shaped the way the sport sees itself.
