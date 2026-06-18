@@ -388,8 +388,8 @@ main {
 /* About-us and team profile pages span the full main column and align
    left, rather than sitting in the narrow centred measure used for prose
    pages like blog posts. */
-.team-profile,
-.article--full {
+.article.team-profile,
+.article.article--full {
   max-width: none;
 }
 
