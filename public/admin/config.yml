@@ -22,6 +22,16 @@ backend:
   # this is empty; the value isn't actually used because the auth shim
   # doesn't run a real OAuth flow.
   app_id: mht-cms-bot
+  # Every CMS commit carries a "[cms]" marker. The production deploy
+  # workflow watches for it and auto-publishes trustee edits (see
+  # .github/workflows/deploy-production.yml). Do not remove the marker
+  # without updating that workflow.
+  commit_messages:
+    create: 'content: create {{collection}} "{{slug}}" [cms]'
+    update: 'content: update {{collection}} "{{slug}}" [cms]'
+    delete: 'content: delete {{collection}} "{{slug}}" [cms]'
+    uploadMedia: 'content: upload "{{path}}" [cms]'
+    deleteMedia: 'content: delete "{{path}}" [cms]'
 
 # Media uploads are written to /public/uploads/ so they are served as-is at
 # /uploads/<file>. We do not run Astro image optimisation on user uploads.

@@ -1,0 +1,99 @@
+# Deploys the production Worker (mountain-heritage-org-prod).
+#
+# Triggers:
+#   - A semver tag push (vX.Y.Z) — developer promotion via the /deploy skill.
+#   - A push to main whose commit is a CMS edit (message contains "[cms]") —
+#     trustee edits in /admin go live automatically. The workflow bumps the
+#     patch version, tags it, and deploys.
+#
+# Plain developer pushes to main (no tag, no [cms]) do nothing here; they only
+# update staging via Cloudflare's own Git build.
+#
+# Requires repo secrets: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID.
+# See docs/deployment.md and docs/plans/prod-releases.md.
+name: Deploy production
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*.*.*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Existing tag to (re)deploy, e.g. v1.2.3 — for rollbacks.'
+        required: true
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  decide:
+    runs-on: ubuntu-latest
+    outputs:
+      deploy: ${{ steps.decide.outputs.deploy }}
+      mode: ${{ steps.decide.outputs.mode }}
+      ref: ${{ steps.decide.outputs.ref }}
+    steps:
+      - id: decide
+        env:
+          MSG: ${{ github.event.head_commit.message }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "deploy=true"  >> "$GITHUB_OUTPUT"
+            echo "mode=tag"      >> "$GITHUB_OUTPUT"
+            echo "ref=${{ github.event.inputs.tag }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.ref_type }}" = "tag" ]; then
+            echo "deploy=true"  >> "$GITHUB_OUTPUT"
+            echo "mode=tag"      >> "$GITHUB_OUTPUT"
+            echo "ref=${{ github.ref_name }}" >> "$GITHUB_OUTPUT"
+          elif printf '%s' "$MSG" | grep -q '\[cms\]'; then
+            echo "deploy=true"  >> "$GITHUB_OUTPUT"
+            echo "mode=cms"      >> "$GITHUB_OUTPUT"
+            echo "ref=${{ github.sha }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "deploy=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  deploy:
+    needs: decide
+    if: needs.decide.outputs.deploy == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ needs.decide.outputs.ref }}
+
+      - name: Tag the patch release (CMS edits)
+        if: needs.decide.outputs.mode == 'cms'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch --tags --quiet
+          latest=$(git tag --list 'v*.*.*' --sort=-v:refname | head -n1)
+          latest=${latest:-v0.0.0}
+          ver=${latest#v}
+          major=${ver%%.*}; rest=${ver#*.}; minor=${rest%%.*}; patch=${rest#*.}
+          new="v${major}.${minor}.$((patch + 1))"
+          echo "Tagging $new"
+          git tag -a "$new" -m "content release $new"
+          git push origin "$new"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build
+
+      - name: Deploy to production Worker
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy --env production

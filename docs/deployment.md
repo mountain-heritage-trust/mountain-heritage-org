@@ -80,25 +80,50 @@ See `docs/auth.md` for full instructions. In short: create an Access
 application gating `https://www.mountain-heritage.org/admin/*`, set the IdP
 to Google Workspace, and restrict to the `mountain-heritage.org` domain.
 
+## Environments
+
+There are two Workers, both built from this repo (see `wrangler.jsonc` and
+[plans/prod-releases.md](plans/prod-releases.md)):
+
+| Environment | Worker | Deploys when |
+| --- | --- | --- |
+| **Staging** | `mountain-heritage-org` | Cloudflare's Git build runs on every push to `main`. |
+| **Production** | `mountain-heritage-org-prod` | GitHub Actions only — on a `vX.Y.Z` tag, or a trustee CMS edit. |
+
 ## Day-to-day deploys
 
-- **Push to `main`** → Cloudflare builds and deploys to production.
-- **Open a PR** → Cloudflare deploys a preview to a unique URL on
-  `*.pages.dev` (also visible as a check on the PR).
-- **Edits in Sveltia CMS** → trustee saves → commit lands on `main` → same
-  build pipeline as a normal push.
+- **Push to `main`** (developer code) → **staging** rebuilds via Cloudflare.
+  Production is *not* touched until you promote it.
+- **Promote to production** → run `/deploy --patch|--minor|--major`, which tags
+  a release and pushes the tag. `.github/workflows/deploy-production.yml` then
+  builds and runs `wrangler deploy --env production`.
+- **Edits in Sveltia CMS** → the trustee saves → a commit marked `[cms]` lands on
+  `main` → staging rebuilds **and** the production workflow auto-bumps the patch
+  version and deploys. Trustee edits go live with no extra steps.
 
-Build time is typically under 60 seconds for this site.
+Staging build time is typically under 60 seconds.
+
+### Production prerequisites (one-off)
+
+The production workflow needs these GitHub repository secrets:
+
+| Secret | Value |
+| --- | --- |
+| `CLOUDFLARE_API_TOKEN` | A token scoped to *Workers Scripts: Edit* for the account. |
+| `CLOUDFLARE_ACCOUNT_ID` | The Cloudflare account ID. |
+
+The first production run creates the `mountain-heritage-org-prod` Worker. Set its
+environment variables (`RESEND_API_KEY`, `CONTACT_EMAIL`, `FROM_EMAIL`), attach
+`www.mountain-heritage.org` once DNS migrates, and protect its `/admin` with
+Cloudflare Access (see [auth.md](auth.md)). Bootstrap an initial `v0.1.0` tag.
 
 ## Rollbacks
 
-Pages keeps every previous deployment. To roll back:
-
-1. **Workers & Pages → mountain-heritage-org → Deployments**.
-2. Find the previous good deployment.
-3. Click the menu → **Rollback to this deployment**.
-
-This is instant and does not require touching git.
+- **Production:** re-run the *Deploy production* workflow via **Actions → Run
+  workflow** and supply an older tag (e.g. `v1.2.3`) in the input. Alternatively,
+  roll back in **Workers & Pages → mountain-heritage-org-prod → Deployments**.
+- **Staging:** roll back in the Cloudflare dashboard under the staging Worker's
+  Deployments, or push a fix to `main`.
 
 ## Local preview of a Pages build
 
