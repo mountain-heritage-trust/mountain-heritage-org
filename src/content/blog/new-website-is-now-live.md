@@ -8,6 +8,6 @@ tags: []
 draft: false
 ---
 
-In an effort to modernise how we run the trust we have moved our website to a new platform which gives us much more control over the design and feel of our website, as well as making it significantly easier for staff to update the website.
+In an effort to modernise how we run the trust we have moved our website to a new platform which gives us more control over the design and feel of our website, as well as making it significantly easier for staff to update the website.
 
-We have some very exciting news to share shortly about future projects at the trust, and we hope that this new website will unlock some exciting possibilities to enable access to the archive.
+We have some very exciting news to share shortly about future projects at the trust, and we hope that this new website will unlock some exciting possibilities to improve access to the archive.
