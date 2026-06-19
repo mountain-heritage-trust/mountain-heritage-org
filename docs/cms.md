@@ -61,6 +61,10 @@ The trade-off: every commit is attributed to whichever GitHub user owns
 Cloudflare Access logs (Zero Trust → Logs → Access) record which trustee
 hit `/admin` and when, so accountability is preserved off-repo.
 
+The login screen only offers the OAuth flow above — `auth_methods: [oauth]`
+in `config.yml` disables Sveltia's "Sign in with access token" (personal
+access token) button, so the only way in is the Access-gated Google flow.
+
 ## One-off setup
 
 ### 1. GitHub repo
