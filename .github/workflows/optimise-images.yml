@@ -1,0 +1,58 @@
+# Compress-on-ingest for developer pushes.
+#
+# When a push to main touches public/uploads, regenerate downsized originals
+# and AVIF/WebP variants (`npm run images`) and commit the result back. Staging
+# rebuilds via Cloudflare's own Git build.
+#
+# Trustee uploads arrive as "[cms]" commits and are handled by
+# deploy-production.yml instead (it optimises, commits back, and deploys prod in
+# one run). This workflow skips those, and skips its own commit-backs, via the
+# message guards below. See docs/images.md.
+name: Optimise images
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/uploads/**'
+
+concurrency:
+  group: optimise-images
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  optimise:
+    # Skip trustee [cms] commits (deploy-production handles them) and the
+    # optimiser's own commit-backs (marked [skip-optimise]).
+    if: >-
+      !contains(github.event.head_commit.message, '[cms]') &&
+      !contains(github.event.head_commit.message, '[skip-optimise]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run images
+
+      - name: Commit optimised images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/uploads
+          if git diff --cached --quiet; then
+            echo "Images already optimised; nothing to commit."
+          else
+            git commit -m "optimise images [skip-optimise]"
+            git push origin HEAD:main
+          fi

@@ -33,6 +33,13 @@ const SRC = join(ROOT, 'public/uploads');
 const MAX_EDGE = 2048;
 const JPEG_QUALITY = 82;
 const MIN_SAVING = 0.02; // only rewrite if >=2% smaller
+// Only *attempt* a file when it is genuinely oversized: larger than MAX_EDGE,
+// or heavier than this ceiling. This is what makes the pass idempotent — files
+// already within spec are left untouched, so lossy re-encoding never runs
+// repeatedly on the same image (which would slowly degrade it). Our own output
+// (≤MAX_EDGE at q82) reliably lands well under this ceiling, so a processed
+// file won't qualify on the next run.
+const BYTE_CEILING = 1_000_000;
 
 const dryRun = process.argv.includes('--dry-run');
 
@@ -59,6 +66,17 @@ for (const file of files) {
 
   try {
     const isPng = /\.png$/i.test(file);
+
+    // Gate: skip files already within spec so re-encoding never runs twice on
+    // the same image (idempotency / no cumulative quality loss).
+    const meta = await sharp(srcPath).metadata();
+    const longestEdge = Math.max(meta.width ?? 0, meta.height ?? 0);
+    if (longestEdge <= MAX_EDGE && origBytes <= BYTE_CEILING) {
+      after += origBytes;
+      skipped++;
+      continue;
+    }
+
     const pipeline = sharp(srcPath)
       .rotate() // bake EXIF orientation before resizing
       .resize({ width: MAX_EDGE, height: MAX_EDGE, fit: 'inside', withoutEnlargement: true });

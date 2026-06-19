@@ -38,8 +38,11 @@ preserved, so **no URLs change**. The script:
 - only touches `*.jpg/*.jpeg/*.png` directly under `public/uploads` (never the
   generated `optimised/` variants);
 - bakes in EXIF orientation, then drops metadata;
-- only rewrites a file when the result is ≥2% smaller, so it is **idempotent**
-  (re-running causes no further changes / no git churn);
+- only *attempts* a file that is genuinely oversized — longest edge > 2048px or
+  heavier than ~1 MB — and only rewrites when the result is ≥2% smaller. Files
+  already within spec are left untouched, so it is **idempotent**: lossy
+  re-encoding never runs twice on the same image (no cumulative quality loss, no
+  git churn). This matters because the optimiser runs on every ingest in CI.
 - never enlarges.
 
 Visitors never see more than the 1280px variant, so 2048px leaves ample buffer.

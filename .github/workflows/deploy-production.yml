@@ -9,6 +9,11 @@
 # Plain developer pushes to main (no tag, no [cms]) do nothing here; they only
 # update staging via Cloudflare's own Git build.
 #
+# For [cms] edits that add images, this also runs `npm run images` to downsize
+# the originals and regenerate AVIF/WebP variants, commits them back to main,
+# and tags/deploys the optimised tree — so production is never served an
+# unoptimised upload. See docs/images.md.
+#
 # Requires repo secrets: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID.
 # See docs/deployment.md and docs/plans/prod-releases.md.
 name: Deploy production
@@ -68,6 +73,41 @@ jobs:
           fetch-depth: 0
           ref: ${{ needs.decide.outputs.ref }}
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Compress-on-ingest for trustee uploads. If this CMS commit touched
+      # public/uploads, regenerate downsized originals + AVIF/WebP variants and
+      # commit them back to main (so the repo stays lean and the tag below
+      # points at the optimised tree). The commit is marked [skip-optimise] so
+      # neither this workflow nor optimise-images.yml re-triggers. See
+      # docs/images.md.
+      - name: Optimise uploaded images (CMS edits)
+        if: needs.decide.outputs.mode == 'cms'
+        run: |
+          before='${{ github.event.before }}'
+          if [ -z "$before" ] || ! git cat-file -e "${before}^{commit}" 2>/dev/null; then
+            before=HEAD~1
+          fi
+          if git diff --name-only "$before" '${{ github.sha }}' | grep -q '^public/uploads/'; then
+            npm run images
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add public/uploads
+            if git diff --cached --quiet; then
+              echo "Images already optimised; nothing to commit."
+            else
+              git commit -m "optimise images [skip-optimise]"
+              git push origin HEAD:main
+            fi
+          else
+            echo "No upload changes in this commit; skipping image optimisation."
+          fi
+
       - name: Tag the patch release (CMS edits)
         if: needs.decide.outputs.mode == 'cms'
         run: |
@@ -83,12 +123,6 @@ jobs:
           git tag -a "$new" -m "content release $new"
           git push origin "$new"
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-
-      - run: npm ci
       - run: npm run build
 
       - name: Deploy to production Worker

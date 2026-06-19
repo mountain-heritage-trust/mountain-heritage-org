@@ -103,6 +103,12 @@ There are two Workers, both built from this repo (see `wrangler.jsonc` and
 
 Staging build time is typically under 60 seconds.
 
+**Images are optimised in CI.** Pushes that add images to `public/uploads` are
+re-processed automatically (`npm run images`): a `[cms]` upload is optimised by
+`deploy-production.yml` before it deploys; a developer push is optimised by
+`optimise-images.yml`, which commits the result back. See
+[images.md](images.md).
+
 ### Production prerequisites (one-off)
 
 The production workflow needs these GitHub repository secrets:
