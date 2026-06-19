@@ -18,6 +18,10 @@ backend:
   # docs/cms.md.
   base_url: https://mountain-heritage-org.remus-ddf.workers.dev
   auth_endpoint: admin/auth-callback
+  # Only offer OAuth sign-in (the "Sign in with GitHub" flow that goes via
+  # the auth shim above). This hides Sveltia's "Sign in with access token"
+  # (personal access token) button so trustees only see the normal flow.
+  auth_methods: [oauth]
   # Placeholder app_id. Sveltia silently falls back to a PAT prompt if
   # this is empty; the value isn't actually used because the auth shim
   # doesn't run a real OAuth flow.
