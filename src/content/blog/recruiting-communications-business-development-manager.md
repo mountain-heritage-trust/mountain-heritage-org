@@ -1,16 +1,17 @@
 ---
 title: 'Recruiting: Communications & Business Development Manager'
 date: 2026-06-23
-summary: |-
-  Salary: £42,000–£46,000 per annum
-  Contract: Full-time, fixed-term (Initial period of 2 years, but extendable as funding is secured)
-  Location: Blencathra Field Studies Centre, Threlkeld, Cumbria (flexible hours and hybrid working by agreement)
+summary: £42,000–£46,000 per annum. Full-time, fixed-term (Initial period of 2 years, but extendable as funding is secured). Blencathra Field Studies Centre, Threlkeld, Cumbria (flexible hours and hybrid working by agreement).
 cover: /uploads/Screenshot 2026-06-23 at 08.00.22.png
 author: Dave Tait
 tags: []
 draft: false
 hideFromHome: false
 ---
+
+**Salary:** £42,000–£46,000 per annum
+**Contract:** Full-time, fixed-term (Initial period of 2 years, but extendable as funding is secured)
+**Location:** Blencathra Field Studies Centre, Threlkeld, Cumbria (flexible hours and hybrid working by agreement)
 
 **Help shape the future of Britain's mountain heritage**
 
