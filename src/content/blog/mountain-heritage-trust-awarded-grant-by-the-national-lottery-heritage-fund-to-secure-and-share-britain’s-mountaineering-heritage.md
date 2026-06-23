@@ -1,15 +1,11 @@
 ---
-title: Mountain Heritage Trust awarded grant by The National Lottery Heritage Fund to secure and share Britain’s Mountaineering heritage
+title: Mountain Heritage Trust awarded grant by The National Lottery Heritage Fund
 date: 2026-06-22
 summary: |-
   Today, Mountain Heritage Trust is announcing a £198,000 grant from The National Lottery
   Heritage Fund that will open up access to Britain’s mountaineering heritage, engage new
-  audiences and strengthen the long-term sustainability of the Trust. The two-year project will
-  enable the Trust to expand public access to its nationally significant collections through
-  digitisation, exhibitions, outreach programmes, volunteer development and new digital
-  resources.
+  audiences and strengthen the long-term sustainability of the Trust.
 cover: /uploads/TNLHF_English_Acknowledgement_Stamp_Colour_PNG.png
-coverContain: true
 author: Dave Tait
 tags:
   - National Lottery Heritage Fund
