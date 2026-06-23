@@ -13,6 +13,10 @@ const blog = defineCollection({
     date: z.coerce.date(),
     summary: z.string().nullish(),
     cover: z.string().nullish(),
+    // Fit the whole cover inside its frame instead of cropping it to fill.
+    // For logos / graphics that look wrong cropped. Default crops (good for
+    // landscape photos).
+    coverContain: z.boolean().default(false),
     author: z.string().nullish(),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),

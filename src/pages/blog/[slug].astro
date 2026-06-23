@@ -49,7 +49,7 @@ const tags = tagsForPost(post);
       <Image
         src={post.data.cover}
         alt=""
-        class="article-cover"
+        class={`article-cover${post.data.coverContain ? ' article-cover--contain' : ''}`}
         sizes="(max-width: 720px) 100vw, 720px"
         loading="eager"
         fetchpriority="high"

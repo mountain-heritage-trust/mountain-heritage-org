@@ -9,6 +9,7 @@ summary: |-
   digitisation, exhibitions, outreach programmes, volunteer development and new digital
   resources.
 cover: /uploads/TNLHF_English_Acknowledgement_Stamp_Colour_PNG.png
+coverContain: true
 author: Dave Tait
 tags:
   - National Lottery Heritage Fund

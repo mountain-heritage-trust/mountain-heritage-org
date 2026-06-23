@@ -52,7 +52,7 @@ const heroImage =
               <Image
                 src={post.data.cover}
                 alt=""
-                class="post-card__image"
+                class={`post-card__image${post.data.coverContain ? ' post-card__image--contain' : ''}`}
                 sizes="(max-width: 768px) 100vw, 400px"
               />
             ) : (

@@ -619,6 +619,15 @@ main {
   background: var(--color-border);
 }
 
+/* For logos / graphics: show the whole image inside the frame instead of
+   cropping it to fill. Set per post via `coverContain: true`. */
+.article-cover--contain {
+  object-fit: contain;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: 1.5rem;
+}
+
 /* Card grid for blog and exhibition listings */
 .post-cards {
   list-style: none;
@@ -643,6 +652,13 @@ main {
   border-radius: var(--radius);
   background: var(--color-border);
   margin-bottom: 0.75rem;
+}
+
+.post-card__image--contain {
+  object-fit: contain;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: 0.75rem;
 }
 
 .post-card__image--placeholder {

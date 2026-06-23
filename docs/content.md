@@ -25,6 +25,7 @@ title: 1922 Olympic medal on Everest
 date: 2019-03-08
 summary: A short standfirst that appears on listing pages and as the meta description.
 cover: ../../assets/blog/1922-medal.jpg   # optional
+coverContain: false                        # optional, defaults to false
 author: Jane Climber                       # optional
 tags: [history, everest]                   # optional
 draft: false                               # optional, defaults to false
@@ -38,6 +39,10 @@ Body in markdown...
 removes it from the home page's "Latest news" list — for older news that has
 gone stale but is worth keeping for the historic record. `draft: true` hides
 it from the public site entirely.
+
+`coverContain: true` fits the whole cover image inside its frame (banner and
+listing cards) instead of cropping it to fill. Use it for logos or graphics
+that look wrong cropped; leave it off for landscape photos.
 
 ### team
 
