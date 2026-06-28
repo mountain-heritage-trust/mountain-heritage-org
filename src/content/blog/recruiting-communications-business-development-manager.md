@@ -2,7 +2,7 @@
 title: 'Recruiting: Communications & Business Development Manager'
 date: 2026-06-23
 summary: £42,000–£46,000 per annum. Full-time, fixed-term (Initial period of 2 years, but extendable as funding is secured). Blencathra Field Studies Centre, Threlkeld, Cumbria (flexible hours and hybrid working by agreement).
-cover: /uploads/Screenshot 2026-06-23 at 08.00.22.png
+cover: /uploads/0315 Kangchenjunga, West Ridge - Pete Boardman and Joe Tasker by Doug Scott (1).jpg
 author: Dave Tait
 tags: []
 draft: false
