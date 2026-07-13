@@ -2,7 +2,7 @@
 title: Bonington Mountaineer
 date: 2026-07-13
 summary: Bonington Mountaineer (2017) by Keith Partridge and Brian Hall now free to view on youtube.
-cover: /uploads/ChatGPT Image Jul 13, 2026, 05_46_28 PM.png
+cover: /uploads/bonington-mountaineer-cover.png
 coverContain: false
 author: Remus Knowles
 tags: []
