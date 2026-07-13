@@ -504,6 +504,21 @@ main {
   margin: 1.5rem 0;
 }
 
+/* Embedded YouTube player (a bare YouTube URL on its own line in
+   markdown is converted at build time — see src/lib/youtube-embed.ts) */
+.youtube-embed {
+  margin: 1.5rem 0;
+}
+
+.youtube-embed iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--color-border);
+}
+
 /* Home hero (full-width image with overlay) */
 .home-hero {
   position: relative;

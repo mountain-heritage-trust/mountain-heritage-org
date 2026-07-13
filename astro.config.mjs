@@ -3,6 +3,7 @@ import sitemap from '@astrojs/sitemap';
 import cloudflare from '@astrojs/cloudflare';
 import { execSync } from 'node:child_process';
 import { autoLinkBlogPlugin } from './src/lib/auto-links.ts';
+import { youtubeEmbedPlugin } from './src/lib/youtube-embed.ts';
 
 // Build-time metadata. We resolve the commit hash here, in the config
 // (which runs in a real Node context), and inject it as a Vite compile-
@@ -117,7 +118,7 @@ export default defineConfig({
     }),
   ],
   markdown: {
-    rehypePlugins: [autoLinkBlogPlugin()],
+    rehypePlugins: [youtubeEmbedPlugin(), autoLinkBlogPlugin()],
   },
   vite: {
     define: {

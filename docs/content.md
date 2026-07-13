@@ -153,6 +153,13 @@ The slug is the filename. To preserve old URLs, match the slug to the existing p
 3. Create `src/pages/<collection>/[slug].astro` to render entries (and any listing/index pages).
 4. Add Sveltia CMS config so trustees can edit (later).
 
+## Markdown enrichment
+
+Two rehype plugins (wired up in `astro.config.mjs` under `markdown.rehypePlugins`) transform rendered markdown at build time:
+
+- `src/lib/youtube-embed.ts` — a bare YouTube URL on a line of its own becomes an embedded player (`youtube-nocookie.com` iframe, lazy-loaded, styled by `.youtube-embed` in `global.css`). Applies to all markdown content. Supports `watch?v=`, `youtu.be/`, `/shorts/`, `/live/` and `/embed/` URLs, plus `t=`/`start=` offsets. Links inside sentences, and links with custom text, are left alone.
+- `src/lib/auto-links.ts` — first mention of a team member or archive collection in a blog post is linked to its page.
+
 ## Notes
 
 - We import zod via `import * as z from 'zod';` (zod is an explicit dep). The legacy `import { z } from 'astro:content'` is deprecated in Astro 6.

@@ -89,6 +89,25 @@ For best results, use images that are:
 Always add **alt text** describing the image, for visitors using screen
 readers and to improve SEO.
 
+## Embedding a YouTube video
+
+Paste the video's YouTube link on a line of its own in the body, with
+nothing else on that line:
+
+```
+Here's our new film about the Trust's work.
+
+https://www.youtube.com/watch?v=Ql8KZ-ZvusA
+
+We hope you enjoy it!
+```
+
+When the post is published, that line becomes a video player embedded
+in the page. Both `youtube.com` and short `youtu.be` links work.
+
+A YouTube link written *inside* a sentence stays an ordinary link — only
+a link pasted on its own line becomes a player.
+
 ## Adding a team member
 
 1. Click **Team & trustees** in the left sidebar.
