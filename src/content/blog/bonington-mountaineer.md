@@ -2,7 +2,7 @@
 title: Bonington Mountaineer
 date: 2026-07-13
 summary: ''
-cover: /uploads/ChatGPT Image Jul 13, 2026, 05_46_28 PM.png
+cover: /uploads/bonington-mountaineer-cover.png
 coverContain: false
 author: Remus Knowles
 tags: []

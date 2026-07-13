@@ -131,6 +131,13 @@ When changing a field:
 4. Run `npm run check` to confirm nothing in existing content trips on
    the schema change.
 
+## Media uploads
+
+Uploads land in `public/uploads/` and are served at `/uploads/<file>`.
+`slugify_filename: true` (under `media_libraries.default.config`) rewrites
+uploaded filenames to URL-friendly slugs — raw names with spaces or commas
+break responsive `srcset` markup (see `docs/images.md`).
+
 ## Naming
 
 The Astro content collection internally named `archive` is exposed in the

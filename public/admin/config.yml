@@ -42,6 +42,14 @@ backend:
 media_folder: public/uploads
 public_folder: /uploads
 
+# Rewrite uploaded filenames to URL-friendly slugs ("My Photo (1).png"
+# → "my-photo-1.png"). Spaces and commas in filenames break responsive
+# srcset markup, so uploads must never keep their raw names.
+media_libraries:
+  default:
+    config:
+      slugify_filename: true
+
 # Show a preview link on the dashboard.
 site_url: https://www.mountain-heritage.org
 display_url: https://www.mountain-heritage.org

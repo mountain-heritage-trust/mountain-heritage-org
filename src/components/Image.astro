@@ -47,11 +47,18 @@ const finalWidth = width ?? meta?.width;
 const finalHeight = height ?? meta?.height;
 const hasVariants = stem !== null;
 
-const avifSrcset = stem
-  ? `/uploads/optimised/${stem}-640.avif 640w, /uploads/optimised/${stem}-1280.avif 1280w`
+// Percent-encode the filename for use in URLs. Spaces and commas in an
+// uploaded filename are invalid inside srcset (comma separates
+// candidates, space separates a URL from its width descriptor) and
+// silently break the whole <picture> element.
+const encStem = stem ? encodeURIComponent(stem) : null;
+const encSrc = sourceFile ? `/uploads/${encodeURIComponent(sourceFile)}` : src;
+
+const avifSrcset = encStem
+  ? `/uploads/optimised/${encStem}-640.avif 640w, /uploads/optimised/${encStem}-1280.avif 1280w`
   : '';
-const webpSrcset = stem
-  ? `/uploads/optimised/${stem}-640.webp 640w, /uploads/optimised/${stem}-1280.webp 1280w`
+const webpSrcset = encStem
+  ? `/uploads/optimised/${encStem}-640.webp 640w, /uploads/optimised/${encStem}-1280.webp 1280w`
   : '';
 ---
 {hasVariants ? (
@@ -59,7 +66,7 @@ const webpSrcset = stem
     <source type="image/avif" srcset={avifSrcset} sizes={sizes} />
     <source type="image/webp" srcset={webpSrcset} sizes={sizes} />
     <img
-      src={src}
+      src={encSrc}
       alt={alt}
       class={className}
       loading={loading}
@@ -71,7 +78,7 @@ const webpSrcset = stem
   </picture>
 ) : (
   <img
-    src={src}
+    src={encSrc}
     alt={alt}
     class={className}
     loading={loading}

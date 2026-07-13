@@ -27,6 +27,13 @@ any structured image (covers, photos):
 routed through this component — they render as a plain `<img>` to the original.
 That's the main reason originals are kept to a sane size (below).
 
+**Filenames** are percent-encoded by the component before being written into
+URLs — spaces and commas are invalid inside `srcset` (comma separates
+candidates, space separates a URL from its width descriptor) and silently
+break the whole `<picture>`. As a second line of defence, the CMS slugifies
+filenames on upload (`slugify_filename` in `public/admin/config.yml`), so new
+uploads get clean names like `my-photo.png` in the first place.
+
 ## Two-part optimisation
 
 ### 1. Originals are capped — `scripts/downsize-originals.mjs`
