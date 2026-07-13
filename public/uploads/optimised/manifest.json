@@ -951,6 +951,10 @@
     "width": 945,
     "height": 225
   },
+  "bonington-mountaineer-cover.png": {
+    "width": 1681,
+    "height": 935
+  },
   "heritage-fund-logo.png": {
     "width": 500,
     "height": 500
@@ -966,9 +970,5 @@
   "outside-logo.png": {
     "width": 453,
     "height": 174
-  },
-  "bonington-mountaineer-cover.png": {
-    "width": 1681,
-    "height": 935
   }
 }
