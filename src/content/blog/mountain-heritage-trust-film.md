@@ -10,4 +10,4 @@ Featuring interviews with Sir Chris Bonington, Doug Scott and BMC President Lynn
 
 This film would not have been possible without funding support through a grant from [The National Archives](https://www.nationalarchives.gov.uk/), the wonderful production work by the team at [Land & Sky Media,](https://www.landandskymedia.co.uk/) or the hard work of our staff and volunteers. We are very grateful for their work and support and thank them all.
 
-[Watch now on our youtube channel!](https://www.youtube.com/watch?v=Ql8KZ-ZvusA)
+https://www.youtube.com/watch?v=Ql8KZ-ZvusA
