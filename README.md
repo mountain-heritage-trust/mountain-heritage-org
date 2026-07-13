@@ -43,6 +43,6 @@ Key pages:
 
 ## Deploying
 
-`main` is the production branch. Every push to `main` triggers a Cloudflare
-deploy that goes live within ~1 minute — there is no manual promotion step.
+Pushing `main` rebuilds **staging**; production deploys from a `vX.Y.Z`
+release tag via GitHub Actions (trustee CMS edits auto-promote).
 See [docs/deployment.md](docs/deployment.md).
