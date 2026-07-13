@@ -209,6 +209,9 @@ export function autoLinkBlogPlugin(): Plugin<[], Root> {
     const path = String(file?.path ?? file?.history?.[0] ?? '');
     if (!path.includes('/content/blog/')) return;
     const state = buildState(matcher, null);
-    transformChildren(tree as Root, state);
+    // Root's children include Doctype, which transformChildren's
+    // narrower ElementContent-shaped parameter doesn't; a markdown
+    // HAST tree never contains one, so the cast is safe.
+    transformChildren(tree as unknown as Element, state);
   };
 }

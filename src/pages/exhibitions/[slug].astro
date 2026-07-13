@@ -31,8 +31,8 @@ const schema = exhibitionSchema(item, pageUrl, Astro.site as URL);
 ---
 <BaseLayout
   title={item.data.title}
-  description={item.data.summary}
-  ogImage={item.data.cover}
+  description={item.data.summary ?? undefined}
+  ogImage={item.data.cover ?? undefined}
   schemas={[schema]}
 >
   <article class="article">

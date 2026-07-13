@@ -28,13 +28,13 @@ const tags = tagsForPost(post);
 ---
 <BaseLayout
   title={post.data.title}
-  description={post.data.summary}
+  description={post.data.summary ?? undefined}
   ogType="article"
-  ogImage={post.data.cover}
+  ogImage={post.data.cover ?? undefined}
   schemas={[schema]}
   article={{
     publishedTime: post.data.date.toISOString(),
-    author: post.data.author,
+    author: post.data.author ?? undefined,
     section: 'News',
     tags: post.data.tags,
   }}

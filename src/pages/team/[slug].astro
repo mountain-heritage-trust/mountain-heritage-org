@@ -22,7 +22,7 @@ const schema = personSchema(member, pageUrl, Astro.site as URL);
 <BaseLayout
   title={member.data.name}
   description={`${member.data.role} at Mountain Heritage Trust`}
-  ogImage={member.data.photo}
+  ogImage={member.data.photo ?? undefined}
   schemas={[schema]}
 >
   <article class="article team-profile">
