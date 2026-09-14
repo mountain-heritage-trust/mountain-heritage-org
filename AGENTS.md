@@ -23,6 +23,7 @@ This file is the entry point for anyone — human or LLM — working on the proj
 - [docs/auth.md](docs/auth.md) — Cloudflare Access (Google Workspace SSO) for `/admin`
 - [docs/forms.md](docs/forms.md) — contact form (Astro API route + Resend)
 - [docs/donations.md](docs/donations.md) — donate page and provider options (CAF Donate / JustGiving / Stripe)
+- [docs/shop.md](docs/shop.md) — online shop: catalogue in the repo, Stripe Checkout for payment
 - [docs/migration.md](docs/migration.md) — content inventory, URL preservation, and redirect strategy
 - [docs/trustee-guide.md](docs/trustee-guide.md) — non-technical guide for editing the site
 - [docs/todos.md](docs/todos.md) — initial-migration follow-up list (decisions and external setup)
@@ -101,4 +102,5 @@ Still **ask first** for:
 | Change what the CMS shows trustees    | `public/admin/config.yml`, [docs/cms.md](docs/cms.md)         |
 | Deploy / set environment variables    | [docs/deployment.md](docs/deployment.md)                      |
 | Add or revoke a trustee's access      | [docs/auth.md](docs/auth.md)                                  |
+| Change the shop or checkout           | [docs/shop.md](docs/shop.md)                                  |
 | See what's still pending for launch   | [docs/todos.md](docs/todos.md)                                |

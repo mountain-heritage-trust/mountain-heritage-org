@@ -69,6 +69,15 @@ collections:
           - { label: Message, name: message, widget: string, required: false, hint: 'Keep it to one short sentence — banners work best when brief.' }
           - { label: Link text, name: linkText, widget: string, required: false, hint: 'Optional. Text on the call-to-action button (e.g. "Donate").' }
           - { label: Link URL, name: linkUrl, widget: string, required: false, hint: 'Optional. Where the button goes. Can be a path on this site (e.g. /donate) or a full URL.' }
+      - name: shop
+        label: Shop
+        file: src/content/settings/shop.json
+        format: json
+        description: 'Settings for the online shop at /shop. Products themselves are added under "Shop products".'
+        fields:
+          - { label: Introduction, name: intro, widget: text, required: false, hint: 'A sentence or two shown at the top of the shop page.' }
+          - { label: Delivery option name, name: shippingLabel, widget: string, default: 'Royal Mail (UK delivery)', hint: 'Shown to buyers on the site and at checkout, e.g. "Royal Mail (UK delivery)".' }
+          - { label: Delivery price (£), name: shippingPrice, widget: number, value_type: float, min: 0, step: 0.01, default: 3.95, hint: 'Flat rate charged once per order, in pounds. Enter 0 for free delivery.' }
 
   # Blog posts — /blog/<slug>
   - name: blog
@@ -144,6 +153,30 @@ collections:
       - { label: Order, name: order, widget: number, required: false, value_type: int, hint: 'Lower numbers show first.' }
       - { label: Short summary, name: summary, widget: text, required: false, hint: 'One line shown under the name on the detail page.' }
       - { label: Detail, name: body, widget: markdown, hint: 'More about this supporter or partner, shown on their page.' }
+
+  # Shop products — /shop/<slug>. See docs/shop.md.
+  - name: shop
+    label: Shop products
+    label_singular: Product
+    folder: src/content/shop
+    extension: md
+    format: frontmatter
+    create: true
+    slug: '{{slug}}'
+    summary: '{{title}} — £{{price}}'
+    sortable_fields: [order, title, price]
+    view_filters:
+      - { label: Sold out, field: soldOut, pattern: true }
+      - { label: Drafts, field: draft, pattern: true }
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: 'Price (£)', name: price, widget: number, value_type: float, min: 0, step: 0.01, hint: 'In pounds, e.g. 12.99. Delivery is added separately at checkout.' }
+      - { label: Short summary, name: summary, widget: text, required: false, hint: 'One or two lines shown on the shop page under the title.' }
+      - { label: Cover image, name: cover, widget: image, required: false, hint: 'The main product photo. A book cover or a clear photo on a plain background works best.' }
+      - { label: Sold out, name: soldOut, widget: boolean, default: false, hint: 'Tick when stock runs out. The product stays visible but cannot be bought. Untick when it is back.' }
+      - { label: Draft, name: draft, widget: boolean, default: false, hint: 'Drafts do not appear on the public site.' }
+      - { label: Order, name: order, widget: number, required: false, value_type: int, hint: 'Lower numbers show first on the shop page.' }
+      - { label: Description, name: body, widget: markdown, hint: 'Full description shown on the product page: what it is, format, edition, anything a buyer should know.' }
 
   # Archive collections — /collections/<slug>
   # NOTE: the Astro collection is named `archive` but the public URL is

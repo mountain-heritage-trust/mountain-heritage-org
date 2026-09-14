@@ -1,0 +1,19 @@
+---
+// Header basket link. Hidden (via the `hidden` attribute) until the
+// client-side basket has at least one item; the count badge is filled
+// in by src/scripts/basket.ts. See docs/shop.md.
+---
+<a href="/shop/basket" class="basket-link" data-basket-link hidden>
+  <svg class="basket-link__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" />
+    <path d="M3 6h18" />
+    <path d="M16 10a4 4 0 0 1-8 0" />
+  </svg>
+  <span class="basket-link__label">Basket</span>
+  <span class="basket-link__count" data-basket-count aria-label="items in basket">0</span>
+</a>
+
+<script>
+  import { bindBasketBadge } from '../scripts/basket';
+  bindBasketBadge();
+</script>

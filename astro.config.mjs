@@ -75,15 +75,18 @@ function urlPathToSource(pathname) {
   if (archive) return `src/content/archive/${archive[1]}.md`;
   const about = clean.match(/^\/about\/([^/]+)$/);
   if (about) return `src/content/about/${about[1]}.md`;
+  const shop = clean.match(/^\/shop\/([^/]+)$/);
+  if (shop && !['basket', 'success'].includes(shop[1])) return `src/content/shop/${shop[1]}.md`;
   // Standalone pages live at src/pages/<path>.astro
   return `src/pages${clean}.astro`;
 }
 
 const PRIORITIES = [
   { match: (p) => p === '/', priority: 1.0, changefreq: 'weekly' },
-  { match: (p) => /^\/(news-blog|collections|events-exhibitions|donate|contact|about\/about-us)\/?$/.test(p), priority: 0.9, changefreq: 'weekly' },
+  { match: (p) => /^\/(news-blog|collections|events-exhibitions|donate|contact|shop|about\/about-us)\/?$/.test(p), priority: 0.9, changefreq: 'weekly' },
   { match: (p) => /^\/about\//.test(p), priority: 0.8, changefreq: 'monthly' },
   { match: (p) => /^\/(blog|team|exhibitions|collections)\//.test(p), priority: 0.7, changefreq: 'yearly' },
+  { match: (p) => /^\/shop\//.test(p), priority: 0.6, changefreq: 'monthly' },
   { match: (p) => /^\/(privacy-notice|terms-of-use|supporters|man-mountain-learning-resources)$/.test(p), priority: 0.4, changefreq: 'yearly' },
 ];
 
@@ -104,7 +107,9 @@ export default defineConfig({
   adapter: cloudflare(),
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/admin'),
+      filter: (page) =>
+        !page.includes('/admin') &&
+        !/\/shop\/(basket|success)\/?$/.test(page),
       serialize(item) {
         const path = new URL(item.url).pathname;
         const { priority, changefreq } = classify(path);

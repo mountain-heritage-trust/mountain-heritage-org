@@ -106,4 +106,21 @@ const partners = defineCollection({
   }),
 });
 
-export const collections = { blog, team, archive, exhibitions, about, partners };
+// Shop products — /shop/<slug>. Prices are in pounds (e.g. 12.99) so the
+// CMS field is a plain number; the checkout route converts to pence. There
+// is no stock tracking: `soldOut` keeps the product visible but unbuyable,
+// `draft` hides it from the site entirely. See docs/shop.md.
+const shop = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/shop' }),
+  schema: z.object({
+    title: z.string(),
+    price: z.number().nonnegative(),
+    summary: z.string().nullish(),
+    cover: z.string().nullish(),
+    soldOut: z.boolean().default(false),
+    draft: z.boolean().default(false),
+    order: z.number().nullish(),
+  }),
+});
+
+export const collections = { blog, team, archive, exhibitions, about, partners, shop };

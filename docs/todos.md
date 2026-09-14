@@ -29,6 +29,27 @@ When DNS access is regained, do these in order:
 
 ---
 
+## Shop — before it can take real orders
+
+The shop pages and checkout route are built (see `docs/shop.md`) but no
+Stripe key is configured yet, so "Proceed to checkout" currently lands on
+an error message.
+
+- [ ] Finish setting up the trust's Stripe account (verification, branding,
+  receipts on, "successful payment" email notifications on).
+- [ ] Apply for Stripe nonprofit pricing.
+- [ ] Create a **restricted** API key (Checkout Sessions: Write) in
+  **test** mode and add it as the `STRIPE_SECRET_KEY` secret on the
+  staging Worker. Place a test order on staging with card
+  `4242 4242 4242 4242`.
+- [ ] Create the equivalent **live** restricted key and add it to the
+  production Worker (`mountain-heritage-org-prod`).
+- [ ] Delete the placeholder product `src/content/shop/example-book.md`
+  (or replace it with the first real product) and add real products via
+  the CMS.
+- [ ] Decide whether the office needs an email per order beyond Stripe's
+  Dashboard notification (would need a webhook route — see `docs/shop.md`).
+
 ## One-off verification
 
 - [ ] **Send yourself a test message via `/contact`**. If it lands at

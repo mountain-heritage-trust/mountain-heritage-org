@@ -23,6 +23,7 @@ The website for Mountain Heritage Trust, a small UK charity. It replaces the exi
 | Auth for `/admin`| Cloudflare Access (Zero Trust)                                        | Restricts CMS access to `@mountain-heritage.org` Google accounts.     |
 | Forms            | Astro API route (`src/pages/api/contact.ts`) + Cloudflare Worker      | Handles contact form submissions via `@astrojs/cloudflare` adapter.   |
 | Donations        | TBD (Donorbox / Stripe Payment Link / CAF Donate)                     | Embedded link or button. Not built in-house.                          |
+| Shop             | `shop` content collection + Stripe Checkout (`src/pages/api/checkout.ts`) | Catalogue in the repo; Stripe hosts payment. See [shop.md](shop.md).  |
 
 ## How content flows
 

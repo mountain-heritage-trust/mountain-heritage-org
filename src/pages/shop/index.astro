@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Image from '../../components/Image.astro';
+import { getPublishedProducts, formatGbp, shopSettings } from '../../lib/shop';
+
+const products = await getPublishedProducts();
+---
+<BaseLayout
+  title="Shop"
+  description="Books and other items from the Mountain Heritage Trust. Every purchase supports our work preserving the heritage of British mountaineering."
+>
+  <article class="article article--full">
+    <h1>Shop</h1>
+    {shopSettings.intro && <p class="article-summary">{shopSettings.intro}</p>}
+
+    {products.length === 0 ? (
+      <p>There is nothing in the shop just now. Please check back soon.</p>
+    ) : (
+      <ul class="post-cards product-cards">
+        {products.map((p) => (
+          <li>
+            <a href={`/shop/${p.id}`} class="post-card product-card">
+              {p.data.cover ? (
+                <Image
+                  src={p.data.cover}
+                  alt=""
+                  class="post-card__image product-card__image"
+                  sizes="(max-width: 768px) 100vw, 400px"
+                />
+              ) : (
+                <span class="post-card__image post-card__image--placeholder" aria-hidden="true"></span>
+              )}
+              <h2>{p.data.title}</h2>
+              <p class="product-card__price">
+                {formatGbp(p.data.price)}
+                {p.data.soldOut && <span class="product-badge">Sold out</span>}
+              </p>
+              {p.data.summary && <p class="post-card__summary">{p.data.summary}</p>}
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+
+    <p class="shop-footnote">
+      Payments are handled securely by Stripe. Delivery is by {shopSettings.shippingLabel.toLowerCase().replace(/ \(.*\)$/, '')} within the UK
+      at a flat rate of {formatGbp(shopSettings.shippingPrice)} per order.
+      For overseas orders please <a href="/contact">get in touch</a>.
+    </p>
+  </article>
+</BaseLayout>

@@ -1,0 +1,95 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Image from '../../components/Image.astro';
+import { getPublishedProducts, formatGbp, shopSettings, type Product } from '../../lib/shop';
+import { productSchema } from '../../lib/schema';
+
+export async function getStaticPaths() {
+  const products = await getPublishedProducts();
+  return products.map((product) => ({
+    params: { slug: product.id },
+    props: { product },
+  }));
+}
+
+const { product } = Astro.props as { product: Product };
+const { Content } = await render(product);
+
+const pageUrl = new URL(Astro.url.pathname, Astro.site as URL);
+const schema = productSchema(product, pageUrl, Astro.site as URL);
+---
+<BaseLayout
+  title={product.data.title}
+  description={product.data.summary ?? undefined}
+  ogImage={product.data.cover ?? undefined}
+  schemas={[schema]}
+>
+  <article class="article article--full product">
+    <Breadcrumbs items={[
+      { href: '/', label: 'Home' },
+      { href: '/shop', label: 'Shop' },
+      { label: product.data.title },
+    ]} />
+
+    <div class="product__layout">
+      <div class="product__media">
+        {product.data.cover ? (
+          <Image
+            src={product.data.cover}
+            alt=""
+            class="product__image"
+            sizes="(max-width: 48rem) 100vw, 480px"
+            loading="eager"
+            fetchpriority="high"
+          />
+        ) : (
+          <span class="product__image product__image--placeholder" aria-hidden="true"></span>
+        )}
+      </div>
+
+      <div class="product__buy">
+        <h1>{product.data.title}</h1>
+        <p class="product__price">
+          {formatGbp(product.data.price)}
+          {product.data.soldOut && <span class="product-badge">Sold out</span>}
+        </p>
+        {product.data.summary && <p class="product__summary">{product.data.summary}</p>}
+
+        {product.data.soldOut ? (
+          <p class="product__soldout">
+            This item is currently sold out. <a href="/contact">Contact us</a> if you would like
+            to know when it is back.
+          </p>
+        ) : (
+          <div class="product__actions">
+            <button type="button" class="button" data-add-to-basket={product.id} disabled>
+              Add to basket
+            </button>
+            <p class="product__added" data-added-note hidden>
+              <a href="/shop/basket">View basket and check out</a>
+            </p>
+            <noscript>
+              <p class="product__nojs">Please enable JavaScript to use the basket.</p>
+            </noscript>
+          </div>
+        )}
+
+        <p class="product__delivery">
+          {shopSettings.shippingLabel}: {formatGbp(shopSettings.shippingPrice)} per order.
+          Secure payment by card via Stripe.
+        </p>
+      </div>
+    </div>
+
+    <div class="product__body">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>
+
+<script>
+  import { bindAddToBasketButtons } from '../../scripts/basket';
+  bindAddToBasketButtons();
+</script>

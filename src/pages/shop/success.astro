@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Stripe redirects here after a successful payment. The receipt and order
+// details come from Stripe by email; this page just says thank you and
+// clears the browser-side basket. See docs/shop.md.
+---
+<BaseLayout title="Thank you for your order" description="Your order has been received.">
+  <article class="article article--full">
+    <h1>Thank you for your order</h1>
+    <p class="article-summary">
+      Your payment has gone through and a receipt is on its way to you by email from Stripe.
+    </p>
+    <p>
+      We will post your order by Royal Mail as soon as we can. The Trust is run by a small
+      team of staff and volunteers, so please allow up to two weeks for delivery.
+    </p>
+    <p>
+      If you have any questions about your order, email
+      <a href="mailto:enquiries@mountain-heritage.org">enquiries@mountain-heritage.org</a>
+      and quote the receipt number from your Stripe email.
+    </p>
+    <p><a class="button" href="/shop">Back to the shop</a></p>
+  </article>
+</BaseLayout>
+
+<script>
+  import { clearBasket } from '../../scripts/basket';
+  clearBasket();
+</script>

@@ -16,6 +16,7 @@ You can edit:
 - **Archive collections** (entries listed under /collections).
 - **Exhibitions**.
 - **About pages**.
+- **Shop products** and the shop's delivery price.
 
 A handful of pages — the contact page, donate page, privacy notice and
 terms — are technical pages that need a developer to change. Everything
@@ -133,6 +134,33 @@ Exhibitions have additional fields:
 Update **Status** when an exhibition changes from upcoming to current to
 past so it appears in the right section of the listing page.
 
+## Managing the shop
+
+The shop at `/shop` sells books and similar items. Payments are taken by
+Stripe; you never handle card details.
+
+**Adding a product**
+
+1. Click **Shop products** in the left sidebar, then **Create new**.
+2. Fill in the **Title**, **Price** (in pounds, e.g. `12.99` — delivery is
+   added separately), a one-line **Short summary**, a **Cover image** and
+   the full **Description**.
+3. Leave **Draft** ticked while you are still working on it; untick it to
+   put the product on sale.
+
+**When something sells out**, open the product and tick **Sold out**. It
+stays on the shop page marked as sold out and cannot be added to a basket.
+Untick it when you have more stock. There is no stock counter, so please
+keep an eye on this.
+
+**Delivery price and the shop's introduction** are under **Site settings →
+Shop**. Delivery is a single flat rate per order, UK only.
+
+**Orders** appear in the Stripe Dashboard (Payments), together with the
+buyer's delivery address and phone number. Stripe emails the buyer a
+receipt automatically; ask the technical lead to switch on order
+notification emails to the office if they are not arriving.
+
 ## Saving and publishing
 
 Sveltia saves directly to the live website. There is no separate "publish"
@@ -140,8 +168,8 @@ step — clicking **Save** is publishing.
 
 If you want to work on something without it being public yet:
 
-- For **blog posts**, tick the **Draft** checkbox. Drafts don't appear on
-  the public site but are saved.
+- For **blog posts** and **shop products**, tick the **Draft** checkbox.
+  Drafts don't appear on the public site but are saved.
 - For other content types, save your work and tell readers it's a
   work-in-progress in the body, or coordinate with the technical lead about
   hiding it.

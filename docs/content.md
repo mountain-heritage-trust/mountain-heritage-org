@@ -12,6 +12,7 @@ Astro's content collections power the site's structured content. Each collection
 | `exhibitions`  | `src/content/exhibitions/` | `/exhibitions/<slug>`   | Exhibitions and events.          |
 | `about`        | `src/content/about/`       | `/about/<slug>`         | About-section pages.             |
 | `partners`     | `src/content/partners/`    | `/partners/<slug>`      | Supporters & partners.           |
+| `shop`         | `src/content/shop/`        | `/shop/<slug>`          | Shop products. See [shop.md](shop.md). |
 
 The Astro collection is named `archive` to avoid clashing with Astro's own term "content collection". Public URLs still live under `/collections/`. See [migration.md](migration.md).
 
@@ -128,6 +129,25 @@ Body in markdown...
 first, regardless of list order). It is currently used only on the About us
 page. Trustees can add a year via the CMS "Annual reports" field, uploading the
 PDF directly. Report PDFs live in `public/uploads/annual-reports/`.
+
+### shop
+
+```yaml
+---
+title: Chris Bonington, Mountaineer
+price: 12.99                 # pounds; the checkout route converts to pence
+summary: One line shown on the shop page.   # optional
+cover: /uploads/bonington-cover.jpg         # optional
+soldOut: false               # visible but unbuyable when true
+draft: false                 # hidden from the site when true
+order: 1                     # optional; lower numbers show first
+---
+
+Full description in markdown.
+```
+
+Shop-wide settings (intro text, delivery label and price) are in
+`src/content/settings/shop.json`. See [shop.md](shop.md).
 
 ## Adding a new entry
 

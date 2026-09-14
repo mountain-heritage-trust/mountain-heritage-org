@@ -68,6 +68,7 @@ Pages dashboard → **Settings → Environment variables**. Set for both
 | ----------------- | --------------------------------------- |
 | `RESEND_API_KEY`  | Resend dashboard → API Keys.            |
 | `CONTACT_EMAIL`   | `enquiries@mountain-heritage.org`.      |
+| `STRIPE_SECRET_KEY` | Stripe restricted key (Checkout Sessions: Write). **Staging:** `sk_test_…`. **Production:** `sk_live_…`. See [shop.md](shop.md). |
 | `FROM_EMAIL`      | A Resend-verified sender. **Staging:** `onboarding@resend.dev` (Resend's shared sender — works without domain verification). **Production:** `noreply@mountain-heritage.org` once the domain is verified in Resend (needs DNS access). |
 
 In production, verify the trust's domain in Resend before setting

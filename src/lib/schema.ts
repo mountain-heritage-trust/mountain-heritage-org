@@ -177,3 +177,25 @@ export function breadcrumbSchema(items: BreadcrumbItem[], siteUrl: URL) {
 export function safeJsonLd(data: unknown): string {
   return JSON.stringify(data).replace(/</g, '\\u003c');
 }
+
+export function productSchema(product: CollectionEntry<'shop'>, pageUrl: URL, siteUrl: URL) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.data.title,
+    description: product.data.summary ?? undefined,
+    image: product.data.cover ? new URL(product.data.cover, siteUrl).toString() : undefined,
+    url: pageUrl.toString(),
+    brand: { '@type': 'Organization', name: ORG_NAME },
+    offers: {
+      '@type': 'Offer',
+      url: pageUrl.toString(),
+      priceCurrency: 'GBP',
+      price: product.data.price.toFixed(2),
+      availability: product.data.soldOut
+        ? 'https://schema.org/OutOfStock'
+        : 'https://schema.org/InStock',
+      seller: { '@type': 'Organization', name: ORG_NAME },
+    },
+  };
+}

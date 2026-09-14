@@ -1,0 +1,236 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getPublishedProducts, toCatalogue, shopSettings } from '../../lib/shop';
+
+// The basket itself lives in the visitor's browser. This page ships the
+// current catalogue (slug, title, price, cover) so the client script can
+// render lines and totals without a network request. Prices shown here
+// are informational — the checkout route recomputes them server-side.
+const catalogue = toCatalogue(await getPublishedProducts());
+const clientData = {
+  catalogue,
+  shipping: { label: shopSettings.shippingLabel, price: shopSettings.shippingPrice },
+};
+
+// Messages keyed by the `?error=` / `?cancelled=1` query params that the
+// checkout route and Stripe redirect back with. This page is prerendered,
+// so the query string is read client-side (see the script below).
+const feedback: Record<string, { text: string; kind: 'error' | 'info' }> = {
+  empty: { text: 'Your basket is empty.', kind: 'error' },
+  unavailable: { text: 'One or more items in your basket are no longer available. They have been removed — please review your basket and try again.', kind: 'error' },
+  server: { text: 'Something went wrong starting the checkout. Please try again in a moment, or email enquiries@mountain-heritage.org.', kind: 'error' },
+  cancelled: { text: 'Your payment was cancelled. Your basket has been kept if you would like to try again.', kind: 'info' },
+};
+---
+<BaseLayout title="Basket" description="Review your basket and check out.">
+  <article class="article article--full basket">
+    <Breadcrumbs items={[
+      { href: '/', label: 'Home' },
+      { href: '/shop', label: 'Shop' },
+      { label: 'Basket' },
+    ]} />
+    <h1>Your basket</h1>
+
+    {Object.entries(feedback).map(([key, f]) => (
+      <p
+        class:list={['form-feedback', { 'form-feedback--error': f.kind === 'error' }]}
+        role={f.kind === 'error' ? 'alert' : 'status'}
+        data-feedback={key}
+        hidden
+      >
+        {f.text}
+      </p>
+    ))}
+
+    <noscript>
+      <p>The basket needs JavaScript. Please enable it, or <a href="/contact">contact us</a> to order by email.</p>
+    </noscript>
+
+    <div id="basket-root" class="basket__root" hidden>
+      <p class="basket__empty" data-basket-empty hidden>
+        Your basket is empty. <a href="/shop">Browse the shop</a>.
+      </p>
+
+      <div data-basket-filled hidden>
+        <table class="basket-table">
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col" class="basket-table__qty">Quantity</th>
+              <th scope="col" class="basket-table__amount">Price</th>
+              <th scope="col"><span class="visually-hidden">Remove</span></th>
+            </tr>
+          </thead>
+          <tbody data-basket-lines></tbody>
+          <tfoot>
+            <tr>
+              <th scope="row" colspan="2">Subtotal</th>
+              <td class="basket-table__amount" data-basket-subtotal></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row" colspan="2">{shopSettings.shippingLabel}</th>
+              <td class="basket-table__amount" data-basket-shipping></td>
+              <td></td>
+            </tr>
+            <tr class="basket-table__total">
+              <th scope="row" colspan="2">Total</th>
+              <td class="basket-table__amount" data-basket-total></td>
+              <td></td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <p class="basket__removed form-feedback" data-basket-removed hidden role="status">
+          Some items that are no longer available were removed from your basket.
+        </p>
+
+        <form method="POST" action="/api/checkout" class="basket__checkout" data-basket-form>
+          <input type="hidden" name="items" value="[]" data-basket-items />
+          <button type="submit" class="button">Proceed to checkout</button>
+          <p class="basket__note">
+            You will be taken to Stripe to enter your delivery address and pay by card.
+            UK delivery only — for overseas orders please <a href="/contact">contact us</a>.
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <script is:inline type="application/json" id="basket-data" set:html={JSON.stringify(clientData)} />
+  </article>
+</BaseLayout>
+
+<script>
+  import {
+    readBasket,
+    setQuantity,
+    removeFromBasket,
+    onBasketChange,
+    MAX_QTY,
+  } from '../../scripts/basket';
+
+  interface CatalogueItem {
+    slug: string;
+    title: string;
+    price: number;
+    cover: string | null;
+    soldOut: boolean;
+  }
+  interface ClientData {
+    catalogue: CatalogueItem[];
+    shipping: { label: string; price: number };
+  }
+
+  // Reveal the feedback message matching the query string, if any.
+  {
+    const params = new URLSearchParams(window.location.search);
+    const key = params.get('cancelled') === '1' ? 'cancelled' : params.get('error');
+    const el = key && document.querySelector<HTMLElement>(`[data-feedback="${CSS.escape(key)}"]`);
+    if (el) el.hidden = false;
+  }
+
+  const dataEl = document.getElementById('basket-data');
+  const root = document.getElementById('basket-root');
+  if (dataEl && root) {
+    const data = JSON.parse(dataEl.textContent ?? '{}') as ClientData;
+    const bySlug = new Map(data.catalogue.map((p) => [p.slug, p]));
+    const gbp = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' });
+
+    const emptyEl = root.querySelector<HTMLElement>('[data-basket-empty]')!;
+    const filledEl = root.querySelector<HTMLElement>('[data-basket-filled]')!;
+    const linesEl = root.querySelector<HTMLElement>('[data-basket-lines]')!;
+    const subtotalEl = root.querySelector<HTMLElement>('[data-basket-subtotal]')!;
+    const shippingEl = root.querySelector<HTMLElement>('[data-basket-shipping]')!;
+    const totalEl = root.querySelector<HTMLElement>('[data-basket-total]')!;
+    const removedEl = root.querySelector<HTMLElement>('[data-basket-removed]')!;
+    const itemsInput = root.querySelector<HTMLInputElement>('[data-basket-items]')!;
+
+    function thumb(item: CatalogueItem): string {
+      if (!item.cover) return '<span class="basket-line__thumb basket-line__thumb--placeholder" aria-hidden="true"></span>';
+      const m = item.cover.match(/^\/uploads\/([^/]+)\.(jpe?g|png)$/i);
+      const src = m
+        ? `/uploads/optimised/${encodeURIComponent(m[1])}-640.webp`
+        : item.cover;
+      return `<img class="basket-line__thumb" src="${src}" alt="" width="64" height="64" loading="lazy" />`;
+    }
+
+    function escapeHtml(s: string): string {
+      return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+    }
+
+    function render() {
+      const lines = readBasket();
+      const live = lines.filter((l) => {
+        const item = bySlug.get(l.slug);
+        return item && !item.soldOut;
+      });
+
+      // Silently drop anything that has since been removed or sold out,
+      // and tell the visitor we did so.
+      const dropped = lines.length !== live.length;
+      if (dropped) {
+        lines.filter((l) => !live.includes(l)).forEach((l) => removeFromBasket(l.slug));
+        removedEl.hidden = false;
+        return; // removeFromBasket fires a change event → re-render
+      }
+
+      root!.hidden = false;
+      emptyEl.hidden = live.length > 0;
+      filledEl.hidden = live.length === 0;
+      if (live.length === 0) return;
+
+      let subtotal = 0;
+      linesEl.innerHTML = live
+        .map((l) => {
+          const item = bySlug.get(l.slug)!;
+          const lineTotal = item.price * l.qty;
+          subtotal += lineTotal;
+          const options = Array.from({ length: MAX_QTY }, (_, i) => i + 1)
+            .map((n) => `<option value="${n}"${n === l.qty ? ' selected' : ''}>${n}</option>`)
+            .join('');
+          return `
+            <tr class="basket-line" data-slug="${item.slug}">
+              <td class="basket-line__item">
+                ${thumb(item)}
+                <div>
+                  <a href="/shop/${item.slug}">${escapeHtml(item.title)}</a>
+                  <div class="basket-line__unit">${gbp.format(item.price)} each</div>
+                </div>
+              </td>
+              <td class="basket-table__qty">
+                <label class="visually-hidden" for="qty-${item.slug}">Quantity of ${escapeHtml(item.title)}</label>
+                <select id="qty-${item.slug}" data-qty>${options}</select>
+              </td>
+              <td class="basket-table__amount">${gbp.format(lineTotal)}</td>
+              <td class="basket-table__remove">
+                <button type="button" class="basket-line__remove" data-remove aria-label="Remove ${escapeHtml(item.title)}">Remove</button>
+              </td>
+            </tr>`;
+        })
+        .join('');
+
+      subtotalEl.textContent = gbp.format(subtotal);
+      shippingEl.textContent = gbp.format(data.shipping.price);
+      totalEl.textContent = gbp.format(subtotal + data.shipping.price);
+      itemsInput.value = JSON.stringify(live);
+
+      linesEl.querySelectorAll('[data-qty]').forEach((el) => {
+        const select = el as unknown as HTMLSelectElement;
+        select.addEventListener('change', () => {
+          const slug = select.closest<HTMLElement>('[data-slug]')!.dataset.slug!;
+          setQuantity(slug, Number(select.value));
+        });
+      });
+      linesEl.querySelectorAll<HTMLButtonElement>('[data-remove]').forEach((button) => {
+        button.addEventListener('click', () => {
+          const slug = button.closest<HTMLElement>('[data-slug]')!.dataset.slug!;
+          removeFromBasket(slug);
+        });
+      });
+    }
+
+    render();
+    onBasketChange(render);
+  }
+</script>

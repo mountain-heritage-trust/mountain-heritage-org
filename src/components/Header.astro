@@ -1,10 +1,12 @@
 ---
 import DonateButton from './DonateButton.astro';
+import BasketLink from './BasketLink.astro';
 
 const navItems = [
   { href: '/events-exhibitions', label: 'Events & Exhibitions' },
   { href: '/collections', label: 'Collections' },
   { href: '/news-blog', label: 'News & Blog' },
+  { href: '/shop', label: 'Shop' },
   { href: '/about/about-us', label: 'About' },
   { href: '/contact', label: 'Contact' },
 ];
@@ -21,6 +23,7 @@ const navItems = [
         ))}
       </ul>
     </nav>
+    <BasketLink />
     <DonateButton />
     <button
       type="button"

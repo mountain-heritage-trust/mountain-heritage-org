@@ -14,5 +14,8 @@ declare namespace Cloudflare {
     // GitHub PAT used by the /admin auth shim to commit on behalf of
     // Cloudflare-Access-authenticated trustees. See docs/cms.md.
     GITHUB_BOT_TOKEN: string;
+    // Stripe secret key (test key on staging, live key on production) used
+    // by /api/checkout to create Checkout Sessions. See docs/shop.md.
+    STRIPE_SECRET_KEY: string;
   }
 }
