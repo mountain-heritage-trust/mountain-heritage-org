@@ -58,8 +58,10 @@ The shop is currently **not public**:
 - `SHOP_PUBLIC` in `src/lib/shop-flags.ts` is `false`, which removes the
   Shop link from the header and leaves `/shop*` out of the sitemap. The
   pages still build and work if you know the URL.
-- A Cloudflare Access application gates `/shop`, `/shop/*` and
-  `/api/checkout` so only `@mountain-heritage.org` accounts can reach them.
+- A Cloudflare Access application gates `/shop` and `/shop/*` so only
+  `@mountain-heritage.org` accounts can reach them. `/api/checkout` is
+  deliberately not gated — an Access redirect turns the basket's POST into
+  a GET and breaks checkout.
   See [auth.md](auth.md) → "Pre-launch gating of the shop".
 
 **To launch:** set `SHOP_PUBLIC = true`, delete (or disable) the Access

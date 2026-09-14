@@ -121,12 +121,21 @@ to the trust. It reuses the same Google login method and the same
 | ------------------ | ------------------------------------------------------------ |
 | Application name   | `MHT — Shop (pre-launch)`                                    |
 | Type               | Self-hosted                                                  |
-| Application domains | `mountain-heritage-org.remus-ddf.workers.dev` with paths `shop`, `shop/*` and `api/checkout` (three entries — a path without a wildcard matches only itself, and wildcards must sit between slashes) |
+| Application domains | `www.mountain-heritage.org` (and the staging host) with paths `shop` and `shop/*` — two entries, because a path without a wildcard matches only itself and wildcards must sit between slashes. **Do not gate `api/checkout`** (see below). |
 | Identity providers | Google                                                       |
 | Policy             | Allow — emails ending in `@mountain-heritage.org`            |
 
 Notes:
 
+- **Why `/api/checkout` is left out.** The basket submits a `POST` to it.
+  Whenever Access has to (re)establish a session for that request — a
+  separate application, an expired session, first visit in a new tab — it
+  answers with a `302` to the team login page and then redirects back as a
+  `GET`, so the form body is lost and the Worker logs `No API Route handler
+  exists for the method "GET"`. The route is safe to leave open: it only
+  sells published, in-stock products at catalogue prices, and Astro's
+  same-origin check rejects cross-site posts. Gating the pages is enough to
+  keep the shop private.
 - Stripe's hosted checkout loads product images from `/uploads/…`, which is
   not gated, so images still show during testing.
 - Stripe redirects back to `/shop/success` and `/shop/basket`; these work
