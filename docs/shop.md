@@ -131,8 +131,16 @@ STRIPE_SECRET_KEY` and redirects to `/shop/basket?error=server`.
 ## Stripe account checklist (one-off)
 
 1. Create the Stripe account for the trust and complete verification.
-2. Apply for Stripe's nonprofit pricing (email nonprofit@stripe.com with
-   the charity number) — lower per-transaction fees.
+2. Consider applying for Stripe's nonprofit pricing (lower per-transaction
+   fees). Apply via the support form at
+   <https://support.stripe.com/contact/email?subject=Non+Profit+pricing>
+   with the Stripe account ID, the account's registered email, the
+   Charity Commission registration number / HMRC charity reference, and a
+   statement of donation volume. **Caveat:** Stripe requires at least 80%
+   of the account's payment volume to be tax-deductible donations
+   (ticket, membership and product sales don't count). If the account is
+   only used for the shop it won't qualify — apply only if donations are
+   also moved onto Stripe (see `docs/donations.md`).
 3. Settings → Branding: upload the logo and set the brand colour so the
    hosted checkout matches the site.
 4. Settings → Notifications: email on successful payments.

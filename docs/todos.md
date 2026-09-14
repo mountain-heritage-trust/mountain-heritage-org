@@ -37,7 +37,10 @@ an error message.
 
 - [ ] Finish setting up the trust's Stripe account (verification, branding,
   receipts on, "successful payment" email notifications on).
-- [ ] Apply for Stripe nonprofit pricing.
+- [ ] Decide whether to apply for Stripe nonprofit pricing. Only worth it
+  if donations move onto Stripe — Stripe requires 80%+ of volume to be
+  donations, so a shop-only account won't qualify. See the checklist in
+  `docs/shop.md`.
 - [ ] Create a **restricted** API key (Checkout Sessions: Write) in
   **test** mode and add it as the `STRIPE_SECRET_KEY` secret on the
   staging Worker. Place a test order on staging with card
