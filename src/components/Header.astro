@@ -1,12 +1,14 @@
 ---
 import DonateButton from './DonateButton.astro';
 import BasketLink from './BasketLink.astro';
+import { SHOP_PUBLIC } from '../lib/shop-flags';
 
 const navItems = [
   { href: '/events-exhibitions', label: 'Events & Exhibitions' },
   { href: '/collections', label: 'Collections' },
   { href: '/news-blog', label: 'News & Blog' },
-  { href: '/shop', label: 'Shop' },
+  // Hidden until launch — see src/lib/shop-flags.ts.
+  ...(SHOP_PUBLIC ? [{ href: '/shop', label: 'Shop' }] : []),
   { href: '/about/about-us', label: 'About' },
   { href: '/contact', label: 'Contact' },
 ];

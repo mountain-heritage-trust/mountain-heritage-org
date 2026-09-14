@@ -49,6 +49,9 @@ an error message.
   the CMS.
 - [ ] Decide whether the office needs an email per order beyond Stripe's
   Dashboard notification (would need a webhook route — see `docs/shop.md`).
+- [ ] **At launch:** set `SHOP_PUBLIC = true` in `src/lib/shop-flags.ts`
+  *and* delete the "MHT — Shop (pre-launch)" Access application (see
+  `docs/auth.md`). Then promote a release.
 
 ## One-off verification
 

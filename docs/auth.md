@@ -111,6 +111,32 @@ If something goes wrong, **Zero Trust → Logs → Access** shows every
 attempt and the reason. Most issues are typos in the policy or in the
 OAuth redirect URI.
 
+## Pre-launch gating of the shop
+
+Until the shop launches, a second Access application keeps `/shop` private
+to the trust. It reuses the same Google login method and the same
+"emails ending in `@mountain-heritage.org`" rule as the CMS application.
+
+| Field              | Value                                                        |
+| ------------------ | ------------------------------------------------------------ |
+| Application name   | `MHT — Shop (pre-launch)`                                    |
+| Type               | Self-hosted                                                  |
+| Application domains | `mountain-heritage-org.remus-ddf.workers.dev` with paths `shop`, `shop/*` and `api/checkout` (three entries — a path without a wildcard matches only itself, and wildcards must sit between slashes) |
+| Identity providers | Google                                                       |
+| Policy             | Allow — emails ending in `@mountain-heritage.org`            |
+
+Notes:
+
+- Stripe's hosted checkout loads product images from `/uploads/…`, which is
+  not gated, so images still show during testing.
+- Stripe redirects back to `/shop/success` and `/shop/basket`; these work
+  for testers because the browser already holds the Access cookie.
+- When the custom domain is attached, add the same three paths for
+  `www.mountain-heritage.org` to this application.
+- **At launch, delete or disable this application** and set `SHOP_PUBLIC`
+  to `true` in `src/lib/shop-flags.ts` (see [shop.md](shop.md)). Both are
+  required.
+
 ## How GitHub auth works
 
 Trustees themselves do **not** authenticate to GitHub. The site has an

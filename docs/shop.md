@@ -51,6 +51,21 @@ Key design decisions:
   is emailed for each order. Orders are fulfilled from the Stripe Dashboard
   (Payments → each payment shows items, delivery address and phone).
 
+## Pre-launch state
+
+The shop is currently **not public**:
+
+- `SHOP_PUBLIC` in `src/lib/shop-flags.ts` is `false`, which removes the
+  Shop link from the header and leaves `/shop*` out of the sitemap. The
+  pages still build and work if you know the URL.
+- A Cloudflare Access application gates `/shop`, `/shop/*` and
+  `/api/checkout` so only `@mountain-heritage.org` accounts can reach them.
+  See [auth.md](auth.md) → "Pre-launch gating of the shop".
+
+**To launch:** set `SHOP_PUBLIC = true`, delete (or disable) the Access
+application, and promote a release. Both steps are needed — flipping the
+flag alone would send visitors to a login wall.
+
 ## Files
 
 | Path | Role |
@@ -58,6 +73,7 @@ Key design decisions:
 | `src/content/shop/*.md` | Products (CMS collection **Shop products**). |
 | `src/content/settings/shop.json` | Shop intro text, delivery option name and price (CMS: **Site settings → Shop**). |
 | `src/content.config.ts` | `shop` schema. Keep in sync with `public/admin/config.yml`. |
+| `src/lib/shop-flags.ts` | `SHOP_PUBLIC` launch switch (header link + sitemap). |
 | `src/lib/shop.ts` | Helpers: published products, price formatting, settings, catalogue shape for the basket page. |
 | `src/pages/shop/index.astro` | Listing. |
 | `src/pages/shop/[slug].astro` | Product page (with Schema.org `Product`). |

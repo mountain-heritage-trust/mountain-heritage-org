@@ -4,6 +4,7 @@ import cloudflare from '@astrojs/cloudflare';
 import { execSync } from 'node:child_process';
 import { autoLinkBlogPlugin } from './src/lib/auto-links.ts';
 import { youtubeEmbedPlugin } from './src/lib/youtube-embed.ts';
+import { SHOP_PUBLIC } from './src/lib/shop-flags.ts';
 
 // Build-time metadata. We resolve the commit hash here, in the config
 // (which runs in a real Node context), and inject it as a Vite compile-
@@ -109,7 +110,9 @@ export default defineConfig({
     sitemap({
       filter: (page) =>
         !page.includes('/admin') &&
-        !/\/shop\/(basket|success)\/?$/.test(page),
+        !/\/shop\/(basket|success)\/?$/.test(page) &&
+        // Keep the whole shop out of the sitemap until launch.
+        (SHOP_PUBLIC || !/\/shop(\/|$)/.test(page)),
       serialize(item) {
         const path = new URL(item.url).pathname;
         const { priority, changefreq } = classify(path);
