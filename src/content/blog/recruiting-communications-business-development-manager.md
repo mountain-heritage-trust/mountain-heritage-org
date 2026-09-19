@@ -6,7 +6,7 @@ cover: /uploads/0315 Kangchenjunga, West Ridge - Pete Boardman and Joe Tasker by
 coverContain: false
 author: Dave Tait
 tags: []
-draft: false
+draft: true
 hideFromHome: false
 ---
 
