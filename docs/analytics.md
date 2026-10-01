@@ -32,10 +32,10 @@ Limitations worth knowing:
 - The token is public (it appears in the page HTML), which is why it's a
   repo variable rather than a secret.
 
-We add the snippet manually rather than using Cloudflare's automatic
-injection, because automatic injection only works on a proxied custom
-domain. The manual snippet works on the workers.dev URL now and keeps
-working after DNS moves.
+We add the snippet ourselves rather than using Cloudflare's automatic
+injection, so the repo decides which build is counted and the setup is
+visible in code. If the Web Analytics site is switched to automatic
+setup as well, visits are counted twice. Keep it on the manual snippet.
 
 ## Setup (one-off)
 
@@ -47,6 +47,10 @@ working after DNS moves.
    `gh variable set CF_WEB_ANALYTICS_TOKEN --body <token>`
 4. Promote a release (`/deploy --patch`). View source on a production
    page and check for `static.cloudflareinsights.com/beacon.min.js`.
+
+The "Cookies and website analytics" section of `/privacy-notice`
+(`src/pages/privacy-notice.astro`) describes this to visitors. Update it
+if the analytics setup changes.
 
 To rotate or remove: update or delete the repo variable and promote a
 release.

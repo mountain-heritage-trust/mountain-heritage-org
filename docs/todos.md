@@ -61,9 +61,6 @@ an error message.
 - [ ] Create the Cloudflare Web Analytics site and set the
   `CF_WEB_ANALYTICS_TOKEN` repo variable, then promote a release. Until
   then no visits are recorded. See `docs/analytics.md`.
-- [ ] Trustees to update `/privacy-notice` to mention Cloudflare Web
-  Analytics (cookieless, no personal data stored). The current notice
-  still references the old site's iubenda cookie block.
 
 ## One-off verification
 
