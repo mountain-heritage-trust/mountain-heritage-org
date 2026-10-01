@@ -125,10 +125,11 @@ jobs:
 
       - run: npm run build
         env:
-          # Public Cloudflare Web Analytics site token, baked into the HTML.
-          # Production-only so staging traffic isn't counted. See
+          # Cloudflare Web Analytics site token. Public (it ends up in the
+          # page HTML), so it lives here rather than in a secret. Set only
+          # for production so staging traffic isn't counted. See
           # docs/analytics.md.
-          PUBLIC_CF_WEB_ANALYTICS_TOKEN: ${{ vars.CF_WEB_ANALYTICS_TOKEN }}
+          PUBLIC_CF_WEB_ANALYTICS_TOKEN: b7ee2bc4e3bc46da99b3a9f650a8e1e6
 
       - name: Deploy to production Worker
         uses: cloudflare/wrangler-action@v3

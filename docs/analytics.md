@@ -26,11 +26,11 @@ Limitations worth knowing:
 - `src/layouts/BaseLayout.astro` adds Cloudflare's beacon script when the
   build-time env var `PUBLIC_CF_WEB_ANALYTICS_TOKEN` is set. Every public
   page uses this layout; `/admin` doesn't, so CMS use isn't counted.
-- Only the production build sets it: `.github/workflows/deploy-production.yml`
-  reads the GitHub repository **variable** `CF_WEB_ANALYTICS_TOKEN`.
-  Staging and local dev have no token, so they don't record anything.
-- The token is public (it appears in the page HTML), which is why it's a
-  repo variable rather than a secret.
+- Only the production build sets it, in the build step of
+  `.github/workflows/deploy-production.yml`. Staging and local dev have
+  no token, so they don't record anything.
+- The token is public (it appears in the page HTML), which is why it's
+  written in the workflow rather than stored as a secret.
 
 We add the snippet ourselves rather than using Cloudflare's automatic
 injection, so the repo decides which build is counted and the setup is
@@ -43,8 +43,8 @@ setup as well, visits are counted twice. Keep it on the manual snippet.
    site**. Hostname `www.mountain-heritage.org`; choose the **manual
    JS snippet** option (not automatic setup).
 2. Copy the `token` value from the snippet.
-3. Set it as a repo variable:
-   `gh variable set CF_WEB_ANALYTICS_TOKEN --body <token>`
+3. Put it in `PUBLIC_CF_WEB_ANALYTICS_TOKEN` in the build step of
+   `.github/workflows/deploy-production.yml`.
 4. Promote a release (`/deploy --patch`). View source on a production
    page and check for `static.cloudflareinsights.com/beacon.min.js`.
 
@@ -52,8 +52,8 @@ The "Cookies and website analytics" section of `/privacy-notice`
 (`src/pages/privacy-notice.astro`) describes this to visitors. Update it
 if the analytics setup changes.
 
-To rotate or remove: update or delete the repo variable and promote a
-release.
+To rotate or remove: change or delete that line in the workflow and
+promote a release.
 
 ## Why not Google Analytics
 
