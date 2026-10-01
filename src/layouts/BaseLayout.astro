@@ -41,6 +41,11 @@ const allSchemas = [organizationSchema(Astro.site as URL), ...schemas];
 // Show the site-wide donate CTA everywhere except the donate page itself.
 const path = Astro.url.pathname.replace(/\/+$/, '') || '/';
 const showDonateBanner = path !== '/donate';
+
+// Cloudflare Web Analytics (cookieless, no consent banner needed). The token
+// is public and only set by the production build, so staging and local dev
+// don't record visits. See docs/analytics.md.
+const analyticsToken = import.meta.env.PUBLIC_CF_WEB_ANALYTICS_TOKEN;
 ---
 <!doctype html>
 <html lang="en-GB">
@@ -92,6 +97,15 @@ const showDonateBanner = path !== '/donate';
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
     />
+
+    {analyticsToken && (
+      <script
+        is:inline
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={JSON.stringify({ token: analyticsToken })}
+      ></script>
+    )}
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to main content</a>

@@ -156,5 +156,5 @@ FROM_EMAIL=noreply@mountain-heritage.org
 
 - **Build & deploy logs** — Pages dashboard.
 - **Function invocations and errors** — Pages dashboard → Functions tab.
-- **Access logs** — Cloudflare → Web Analytics (free, privacy-friendly).
-  Enable in the Pages project settings.
+- **Page traffic** — Cloudflare → Web Analytics (free, cookieless).
+  Production only; see [analytics.md](analytics.md).

@@ -22,6 +22,7 @@ This file is the entry point for anyone — human or LLM — working on the proj
 - [docs/deployment.md](docs/deployment.md) — Cloudflare Workers build and deploy
 - [docs/auth.md](docs/auth.md) — Cloudflare Access (Google Workspace SSO) for `/admin`
 - [docs/forms.md](docs/forms.md) — contact form (Astro API route + Resend)
+- [docs/analytics.md](docs/analytics.md) — Cloudflare Web Analytics (cookieless page-view stats)
 - [docs/donations.md](docs/donations.md) — donate page and provider options (CAF Donate / JustGiving / Stripe)
 - [docs/shop.md](docs/shop.md) — online shop: catalogue in the repo, Stripe Checkout for payment
 - [docs/migration.md](docs/migration.md) — content inventory, URL preservation, and redirect strategy

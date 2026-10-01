@@ -124,6 +124,11 @@ jobs:
           git push origin "$new"
 
       - run: npm run build
+        env:
+          # Public Cloudflare Web Analytics site token, baked into the HTML.
+          # Production-only so staging traffic isn't counted. See
+          # docs/analytics.md.
+          PUBLIC_CF_WEB_ANALYTICS_TOKEN: ${{ vars.CF_WEB_ANALYTICS_TOKEN }}
 
       - name: Deploy to production Worker
         uses: cloudflare/wrangler-action@v3
