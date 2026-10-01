@@ -44,12 +44,9 @@ backend:
 
 ### 3. Attach the custom domain
 
-> **Staging note.** While DNS for `mountain-heritage.org` lives at the
-> trust's existing provider, the new site runs on its `*.pages.dev` URL
-> only. Skip step 3 until DNS is migrated to Cloudflare. Pages, Resend
-> (with the shared sender) and Cloudflare Access all work fine on the
-> pages.dev URL in the meantime.
-
+> **Done.** DNS is on Cloudflare and `www.mountain-heritage.org` is
+> attached to the production Worker (`mountain-heritage-org-prod`). The
+> apex redirect (step 4) is still outstanding; see [todos.md](todos.md).
 
 1. **Workers & Pages → mountain-heritage-org → Custom domains → Set up a custom domain**.
 2. Add `www.mountain-heritage.org`.
@@ -121,7 +118,7 @@ The production workflow needs these GitHub repository secrets:
 
 The first production run creates the `mountain-heritage-org-prod` Worker. Set its
 environment variables (`RESEND_API_KEY`, `CONTACT_EMAIL`, `FROM_EMAIL`), attach
-`www.mountain-heritage.org` once DNS migrates, and protect its `/admin` with
+`www.mountain-heritage.org` (done), and protect its `/admin` with
 Cloudflare Access (see [auth.md](auth.md)). Bootstrap an initial `v0.1.0` tag.
 
 ## Rollbacks

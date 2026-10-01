@@ -81,10 +81,8 @@ Workspace admin account):
 | Path                 | `admin/*`                                            |
 | Identity providers   | Google (the one set up above)                        |
 
-When DNS migrates and the custom domain is attached, add
-`www.mountain-heritage.org` / `/admin/*` as an additional domain on the
-same application. Keep the workers.dev entry in place during the
-transition.
+The same application also has `www.mountain-heritage.org` / `/admin/*`
+as an additional domain, covering production. Keep both entries.
 
 ### 5. Add a policy
 
@@ -140,8 +138,8 @@ Notes:
   not gated, so images still show during testing.
 - Stripe redirects back to `/shop/success` and `/shop/basket`; these work
   for testers because the browser already holds the Access cookie.
-- When the custom domain is attached, add the same three paths for
-  `www.mountain-heritage.org` to this application.
+- The same three paths are also set for `www.mountain-heritage.org` on
+  this application.
 - **At launch, delete or disable this application** and set `SHOP_PUBLIC`
   to `true` in `src/lib/shop-flags.ts` (see [shop.md](shop.md)). Both are
   required.

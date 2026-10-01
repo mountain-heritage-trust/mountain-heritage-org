@@ -1,31 +1,21 @@
 # TODO list — initial migration follow-ups
 
-What's left before launch, what's blocked on DNS, and a backlog of
-nice-to-haves.
+What's left before launch and a backlog of nice-to-haves.
 
 ---
 
-## Blocking launch on the real domain — DNS-deferred
+## Domain follow-ups
 
-The trust does not currently have access to the DNS provider for
-`mountain-heritage.org`. Until DNS is migrated to Cloudflare, the new
-site lives at `mountain-heritage-org.remus-ddf.workers.dev`.
+DNS is on Cloudflare and `www.mountain-heritage.org` serves the
+production Worker, with `/admin` behind Cloudflare Access.
 
-When DNS access is regained, do these in order:
-
-- [ ] Move DNS to Cloudflare (recommended — makes everything else
-  one-click).
-- [ ] Attach `www.mountain-heritage.org` as a custom domain on the
-  Workers project. Set up an apex redirect `mountain-heritage.org` →
-  `www.mountain-heritage.org`.
-- [ ] Verify the `mountain-heritage.org` domain in Resend (DKIM +
-  SPF DNS records). Once verified, change the Pages env var
-  `FROM_EMAIL` from `onboarding@resend.dev` to
-  `noreply@mountain-heritage.org` (or similar) so contact-form
-  emails come from the trust's own domain.
-- [ ] On the Cloudflare Access application gating `/admin/*`, add
-  `www.mountain-heritage.org/admin/*` as an additional path. Keep
-  the workers.dev path during the transition.
+- [ ] Redirect the apex `mountain-heritage.org` → `www.mountain-heritage.org`
+  (a Cloudflare redirect rule). The apex currently serves the site
+  directly with a 200, so there are two copies of every page.
+  Canonical tags already point at `www`.
+- [ ] Check the production Worker's `FROM_EMAIL` uses the trust's
+  own domain (e.g. `noreply@mountain-heritage.org`) rather than
+  `onboarding@resend.dev`, now that the domain is verified in Resend.
 
 ---
 
@@ -55,12 +45,6 @@ an error message.
 - [ ] **At launch:** set `SHOP_PUBLIC = true` in `src/lib/shop-flags.ts`
   *and* delete the "MHT — Shop (pre-launch)" Access application (see
   `docs/auth.md`). Then promote a release.
-
-## Analytics
-
-- [ ] Create the Cloudflare Web Analytics site and set the
-  `CF_WEB_ANALYTICS_TOKEN` repo variable, then promote a release. Until
-  then no visits are recorded. See `docs/analytics.md`.
 
 ## One-off verification
 
@@ -125,7 +109,7 @@ In rough priority order:
   `justGivingUrl` constant in `src/pages/donate.astro`. See
   `docs/donations.md`.
 - **Search Console + Bing Webmaster Tools**. Verify domain ownership
-  (DNS TXT once DNS is on Cloudflare) and submit the sitemap. Surfaces
+  (DNS TXT record in Cloudflare) and submit the sitemap. Surfaces
   ranking queries, indexing issues and Core Web Vitals real-user data.
 - **Markdown body-image optimisation**. The `<Image>` component
   optimises template-rendered images (covers, hero, cards), but
@@ -168,6 +152,12 @@ For reference, items that were on this list and are now resolved:
 - ✅ OG image on every page (cover image for posts, hero on home).
 - ✅ Writing style guide at `docs/style-guide.md` based on existing
   blog post voice.
+- ✅ DNS moved to Cloudflare; `www.mountain-heritage.org` attached to
+  the production Worker.
+- ✅ `mountain-heritage.org` verified in Resend (DKIM + SPF).
+- ✅ Cloudflare Access covers `www.mountain-heritage.org/admin/*`.
+- ✅ Cloudflare Web Analytics on production (see `docs/analytics.md`);
+  privacy notice updated to describe it.
 
 ---
 
