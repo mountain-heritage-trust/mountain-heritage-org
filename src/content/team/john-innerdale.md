@@ -1,6 +1,6 @@
 ---
 name: John Innerdale
-role: Patron, FOunder
+role: Patron, Founder
 category: patron
 former: false
 order: null
