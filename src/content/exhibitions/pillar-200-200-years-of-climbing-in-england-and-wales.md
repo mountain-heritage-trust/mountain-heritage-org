@@ -3,7 +3,7 @@ title: 'Pillar 200: 200 Years of Climbing in England and Wales'
 startDate: 2026-10-31
 endDate: 2027-02-28
 venue: The Beacon Museum, Whitehaven
-summary: On the 31st October, we’ll be opening our Pillar 200 full exhibition at the Beacon Museum, Whitehaven.
+summary: On the 31st October, we’ll be opening our Pillar 200 full exhibition at the Beacon Museum, Whitehaven. Follow climbing in England and Wales from the first ascent of Old West Route by shepherd John Atkinson to present day.
 cover: /uploads/pillar-launch-banner.png
 status: upcoming
 ---
