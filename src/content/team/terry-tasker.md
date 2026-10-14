@@ -1,8 +1,10 @@
 ---
-name: "Terry Tasker"
-role: "Patron"
+name: Terri Tasker
+role: Patron
 category: patron
 former: false
-photo: "/uploads/62d01245b80fc13d77fbbb06_Terry-Tasker.jpg"
+order: null
+photo: /uploads/62d01245b80fc13d77fbbb06_Terry-Tasker.jpg
 ---
-Terry has been with the Mountain Heritage Trust for many years, in the roles of Chair and Vice Chair, and is staying on as a Trustee. She has walked and camped in the Lake District fells and across England and Scotland, and brings a wealth of experience collaborating with community groups and young people's projects. Her background is in youth and community work, personal coaching and training. She is now retired but has been an independent consultant in her own right and instrumental in developing and setting up non-formal education programmes in a range of learning situations. She has written a range of papers and advised the Department for Education and Qualifications Curriculum Authority on structures of learning qualifications. She is also a Trustee of the Boardman Tasker Charitable Trust, which provides an annual literature award to books themed on mountains. She has helped MHT compiling the diaries and writing collections of her brother, Joe Tasker, for the ‘Towering Talent’ Archive Collection and is currently supporting the MHT office operations at Blencathra.
+
+Terri has been with the Mountain Heritage Trust for many years, in the roles of Chair and Vice Chair, and is staying on as a Trustee. She has walked and camped in the Lake District fells and across England and Scotland, and brings a wealth of experience collaborating with community groups and young people's projects. Her background is in youth and community work, personal coaching and training. She is now retired but has been an independent consultant in her own right and instrumental in developing and setting up non-formal education programmes in a range of learning situations. She has written a range of papers and advised the Department for Education and Qualifications Curriculum Authority on structures of learning qualifications. She is also a Trustee of the Boardman Tasker Charitable Trust, which provides an annual literature award to books themed on mountains. She has helped MHT compiling the diaries and writing collections of her brother, Joe Tasker, for the ‘Towering Talent’ Archive Collection and is currently supporting the MHT office operations at Blencathra.
