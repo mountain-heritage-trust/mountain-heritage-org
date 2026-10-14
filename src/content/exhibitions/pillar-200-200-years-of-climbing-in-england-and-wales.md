@@ -16,6 +16,6 @@ This is the first time the Lake District based museum will host a climbing and m
 
 This exhibition has been generously supported by DMM Climbing, The National Lottery Heritage Fund, Mountain Rescue England and Wales, Needle Sports, Fell and Rock Climbing Club, Outside, Beta Climbing Designs, Joe Brown's Shops, UKClimbing.com, The Climbers Shop and the BMC.
 
-**_Joe Brown Climbing at Gogarth by John Cleare_**
-
 ![](/uploads/joe-brown-gogarth_converted.png "Joe Brown Climbing at Gogarth by John Cleare")
+
+**_Joe Brown Climbing at Gogarth by John Cleare_**
