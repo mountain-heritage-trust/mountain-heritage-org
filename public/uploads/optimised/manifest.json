@@ -971,6 +971,10 @@
     "width": 500,
     "height": 500
   },
+  "joe-brown-gogarth_converted.png": {
+    "width": 1729,
+    "height": 2048
+  },
   "library.jpg": {
     "width": 1440,
     "height": 1440
@@ -986,5 +990,13 @@
   "outside-logo.png": {
     "width": 453,
     "height": 174
+  },
+  "pillar-launch-banner.jpg": {
+    "width": 2048,
+    "height": 1152
+  },
+  "pillar-launch-banner.png": {
+    "width": 2048,
+    "height": 1152
   }
 }
