@@ -12,7 +12,7 @@ hideFromHome: false
 
 Trustee and author Peter Foster has penned a piece for the BMC’s Summit Magazine. 50 years after Joe Tasker and Pete Boardman summited the west face, Peter explores the groundbreaking summit and Joe and Pete's relationship as they spent 40 days alone tackling this domineering climb.
 
-
+![Changabang 50 - the domineering west face, handwritten note explaining the first climb in 1974 and how the west face was a preposterous route.](/uploads/writing-on-changabang.png "Changabang 50 - the domineering west face")
 
 Take a look at the visually led article, where the expedition's photography takes a joint main stage with Peter’s words, containing quotes from their contemporaries and the climbers themselves.
 
