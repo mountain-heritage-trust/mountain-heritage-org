@@ -12,11 +12,15 @@ hideFromHome: false
 
 Trustee and author Peter Foster has penned a piece for the BMC’s Summit Magazine. 50 years after Joe Tasker and Pete Boardman summited the west face, Peter explores the groundbreaking summit and Joe and Pete's relationship as they spent 40 days alone tackling this domineering climb.
 
+
+
 Take a look at the visually led article, where the expedition's photography takes a joint main stage with Peter’s words, containing quotes from their contemporaries and the climbers themselves.
 
 [BMC Summit Magazine 123 Autumn 2026 - Climbing Changabang 50](https://btpubs.co.uk/publication/?i=870773&p=56&view=issueViewer)
 
 _Joe and Pete from the Boardman Tasker Collection_
+
+![Pete Boardman and Joe Tasker](/uploads/tasker-and-boardman.jpg "Changabang 50 - Pete and Joe")
 
 Pete Boardman and Joe Tasker’s families, including previous trustee and Patron Terri Tasker, have been instrumental in the Mountain Heritage Trust,  where we hold the wonderful Boardman Tasker collection. With hundreds of objects, photos, and words from these two trailblazing mountaineers, the Trust’s mission is to share their work with the wider climbing community.
 
