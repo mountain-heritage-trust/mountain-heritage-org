@@ -3,8 +3,9 @@
 # Triggers:
 #   - A semver tag push (vX.Y.Z) — developer promotion via the /deploy skill.
 #   - A push to main whose commit is a CMS edit (message contains "[cms]") —
-#     trustee edits in /admin go live automatically. The workflow bumps the
-#     patch version, tags it, and deploys.
+#     trustee edits in /admin go live automatically. The workflow waits for
+#     a minute with no further CMS edits, then bumps the patch version, tags
+#     the latest main, and deploys. A burst of saves becomes one release.
 #
 # Plain developer pushes to main (no tag, no [cms]) do nothing here; they only
 # update staging via Cloudflare's own Git build.
@@ -28,9 +29,9 @@ on:
         description: 'Existing tag to (re)deploy, e.g. v1.2.3 — for rollbacks.'
         required: true
 
-concurrency:
-  group: deploy-production
-  cancel-in-progress: false
+# Concurrency is set per job (below), not for the whole workflow: the
+# quiet-period wait must be cancellable by the next CMS edit, but a deploy
+# that has started must never be cancelled half-way.
 
 permissions:
   contents: write
@@ -58,15 +59,39 @@ jobs:
           elif printf '%s' "$MSG" | grep -q '\[cms\]'; then
             echo "deploy=true"  >> "$GITHUB_OUTPUT"
             echo "mode=cms"      >> "$GITHUB_OUTPUT"
-            echo "ref=${{ github.sha }}" >> "$GITHUB_OUTPUT"
+            # Release whatever main is when the quiet period ends, so the
+            # edits from cancelled runs in the same burst are included.
+            echo "ref=main"      >> "$GITHUB_OUTPUT"
           else
             echo "deploy=false" >> "$GITHUB_OUTPUT"
           fi
 
-  deploy:
+  # Debounce trustee edits. Each [cms] push starts a 60s wait; a newer
+  # [cms] push cancels the waiting one (cancel-in-progress), so only the
+  # last save in a burst goes on to release. Tags and manual redeploys skip
+  # this job.
+  quiet-period:
     needs: decide
-    if: needs.decide.outputs.deploy == 'true'
+    if: needs.decide.outputs.mode == 'cms'
     runs-on: ubuntu-latest
+    concurrency:
+      group: cms-release-quiet-period
+      cancel-in-progress: true
+    steps:
+      - run: sleep 60
+
+  deploy:
+    needs: [decide, quiet-period]
+    # always() so a skipped quiet-period (tag / manual deploys) doesn't skip
+    # this job; a cancelled one (superseded by a newer edit) still does.
+    if: >-
+      always() &&
+      needs.decide.outputs.deploy == 'true' &&
+      (needs.quiet-period.result == 'success' || needs.quiet-period.result == 'skipped')
+    runs-on: ubuntu-latest
+    concurrency:
+      group: deploy-production
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
         with:
@@ -80,20 +105,33 @@ jobs:
 
       - run: npm ci
 
-      # Compress-on-ingest for trustee uploads. If this CMS commit touched
-      # public/uploads, regenerate downsized originals + AVIF/WebP variants and
+      # Nothing to do if this commit is already released (e.g. a developer
+      # tagged it during the quiet period).
+      - name: Check main has unreleased changes (CMS edits)
+        id: unreleased
+        if: needs.decide.outputs.mode == 'cms'
+        run: |
+          if [ -n "$(git tag --points-at HEAD --list 'v*.*.*')" ]; then
+            echo "HEAD is already released; nothing to deploy."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Compress-on-ingest for trustee uploads. If any CMS edit since the
+      # last release touched public/uploads, regenerate downsized originals + AVIF/WebP variants and
       # commit them back to main (so the repo stays lean and the tag below
       # points at the optimised tree). The commit is marked [skip-optimise] so
       # neither this workflow nor optimise-images.yml re-triggers. See
       # docs/images.md.
       - name: Optimise uploaded images (CMS edits)
-        if: needs.decide.outputs.mode == 'cms'
+        if: needs.decide.outputs.mode == 'cms' && steps.unreleased.outputs.skip != 'true'
         run: |
-          before='${{ github.event.before }}'
+          # Compare against the last release, not just the previous commit:
+          # a burst of edits is released together.
+          before=$(git tag --list 'v*.*.*' --sort=-v:refname | head -n1)
           if [ -z "$before" ] || ! git cat-file -e "${before}^{commit}" 2>/dev/null; then
             before=HEAD~1
           fi
-          if git diff --name-only "$before" '${{ github.sha }}' | grep -q '^public/uploads/'; then
+          if git diff --name-only "$before" HEAD | grep -q '^public/uploads/'; then
             npm run images
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -109,7 +147,7 @@ jobs:
           fi
 
       - name: Tag the patch release (CMS edits)
-        if: needs.decide.outputs.mode == 'cms'
+        if: needs.decide.outputs.mode == 'cms' && steps.unreleased.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -124,6 +162,7 @@ jobs:
           git push origin "$new"
 
       - run: npm run build
+        if: steps.unreleased.outputs.skip != 'true'
         env:
           # Cloudflare Web Analytics site token. Public (it ends up in the
           # page HTML), so it lives here rather than in a secret. Set only
@@ -132,6 +171,7 @@ jobs:
           PUBLIC_CF_WEB_ANALYTICS_TOKEN: b7ee2bc4e3bc46da99b3a9f650a8e1e6
 
       - name: Deploy to production Worker
+        if: steps.unreleased.outputs.skip != 'true'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}

@@ -99,6 +99,18 @@ There are two Workers, both built from this repo (see `wrangler.jsonc` and
   `main` → staging rebuilds **and** the production workflow auto-bumps the patch
   version and deploys. Trustee edits go live with no extra steps.
 
+**CMS releases are batched.** Each `[cms]` push waits for 60 seconds with no
+further `[cms]` push (the `quiet-period` job; a newer edit cancels the
+older wait). The last run in a burst then tags and deploys the latest
+`main`, so ten quick saves make one release instead of ten. Expect a
+trustee edit to be live about 3–4 minutes after the last save. If that
+`main` already has a release tag, the run does nothing. The deploy job
+has its own non-cancelling concurrency group, so a deploy that has
+started always finishes.
+
+Because the CMS release deploys the latest `main`, any developer commits
+pushed but not yet promoted go out with it, as they always have.
+
 Staging build time is typically under 60 seconds.
 
 **Images are optimised in CI.** Pushes that add images to `public/uploads` are

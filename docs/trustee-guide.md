@@ -50,7 +50,9 @@ To edit an existing page:
 3. Make your changes in the form on the right.
 4. Click **Save**.
 
-Within about a minute, your change will be live on the website.
+A few minutes after you stop saving, your change will be live on the
+website. If you make several edits in a row, the site waits until you
+have paused for a minute and then publishes them all together.
 
 ## Creating a new blog post
 
@@ -96,7 +98,7 @@ readers and to improve SEO.
 ## Describing images: captions, dates and credits
 
 Every picture you upload gets an entry in the **Image library** (in the
-left-hand menu) about a minute after you save. Open an image there to add:
+left-hand menu) a few minutes after you save. Open an image there to add:
 
 - **Caption** — what the picture shows: who, what and where. This
   appears under the image on cover images and on pictures placed on a

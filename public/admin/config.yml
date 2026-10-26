@@ -255,7 +255,7 @@ collections:
           - { label: PDF file, name: file, widget: file }
 
   # Image library — one record per uploaded image, created automatically
-  # by scripts/image-records.mjs about a minute after an upload (trustees
+  # by scripts/image-records.mjs a few minutes after an upload (trustees
   # don't create or delete records here). Trustees add caption, alt text,
   # date and credit; the image, suggested credit and versions are written
   # by the script and read-only. Field order matches the script's output.
@@ -263,7 +263,7 @@ collections:
   - name: images
     label: Image library
     label_singular: Image
-    description: 'Every uploaded picture, with its caption, date and credit. Captions and credits appear under the image on the site and on its public "Image details" page. New uploads appear here about a minute after they are saved.'
+    description: 'Every uploaded picture, with its caption, date and credit. Captions and credits appear under the image on the site and on its public "Image details" page. New uploads appear here a few minutes after they are saved.'
     folder: src/content/images
     extension: yml
     format: yaml
