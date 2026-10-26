@@ -119,8 +119,10 @@ Many images show a **Suggested caption**, **Suggested date** or
 **Suggested credit**. These were drafted from the original filenames and
 the pages each picture appears on. They are suggestions, not facts:
 check each one, then copy it into **Caption**, **Date** or **Credit**,
-editing as needed. Suggestions starting "Unsure:" had little to go on,
-so treat them with extra care. The **Has a suggested caption to check**
+editing as needed. Where a suggestion was less clear-cut it was checked
+against an outside source (climbing-history.org, the BMC, publishers and
+the like), listed under **Suggestion source**; suggestions that couldn't
+be confirmed were removed. The **Has a suggested caption to check**
 and **Has a suggested credit to check** filters list them. Nothing is
 shown on the site until it is in the Caption, Date or Credit field.
 

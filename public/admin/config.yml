@@ -286,6 +286,7 @@ collections:
       - { label: Notes, name: notes, widget: text, required: false, hint: 'Internal notes (rights, provenance, to-dos). Never shown on the site.' }
       - { label: Suggested caption, name: suggestedCaption, widget: text, required: false, readonly: true, hint: 'Drafted from the filename and the pages the picture appears on. Check it, then copy it into Caption (editing as needed).' }
       - { label: Suggested date, name: suggestedDate, widget: string, required: false, readonly: true, hint: 'Drafted from the filename or page text. Check it, then copy it into Date.' }
+      - { label: Suggestion source, name: suggestionSource, widget: text, required: false, readonly: true, hint: 'Where the suggested caption or date was checked, when it was checked against an outside source.' }
       - { label: Suggested credit, name: suggestedCredit, widget: string, required: false, readonly: true, hint: 'Guessed from the original filename. Check it, then copy it into Credit if it is right.' }
       - { label: Width (px), name: width, widget: number, required: false, readonly: true }
       - { label: Height (px), name: height, widget: number, required: false, readonly: true }

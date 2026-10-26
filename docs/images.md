@@ -116,6 +116,7 @@ CMS **Image library** (see [cms.md](cms.md#image-library)).
 | `credit` | trustee | yes |
 | `notes` | trustee | no |
 | `suggestedCaption`, `suggestedDate` | one-off drafting pass (October 2026), from filenames and page context | no |
+| `suggestionSource` | same pass: external source(s) that confirmed a less certain suggestion (unconfirmed ones were removed) | no |
 | `suggestedCredit` | script, once, on creation | no |
 | `width`, `height`, `versions` | script, every run | `versions` on `/images/<id>` |
 

@@ -169,6 +169,7 @@ for (const file of files) {
   // and only ever read here.
   next.suggestedCaption = rec.data.suggestedCaption ?? null;
   next.suggestedDate = rec.data.suggestedDate ?? null;
+  next.suggestionSource = rec.data.suggestionSource ?? null;
   next.suggestedCredit = rec.data.suggestedCredit ?? null;
   next.width = width;
   next.height = height;
