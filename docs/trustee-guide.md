@@ -60,7 +60,10 @@ Within about a minute, your change will be live on the website.
    - **Title** — the headline of the post.
    - **Date** — the publish date (today's date is fine for new posts).
    - **Summary** — a one-sentence standfirst. This shows on the news
-     listing page and in search results. Aim for one short sentence.
+     listing page and in search results, and under the title on the post
+     itself. Aim for one short sentence. If it repeats the first
+     sentence of the post word for word, it is left off the post page so
+     readers don't read it twice.
    - **Cover image** — optional. Click to upload.
    - **Author** — optional.
    - **Tags** — optional.

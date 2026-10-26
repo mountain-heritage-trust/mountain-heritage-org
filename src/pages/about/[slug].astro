@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import TeamGallery from '../../components/TeamGallery.astro';
 import PartnersGallery from '../../components/PartnersGallery.astro';
+import { showSummaryLead } from '../../lib/summary';
 
 export async function getStaticPaths() {
   const items = await getCollection('about');
@@ -36,7 +37,7 @@ const breadcrumbs =
   <article class:list={['article', item.data.showTeam && 'article--full']}>
     <Breadcrumbs items={breadcrumbs} />
     <h1>{item.data.title}</h1>
-    {item.data.summary && <p class="article-summary">{item.data.summary}</p>}
+    {showSummaryLead(item.data.summary, item.body) && <p class="article-summary">{item.data.summary}</p>}
     <Content />
   </article>
   {item.data.showTeam && <TeamGallery />}

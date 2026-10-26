@@ -36,6 +36,12 @@ hideFromHome: false                        # optional, defaults to false
 Body in markdown...
 ```
 
+On the entry's own page (blog, exhibitions, about, collections, partners)
+`summary` is also shown as a lead paragraph under the title, unless it just
+repeats the opening of the body (common in migrated posts, where the summary
+was cut from the first paragraph). That check is `showSummaryLead()` in
+`src/lib/summary.ts`.
+
 `hideFromHome: true` keeps a post in the blog listing, tag pages and RSS but
 removes it from the home page's "Latest news" list — for older news that has
 gone stale but is worth keeping for the historic record. `draft: true` hides

@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Image from '../../components/Image.astro';
 import { exhibitionSchema } from '../../lib/schema';
+import { showSummaryLead } from '../../lib/summary';
 
 export async function getStaticPaths() {
   const items = await getCollection('exhibitions');
@@ -59,7 +60,7 @@ const schema = exhibitionSchema(item, pageUrl, Astro.site as URL);
         {item.data.venue}
       </p>
     )}
-    {item.data.summary && <p class="article-summary">{item.data.summary}</p>}
+    {showSummaryLead(item.data.summary, item.body) && <p class="article-summary">{item.data.summary}</p>}
     <Content />
   </article>
 </BaseLayout>

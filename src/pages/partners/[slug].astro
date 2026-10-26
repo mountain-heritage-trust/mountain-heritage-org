@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { showSummaryLead } from '../../lib/summary';
 
 export async function getStaticPaths() {
   const partners = await getCollection('partners');
@@ -28,7 +29,7 @@ const { Content } = await render(partner);
       <img src={partner.data.logo} alt={partner.data.name} />
     </span>
     <h1>{partner.data.name}</h1>
-    {partner.data.summary && <p class="article-summary">{partner.data.summary}</p>}
+    {showSummaryLead(partner.data.summary, partner.body) && <p class="article-summary">{partner.data.summary}</p>}
     <Content />
     {partner.data.url && (
       <p class="partner-profile__link">

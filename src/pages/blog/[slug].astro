@@ -5,6 +5,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Image from '../../components/Image.astro';
 import { articleSchema } from '../../lib/schema';
 import { tagsForPost } from '../../lib/tags';
+import { showSummaryLead } from '../../lib/summary';
 
 export async function getStaticPaths() {
   const posts = (await getCollection('blog')).filter((p) => !p.data.draft);
@@ -60,7 +61,7 @@ const tags = tagsForPost(post);
       <time datetime={post.data.date.toISOString()}>{dateString}</time>
       {post.data.author && <span> · {post.data.author}</span>}
     </p>
-    {post.data.summary && <p class="article-summary">{post.data.summary}</p>}
+    {showSummaryLead(post.data.summary, post.body) && <p class="article-summary">{post.data.summary}</p>}
     <Content />
     {tags.length > 0 && (
       <footer class="post-tags">
