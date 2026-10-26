@@ -115,9 +115,14 @@ it is used. Each described picture also gets a public **Image details**
 page, linked from its caption, showing where it appears and the versions
 available.
 
-Some images show a **Suggested credit** taken from the original
-filename. These are guesses: if one is right, copy it into **Credit**.
-The **Has a suggested credit to check** filter lists them.
+Many images show a **Suggested caption**, **Suggested date** or
+**Suggested credit**. These were drafted from the original filenames and
+the pages each picture appears on. They are suggestions, not facts:
+check each one, then copy it into **Caption**, **Date** or **Credit**,
+editing as needed. Suggestions starting "Unsure:" had little to go on,
+so treat them with extra care. The **Has a suggested caption to check**
+and **Has a suggested credit to check** filters list them. Nothing is
+shown on the site until it is in the Caption, Date or Credit field.
 
 The **Versions** list at the bottom shows the smaller copies the site
 makes automatically for faster loading. You don't need to do anything

@@ -275,6 +275,7 @@ collections:
     sortable_fields: [caption, date, credit]
     view_filters:
       - { label: Has a caption, field: caption, pattern: '.' }
+      - { label: Has a suggested caption to check, field: suggestedCaption, pattern: '.' }
       - { label: Has a suggested credit to check, field: suggestedCredit, pattern: '.' }
     fields:
       - { label: Image, name: image, widget: image, readonly: true, hint: 'To replace the picture, upload a new one; it gets its own record.' }
@@ -283,6 +284,8 @@ collections:
       - { label: Date, name: date, widget: string, required: false, hint: 'When the picture was taken. Approximate is fine: "1961", "c. 1953", "1970s".' }
       - { label: Credit, name: credit, widget: string, required: false, hint: 'Photographer or source, e.g. "Chris Bonington Picture Library". Shown publicly.' }
       - { label: Notes, name: notes, widget: text, required: false, hint: 'Internal notes (rights, provenance, to-dos). Never shown on the site.' }
+      - { label: Suggested caption, name: suggestedCaption, widget: text, required: false, readonly: true, hint: 'Drafted from the filename and the pages the picture appears on. Check it, then copy it into Caption (editing as needed).' }
+      - { label: Suggested date, name: suggestedDate, widget: string, required: false, readonly: true, hint: 'Drafted from the filename or page text. Check it, then copy it into Date.' }
       - { label: Suggested credit, name: suggestedCredit, widget: string, required: false, readonly: true, hint: 'Guessed from the original filename. Check it, then copy it into Credit if it is right.' }
       - { label: Width (px), name: width, widget: number, required: false, readonly: true }
       - { label: Height (px), name: height, widget: number, required: false, readonly: true }

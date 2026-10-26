@@ -1,10 +1,12 @@
 image: /uploads/9781839813160.jpg
 caption: The cover of Mick Fowler's new book "Eternal Alpinist"
-alt: ''
-date: '2026'
-credit: ''
-notes: ''
-suggestedCredit: ''
+alt: ""
+date: "2026"
+credit: ""
+notes: ""
+suggestedCaption: null
+suggestedDate: null
+suggestedCredit: ""
 width: 1374
 height: 2048
 versions:

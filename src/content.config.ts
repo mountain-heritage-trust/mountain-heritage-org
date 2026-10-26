@@ -142,7 +142,9 @@ const images = defineCollection({
     date: text,
     credit: text,
     notes: text,
-    suggestedCredit: z.string().nullish(),
+    suggestedCaption: text,
+    suggestedDate: text,
+    suggestedCredit: text,
     width: z.number().nullish(),
     height: z.number().nullish(),
     versions: z
