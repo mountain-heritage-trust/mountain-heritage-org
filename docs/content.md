@@ -13,6 +13,7 @@ Astro's content collections power the site's structured content. Each collection
 | `about`        | `src/content/about/`       | `/about/<slug>`         | About-section pages.             |
 | `partners`     | `src/content/partners/`    | `/partners/<slug>`      | Supporters & partners.           |
 | `shop`         | `src/content/shop/`        | `/shop/<slug>`          | Shop products. See [shop.md](shop.md). |
+| `images`       | `src/content/images/`      | `/images/<id>`          | One record per uploaded image (caption, date, credit, versions). Created by a script, not by hand. See [images.md](images.md#image-records). |
 
 The Astro collection is named `archive` to avoid clashing with Astro's own term "content collection". Public URLs still live under `/collections/`. See [migration.md](migration.md).
 
@@ -181,10 +182,13 @@ The slug is the filename. To preserve old URLs, match the slug to the existing p
 
 ## Markdown enrichment
 
-Two rehype plugins (wired up in `astro.config.mjs` under `markdown.rehypePlugins`) transform rendered markdown at build time:
+Three rehype plugins (wired up in `astro.config.mjs` under `markdown.rehypePlugins`) transform rendered markdown at build time:
 
 - `src/lib/youtube-embed.ts` — a bare YouTube URL on a line of its own becomes an embedded player (`youtube-nocookie.com` iframe, lazy-loaded, styled by `.youtube-embed` in `global.css`). Applies to all markdown content. Supports `watch?v=`, `youtu.be/`, `/shorts/`, `/live/` and `/embed/` URLs, plus `t=`/`start=` offsets. Links inside sentences, and links with custom text, are left alone.
 - `src/lib/auto-links.ts` — first mention of a team member or archive collection in a blog post is linked to its page.
+- `src/lib/image-captions.ts` — images in markdown bodies get alt text from their image record when they have none, and an image on a line of its own becomes a `<figure>` with the record's caption, date and credit. See [images.md](images.md#captions).
+
+These plugins read their data from disk when the config loads. Restart `astro dev` after changing a record locally to see the change in a markdown body. Production builds always start fresh.
 
 ## Notes
 

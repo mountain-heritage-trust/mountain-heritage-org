@@ -1,0 +1,40 @@
+image: /uploads/Screenshot 2026-06-23 at 08.00.22.png
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1706
+height: 1054
+versions:
+  - label: Original
+    format: PNG
+    width: 1706
+    height: 1054
+    size: 870 KB
+    url: /uploads/Screenshot 2026-06-23 at 08.00.22.png
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 395
+    size: 54 KB
+    url: /variants/Screenshot 2026-06-23 at 08.00.22-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 395
+    size: 61 KB
+    url: /variants/Screenshot 2026-06-23 at 08.00.22-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 791
+    size: 132 KB
+    url: /variants/Screenshot 2026-06-23 at 08.00.22-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 791
+    size: 166 KB
+    url: /variants/Screenshot 2026-06-23 at 08.00.22-1280.webp

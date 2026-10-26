@@ -16,6 +16,6 @@ Curators Dr Jonathan Westaway (UCLAN) and Harvey Wilkinson (National Trust) have
 
 Dr Westaway explains, "These expeditions relied on a diverse group of Indigenous labourers, from cooks to high-altitude climbers, who remain underrepresented in historical accounts. It's crucial to finally give them the recognition they deserve."
 
-![](/uploads/6703cb9d18c8273501e85743_6639ca2679f0373ee72cc917_Members-20in-20camp-201924-20Mount-20Everest-20Expediti-20on-20-C2-A9Royal-20Geographical-20Society-20with-20IBG.jpeg)
+![](/uploads/6639ca2679f0373ee72cc917_Members-in-camp-1924-Mount-Everest-Expediti-on-Royal-Geographical-Society-with-IBG.jpg)
 
 Members in camp 1924 Mount Everest Expedition ©Royal Geographical Society with IBG

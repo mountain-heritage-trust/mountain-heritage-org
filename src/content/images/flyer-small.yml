@@ -1,0 +1,40 @@
+image: /uploads/5f92936a325c4484a35fc634_Flyer-small.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 420
+height: 594
+versions:
+  - label: Original
+    format: JPEG
+    width: 420
+    height: 594
+    size: 40 KB
+    url: /uploads/5f92936a325c4484a35fc634_Flyer-small.jpg
+  - label: Medium
+    format: AVIF
+    width: 420
+    height: 594
+    size: 26 KB
+    url: /variants/5f92936a325c4484a35fc634_Flyer-small-640.avif
+  - label: Medium
+    format: WebP
+    width: 420
+    height: 594
+    size: 30 KB
+    url: /variants/5f92936a325c4484a35fc634_Flyer-small-640.webp
+  - label: Large
+    format: AVIF
+    width: 420
+    height: 594
+    size: 26 KB
+    url: /variants/5f92936a325c4484a35fc634_Flyer-small-1280.avif
+  - label: Large
+    format: WebP
+    width: 420
+    height: 594
+    size: 30 KB
+    url: /variants/5f92936a325c4484a35fc634_Flyer-small-1280.webp

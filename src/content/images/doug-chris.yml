@@ -1,0 +1,40 @@
+image: /uploads/5c59b95a2df9bb64dd7fdb5e_doug-chris.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1368
+height: 912
+versions:
+  - label: Original
+    format: JPEG
+    width: 1368
+    height: 912
+    size: 107 KB
+    url: /uploads/5c59b95a2df9bb64dd7fdb5e_doug-chris.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 427
+    size: 18 KB
+    url: /variants/5c59b95a2df9bb64dd7fdb5e_doug-chris-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 427
+    size: 22 KB
+    url: /variants/5c59b95a2df9bb64dd7fdb5e_doug-chris-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 853
+    size: 37 KB
+    url: /variants/5c59b95a2df9bb64dd7fdb5e_doug-chris-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 853
+    size: 52 KB
+    url: /variants/5c59b95a2df9bb64dd7fdb5e_doug-chris-1280.webp

@@ -1,0 +1,40 @@
+image: /uploads/67402dbba722b5ce833fead7_67402d795bd51710961627ad_mick_fowler_action.jpeg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1080
+height: 1618
+versions:
+  - label: Original
+    format: JPEG
+    width: 1080
+    height: 1618
+    size: 226 KB
+    url: /uploads/67402dbba722b5ce833fead7_67402d795bd51710961627ad_mick_fowler_action.jpeg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 959
+    size: 78 KB
+    url: /variants/67402dbba722b5ce833fead7_67402d795bd51710961627ad_mick_fowler_action-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 959
+    size: 87 KB
+    url: /variants/67402dbba722b5ce833fead7_67402d795bd51710961627ad_mick_fowler_action-640.webp
+  - label: Large
+    format: AVIF
+    width: 1080
+    height: 1618
+    size: 169 KB
+    url: /variants/67402dbba722b5ce833fead7_67402d795bd51710961627ad_mick_fowler_action-1280.avif
+  - label: Large
+    format: WebP
+    width: 1080
+    height: 1618
+    size: 219 KB
+    url: /variants/67402dbba722b5ce833fead7_67402d795bd51710961627ad_mick_fowler_action-1280.webp

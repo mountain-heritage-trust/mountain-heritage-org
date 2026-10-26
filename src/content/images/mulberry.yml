@@ -1,0 +1,40 @@
+image: /uploads/5c59b9682ddc2e7423ce9836_mulberry.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1289
+height: 852
+versions:
+  - label: Original
+    format: JPEG
+    width: 1289
+    height: 852
+    size: 109 KB
+    url: /uploads/5c59b9682ddc2e7423ce9836_mulberry.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 423
+    size: 17 KB
+    url: /variants/5c59b9682ddc2e7423ce9836_mulberry-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 423
+    size: 21 KB
+    url: /variants/5c59b9682ddc2e7423ce9836_mulberry-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 846
+    size: 52 KB
+    url: /variants/5c59b9682ddc2e7423ce9836_mulberry-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 846
+    size: 72 KB
+    url: /variants/5c59b9682ddc2e7423ce9836_mulberry-1280.webp

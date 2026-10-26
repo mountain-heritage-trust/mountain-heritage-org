@@ -1,0 +1,40 @@
+image: /uploads/writing-on-changabang.png
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 784
+versions:
+  - label: Original
+    format: PNG
+    width: 2048
+    height: 784
+    size: 1.1 MB
+    url: /uploads/writing-on-changabang.png
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 245
+    size: 25 KB
+    url: /variants/writing-on-changabang-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 245
+    size: 28 KB
+    url: /variants/writing-on-changabang-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 490
+    size: 72 KB
+    url: /variants/writing-on-changabang-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 490
+    size: 91 KB
+    url: /variants/writing-on-changabang-1280.webp

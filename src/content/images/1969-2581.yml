@@ -1,0 +1,40 @@
+image: /uploads/5c64152d4b24e67e171752a0_1969-2581.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1184
+height: 547
+versions:
+  - label: Original
+    format: JPEG
+    width: 1184
+    height: 547
+    size: 36 KB
+    url: /uploads/5c64152d4b24e67e171752a0_1969-2581.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 296
+    size: 5 KB
+    url: /variants/5c64152d4b24e67e171752a0_1969-2581-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 296
+    size: 7 KB
+    url: /variants/5c64152d4b24e67e171752a0_1969-2581-640.webp
+  - label: Large
+    format: AVIF
+    width: 1184
+    height: 547
+    size: 14 KB
+    url: /variants/5c64152d4b24e67e171752a0_1969-2581-1280.avif
+  - label: Large
+    format: WebP
+    width: 1184
+    height: 547
+    size: 19 KB
+    url: /variants/5c64152d4b24e67e171752a0_1969-2581-1280.webp

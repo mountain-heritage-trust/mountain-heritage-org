@@ -1,0 +1,40 @@
+image: /uploads/5fce3e8fb41aa751cd0443a5_Doug-Scott-3-small-copyright-Ian-Smith.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: Ian Smith
+width: 416
+height: 599
+versions:
+  - label: Original
+    format: JPEG
+    width: 416
+    height: 599
+    size: 42 KB
+    url: /uploads/5fce3e8fb41aa751cd0443a5_Doug-Scott-3-small-copyright-Ian-Smith.jpg
+  - label: Medium
+    format: AVIF
+    width: 416
+    height: 599
+    size: 27 KB
+    url: /variants/5fce3e8fb41aa751cd0443a5_Doug-Scott-3-small-copyright-Ian-Smith-640.avif
+  - label: Medium
+    format: WebP
+    width: 416
+    height: 599
+    size: 33 KB
+    url: /variants/5fce3e8fb41aa751cd0443a5_Doug-Scott-3-small-copyright-Ian-Smith-640.webp
+  - label: Large
+    format: AVIF
+    width: 416
+    height: 599
+    size: 27 KB
+    url: /variants/5fce3e8fb41aa751cd0443a5_Doug-Scott-3-small-copyright-Ian-Smith-1280.avif
+  - label: Large
+    format: WebP
+    width: 416
+    height: 599
+    size: 33 KB
+    url: /variants/5fce3e8fb41aa751cd0443a5_Doug-Scott-3-small-copyright-Ian-Smith-1280.webp

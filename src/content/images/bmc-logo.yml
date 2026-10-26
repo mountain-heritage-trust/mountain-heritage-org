@@ -1,0 +1,40 @@
+image: /uploads/bmc-logo.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 945
+height: 225
+versions:
+  - label: Original
+    format: JPEG
+    width: 945
+    height: 225
+    size: 15 KB
+    url: /uploads/bmc-logo.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 152
+    size: 3 KB
+    url: /variants/bmc-logo-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 152
+    size: 5 KB
+    url: /variants/bmc-logo-640.webp
+  - label: Large
+    format: AVIF
+    width: 945
+    height: 225
+    size: 4 KB
+    url: /variants/bmc-logo-1280.avif
+  - label: Large
+    format: WebP
+    width: 945
+    height: 225
+    size: 7 KB
+    url: /variants/bmc-logo-1280.webp

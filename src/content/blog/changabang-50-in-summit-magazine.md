@@ -2,7 +2,7 @@
 title: Changabang 50 in Summit Magazine
 date: 2026-10-15
 summary: Author and trustee, Peter Foster, has penned an article for the BMC's Summit Magazine celebrating Joe Tasker and Pete Boardman's ascent of the West Face of Changabang.
-cover: /uploads/untitled-design-1-2.jpg
+cover: /uploads/untitled-design-1.jpg
 coverContain: false
 author: Peter Foster
 tags: []

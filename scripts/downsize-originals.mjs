@@ -10,7 +10,7 @@
 //
 // Safe by construction:
 //   - Only touches *.jpg/*.jpeg/*.png directly under public/uploads (never the
-//     generated public/uploads/optimised/ variants).
+//     generated public/variants/ variants).
 //   - Bakes in EXIF orientation before resizing, then drops metadata.
 //   - Only rewrites a file when the result is at least 2% smaller, so it is
 //     idempotent — re-running produces no further changes (no git churn).

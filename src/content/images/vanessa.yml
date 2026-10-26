@@ -1,0 +1,40 @@
+image: /uploads/67b59177399ffff76df95c2c_vanessa.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1000
+height: 1000
+versions:
+  - label: Original
+    format: JPEG
+    width: 1000
+    height: 1000
+    size: 115 KB
+    url: /uploads/67b59177399ffff76df95c2c_vanessa.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 640
+    size: 32 KB
+    url: /variants/67b59177399ffff76df95c2c_vanessa-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 640
+    size: 40 KB
+    url: /variants/67b59177399ffff76df95c2c_vanessa-640.webp
+  - label: Large
+    format: AVIF
+    width: 1000
+    height: 1000
+    size: 62 KB
+    url: /variants/67b59177399ffff76df95c2c_vanessa-1280.avif
+  - label: Large
+    format: WebP
+    width: 1000
+    height: 1000
+    size: 75 KB
+    url: /variants/67b59177399ffff76df95c2c_vanessa-1280.webp

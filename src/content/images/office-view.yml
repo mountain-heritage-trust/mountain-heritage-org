@@ -1,0 +1,40 @@
+image: /uploads/62fcfff3e1a4c21c7f8ba25f_Office-view.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1536
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 1536
+    height: 2048
+    size: 309 KB
+    url: /uploads/62fcfff3e1a4c21c7f8ba25f_Office-view.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 853
+    size: 36 KB
+    url: /variants/62fcfff3e1a4c21c7f8ba25f_Office-view-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 853
+    size: 46 KB
+    url: /variants/62fcfff3e1a4c21c7f8ba25f_Office-view-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1707
+    size: 109 KB
+    url: /variants/62fcfff3e1a4c21c7f8ba25f_Office-view-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1707
+    size: 149 KB
+    url: /variants/62fcfff3e1a4c21c7f8ba25f_Office-view-1280.webp

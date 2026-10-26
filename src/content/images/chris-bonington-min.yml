@@ -1,0 +1,40 @@
+image: /uploads/66b13b8f64d035b912300cdb_chris-bonington-min.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1193
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1193
+    size: 350 KB
+    url: /uploads/66b13b8f64d035b912300cdb_chris-bonington-min.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 373
+    size: 56 KB
+    url: /variants/66b13b8f64d035b912300cdb_chris-bonington-min-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 373
+    size: 62 KB
+    url: /variants/66b13b8f64d035b912300cdb_chris-bonington-min-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 746
+    size: 115 KB
+    url: /variants/66b13b8f64d035b912300cdb_chris-bonington-min-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 746
+    size: 145 KB
+    url: /variants/66b13b8f64d035b912300cdb_chris-bonington-min-1280.webp

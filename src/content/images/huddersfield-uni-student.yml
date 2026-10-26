@@ -1,0 +1,40 @@
+image: /uploads/5e996dc9e8cad60fd1509f6c_Huddersfield-Uni-student.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1275
+height: 1280
+versions:
+  - label: Original
+    format: JPEG
+    width: 1275
+    height: 1280
+    size: 174 KB
+    url: /uploads/5e996dc9e8cad60fd1509f6c_Huddersfield-Uni-student.JPG
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 643
+    size: 31 KB
+    url: /variants/5e996dc9e8cad60fd1509f6c_Huddersfield-Uni-student-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 643
+    size: 42 KB
+    url: /variants/5e996dc9e8cad60fd1509f6c_Huddersfield-Uni-student-640.webp
+  - label: Large
+    format: AVIF
+    width: 1275
+    height: 1280
+    size: 76 KB
+    url: /variants/5e996dc9e8cad60fd1509f6c_Huddersfield-Uni-student-1280.avif
+  - label: Large
+    format: WebP
+    width: 1275
+    height: 1280
+    size: 106 KB
+    url: /variants/5e996dc9e8cad60fd1509f6c_Huddersfield-Uni-student-1280.webp

@@ -1,0 +1,40 @@
+image: /uploads/62d01245b80fc13d77fbbb06_Terry-Tasker.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1016
+height: 1460
+versions:
+  - label: Original
+    format: JPEG
+    width: 1016
+    height: 1460
+    size: 239 KB
+    url: /uploads/62d01245b80fc13d77fbbb06_Terry-Tasker.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 920
+    size: 76 KB
+    url: /variants/62d01245b80fc13d77fbbb06_Terry-Tasker-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 920
+    size: 97 KB
+    url: /variants/62d01245b80fc13d77fbbb06_Terry-Tasker-640.webp
+  - label: Large
+    format: AVIF
+    width: 1016
+    height: 1460
+    size: 142 KB
+    url: /variants/62d01245b80fc13d77fbbb06_Terry-Tasker-1280.avif
+  - label: Large
+    format: WebP
+    width: 1016
+    height: 1460
+    size: 178 KB
+    url: /variants/62d01245b80fc13d77fbbb06_Terry-Tasker-1280.webp

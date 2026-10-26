@@ -1,0 +1,40 @@
+image: /uploads/JBLogoRed.png
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 590
+height: 597
+versions:
+  - label: Original
+    format: PNG
+    width: 590
+    height: 597
+    size: 115 KB
+    url: /uploads/JBLogoRed.png
+  - label: Medium
+    format: AVIF
+    width: 590
+    height: 597
+    size: 7 KB
+    url: /variants/JBLogoRed-640.avif
+  - label: Medium
+    format: WebP
+    width: 590
+    height: 597
+    size: 12 KB
+    url: /variants/JBLogoRed-640.webp
+  - label: Large
+    format: AVIF
+    width: 590
+    height: 597
+    size: 7 KB
+    url: /variants/JBLogoRed-1280.avif
+  - label: Large
+    format: WebP
+    width: 590
+    height: 597
+    size: 12 KB
+    url: /variants/JBLogoRed-1280.webp

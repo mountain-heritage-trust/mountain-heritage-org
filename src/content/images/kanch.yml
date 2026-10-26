@@ -1,0 +1,40 @@
+image: /uploads/5e81f7ab54e3ba17c28c6705_kanch.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1213
+height: 869
+versions:
+  - label: Original
+    format: JPEG
+    width: 1213
+    height: 869
+    size: 116 KB
+    url: /uploads/5e81f7ab54e3ba17c28c6705_kanch.JPG
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 458
+    size: 29 KB
+    url: /variants/5e81f7ab54e3ba17c28c6705_kanch-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 458
+    size: 33 KB
+    url: /variants/5e81f7ab54e3ba17c28c6705_kanch-640.webp
+  - label: Large
+    format: AVIF
+    width: 1213
+    height: 869
+    size: 67 KB
+    url: /variants/5e81f7ab54e3ba17c28c6705_kanch-1280.avif
+  - label: Large
+    format: WebP
+    width: 1213
+    height: 869
+    size: 81 KB
+    url: /variants/5e81f7ab54e3ba17c28c6705_kanch-1280.webp

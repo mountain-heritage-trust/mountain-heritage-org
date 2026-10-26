@@ -1,0 +1,40 @@
+image: /uploads/5f801d00268e673f79fa911c_CRF-GENERIC-Twitter.png
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1080
+height: 600
+versions:
+  - label: Original
+    format: PNG
+    width: 1080
+    height: 600
+    size: 18 KB
+    url: /uploads/5f801d00268e673f79fa911c_CRF-GENERIC-Twitter.png
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 356
+    size: 7 KB
+    url: /variants/5f801d00268e673f79fa911c_CRF-GENERIC-Twitter-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 356
+    size: 10 KB
+    url: /variants/5f801d00268e673f79fa911c_CRF-GENERIC-Twitter-640.webp
+  - label: Large
+    format: AVIF
+    width: 1080
+    height: 600
+    size: 12 KB
+    url: /variants/5f801d00268e673f79fa911c_CRF-GENERIC-Twitter-1280.avif
+  - label: Large
+    format: WebP
+    width: 1080
+    height: 600
+    size: 18 KB
+    url: /variants/5f801d00268e673f79fa911c_CRF-GENERIC-Twitter-1280.webp

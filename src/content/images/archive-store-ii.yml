@@ -1,0 +1,40 @@
+image: /uploads/62fcff59160fc774dda18054_Archive-Store-ii.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1536
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1536
+    size: 273 KB
+    url: /uploads/62fcff59160fc774dda18054_Archive-Store-ii.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 480
+    size: 27 KB
+    url: /variants/62fcff59160fc774dda18054_Archive-Store-ii-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 480
+    size: 34 KB
+    url: /variants/62fcff59160fc774dda18054_Archive-Store-ii-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 960
+    size: 63 KB
+    url: /variants/62fcff59160fc774dda18054_Archive-Store-ii-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 960
+    size: 87 KB
+    url: /variants/62fcff59160fc774dda18054_Archive-Store-ii-1280.webp

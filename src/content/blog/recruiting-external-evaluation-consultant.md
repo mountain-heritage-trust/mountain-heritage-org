@@ -5,7 +5,7 @@ summary: |-
   Contract value: Up to £5,000 (including VAT)
   Contract period: October/November 2026 – September 2028
   Closing date: 17 October 2026
-cover: /uploads/optimised/5c3f418ebac5b6790145e780_TAS-3-3-Joe-Tasker-and-Dick-Renshaw-K2-query-1280.avif
+cover: /uploads/5c3f418ebac5b6790145e780_TAS-3-3-Joe-Tasker-and-Dick-Renshaw-K2-query.jpg
 coverContain: false
 author: Dave Tait
 tags: []

@@ -1,0 +1,40 @@
+image: /uploads/5c4f1343cfbdb947291b9d6b_ArticleImageHandler.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 605
+height: 403
+versions:
+  - label: Original
+    format: JPEG
+    width: 605
+    height: 403
+    size: 49 KB
+    url: /uploads/5c4f1343cfbdb947291b9d6b_ArticleImageHandler.JPG
+  - label: Medium
+    format: AVIF
+    width: 605
+    height: 403
+    size: 32 KB
+    url: /variants/5c4f1343cfbdb947291b9d6b_ArticleImageHandler-640.avif
+  - label: Medium
+    format: WebP
+    width: 605
+    height: 403
+    size: 36 KB
+    url: /variants/5c4f1343cfbdb947291b9d6b_ArticleImageHandler-640.webp
+  - label: Large
+    format: AVIF
+    width: 605
+    height: 403
+    size: 32 KB
+    url: /variants/5c4f1343cfbdb947291b9d6b_ArticleImageHandler-1280.avif
+  - label: Large
+    format: WebP
+    width: 605
+    height: 403
+    size: 36 KB
+    url: /variants/5c4f1343cfbdb947291b9d6b_ArticleImageHandler-1280.webp

@@ -1,0 +1,40 @@
+image: /uploads/5e4d423666e7c9e66a2f365d_CCGoo3climbing.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 612
+height: 408
+versions:
+  - label: Original
+    format: JPEG
+    width: 612
+    height: 408
+    size: 62 KB
+    url: /uploads/5e4d423666e7c9e66a2f365d_CCGoo3climbing.jpg
+  - label: Medium
+    format: AVIF
+    width: 612
+    height: 408
+    size: 46 KB
+    url: /variants/5e4d423666e7c9e66a2f365d_CCGoo3climbing-640.avif
+  - label: Medium
+    format: WebP
+    width: 612
+    height: 408
+    size: 54 KB
+    url: /variants/5e4d423666e7c9e66a2f365d_CCGoo3climbing-640.webp
+  - label: Large
+    format: AVIF
+    width: 612
+    height: 408
+    size: 46 KB
+    url: /variants/5e4d423666e7c9e66a2f365d_CCGoo3climbing-1280.avif
+  - label: Large
+    format: WebP
+    width: 612
+    height: 408
+    size: 54 KB
+    url: /variants/5e4d423666e7c9e66a2f365d_CCGoo3climbing-1280.webp

@@ -1,0 +1,40 @@
+image: /uploads/5c643dc725395a2dfd7d1775_Dan-Smith-Uni-project-002.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1957
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1957
+    size: 426 KB
+    url: /uploads/5c643dc725395a2dfd7d1775_Dan-Smith-Uni-project-002.JPG
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 612
+    size: 33 KB
+    url: /variants/5c643dc725395a2dfd7d1775_Dan-Smith-Uni-project-002-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 612
+    size: 42 KB
+    url: /variants/5c643dc725395a2dfd7d1775_Dan-Smith-Uni-project-002-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1223
+    size: 94 KB
+    url: /variants/5c643dc725395a2dfd7d1775_Dan-Smith-Uni-project-002-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1223
+    size: 130 KB
+    url: /variants/5c643dc725395a2dfd7d1775_Dan-Smith-Uni-project-002-1280.webp

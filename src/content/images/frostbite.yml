@@ -1,0 +1,40 @@
+image: /uploads/5ea7f517a2a11e1d7b95d4e4_frostbite.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1280
+height: 826
+versions:
+  - label: Original
+    format: JPEG
+    width: 1280
+    height: 826
+    size: 102 KB
+    url: /uploads/5ea7f517a2a11e1d7b95d4e4_frostbite.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 413
+    size: 14 KB
+    url: /variants/5ea7f517a2a11e1d7b95d4e4_frostbite-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 413
+    size: 20 KB
+    url: /variants/5ea7f517a2a11e1d7b95d4e4_frostbite-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 826
+    size: 43 KB
+    url: /variants/5ea7f517a2a11e1d7b95d4e4_frostbite-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 826
+    size: 57 KB
+    url: /variants/5ea7f517a2a11e1d7b95d4e4_frostbite-1280.webp

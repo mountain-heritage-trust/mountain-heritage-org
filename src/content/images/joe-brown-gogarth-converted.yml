@@ -1,0 +1,40 @@
+image: /uploads/joe-brown-gogarth_converted.png
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1729
+height: 2048
+versions:
+  - label: Original
+    format: PNG
+    width: 1729
+    height: 2048
+    size: 3.0 MB
+    url: /uploads/joe-brown-gogarth_converted.png
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 758
+    size: 75 KB
+    url: /variants/joe-brown-gogarth_converted-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 758
+    size: 97 KB
+    url: /variants/joe-brown-gogarth_converted-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1516
+    size: 318 KB
+    url: /variants/joe-brown-gogarth_converted-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1516
+    size: 399 KB
+    url: /variants/joe-brown-gogarth_converted-1280.webp

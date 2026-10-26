@@ -38,7 +38,7 @@ const schema = productSchema(product, pageUrl, Astro.site as URL);
         {product.data.cover ? (
           <Image
             src={product.data.cover}
-            alt=""
+            caption
             class="product__image"
             sizes="(max-width: 48rem) 100vw, 480px"
             loading="eager"

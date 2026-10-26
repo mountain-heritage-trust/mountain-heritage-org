@@ -1,0 +1,40 @@
+image: /uploads/5fce40bffcea31dd279e5bb3_Doug-Scott-2-cropped-med.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1885
+height: 1060
+versions:
+  - label: Original
+    format: JPEG
+    width: 1885
+    height: 1060
+    size: 249 KB
+    url: /uploads/5fce40bffcea31dd279e5bb3_Doug-Scott-2-cropped-med.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 360
+    size: 22 KB
+    url: /variants/5fce40bffcea31dd279e5bb3_Doug-Scott-2-cropped-med-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 360
+    size: 30 KB
+    url: /variants/5fce40bffcea31dd279e5bb3_Doug-Scott-2-cropped-med-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 720
+    size: 69 KB
+    url: /variants/5fce40bffcea31dd279e5bb3_Doug-Scott-2-cropped-med-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 720
+    size: 98 KB
+    url: /variants/5fce40bffcea31dd279e5bb3_Doug-Scott-2-cropped-med-1280.webp

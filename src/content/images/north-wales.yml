@@ -1,0 +1,40 @@
+image: /uploads/67100862404d079bd7266313_north-wales.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1440
+height: 961
+versions:
+  - label: Original
+    format: JPEG
+    width: 1440
+    height: 961
+    size: 379 KB
+    url: /uploads/67100862404d079bd7266313_north-wales.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 427
+    size: 70 KB
+    url: /variants/67100862404d079bd7266313_north-wales-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 427
+    size: 77 KB
+    url: /variants/67100862404d079bd7266313_north-wales-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 854
+    size: 274 KB
+    url: /variants/67100862404d079bd7266313_north-wales-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 854
+    size: 319 KB
+    url: /variants/67100862404d079bd7266313_north-wales-1280.webp

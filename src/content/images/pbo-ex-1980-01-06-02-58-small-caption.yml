@@ -1,0 +1,40 @@
+image: /uploads/5fd74cc0065512a1467b1e6f_PBO-EX-1980-01-06-02-58-small-caption.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 632
+height: 395
+versions:
+  - label: Original
+    format: JPEG
+    width: 632
+    height: 395
+    size: 32 KB
+    url: /uploads/5fd74cc0065512a1467b1e6f_PBO-EX-1980-01-06-02-58-small-caption.jpg
+  - label: Medium
+    format: AVIF
+    width: 632
+    height: 395
+    size: 18 KB
+    url: /variants/5fd74cc0065512a1467b1e6f_PBO-EX-1980-01-06-02-58-small-caption-640.avif
+  - label: Medium
+    format: WebP
+    width: 632
+    height: 395
+    size: 21 KB
+    url: /variants/5fd74cc0065512a1467b1e6f_PBO-EX-1980-01-06-02-58-small-caption-640.webp
+  - label: Large
+    format: AVIF
+    width: 632
+    height: 395
+    size: 18 KB
+    url: /variants/5fd74cc0065512a1467b1e6f_PBO-EX-1980-01-06-02-58-small-caption-1280.avif
+  - label: Large
+    format: WebP
+    width: 632
+    height: 395
+    size: 21 KB
+    url: /variants/5fd74cc0065512a1467b1e6f_PBO-EX-1980-01-06-02-58-small-caption-1280.webp

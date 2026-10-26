@@ -1,0 +1,40 @@
+image: /uploads/5e8dd6fbcc405229b5038d8c_1-36-NME-Early-climbs-video.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1326
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1326
+    size: 212 KB
+    url: /uploads/5e8dd6fbcc405229b5038d8c_1-36-NME-Early-climbs-video.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 414
+    size: 17 KB
+    url: /variants/5e8dd6fbcc405229b5038d8c_1-36-NME-Early-climbs-video-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 414
+    size: 22 KB
+    url: /variants/5e8dd6fbcc405229b5038d8c_1-36-NME-Early-climbs-video-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 829
+    size: 39 KB
+    url: /variants/5e8dd6fbcc405229b5038d8c_1-36-NME-Early-climbs-video-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 829
+    size: 58 KB
+    url: /variants/5e8dd6fbcc405229b5038d8c_1-36-NME-Early-climbs-video-1280.webp

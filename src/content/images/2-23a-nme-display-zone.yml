@@ -1,0 +1,40 @@
+image: /uploads/5e8dd7330df59b73009c52d1_2-23a-NME-Display-Zone.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1428
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1428
+    size: 300 KB
+    url: /uploads/5e8dd7330df59b73009c52d1_2-23a-NME-Display-Zone.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 446
+    size: 30 KB
+    url: /variants/5e8dd7330df59b73009c52d1_2-23a-NME-Display-Zone-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 446
+    size: 34 KB
+    url: /variants/5e8dd7330df59b73009c52d1_2-23a-NME-Display-Zone-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 893
+    size: 69 KB
+    url: /variants/5e8dd7330df59b73009c52d1_2-23a-NME-Display-Zone-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 893
+    size: 89 KB
+    url: /variants/5e8dd7330df59b73009c52d1_2-23a-NME-Display-Zone-1280.webp

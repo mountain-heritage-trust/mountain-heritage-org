@@ -1,0 +1,40 @@
+image: /uploads/6710b410119407ef0526743e_6710b3f795543e42182442fa_big-bang.jpeg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 765
+height: 1080
+versions:
+  - label: Original
+    format: JPEG
+    width: 765
+    height: 1080
+    size: 225 KB
+    url: /uploads/6710b410119407ef0526743e_6710b3f795543e42182442fa_big-bang.jpeg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 904
+    size: 134 KB
+    url: /variants/6710b410119407ef0526743e_6710b3f795543e42182442fa_big-bang-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 904
+    size: 163 KB
+    url: /variants/6710b410119407ef0526743e_6710b3f795543e42182442fa_big-bang-640.webp
+  - label: Large
+    format: AVIF
+    width: 765
+    height: 1080
+    size: 172 KB
+    url: /variants/6710b410119407ef0526743e_6710b3f795543e42182442fa_big-bang-1280.avif
+  - label: Large
+    format: WebP
+    width: 765
+    height: 1080
+    size: 215 KB
+    url: /variants/6710b410119407ef0526743e_6710b3f795543e42182442fa_big-bang-1280.webp

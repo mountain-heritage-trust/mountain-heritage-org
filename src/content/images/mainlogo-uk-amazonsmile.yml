@@ -1,0 +1,40 @@
+image: /uploads/5eac0bc8f4857683eeae2ece_MAINLOGO_UK_AmazonSmile.png
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1708
+height: 600
+versions:
+  - label: Original
+    format: PNG
+    width: 1708
+    height: 600
+    size: 13 KB
+    url: /uploads/5eac0bc8f4857683eeae2ece_MAINLOGO_UK_AmazonSmile.png
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 225
+    size: 10 KB
+    url: /variants/5eac0bc8f4857683eeae2ece_MAINLOGO_UK_AmazonSmile-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 225
+    size: 15 KB
+    url: /variants/5eac0bc8f4857683eeae2ece_MAINLOGO_UK_AmazonSmile-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 450
+    size: 18 KB
+    url: /variants/5eac0bc8f4857683eeae2ece_MAINLOGO_UK_AmazonSmile-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 450
+    size: 30 KB
+    url: /variants/5eac0bc8f4857683eeae2ece_MAINLOGO_UK_AmazonSmile-1280.webp

@@ -1,0 +1,40 @@
+image: /uploads/5f8eb61cdb936f03f517f191_SWH-Complete-Mountaineer-2-flyleaf-small.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 542
+height: 460
+versions:
+  - label: Original
+    format: JPEG
+    width: 542
+    height: 460
+    size: 40 KB
+    url: /uploads/5f8eb61cdb936f03f517f191_SWH-Complete-Mountaineer-2-flyleaf-small.JPG
+  - label: Medium
+    format: AVIF
+    width: 542
+    height: 460
+    size: 25 KB
+    url: /variants/5f8eb61cdb936f03f517f191_SWH-Complete-Mountaineer-2-flyleaf-small-640.avif
+  - label: Medium
+    format: WebP
+    width: 542
+    height: 460
+    size: 29 KB
+    url: /variants/5f8eb61cdb936f03f517f191_SWH-Complete-Mountaineer-2-flyleaf-small-640.webp
+  - label: Large
+    format: AVIF
+    width: 542
+    height: 460
+    size: 25 KB
+    url: /variants/5f8eb61cdb936f03f517f191_SWH-Complete-Mountaineer-2-flyleaf-small-1280.avif
+  - label: Large
+    format: WebP
+    width: 542
+    height: 460
+    size: 29 KB
+    url: /variants/5f8eb61cdb936f03f517f191_SWH-Complete-Mountaineer-2-flyleaf-small-1280.webp

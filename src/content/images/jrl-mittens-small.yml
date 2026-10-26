@@ -1,0 +1,40 @@
+image: /uploads/5fbbac392c35fa2d7eaddb4b_JRL-mittens-small.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 666
+height: 375
+versions:
+  - label: Original
+    format: JPEG
+    width: 666
+    height: 375
+    size: 33 KB
+    url: /uploads/5fbbac392c35fa2d7eaddb4b_JRL-mittens-small.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 360
+    size: 14 KB
+    url: /variants/5fbbac392c35fa2d7eaddb4b_JRL-mittens-small-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 360
+    size: 21 KB
+    url: /variants/5fbbac392c35fa2d7eaddb4b_JRL-mittens-small-640.webp
+  - label: Large
+    format: AVIF
+    width: 666
+    height: 375
+    size: 17 KB
+    url: /variants/5fbbac392c35fa2d7eaddb4b_JRL-mittens-small-1280.avif
+  - label: Large
+    format: WebP
+    width: 666
+    height: 375
+    size: 22 KB
+    url: /variants/5fbbac392c35fa2d7eaddb4b_JRL-mittens-small-1280.webp

@@ -1,0 +1,40 @@
+image: /uploads/6736fe2300b352f9656a170b_6736fdab5e7dbf8faa052a52_cooper.jpeg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1000
+height: 1307
+versions:
+  - label: Original
+    format: JPEG
+    width: 1000
+    height: 1307
+    size: 162 KB
+    url: /uploads/6736fe2300b352f9656a170b_6736fdab5e7dbf8faa052a52_cooper.jpeg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 836
+    size: 45 KB
+    url: /variants/6736fe2300b352f9656a170b_6736fdab5e7dbf8faa052a52_cooper-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 836
+    size: 58 KB
+    url: /variants/6736fe2300b352f9656a170b_6736fdab5e7dbf8faa052a52_cooper-640.webp
+  - label: Large
+    format: AVIF
+    width: 1000
+    height: 1307
+    size: 84 KB
+    url: /variants/6736fe2300b352f9656a170b_6736fdab5e7dbf8faa052a52_cooper-1280.avif
+  - label: Large
+    format: WebP
+    width: 1000
+    height: 1307
+    size: 105 KB
+    url: /variants/6736fe2300b352f9656a170b_6736fdab5e7dbf8faa052a52_cooper-1280.webp

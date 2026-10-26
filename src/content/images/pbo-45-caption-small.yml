@@ -1,0 +1,40 @@
+image: /uploads/5fce3fb0b047d31d596d53b2_PBO-45-caption-small.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 610
+height: 409
+versions:
+  - label: Original
+    format: JPEG
+    width: 610
+    height: 409
+    size: 40 KB
+    url: /uploads/5fce3fb0b047d31d596d53b2_PBO-45-caption-small.jpg
+  - label: Medium
+    format: AVIF
+    width: 610
+    height: 409
+    size: 24 KB
+    url: /variants/5fce3fb0b047d31d596d53b2_PBO-45-caption-small-640.avif
+  - label: Medium
+    format: WebP
+    width: 610
+    height: 409
+    size: 28 KB
+    url: /variants/5fce3fb0b047d31d596d53b2_PBO-45-caption-small-640.webp
+  - label: Large
+    format: AVIF
+    width: 610
+    height: 409
+    size: 24 KB
+    url: /variants/5fce3fb0b047d31d596d53b2_PBO-45-caption-small-1280.avif
+  - label: Large
+    format: WebP
+    width: 610
+    height: 409
+    size: 28 KB
+    url: /variants/5fce3fb0b047d31d596d53b2_PBO-45-caption-small-1280.webp

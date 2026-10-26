@@ -1,0 +1,40 @@
+image: /uploads/muriel-sauer.jpeg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1024
+height: 768
+versions:
+  - label: Original
+    format: JPEG
+    width: 1024
+    height: 768
+    size: 103 KB
+    url: /uploads/muriel-sauer.jpeg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 480
+    size: 21 KB
+    url: /variants/muriel-sauer-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 480
+    size: 31 KB
+    url: /variants/muriel-sauer-640.webp
+  - label: Large
+    format: AVIF
+    width: 1024
+    height: 768
+    size: 40 KB
+    url: /variants/muriel-sauer-1280.avif
+  - label: Large
+    format: WebP
+    width: 1024
+    height: 768
+    size: 60 KB
+    url: /variants/muriel-sauer-1280.webp

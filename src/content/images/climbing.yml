@@ -1,0 +1,40 @@
+image: /uploads/5ea7f2e024dd9778ce4880c8_climbing.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1280
+height: 823
+versions:
+  - label: Original
+    format: JPEG
+    width: 1280
+    height: 823
+    size: 116 KB
+    url: /uploads/5ea7f2e024dd9778ce4880c8_climbing.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 412
+    size: 16 KB
+    url: /variants/5ea7f2e024dd9778ce4880c8_climbing-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 412
+    size: 22 KB
+    url: /variants/5ea7f2e024dd9778ce4880c8_climbing-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 823
+    size: 56 KB
+    url: /variants/5ea7f2e024dd9778ce4880c8_climbing-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 823
+    size: 71 KB
+    url: /variants/5ea7f2e024dd9778ce4880c8_climbing-1280.webp

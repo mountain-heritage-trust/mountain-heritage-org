@@ -1,0 +1,40 @@
+image: /uploads/64595a60870b9bdfe0fdc838_everest-70.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1365
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1365
+    size: 451 KB
+    url: /uploads/64595a60870b9bdfe0fdc838_everest-70.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 427
+    size: 43 KB
+    url: /variants/64595a60870b9bdfe0fdc838_everest-70-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 427
+    size: 49 KB
+    url: /variants/64595a60870b9bdfe0fdc838_everest-70-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 853
+    size: 162 KB
+    url: /variants/64595a60870b9bdfe0fdc838_everest-70-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 853
+    size: 180 KB
+    url: /variants/64595a60870b9bdfe0fdc838_everest-70-1280.webp

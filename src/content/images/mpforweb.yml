@@ -1,0 +1,40 @@
+image: /uploads/5c59b838e1871a799f26057e_MPforweb.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1361
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 1361
+    height: 2048
+    size: 352 KB
+    url: /uploads/5c59b838e1871a799f26057e_MPforweb.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 963
+    size: 51 KB
+    url: /variants/5c59b838e1871a799f26057e_MPforweb-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 963
+    size: 65 KB
+    url: /variants/5c59b838e1871a799f26057e_MPforweb-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1926
+    size: 135 KB
+    url: /variants/5c59b838e1871a799f26057e_MPforweb-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1926
+    size: 190 KB
+    url: /variants/5c59b838e1871a799f26057e_MPforweb-1280.webp

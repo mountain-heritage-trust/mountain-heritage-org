@@ -1,0 +1,40 @@
+image: /uploads/66ebb40607c5c86dc013458c_climber-on-stanage-edge.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1365
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1365
+    size: 643 KB
+    url: /uploads/66ebb40607c5c86dc013458c_climber-on-stanage-edge.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 427
+    size: 70 KB
+    url: /variants/66ebb40607c5c86dc013458c_climber-on-stanage-edge-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 427
+    size: 78 KB
+    url: /variants/66ebb40607c5c86dc013458c_climber-on-stanage-edge-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 853
+    size: 253 KB
+    url: /variants/66ebb40607c5c86dc013458c_climber-on-stanage-edge-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 853
+    size: 288 KB
+    url: /variants/66ebb40607c5c86dc013458c_climber-on-stanage-edge-1280.webp

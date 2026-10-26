@@ -1,0 +1,40 @@
+image: /uploads/5f96b6d37cc1200b63a7dc06_clothing-underwear.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 761
+height: 516
+versions:
+  - label: Original
+    format: JPEG
+    width: 761
+    height: 516
+    size: 37 KB
+    url: /uploads/5f96b6d37cc1200b63a7dc06_clothing-underwear.JPG
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 434
+    size: 14 KB
+    url: /variants/5f96b6d37cc1200b63a7dc06_clothing-underwear-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 434
+    size: 16 KB
+    url: /variants/5f96b6d37cc1200b63a7dc06_clothing-underwear-640.webp
+  - label: Large
+    format: AVIF
+    width: 761
+    height: 516
+    size: 16 KB
+    url: /variants/5f96b6d37cc1200b63a7dc06_clothing-underwear-1280.avif
+  - label: Large
+    format: WebP
+    width: 761
+    height: 516
+    size: 19 KB
+    url: /variants/5f96b6d37cc1200b63a7dc06_clothing-underwear-1280.webp

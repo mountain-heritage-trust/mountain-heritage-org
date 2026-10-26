@@ -1,0 +1,40 @@
+image: /uploads/9781839813160.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1374
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 1374
+    height: 2048
+    size: 273 KB
+    url: /uploads/9781839813160.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 954
+    size: 58 KB
+    url: /variants/9781839813160-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 954
+    size: 67 KB
+    url: /variants/9781839813160-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1908
+    size: 132 KB
+    url: /variants/9781839813160-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1908
+    size: 173 KB
+    url: /variants/9781839813160-1280.webp

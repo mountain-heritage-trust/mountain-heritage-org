@@ -1,0 +1,40 @@
+image: /uploads/forty-fells.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1600
+height: 1000
+versions:
+  - label: Original
+    format: JPEG
+    width: 1600
+    height: 1000
+    size: 181 KB
+    url: /uploads/forty-fells.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 400
+    size: 22 KB
+    url: /variants/forty-fells-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 400
+    size: 27 KB
+    url: /variants/forty-fells-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 800
+    size: 48 KB
+    url: /variants/forty-fells-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 800
+    size: 64 KB
+    url: /variants/forty-fells-1280.webp

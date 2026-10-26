@@ -1,0 +1,40 @@
+image: /uploads/66d8bb60a68a0cb4e5d02daf_Mike-Norway.jpeg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 320
+height: 239
+versions:
+  - label: Original
+    format: JPEG
+    width: 320
+    height: 239
+    size: 18 KB
+    url: /uploads/66d8bb60a68a0cb4e5d02daf_Mike-Norway.jpeg
+  - label: Medium
+    format: AVIF
+    width: 320
+    height: 239
+    size: 13 KB
+    url: /variants/66d8bb60a68a0cb4e5d02daf_Mike-Norway-640.avif
+  - label: Medium
+    format: WebP
+    width: 320
+    height: 239
+    size: 14 KB
+    url: /variants/66d8bb60a68a0cb4e5d02daf_Mike-Norway-640.webp
+  - label: Large
+    format: AVIF
+    width: 320
+    height: 239
+    size: 13 KB
+    url: /variants/66d8bb60a68a0cb4e5d02daf_Mike-Norway-1280.avif
+  - label: Large
+    format: WebP
+    width: 320
+    height: 239
+    size: 14 KB
+    url: /variants/66d8bb60a68a0cb4e5d02daf_Mike-Norway-1280.webp

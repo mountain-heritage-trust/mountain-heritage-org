@@ -1,0 +1,40 @@
+image: /uploads/5fa11f3330d50ef552ff2973_2020-11-03-Blencathra-small.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 577
+height: 433
+versions:
+  - label: Original
+    format: JPEG
+    width: 577
+    height: 433
+    size: 29 KB
+    url: /uploads/5fa11f3330d50ef552ff2973_2020-11-03-Blencathra-small.jpg
+  - label: Medium
+    format: AVIF
+    width: 577
+    height: 433
+    size: 18 KB
+    url: /variants/5fa11f3330d50ef552ff2973_2020-11-03-Blencathra-small-640.avif
+  - label: Medium
+    format: WebP
+    width: 577
+    height: 433
+    size: 21 KB
+    url: /variants/5fa11f3330d50ef552ff2973_2020-11-03-Blencathra-small-640.webp
+  - label: Large
+    format: AVIF
+    width: 577
+    height: 433
+    size: 18 KB
+    url: /variants/5fa11f3330d50ef552ff2973_2020-11-03-Blencathra-small-1280.avif
+  - label: Large
+    format: WebP
+    width: 577
+    height: 433
+    size: 21 KB
+    url: /variants/5fa11f3330d50ef552ff2973_2020-11-03-Blencathra-small-1280.webp

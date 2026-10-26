@@ -20,6 +20,8 @@ interface Props {
     section?: string;
     tags?: string[];
   };
+  /** Ask search engines not to index this page. */
+  noindex?: boolean;
 }
 
 const {
@@ -29,6 +31,7 @@ const {
   ogImage,
   schemas = [],
   article,
+  noindex = false,
 } = Astro.props;
 
 const siteName = 'Mountain Heritage Trust';
@@ -54,6 +57,7 @@ const analyticsToken = import.meta.env.PUBLIC_CF_WEB_ANALYTICS_TOKEN;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     {description && <meta name="description" content={description} />}
+    {noindex && <meta name="robots" content="noindex" />}
     <link rel="canonical" href={canonical} />
 
     <meta property="og:site_name" content={siteName} />

@@ -1,0 +1,40 @@
+image: /uploads/pillar-launch-post-1600-x-1000-px.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1600
+height: 1000
+versions:
+  - label: Original
+    format: JPEG
+    width: 1600
+    height: 1000
+    size: 332 KB
+    url: /uploads/pillar-launch-post-1600-x-1000-px.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 400
+    size: 49 KB
+    url: /variants/pillar-launch-post-1600-x-1000-px-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 400
+    size: 57 KB
+    url: /variants/pillar-launch-post-1600-x-1000-px-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 800
+    size: 134 KB
+    url: /variants/pillar-launch-post-1600-x-1000-px-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 800
+    size: 171 KB
+    url: /variants/pillar-launch-post-1600-x-1000-px-1280.webp

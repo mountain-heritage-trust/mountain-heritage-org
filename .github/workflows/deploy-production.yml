@@ -97,7 +97,7 @@ jobs:
             npm run images
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add public/uploads
+            git add public/uploads public/variants src/content/images
             if git diff --cached --quiet; then
               echo "Images already optimised; nothing to commit."
             else

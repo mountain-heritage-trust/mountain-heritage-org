@@ -1,0 +1,40 @@
+image: /uploads/5c4f10e51fec801131f06c6f_mallory_irvine_display-239.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 239
+height: 159
+versions:
+  - label: Original
+    format: JPEG
+    width: 239
+    height: 159
+    size: 8 KB
+    url: /uploads/5c4f10e51fec801131f06c6f_mallory_irvine_display-239.JPG
+  - label: Medium
+    format: AVIF
+    width: 239
+    height: 159
+    size: 5 KB
+    url: /variants/5c4f10e51fec801131f06c6f_mallory_irvine_display-239-640.avif
+  - label: Medium
+    format: WebP
+    width: 239
+    height: 159
+    size: 6 KB
+    url: /variants/5c4f10e51fec801131f06c6f_mallory_irvine_display-239-640.webp
+  - label: Large
+    format: AVIF
+    width: 239
+    height: 159
+    size: 5 KB
+    url: /variants/5c4f10e51fec801131f06c6f_mallory_irvine_display-239-1280.avif
+  - label: Large
+    format: WebP
+    width: 239
+    height: 159
+    size: 6 KB
+    url: /variants/5c4f10e51fec801131f06c6f_mallory_irvine_display-239-1280.webp

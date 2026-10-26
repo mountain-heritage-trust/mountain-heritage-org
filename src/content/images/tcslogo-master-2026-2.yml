@@ -1,0 +1,40 @@
+image: /uploads/TCSlogo Master 2026 2.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1025
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1025
+    size: 73 KB
+    url: /uploads/TCSlogo Master 2026 2.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 320
+    size: 7 KB
+    url: /variants/TCSlogo Master 2026 2-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 320
+    size: 11 KB
+    url: /variants/TCSlogo Master 2026 2-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 641
+    size: 14 KB
+    url: /variants/TCSlogo Master 2026 2-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 641
+    size: 23 KB
+    url: /variants/TCSlogo Master 2026 2-1280.webp

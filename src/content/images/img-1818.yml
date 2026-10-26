@@ -1,0 +1,40 @@
+image: /uploads/img_1818.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1536
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 1536
+    height: 2048
+    size: 155 KB
+    url: /uploads/img_1818.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 853
+    size: 19 KB
+    url: /variants/img_1818-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 853
+    size: 25 KB
+    url: /variants/img_1818-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1707
+    size: 45 KB
+    url: /variants/img_1818-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1707
+    size: 67 KB
+    url: /variants/img_1818-1280.webp

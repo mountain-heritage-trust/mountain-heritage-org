@@ -1,0 +1,40 @@
+image: /uploads/674028df686488681befe711_mick_fowler_portrait.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1779
+height: 1811
+versions:
+  - label: Original
+    format: JPEG
+    width: 1779
+    height: 1811
+    size: 222 KB
+    url: /uploads/674028df686488681befe711_mick_fowler_portrait.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 652
+    size: 34 KB
+    url: /variants/674028df686488681befe711_mick_fowler_portrait-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 652
+    size: 41 KB
+    url: /variants/674028df686488681befe711_mick_fowler_portrait-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1303
+    size: 88 KB
+    url: /variants/674028df686488681befe711_mick_fowler_portrait-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1303
+    size: 115 KB
+    url: /variants/674028df686488681befe711_mick_fowler_portrait-1280.webp

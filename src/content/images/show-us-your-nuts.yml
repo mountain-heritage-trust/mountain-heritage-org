@@ -1,0 +1,40 @@
+image: /uploads/5c643a390e6c9afbf636f435_Show-us-your-nuts.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 448
+height: 336
+versions:
+  - label: Original
+    format: JPEG
+    width: 448
+    height: 336
+    size: 35 KB
+    url: /uploads/5c643a390e6c9afbf636f435_Show-us-your-nuts.jpg
+  - label: Medium
+    format: AVIF
+    width: 448
+    height: 336
+    size: 25 KB
+    url: /variants/5c643a390e6c9afbf636f435_Show-us-your-nuts-640.avif
+  - label: Medium
+    format: WebP
+    width: 448
+    height: 336
+    size: 26 KB
+    url: /variants/5c643a390e6c9afbf636f435_Show-us-your-nuts-640.webp
+  - label: Large
+    format: AVIF
+    width: 448
+    height: 336
+    size: 25 KB
+    url: /variants/5c643a390e6c9afbf636f435_Show-us-your-nuts-1280.avif
+  - label: Large
+    format: WebP
+    width: 448
+    height: 336
+    size: 26 KB
+    url: /variants/5c643a390e6c9afbf636f435_Show-us-your-nuts-1280.webp

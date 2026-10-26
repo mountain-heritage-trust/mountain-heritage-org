@@ -1,0 +1,40 @@
+image: /uploads/66a34abcb7880b45bf2c71e1_paris-2024.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1365
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1365
+    size: 422 KB
+    url: /uploads/66a34abcb7880b45bf2c71e1_paris-2024.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 427
+    size: 63 KB
+    url: /variants/66a34abcb7880b45bf2c71e1_paris-2024-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 427
+    size: 64 KB
+    url: /variants/66a34abcb7880b45bf2c71e1_paris-2024-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 853
+    size: 151 KB
+    url: /variants/66a34abcb7880b45bf2c71e1_paris-2024-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 853
+    size: 169 KB
+    url: /variants/66a34abcb7880b45bf2c71e1_paris-2024-1280.webp

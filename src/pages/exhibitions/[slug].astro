@@ -45,7 +45,7 @@ const schema = exhibitionSchema(item, pageUrl, Astro.site as URL);
     {item.data.cover && (
       <Image
         src={item.data.cover}
-        alt=""
+        caption
         class="article-cover"
         sizes="(max-width: 720px) 100vw, 720px"
         loading="eager"

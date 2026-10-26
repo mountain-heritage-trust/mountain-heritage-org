@@ -1,0 +1,40 @@
+image: /uploads/5c4f356e092dcd0984adb621_TAS-03-11-Kongur-1981.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1487
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1487
+    size: 203 KB
+    url: /uploads/5c4f356e092dcd0984adb621_TAS-03-11-Kongur-1981.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 465
+    size: 12 KB
+    url: /variants/5c4f356e092dcd0984adb621_TAS-03-11-Kongur-1981-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 465
+    size: 16 KB
+    url: /variants/5c4f356e092dcd0984adb621_TAS-03-11-Kongur-1981-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 929
+    size: 28 KB
+    url: /variants/5c4f356e092dcd0984adb621_TAS-03-11-Kongur-1981-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 929
+    size: 44 KB
+    url: /variants/5c4f356e092dcd0984adb621_TAS-03-11-Kongur-1981-1280.webp

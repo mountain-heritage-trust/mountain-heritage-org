@@ -1,0 +1,40 @@
+image: /uploads/5c4f0d5ead56ef2f35e9d2da_Hutton-Auction-Ice-axe.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1759
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1759
+    size: 276 KB
+    url: /uploads/5c4f0d5ead56ef2f35e9d2da_Hutton-Auction-Ice-axe.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 550
+    size: 23 KB
+    url: /variants/5c4f0d5ead56ef2f35e9d2da_Hutton-Auction-Ice-axe-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 550
+    size: 28 KB
+    url: /variants/5c4f0d5ead56ef2f35e9d2da_Hutton-Auction-Ice-axe-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1099
+    size: 50 KB
+    url: /variants/5c4f0d5ead56ef2f35e9d2da_Hutton-Auction-Ice-axe-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1099
+    size: 70 KB
+    url: /variants/5c4f0d5ead56ef2f35e9d2da_Hutton-Auction-Ice-axe-1280.webp

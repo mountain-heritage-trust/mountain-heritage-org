@@ -1,0 +1,40 @@
+image: /uploads/5c59b93ad8d928afccc03a02_mht-crew.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1251
+height: 911
+versions:
+  - label: Original
+    format: JPEG
+    width: 1251
+    height: 911
+    size: 133 KB
+    url: /uploads/5c59b93ad8d928afccc03a02_mht-crew.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 466
+    size: 26 KB
+    url: /variants/5c59b93ad8d928afccc03a02_mht-crew-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 466
+    size: 32 KB
+    url: /variants/5c59b93ad8d928afccc03a02_mht-crew-640.webp
+  - label: Large
+    format: AVIF
+    width: 1251
+    height: 911
+    size: 69 KB
+    url: /variants/5c59b93ad8d928afccc03a02_mht-crew-1280.avif
+  - label: Large
+    format: WebP
+    width: 1251
+    height: 911
+    size: 87 KB
+    url: /variants/5c59b93ad8d928afccc03a02_mht-crew-1280.webp

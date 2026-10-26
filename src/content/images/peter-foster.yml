@@ -1,0 +1,40 @@
+image: /uploads/64c7bd4fe5758292c5a2eb6a_Peter-Foster.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 366
+height: 534
+versions:
+  - label: Original
+    format: JPEG
+    width: 366
+    height: 534
+    size: 19 KB
+    url: /uploads/64c7bd4fe5758292c5a2eb6a_Peter-Foster.jpg
+  - label: Medium
+    format: AVIF
+    width: 366
+    height: 534
+    size: 9 KB
+    url: /variants/64c7bd4fe5758292c5a2eb6a_Peter-Foster-640.avif
+  - label: Medium
+    format: WebP
+    width: 366
+    height: 534
+    size: 11 KB
+    url: /variants/64c7bd4fe5758292c5a2eb6a_Peter-Foster-640.webp
+  - label: Large
+    format: AVIF
+    width: 366
+    height: 534
+    size: 9 KB
+    url: /variants/64c7bd4fe5758292c5a2eb6a_Peter-Foster-1280.avif
+  - label: Large
+    format: WebP
+    width: 366
+    height: 534
+    size: 11 KB
+    url: /variants/64c7bd4fe5758292c5a2eb6a_Peter-Foster-1280.webp

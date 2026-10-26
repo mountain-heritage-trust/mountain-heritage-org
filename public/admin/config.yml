@@ -253,3 +253,50 @@ collections:
         fields:
           - { label: Year, name: year, widget: number, value_type: int }
           - { label: PDF file, name: file, widget: file }
+
+  # Image library — one record per uploaded image, created automatically
+  # by scripts/image-records.mjs about a minute after an upload (trustees
+  # don't create or delete records here). Trustees add caption, alt text,
+  # date and credit; the image, suggested credit and versions are written
+  # by the script and read-only. Field order matches the script's output.
+  # See docs/images.md.
+  - name: images
+    label: Image library
+    label_singular: Image
+    description: 'Every uploaded picture, with its caption, date and credit. Captions and credits appear under the image on the site and on its public "Image details" page. New uploads appear here about a minute after they are saved.'
+    folder: src/content/images
+    extension: yml
+    format: yaml
+    create: false
+    delete: false
+    identifier_field: caption
+    summary: "{{caption | default('No caption yet')}}"
+    thumbnail: image
+    sortable_fields: [caption, date, credit]
+    view_filters:
+      - { label: Has a caption, field: caption, pattern: '.' }
+      - { label: Has a suggested credit to check, field: suggestedCredit, pattern: '.' }
+    fields:
+      - { label: Image, name: image, widget: image, readonly: true, hint: 'To replace the picture, upload a new one; it gets its own record.' }
+      - { label: Caption, name: caption, widget: text, required: false, hint: 'What the picture shows: who, what and where. Shown under the image on the site. One or two sentences.' }
+      - { label: Alt text, name: alt, widget: string, required: false, hint: 'A short description for people using screen readers, e.g. "Two climbers on a snowy ridge". Not shown visually.' }
+      - { label: Date, name: date, widget: string, required: false, hint: 'When the picture was taken. Approximate is fine: "1961", "c. 1953", "1970s".' }
+      - { label: Credit, name: credit, widget: string, required: false, hint: 'Photographer or source, e.g. "Chris Bonington Picture Library". Shown publicly.' }
+      - { label: Notes, name: notes, widget: text, required: false, hint: 'Internal notes (rights, provenance, to-dos). Never shown on the site.' }
+      - { label: Suggested credit, name: suggestedCredit, widget: string, required: false, readonly: true, hint: 'Guessed from the original filename. Check it, then copy it into Credit if it is right.' }
+      - { label: Width (px), name: width, widget: number, required: false, readonly: true }
+      - { label: Height (px), name: height, widget: number, required: false, readonly: true }
+      - label: Versions
+        name: versions
+        widget: list
+        required: false
+        readonly: true
+        summary: '{{fields.label}} {{fields.format}} — {{fields.width}} × {{fields.height}}, {{fields.size}}'
+        hint: 'The original plus the smaller copies made automatically for faster loading. The site picks the right one for each device.'
+        fields:
+          - { label: Version, name: label, widget: string }
+          - { label: Format, name: format, widget: string }
+          - { label: Width, name: width, widget: number, required: false }
+          - { label: Height, name: height, widget: number, required: false }
+          - { label: File size, name: size, widget: string }
+          - { label: Link, name: url, widget: string }

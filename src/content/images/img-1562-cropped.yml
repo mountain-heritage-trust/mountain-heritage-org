@@ -1,0 +1,40 @@
+image: /uploads/5c6c09516f07ac75a1acec7c_IMG_1562-Cropped.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1031
+height: 1587
+versions:
+  - label: Original
+    format: JPEG
+    width: 1031
+    height: 1587
+    size: 133 KB
+    url: /uploads/5c6c09516f07ac75a1acec7c_IMG_1562-Cropped.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 985
+    size: 23 KB
+    url: /variants/5c6c09516f07ac75a1acec7c_IMG_1562-Cropped-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 985
+    size: 32 KB
+    url: /variants/5c6c09516f07ac75a1acec7c_IMG_1562-Cropped-640.webp
+  - label: Large
+    format: AVIF
+    width: 1031
+    height: 1587
+    size: 44 KB
+    url: /variants/5c6c09516f07ac75a1acec7c_IMG_1562-Cropped-1280.avif
+  - label: Large
+    format: WebP
+    width: 1031
+    height: 1587
+    size: 63 KB
+    url: /variants/5c6c09516f07ac75a1acec7c_IMG_1562-Cropped-1280.webp

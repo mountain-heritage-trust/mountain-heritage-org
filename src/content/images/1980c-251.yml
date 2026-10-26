@@ -1,0 +1,40 @@
+image: /uploads/5c6412dff063b4360d844b0b_1980c-251.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1193
+height: 1308
+versions:
+  - label: Original
+    format: JPEG
+    width: 1193
+    height: 1308
+    size: 68 KB
+    url: /uploads/5c6412dff063b4360d844b0b_1980c-251.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 702
+    size: 6 KB
+    url: /variants/5c6412dff063b4360d844b0b_1980c-251-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 702
+    size: 9 KB
+    url: /variants/5c6412dff063b4360d844b0b_1980c-251-640.webp
+  - label: Large
+    format: AVIF
+    width: 1193
+    height: 1308
+    size: 16 KB
+    url: /variants/5c6412dff063b4360d844b0b_1980c-251-1280.avif
+  - label: Large
+    format: WebP
+    width: 1193
+    height: 1308
+    size: 29 KB
+    url: /variants/5c6412dff063b4360d844b0b_1980c-251-1280.webp

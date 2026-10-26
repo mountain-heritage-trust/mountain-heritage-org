@@ -123,4 +123,41 @@ const shop = defineCollection({
   }),
 });
 
-export const collections = { blog, team, archive, exhibitions, about, partners, shop };
+// One record per uploaded image (src/content/images/<id>.yml), created and
+// kept up to date by scripts/image-records.mjs. Trustees fill in the
+// descriptive fields in the CMS; `suggestedCredit`, dimensions and
+// `versions` are written by the script and read-only in the CMS. Records
+// drive image captions and the public /images/<id> pages. See
+// docs/images.md.
+// YAML reads a bare `1961` as a number; accept that for free-text fields.
+const text = z.preprocess((v) => (typeof v === 'number' ? String(v) : v), z.string().nullish());
+
+const images = defineCollection({
+  loader: glob({ pattern: '*.yml', base: './src/content/images' }),
+  schema: z.object({
+    image: z.string(),
+    caption: text,
+    alt: text,
+    // Free text: heritage dates are often approximate ("c. 1953", "1970s").
+    date: text,
+    credit: text,
+    notes: text,
+    suggestedCredit: z.string().nullish(),
+    width: z.number().nullish(),
+    height: z.number().nullish(),
+    versions: z
+      .array(
+        z.object({
+          label: z.string(),
+          format: z.string(),
+          width: z.number().nullish(),
+          height: z.number().nullish(),
+          size: z.string(),
+          url: z.string(),
+        }),
+      )
+      .default([]),
+  }),
+});
+
+export const collections = { blog, team, archive, exhibitions, about, partners, shop, images };

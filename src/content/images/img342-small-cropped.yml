@@ -1,0 +1,40 @@
+image: /uploads/5fb238d6da77c0a8e6e6380f_img342-small-cropped.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 386
+height: 223
+versions:
+  - label: Original
+    format: JPEG
+    width: 386
+    height: 223
+    size: 17 KB
+    url: /uploads/5fb238d6da77c0a8e6e6380f_img342-small-cropped.jpg
+  - label: Medium
+    format: AVIF
+    width: 386
+    height: 223
+    size: 10 KB
+    url: /variants/5fb238d6da77c0a8e6e6380f_img342-small-cropped-640.avif
+  - label: Medium
+    format: WebP
+    width: 386
+    height: 223
+    size: 12 KB
+    url: /variants/5fb238d6da77c0a8e6e6380f_img342-small-cropped-640.webp
+  - label: Large
+    format: AVIF
+    width: 386
+    height: 223
+    size: 10 KB
+    url: /variants/5fb238d6da77c0a8e6e6380f_img342-small-cropped-1280.avif
+  - label: Large
+    format: WebP
+    width: 386
+    height: 223
+    size: 12 KB
+    url: /variants/5fb238d6da77c0a8e6e6380f_img342-small-cropped-1280.webp

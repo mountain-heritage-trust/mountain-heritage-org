@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Pre-generate AVIF and WebP variants of every image in public/uploads/.
 //
-// Output goes to public/uploads/optimised/<base>-<width>.<ext>. The
+// Output goes to public/variants/<base>-<width>.<ext>. The
 // matching <Image> Astro component picks these up via filename
 // convention and emits a <picture> with srcset.
 //
@@ -20,7 +20,7 @@ import sharp from 'sharp';
 
 const ROOT = process.cwd();
 const SRC = join(ROOT, 'public/uploads');
-const OUT = join(ROOT, 'public/uploads/optimised');
+const OUT = join(ROOT, 'public/variants');
 const MANIFEST = join(OUT, 'manifest.json');
 
 const WIDTHS = [640, 1280];

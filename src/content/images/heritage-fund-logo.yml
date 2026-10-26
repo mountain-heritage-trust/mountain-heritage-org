@@ -1,0 +1,40 @@
+image: /uploads/heritage-fund-logo.png
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 500
+height: 500
+versions:
+  - label: Original
+    format: PNG
+    width: 500
+    height: 500
+    size: 26 KB
+    url: /uploads/heritage-fund-logo.png
+  - label: Medium
+    format: AVIF
+    width: 500
+    height: 500
+    size: 12 KB
+    url: /variants/heritage-fund-logo-640.avif
+  - label: Medium
+    format: WebP
+    width: 500
+    height: 500
+    size: 16 KB
+    url: /variants/heritage-fund-logo-640.webp
+  - label: Large
+    format: AVIF
+    width: 500
+    height: 500
+    size: 12 KB
+    url: /variants/heritage-fund-logo-1280.avif
+  - label: Large
+    format: WebP
+    width: 500
+    height: 500
+    size: 16 KB
+    url: /variants/heritage-fund-logo-1280.webp

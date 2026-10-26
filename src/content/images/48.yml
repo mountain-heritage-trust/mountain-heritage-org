@@ -1,0 +1,40 @@
+image: /uploads/48.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1367
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 1367
+    height: 2048
+    size: 373 KB
+    url: /uploads/48.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 959
+    size: 71 KB
+    url: /variants/48-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 959
+    size: 83 KB
+    url: /variants/48-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1918
+    size: 196 KB
+    url: /variants/48-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1918
+    size: 244 KB
+    url: /variants/48-1280.webp

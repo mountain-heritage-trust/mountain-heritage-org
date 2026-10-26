@@ -1,0 +1,40 @@
+image: /uploads/5c4f216dfb3e2c279e804ab4_TAS-03-11-Kanch-1979-a-Doug-Scott-photo.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: Doug Scott
+width: 2048
+height: 1375
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1375
+    size: 201 KB
+    url: /uploads/5c4f216dfb3e2c279e804ab4_TAS-03-11-Kanch-1979-a-Doug-Scott-photo.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 430
+    size: 22 KB
+    url: /variants/5c4f216dfb3e2c279e804ab4_TAS-03-11-Kanch-1979-a-Doug-Scott-photo-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 430
+    size: 26 KB
+    url: /variants/5c4f216dfb3e2c279e804ab4_TAS-03-11-Kanch-1979-a-Doug-Scott-photo-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 859
+    size: 44 KB
+    url: /variants/5c4f216dfb3e2c279e804ab4_TAS-03-11-Kanch-1979-a-Doug-Scott-photo-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 859
+    size: 60 KB
+    url: /variants/5c4f216dfb3e2c279e804ab4_TAS-03-11-Kanch-1979-a-Doug-Scott-photo-1280.webp

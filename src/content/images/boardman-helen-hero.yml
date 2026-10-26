@@ -1,0 +1,40 @@
+image: /uploads/637bc1a8f68624c57a86b090_Boardman-Helen-hero.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1892
+height: 1009
+versions:
+  - label: Original
+    format: JPEG
+    width: 1892
+    height: 1009
+    size: 215 KB
+    url: /uploads/637bc1a8f68624c57a86b090_Boardman-Helen-hero.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 341
+    size: 29 KB
+    url: /variants/637bc1a8f68624c57a86b090_Boardman-Helen-hero-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 341
+    size: 35 KB
+    url: /variants/637bc1a8f68624c57a86b090_Boardman-Helen-hero-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 683
+    size: 60 KB
+    url: /variants/637bc1a8f68624c57a86b090_Boardman-Helen-hero-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 683
+    size: 80 KB
+    url: /variants/637bc1a8f68624c57a86b090_Boardman-Helen-hero-1280.webp

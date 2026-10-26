@@ -1,0 +1,40 @@
+image: /uploads/5f3fc29f12b688c0ea5276c7_English-logo-Colour-JPEG-.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 783
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 783
+    size: 45 KB
+    url: /uploads/5f3fc29f12b688c0ea5276c7_English-logo-Colour-JPEG-.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 245
+    size: 5 KB
+    url: /variants/5f3fc29f12b688c0ea5276c7_English-logo-Colour-JPEG--640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 245
+    size: 7 KB
+    url: /variants/5f3fc29f12b688c0ea5276c7_English-logo-Colour-JPEG--640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 489
+    size: 8 KB
+    url: /variants/5f3fc29f12b688c0ea5276c7_English-logo-Colour-JPEG--1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 489
+    size: 13 KB
+    url: /variants/5f3fc29f12b688c0ea5276c7_English-logo-Colour-JPEG--1280.webp

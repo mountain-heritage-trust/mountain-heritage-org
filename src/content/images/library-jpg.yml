@@ -1,0 +1,40 @@
+image: /uploads/library.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1440
+height: 1440
+versions:
+  - label: Original
+    format: JPEG
+    width: 1440
+    height: 1440
+    size: 265 KB
+    url: /uploads/library.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 640
+    size: 44 KB
+    url: /variants/library-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 640
+    size: 54 KB
+    url: /variants/library-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1280
+    size: 101 KB
+    url: /variants/library-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1280
+    size: 134 KB
+    url: /variants/library-1280.webp

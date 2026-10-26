@@ -138,6 +138,21 @@ Uploads land in `public/uploads/` and are served at `/uploads/<file>`.
 uploaded filenames to URL-friendly slugs — raw names with spaces or commas
 break responsive `srcset` markup (see `docs/images.md`).
 
+Generated variants live in `public/variants/`, outside `media_folder`.
+Sveltia can't hide a subfolder of the media library, so keeping them in
+`public/uploads/optimised/` (as we used to) showed trustees four extra
+copies of every picture, and they sometimes picked one by mistake.
+
+## Image library
+
+The **Image library** collection (`images`) holds one record per uploaded
+picture. Records are created and deleted by `scripts/image-records.mjs`,
+not in the CMS (`create: false`, `delete: false`). The image, suggested
+credit, dimensions and versions list are `readonly: true`. Trustees edit
+only caption, alt text, date, credit and notes. The field order in
+`config.yml` matches the script's output, so saves from either don't
+reorder the file. See [images.md](images.md#image-records).
+
 ## Naming
 
 The Astro content collection internally named `archive` is exposed in the

@@ -1,0 +1,40 @@
+image: /uploads/5c4f36d766ad2d545676c049_Chris-on-Shivling-Digital-.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1965
+height: 1179
+versions:
+  - label: Original
+    format: JPEG
+    width: 1965
+    height: 1179
+    size: 146 KB
+    url: /uploads/5c4f36d766ad2d545676c049_Chris-on-Shivling-Digital-.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 384
+    size: 11 KB
+    url: /variants/5c4f36d766ad2d545676c049_Chris-on-Shivling-Digital--640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 384
+    size: 13 KB
+    url: /variants/5c4f36d766ad2d545676c049_Chris-on-Shivling-Digital--640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 768
+    size: 27 KB
+    url: /variants/5c4f36d766ad2d545676c049_Chris-on-Shivling-Digital--1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 768
+    size: 36 KB
+    url: /variants/5c4f36d766ad2d545676c049_Chris-on-Shivling-Digital--1280.webp

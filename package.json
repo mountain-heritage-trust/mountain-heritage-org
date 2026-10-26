@@ -12,7 +12,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "check": "astro check",
-    "images": "node scripts/downsize-originals.mjs && node scripts/optimise-images.mjs"
+    "images": "node scripts/downsize-originals.mjs && node scripts/optimise-images.mjs && node scripts/image-records.mjs"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^13.2.1",
@@ -27,6 +27,7 @@
     "cheerio": "^1.2.0",
     "sharp": "^0.34.5",
     "turndown": "^7.2.4",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "yaml": "^2.8.3"
   }
 }

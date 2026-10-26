@@ -1,0 +1,40 @@
+image: /uploads/5dc55281c03bbe9fec4f70fe_RGS-22-11-2019a.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1443
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 1443
+    height: 2048
+    size: 314 KB
+    url: /uploads/5dc55281c03bbe9fec4f70fe_RGS-22-11-2019a.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 908
+    size: 53 KB
+    url: /variants/5dc55281c03bbe9fec4f70fe_RGS-22-11-2019a-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 908
+    size: 69 KB
+    url: /variants/5dc55281c03bbe9fec4f70fe_RGS-22-11-2019a-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1817
+    size: 117 KB
+    url: /variants/5dc55281c03bbe9fec4f70fe_RGS-22-11-2019a-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1817
+    size: 158 KB
+    url: /variants/5dc55281c03bbe9fec4f70fe_RGS-22-11-2019a-1280.webp

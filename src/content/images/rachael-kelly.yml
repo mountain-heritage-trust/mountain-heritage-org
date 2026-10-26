@@ -1,0 +1,40 @@
+image: /uploads/62d015dc50c379281b51f8cd_Rachael-Kelly.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1000
+height: 1025
+versions:
+  - label: Original
+    format: JPEG
+    width: 1000
+    height: 1025
+    size: 99 KB
+    url: /uploads/62d015dc50c379281b51f8cd_Rachael-Kelly.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 656
+    size: 25 KB
+    url: /variants/62d015dc50c379281b51f8cd_Rachael-Kelly-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 656
+    size: 32 KB
+    url: /variants/62d015dc50c379281b51f8cd_Rachael-Kelly-640.webp
+  - label: Large
+    format: AVIF
+    width: 1000
+    height: 1025
+    size: 50 KB
+    url: /variants/62d015dc50c379281b51f8cd_Rachael-Kelly-1280.avif
+  - label: Large
+    format: WebP
+    width: 1000
+    height: 1025
+    size: 63 KB
+    url: /variants/62d015dc50c379281b51f8cd_Rachael-Kelly-1280.webp

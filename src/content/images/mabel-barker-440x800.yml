@@ -1,0 +1,40 @@
+image: /uploads/5c3f110d574f7416701de238_Mabel-Barker-440x800.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 440
+height: 800
+versions:
+  - label: Original
+    format: JPEG
+    width: 440
+    height: 800
+    size: 34 KB
+    url: /uploads/5c3f110d574f7416701de238_Mabel-Barker-440x800.jpg
+  - label: Medium
+    format: AVIF
+    width: 440
+    height: 800
+    size: 15 KB
+    url: /variants/5c3f110d574f7416701de238_Mabel-Barker-440x800-640.avif
+  - label: Medium
+    format: WebP
+    width: 440
+    height: 800
+    size: 20 KB
+    url: /variants/5c3f110d574f7416701de238_Mabel-Barker-440x800-640.webp
+  - label: Large
+    format: AVIF
+    width: 440
+    height: 800
+    size: 15 KB
+    url: /variants/5c3f110d574f7416701de238_Mabel-Barker-440x800-1280.avif
+  - label: Large
+    format: WebP
+    width: 440
+    height: 800
+    size: 20 KB
+    url: /variants/5c3f110d574f7416701de238_Mabel-Barker-440x800-1280.webp

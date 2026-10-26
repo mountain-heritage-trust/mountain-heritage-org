@@ -1,0 +1,40 @@
+image: /uploads/5ced32758aa4fca1c9d17ddc_60341708_2402049569861320_5187924815410888704_n.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 960
+height: 720
+versions:
+  - label: Original
+    format: JPEG
+    width: 960
+    height: 720
+    size: 51 KB
+    url: /uploads/5ced32758aa4fca1c9d17ddc_60341708_2402049569861320_5187924815410888704_n.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 480
+    size: 20 KB
+    url: /variants/5ced32758aa4fca1c9d17ddc_60341708_2402049569861320_5187924815410888704_n-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 480
+    size: 23 KB
+    url: /variants/5ced32758aa4fca1c9d17ddc_60341708_2402049569861320_5187924815410888704_n-640.webp
+  - label: Large
+    format: AVIF
+    width: 960
+    height: 720
+    size: 31 KB
+    url: /variants/5ced32758aa4fca1c9d17ddc_60341708_2402049569861320_5187924815410888704_n-1280.avif
+  - label: Large
+    format: WebP
+    width: 960
+    height: 720
+    size: 36 KB
+    url: /variants/5ced32758aa4fca1c9d17ddc_60341708_2402049569861320_5187924815410888704_n-1280.webp

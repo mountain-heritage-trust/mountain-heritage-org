@@ -1,0 +1,40 @@
+image: /uploads/64c7c06ee5758292c5a6e03c_David-Monteith.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 900
+height: 899
+versions:
+  - label: Original
+    format: JPEG
+    width: 900
+    height: 899
+    size: 134 KB
+    url: /uploads/64c7c06ee5758292c5a6e03c_David-Monteith.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 639
+    size: 56 KB
+    url: /variants/64c7c06ee5758292c5a6e03c_David-Monteith-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 639
+    size: 66 KB
+    url: /variants/64c7c06ee5758292c5a6e03c_David-Monteith-640.webp
+  - label: Large
+    format: AVIF
+    width: 900
+    height: 899
+    size: 89 KB
+    url: /variants/64c7c06ee5758292c5a6e03c_David-Monteith-1280.avif
+  - label: Large
+    format: WebP
+    width: 900
+    height: 899
+    size: 107 KB
+    url: /variants/64c7c06ee5758292c5a6e03c_David-Monteith-1280.webp

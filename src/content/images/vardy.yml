@@ -1,0 +1,40 @@
+image: /uploads/5c3f51c71be3cf47dedb063d_Vardy.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 894
+height: 763
+versions:
+  - label: Original
+    format: JPEG
+    width: 894
+    height: 763
+    size: 65 KB
+    url: /uploads/5c3f51c71be3cf47dedb063d_Vardy.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 546
+    size: 25 KB
+    url: /variants/5c3f51c71be3cf47dedb063d_Vardy-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 546
+    size: 31 KB
+    url: /variants/5c3f51c71be3cf47dedb063d_Vardy-640.webp
+  - label: Large
+    format: AVIF
+    width: 894
+    height: 763
+    size: 43 KB
+    url: /variants/5c3f51c71be3cf47dedb063d_Vardy-1280.avif
+  - label: Large
+    format: WebP
+    width: 894
+    height: 763
+    size: 48 KB
+    url: /variants/5c3f51c71be3cf47dedb063d_Vardy-1280.webp

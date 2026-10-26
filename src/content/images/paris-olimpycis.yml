@@ -1,0 +1,40 @@
+image: /uploads/664b5fe05d4aac75f3a58b3d_paris-olimpycis.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1773
+height: 591
+versions:
+  - label: Original
+    format: JPEG
+    width: 1773
+    height: 591
+    size: 83 KB
+    url: /uploads/664b5fe05d4aac75f3a58b3d_paris-olimpycis.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 213
+    size: 11 KB
+    url: /variants/664b5fe05d4aac75f3a58b3d_paris-olimpycis-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 213
+    size: 14 KB
+    url: /variants/664b5fe05d4aac75f3a58b3d_paris-olimpycis-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 427
+    size: 22 KB
+    url: /variants/664b5fe05d4aac75f3a58b3d_paris-olimpycis-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 427
+    size: 31 KB
+    url: /variants/664b5fe05d4aac75f3a58b3d_paris-olimpycis-1280.webp

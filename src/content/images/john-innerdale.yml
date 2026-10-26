@@ -1,0 +1,40 @@
+image: /uploads/63e3ad515243fe30ecbf055b_John-Innerdale.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 600
+height: 426
+versions:
+  - label: Original
+    format: JPEG
+    width: 600
+    height: 426
+    size: 28 KB
+    url: /uploads/63e3ad515243fe30ecbf055b_John-Innerdale.jpg
+  - label: Medium
+    format: AVIF
+    width: 600
+    height: 426
+    size: 13 KB
+    url: /variants/63e3ad515243fe30ecbf055b_John-Innerdale-640.avif
+  - label: Medium
+    format: WebP
+    width: 600
+    height: 426
+    size: 17 KB
+    url: /variants/63e3ad515243fe30ecbf055b_John-Innerdale-640.webp
+  - label: Large
+    format: AVIF
+    width: 600
+    height: 426
+    size: 13 KB
+    url: /variants/63e3ad515243fe30ecbf055b_John-Innerdale-1280.avif
+  - label: Large
+    format: WebP
+    width: 600
+    height: 426
+    size: 17 KB
+    url: /variants/63e3ad515243fe30ecbf055b_John-Innerdale-1280.webp

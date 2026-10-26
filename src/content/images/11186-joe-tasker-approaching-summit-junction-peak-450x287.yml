@@ -1,0 +1,40 @@
+image: /uploads/5c643d750e6c9ae21b36f4fc_11186-Joe-Tasker-approaching-summit-Junction-Peak-450x287.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 450
+height: 287
+versions:
+  - label: Original
+    format: JPEG
+    width: 450
+    height: 287
+    size: 16 KB
+    url: /uploads/5c643d750e6c9ae21b36f4fc_11186-Joe-Tasker-approaching-summit-Junction-Peak-450x287.jpg
+  - label: Medium
+    format: AVIF
+    width: 450
+    height: 287
+    size: 9 KB
+    url: /variants/5c643d750e6c9ae21b36f4fc_11186-Joe-Tasker-approaching-summit-Junction-Peak-450x287-640.avif
+  - label: Medium
+    format: WebP
+    width: 450
+    height: 287
+    size: 10 KB
+    url: /variants/5c643d750e6c9ae21b36f4fc_11186-Joe-Tasker-approaching-summit-Junction-Peak-450x287-640.webp
+  - label: Large
+    format: AVIF
+    width: 450
+    height: 287
+    size: 9 KB
+    url: /variants/5c643d750e6c9ae21b36f4fc_11186-Joe-Tasker-approaching-summit-Junction-Peak-450x287-1280.avif
+  - label: Large
+    format: WebP
+    width: 450
+    height: 287
+    size: 10 KB
+    url: /variants/5c643d750e6c9ae21b36f4fc_11186-Joe-Tasker-approaching-summit-Junction-Peak-450x287-1280.webp

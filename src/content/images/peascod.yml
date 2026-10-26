@@ -1,0 +1,40 @@
+image: /uploads/6736fe2300b352f9656a1707_6736fddceb6c885ba9e1443b_peascod.jpeg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1000
+height: 1335
+versions:
+  - label: Original
+    format: JPEG
+    width: 1000
+    height: 1335
+    size: 69 KB
+    url: /uploads/6736fe2300b352f9656a1707_6736fddceb6c885ba9e1443b_peascod.jpeg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 854
+    size: 11 KB
+    url: /variants/6736fe2300b352f9656a1707_6736fddceb6c885ba9e1443b_peascod-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 854
+    size: 17 KB
+    url: /variants/6736fe2300b352f9656a1707_6736fddceb6c885ba9e1443b_peascod-640.webp
+  - label: Large
+    format: AVIF
+    width: 1000
+    height: 1335
+    size: 22 KB
+    url: /variants/6736fe2300b352f9656a1707_6736fddceb6c885ba9e1443b_peascod-1280.avif
+  - label: Large
+    format: WebP
+    width: 1000
+    height: 1335
+    size: 33 KB
+    url: /variants/6736fe2300b352f9656a1707_6736fddceb6c885ba9e1443b_peascod-1280.webp

@@ -1,0 +1,40 @@
+image: /uploads/5cb6e9184d53bc5c3a535166_Jeff-Ford-Photo-crop.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2000
+height: 1570
+versions:
+  - label: Original
+    format: JPEG
+    width: 2000
+    height: 1570
+    size: 290 KB
+    url: /uploads/5cb6e9184d53bc5c3a535166_Jeff-Ford-Photo-crop.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 502
+    size: 24 KB
+    url: /variants/5cb6e9184d53bc5c3a535166_Jeff-Ford-Photo-crop-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 502
+    size: 29 KB
+    url: /variants/5cb6e9184d53bc5c3a535166_Jeff-Ford-Photo-crop-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1005
+    size: 72 KB
+    url: /variants/5cb6e9184d53bc5c3a535166_Jeff-Ford-Photo-crop-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1005
+    size: 90 KB
+    url: /variants/5cb6e9184d53bc5c3a535166_Jeff-Ford-Photo-crop-1280.webp

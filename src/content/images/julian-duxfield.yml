@@ -1,0 +1,40 @@
+image: /uploads/64c7b9efcf539d6f7dc8912a_Julian-Duxfield.jpeg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1163
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 1163
+    height: 2048
+    size: 222 KB
+    url: /uploads/64c7b9efcf539d6f7dc8912a_Julian-Duxfield.jpeg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 1127
+    size: 37 KB
+    url: /variants/64c7b9efcf539d6f7dc8912a_Julian-Duxfield-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 1127
+    size: 52 KB
+    url: /variants/64c7b9efcf539d6f7dc8912a_Julian-Duxfield-640.webp
+  - label: Large
+    format: AVIF
+    width: 1163
+    height: 2048
+    size: 96 KB
+    url: /variants/64c7b9efcf539d6f7dc8912a_Julian-Duxfield-1280.avif
+  - label: Large
+    format: WebP
+    width: 1163
+    height: 2048
+    size: 126 KB
+    url: /variants/64c7b9efcf539d6f7dc8912a_Julian-Duxfield-1280.webp

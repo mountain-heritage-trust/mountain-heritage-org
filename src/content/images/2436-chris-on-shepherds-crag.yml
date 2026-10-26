@@ -1,0 +1,40 @@
+image: /uploads/5cac709f75fdf1dc8756fec4_2436-Chris-on-Shepherds-Crag.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1324
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1324
+    size: 455 KB
+    url: /uploads/5cac709f75fdf1dc8756fec4_2436-Chris-on-Shepherds-Crag.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 414
+    size: 41 KB
+    url: /variants/5cac709f75fdf1dc8756fec4_2436-Chris-on-Shepherds-Crag-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 414
+    size: 47 KB
+    url: /variants/5cac709f75fdf1dc8756fec4_2436-Chris-on-Shepherds-Crag-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 828
+    size: 141 KB
+    url: /variants/5cac709f75fdf1dc8756fec4_2436-Chris-on-Shepherds-Crag-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 828
+    size: 179 KB
+    url: /variants/5cac709f75fdf1dc8756fec4_2436-Chris-on-Shepherds-Crag-1280.webp

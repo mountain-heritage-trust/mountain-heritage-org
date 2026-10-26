@@ -1,0 +1,40 @@
+image: /uploads/5c5aacbac8cc245bb9d89c7a_Jkt-front-on-stand-3c-V-Anderson.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 768
+height: 1024
+versions:
+  - label: Original
+    format: JPEG
+    width: 768
+    height: 1024
+    size: 68 KB
+    url: /uploads/5c5aacbac8cc245bb9d89c7a_Jkt-front-on-stand-3c-V-Anderson.JPG
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 853
+    size: 17 KB
+    url: /variants/5c5aacbac8cc245bb9d89c7a_Jkt-front-on-stand-3c-V-Anderson-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 853
+    size: 26 KB
+    url: /variants/5c5aacbac8cc245bb9d89c7a_Jkt-front-on-stand-3c-V-Anderson-640.webp
+  - label: Large
+    format: AVIF
+    width: 768
+    height: 1024
+    size: 23 KB
+    url: /variants/5c5aacbac8cc245bb9d89c7a_Jkt-front-on-stand-3c-V-Anderson-1280.avif
+  - label: Large
+    format: WebP
+    width: 768
+    height: 1024
+    size: 34 KB
+    url: /variants/5c5aacbac8cc245bb9d89c7a_Jkt-front-on-stand-3c-V-Anderson-1280.webp

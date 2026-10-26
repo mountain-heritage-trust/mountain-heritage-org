@@ -1,0 +1,40 @@
+image: /uploads/637bc0242f1d089f818c9ff5_Boardman-Brian.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2026
+height: 1593
+versions:
+  - label: Original
+    format: JPEG
+    width: 2026
+    height: 1593
+    size: 351 KB
+    url: /uploads/637bc0242f1d089f818c9ff5_Boardman-Brian.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 503
+    size: 37 KB
+    url: /variants/637bc0242f1d089f818c9ff5_Boardman-Brian-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 503
+    size: 45 KB
+    url: /variants/637bc0242f1d089f818c9ff5_Boardman-Brian-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1006
+    size: 84 KB
+    url: /variants/637bc0242f1d089f818c9ff5_Boardman-Brian-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1006
+    size: 118 KB
+    url: /variants/637bc0242f1d089f818c9ff5_Boardman-Brian-1280.webp

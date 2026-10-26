@@ -1,0 +1,40 @@
+image: /uploads/5c5aac8d7b2e58778bb9129c_ghoylandoneve.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 336
+height: 448
+versions:
+  - label: Original
+    format: JPEG
+    width: 336
+    height: 448
+    size: 29 KB
+    url: /uploads/5c5aac8d7b2e58778bb9129c_ghoylandoneve.jpg
+  - label: Medium
+    format: AVIF
+    width: 336
+    height: 448
+    size: 19 KB
+    url: /variants/5c5aac8d7b2e58778bb9129c_ghoylandoneve-640.avif
+  - label: Medium
+    format: WebP
+    width: 336
+    height: 448
+    size: 23 KB
+    url: /variants/5c5aac8d7b2e58778bb9129c_ghoylandoneve-640.webp
+  - label: Large
+    format: AVIF
+    width: 336
+    height: 448
+    size: 19 KB
+    url: /variants/5c5aac8d7b2e58778bb9129c_ghoylandoneve-1280.avif
+  - label: Large
+    format: WebP
+    width: 336
+    height: 448
+    size: 23 KB
+    url: /variants/5c5aac8d7b2e58778bb9129c_ghoylandoneve-1280.webp

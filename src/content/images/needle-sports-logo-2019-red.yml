@@ -1,0 +1,40 @@
+image: /uploads/Needle Sports Logo 2019 Red.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 445
+height: 252
+versions:
+  - label: Original
+    format: JPEG
+    width: 445
+    height: 252
+    size: 10 KB
+    url: /uploads/Needle Sports Logo 2019 Red.jpg
+  - label: Medium
+    format: AVIF
+    width: 445
+    height: 252
+    size: 5 KB
+    url: /variants/Needle Sports Logo 2019 Red-640.avif
+  - label: Medium
+    format: WebP
+    width: 445
+    height: 252
+    size: 6 KB
+    url: /variants/Needle Sports Logo 2019 Red-640.webp
+  - label: Large
+    format: AVIF
+    width: 445
+    height: 252
+    size: 5 KB
+    url: /variants/Needle Sports Logo 2019 Red-1280.avif
+  - label: Large
+    format: WebP
+    width: 445
+    height: 252
+    size: 6 KB
+    url: /variants/Needle Sports Logo 2019 Red-1280.webp

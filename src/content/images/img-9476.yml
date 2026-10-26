@@ -1,0 +1,40 @@
+image: /uploads/5c4f3978c87ca5d3af32214b_IMG_9476.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1600
+height: 1200
+versions:
+  - label: Original
+    format: JPEG
+    width: 1600
+    height: 1200
+    size: 280 KB
+    url: /uploads/5c4f3978c87ca5d3af32214b_IMG_9476.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 480
+    size: 46 KB
+    url: /variants/5c4f3978c87ca5d3af32214b_IMG_9476-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 480
+    size: 53 KB
+    url: /variants/5c4f3978c87ca5d3af32214b_IMG_9476-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 960
+    size: 117 KB
+    url: /variants/5c4f3978c87ca5d3af32214b_IMG_9476-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 960
+    size: 149 KB
+    url: /variants/5c4f3978c87ca5d3af32214b_IMG_9476-1280.webp

@@ -1,0 +1,40 @@
+image: /uploads/outside-logo.png
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 453
+height: 174
+versions:
+  - label: Original
+    format: PNG
+    width: 453
+    height: 174
+    size: 6 KB
+    url: /uploads/outside-logo.png
+  - label: Medium
+    format: AVIF
+    width: 453
+    height: 174
+    size: 5 KB
+    url: /variants/outside-logo-640.avif
+  - label: Medium
+    format: WebP
+    width: 453
+    height: 174
+    size: 7 KB
+    url: /variants/outside-logo-640.webp
+  - label: Large
+    format: AVIF
+    width: 453
+    height: 174
+    size: 5 KB
+    url: /variants/outside-logo-1280.avif
+  - label: Large
+    format: WebP
+    width: 453
+    height: 174
+    size: 7 KB
+    url: /variants/outside-logo-1280.webp

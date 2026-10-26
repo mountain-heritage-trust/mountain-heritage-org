@@ -1,0 +1,40 @@
+image: /uploads/5e43ef894f340c902e9f1f3f_IMG_2265.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1920
+height: 1280
+versions:
+  - label: Original
+    format: JPEG
+    width: 1920
+    height: 1280
+    size: 133 KB
+    url: /uploads/5e43ef894f340c902e9f1f3f_IMG_2265.JPG
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 427
+    size: 12 KB
+    url: /variants/5e43ef894f340c902e9f1f3f_IMG_2265-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 427
+    size: 15 KB
+    url: /variants/5e43ef894f340c902e9f1f3f_IMG_2265-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 853
+    size: 25 KB
+    url: /variants/5e43ef894f340c902e9f1f3f_IMG_2265-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 853
+    size: 37 KB
+    url: /variants/5e43ef894f340c902e9f1f3f_IMG_2265-1280.webp

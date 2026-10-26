@@ -1,0 +1,40 @@
+image: /uploads/5e9830ca991fe7136d4b7b46_Joe-Brown-1970-Hen-Cloud-Nat-Allen-Collection.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: Nat Allen Collection
+width: 929
+height: 1370
+versions:
+  - label: Original
+    format: JPEG
+    width: 929
+    height: 1370
+    size: 128 KB
+    url: /uploads/5e9830ca991fe7136d4b7b46_Joe-Brown-1970-Hen-Cloud-Nat-Allen-Collection.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 944
+    size: 40 KB
+    url: /variants/5e9830ca991fe7136d4b7b46_Joe-Brown-1970-Hen-Cloud-Nat-Allen-Collection-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 944
+    size: 53 KB
+    url: /variants/5e9830ca991fe7136d4b7b46_Joe-Brown-1970-Hen-Cloud-Nat-Allen-Collection-640.webp
+  - label: Large
+    format: AVIF
+    width: 929
+    height: 1370
+    size: 64 KB
+    url: /variants/5e9830ca991fe7136d4b7b46_Joe-Brown-1970-Hen-Cloud-Nat-Allen-Collection-1280.avif
+  - label: Large
+    format: WebP
+    width: 929
+    height: 1370
+    size: 82 KB
+    url: /variants/5e9830ca991fe7136d4b7b46_Joe-Brown-1970-Hen-Cloud-Nat-Allen-Collection-1280.webp

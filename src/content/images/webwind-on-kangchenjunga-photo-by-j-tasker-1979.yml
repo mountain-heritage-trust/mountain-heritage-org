@@ -1,0 +1,40 @@
+image: /uploads/5c4f091a1fec801359f06bbd_WEBwind-on-Kangchenjunga-photo-by-J-Tasker-1979.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: J Tasker
+width: 2048
+height: 1627
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1627
+    size: 356 KB
+    url: /uploads/5c4f091a1fec801359f06bbd_WEBwind-on-Kangchenjunga-photo-by-J-Tasker-1979.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 508
+    size: 38 KB
+    url: /variants/5c4f091a1fec801359f06bbd_WEBwind-on-Kangchenjunga-photo-by-J-Tasker-1979-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 508
+    size: 46 KB
+    url: /variants/5c4f091a1fec801359f06bbd_WEBwind-on-Kangchenjunga-photo-by-J-Tasker-1979-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1017
+    size: 97 KB
+    url: /variants/5c4f091a1fec801359f06bbd_WEBwind-on-Kangchenjunga-photo-by-J-Tasker-1979-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1017
+    size: 129 KB
+    url: /variants/5c4f091a1fec801359f06bbd_WEBwind-on-Kangchenjunga-photo-by-J-Tasker-1979-1280.webp

@@ -1,0 +1,40 @@
+image: /uploads/631ee19b34ed9e4751cd5e97_library.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2121
+height: 1414
+versions:
+  - label: Original
+    format: JPEG
+    width: 2121
+    height: 1414
+    size: 365 KB
+    url: /uploads/631ee19b34ed9e4751cd5e97_library.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 427
+    size: 45 KB
+    url: /variants/631ee19b34ed9e4751cd5e97_library-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 427
+    size: 49 KB
+    url: /variants/631ee19b34ed9e4751cd5e97_library-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 853
+    size: 121 KB
+    url: /variants/631ee19b34ed9e4751cd5e97_library-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 853
+    size: 143 KB
+    url: /variants/631ee19b34ed9e4751cd5e97_library-1280.webp

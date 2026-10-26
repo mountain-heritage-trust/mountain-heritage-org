@@ -1,0 +1,40 @@
+image: /uploads/5e983496fb0c7a8f889d85fd_Joe-Brown-and-C-Bonington.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1388
+height: 1781
+versions:
+  - label: Original
+    format: JPEG
+    width: 1388
+    height: 1781
+    size: 229 KB
+    url: /uploads/5e983496fb0c7a8f889d85fd_Joe-Brown-and-C-Bonington.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 821
+    size: 31 KB
+    url: /variants/5e983496fb0c7a8f889d85fd_Joe-Brown-and-C-Bonington-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 821
+    size: 44 KB
+    url: /variants/5e983496fb0c7a8f889d85fd_Joe-Brown-and-C-Bonington-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1642
+    size: 74 KB
+    url: /variants/5e983496fb0c7a8f889d85fd_Joe-Brown-and-C-Bonington-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1642
+    size: 114 KB
+    url: /variants/5e983496fb0c7a8f889d85fd_Joe-Brown-and-C-Bonington-1280.webp

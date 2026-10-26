@@ -1,0 +1,40 @@
+image: /uploads/5c4f0a20cd5bc13141725568_Alpine-warfare.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 600
+height: 349
+versions:
+  - label: Original
+    format: JPEG
+    width: 600
+    height: 349
+    size: 38 KB
+    url: /uploads/5c4f0a20cd5bc13141725568_Alpine-warfare.jpg
+  - label: Medium
+    format: AVIF
+    width: 600
+    height: 349
+    size: 26 KB
+    url: /variants/5c4f0a20cd5bc13141725568_Alpine-warfare-640.avif
+  - label: Medium
+    format: WebP
+    width: 600
+    height: 349
+    size: 32 KB
+    url: /variants/5c4f0a20cd5bc13141725568_Alpine-warfare-640.webp
+  - label: Large
+    format: AVIF
+    width: 600
+    height: 349
+    size: 26 KB
+    url: /variants/5c4f0a20cd5bc13141725568_Alpine-warfare-1280.avif
+  - label: Large
+    format: WebP
+    width: 600
+    height: 349
+    size: 32 KB
+    url: /variants/5c4f0a20cd5bc13141725568_Alpine-warfare-1280.webp

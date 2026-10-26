@@ -1,0 +1,40 @@
+image: /uploads/5c4f1d3d11421203827d6389_Tom-Price-2-.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1599
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 1599
+    height: 2048
+    size: 216 KB
+    url: /uploads/5c4f1d3d11421203827d6389_Tom-Price-2-.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 820
+    size: 27 KB
+    url: /variants/5c4f1d3d11421203827d6389_Tom-Price-2--640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 820
+    size: 36 KB
+    url: /variants/5c4f1d3d11421203827d6389_Tom-Price-2--640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1639
+    size: 55 KB
+    url: /variants/5c4f1d3d11421203827d6389_Tom-Price-2--1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1639
+    size: 87 KB
+    url: /variants/5c4f1d3d11421203827d6389_Tom-Price-2--1280.webp

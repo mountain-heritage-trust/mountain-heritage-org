@@ -1,0 +1,40 @@
+image: /uploads/5e8dd75a90cfb9d6cc3b52d5_2-32a-NME-Window-on-Summit.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1396
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1396
+    size: 291 KB
+    url: /uploads/5e8dd75a90cfb9d6cc3b52d5_2-32a-NME-Window-on-Summit.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 436
+    size: 33 KB
+    url: /variants/5e8dd75a90cfb9d6cc3b52d5_2-32a-NME-Window-on-Summit-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 436
+    size: 36 KB
+    url: /variants/5e8dd75a90cfb9d6cc3b52d5_2-32a-NME-Window-on-Summit-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 873
+    size: 70 KB
+    url: /variants/5e8dd75a90cfb9d6cc3b52d5_2-32a-NME-Window-on-Summit-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 873
+    size: 88 KB
+    url: /variants/5e8dd75a90cfb9d6cc3b52d5_2-32a-NME-Window-on-Summit-1280.webp

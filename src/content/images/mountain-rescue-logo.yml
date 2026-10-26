@@ -1,0 +1,40 @@
+image: /uploads/mountain-rescue-logo.png
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 550
+height: 550
+versions:
+  - label: Original
+    format: PNG
+    width: 550
+    height: 550
+    size: 34 KB
+    url: /uploads/mountain-rescue-logo.png
+  - label: Medium
+    format: AVIF
+    width: 550
+    height: 550
+    size: 14 KB
+    url: /variants/mountain-rescue-logo-640.avif
+  - label: Medium
+    format: WebP
+    width: 550
+    height: 550
+    size: 28 KB
+    url: /variants/mountain-rescue-logo-640.webp
+  - label: Large
+    format: AVIF
+    width: 550
+    height: 550
+    size: 14 KB
+    url: /variants/mountain-rescue-logo-1280.avif
+  - label: Large
+    format: WebP
+    width: 550
+    height: 550
+    size: 28 KB
+    url: /variants/mountain-rescue-logo-1280.webp

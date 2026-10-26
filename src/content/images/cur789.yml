@@ -1,0 +1,40 @@
+image: /uploads/5cec0286e4d9c04ce39093e0_CUR789.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1572
+height: 1028
+versions:
+  - label: Original
+    format: JPEG
+    width: 1572
+    height: 1028
+    size: 159 KB
+    url: /uploads/5cec0286e4d9c04ce39093e0_CUR789.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 419
+    size: 19 KB
+    url: /variants/5cec0286e4d9c04ce39093e0_CUR789-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 419
+    size: 24 KB
+    url: /variants/5cec0286e4d9c04ce39093e0_CUR789-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 837
+    size: 53 KB
+    url: /variants/5cec0286e4d9c04ce39093e0_CUR789-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 837
+    size: 71 KB
+    url: /variants/5cec0286e4d9c04ce39093e0_CUR789-1280.webp

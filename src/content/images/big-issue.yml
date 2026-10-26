@@ -1,0 +1,40 @@
+image: /uploads/6710b410119407ef05267433_6710b4086312f1cfdb2924d1_big-issue.jpeg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 714
+height: 1000
+versions:
+  - label: Original
+    format: JPEG
+    width: 714
+    height: 1000
+    size: 120 KB
+    url: /uploads/6710b410119407ef05267433_6710b4086312f1cfdb2924d1_big-issue.jpeg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 896
+    size: 66 KB
+    url: /variants/6710b410119407ef05267433_6710b4086312f1cfdb2924d1_big-issue-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 896
+    size: 83 KB
+    url: /variants/6710b410119407ef05267433_6710b4086312f1cfdb2924d1_big-issue-640.webp
+  - label: Large
+    format: AVIF
+    width: 714
+    height: 1000
+    size: 78 KB
+    url: /variants/6710b410119407ef05267433_6710b4086312f1cfdb2924d1_big-issue-1280.avif
+  - label: Large
+    format: WebP
+    width: 714
+    height: 1000
+    size: 98 KB
+    url: /variants/6710b410119407ef05267433_6710b4086312f1cfdb2924d1_big-issue-1280.webp

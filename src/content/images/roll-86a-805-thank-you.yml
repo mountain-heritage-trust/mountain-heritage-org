@@ -1,0 +1,40 @@
+image: /uploads/5f89511036593c5c4f2d0b6c_Roll-86A_805-thank-you.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 650
+height: 572
+versions:
+  - label: Original
+    format: JPEG
+    width: 650
+    height: 572
+    size: 54 KB
+    url: /uploads/5f89511036593c5c4f2d0b6c_Roll-86A_805-thank-you.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 563
+    size: 28 KB
+    url: /variants/5f89511036593c5c4f2d0b6c_Roll-86A_805-thank-you-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 563
+    size: 37 KB
+    url: /variants/5f89511036593c5c4f2d0b6c_Roll-86A_805-thank-you-640.webp
+  - label: Large
+    format: AVIF
+    width: 650
+    height: 572
+    size: 31 KB
+    url: /variants/5f89511036593c5c4f2d0b6c_Roll-86A_805-thank-you-1280.avif
+  - label: Large
+    format: WebP
+    width: 650
+    height: 572
+    size: 37 KB
+    url: /variants/5f89511036593c5c4f2d0b6c_Roll-86A_805-thank-you-1280.webp

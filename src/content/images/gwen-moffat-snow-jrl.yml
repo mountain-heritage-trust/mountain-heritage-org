@@ -1,0 +1,40 @@
+image: /uploads/5c4f31adfe98b219c62660bd_Gwen-Moffat-snow-JRL.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1483
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 1483
+    height: 2048
+    size: 193 KB
+    url: /uploads/5c4f31adfe98b219c62660bd_Gwen-Moffat-snow-JRL.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 884
+    size: 25 KB
+    url: /variants/5c4f31adfe98b219c62660bd_Gwen-Moffat-snow-JRL-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 884
+    size: 33 KB
+    url: /variants/5c4f31adfe98b219c62660bd_Gwen-Moffat-snow-JRL-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1768
+    size: 48 KB
+    url: /variants/5c4f31adfe98b219c62660bd_Gwen-Moffat-snow-JRL-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1768
+    size: 79 KB
+    url: /variants/5c4f31adfe98b219c62660bd_Gwen-Moffat-snow-JRL-1280.webp

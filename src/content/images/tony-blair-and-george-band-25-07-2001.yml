@@ -1,0 +1,40 @@
+image: /uploads/5c4ef97c9cf66893bbc80fed_Tony-Blair-and-George-Band-25-07-2001.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1024
+height: 742
+versions:
+  - label: Original
+    format: JPEG
+    width: 1024
+    height: 742
+    size: 117 KB
+    url: /uploads/5c4ef97c9cf66893bbc80fed_Tony-Blair-and-George-Band-25-07-2001.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 464
+    size: 34 KB
+    url: /variants/5c4ef97c9cf66893bbc80fed_Tony-Blair-and-George-Band-25-07-2001-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 464
+    size: 42 KB
+    url: /variants/5c4ef97c9cf66893bbc80fed_Tony-Blair-and-George-Band-25-07-2001-640.webp
+  - label: Large
+    format: AVIF
+    width: 1024
+    height: 742
+    size: 69 KB
+    url: /variants/5c4ef97c9cf66893bbc80fed_Tony-Blair-and-George-Band-25-07-2001-1280.avif
+  - label: Large
+    format: WebP
+    width: 1024
+    height: 742
+    size: 81 KB
+    url: /variants/5c4ef97c9cf66893bbc80fed_Tony-Blair-and-George-Band-25-07-2001-1280.webp

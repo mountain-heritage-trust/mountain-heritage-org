@@ -1,0 +1,40 @@
+image: /uploads/pillar-launch-banner.png
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1152
+versions:
+  - label: Original
+    format: PNG
+    width: 2048
+    height: 1152
+    size: 1.4 MB
+    url: /uploads/pillar-launch-banner.png
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 360
+    size: 44 KB
+    url: /variants/pillar-launch-banner-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 360
+    size: 53 KB
+    url: /variants/pillar-launch-banner-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 720
+    size: 125 KB
+    url: /variants/pillar-launch-banner-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 720
+    size: 163 KB
+    url: /variants/pillar-launch-banner-1280.webp

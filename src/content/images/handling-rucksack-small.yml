@@ -1,0 +1,40 @@
+image: /uploads/5f8eb9369b040a81c4b49196_Handling-rucksack-small.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 433
+height: 577
+versions:
+  - label: Original
+    format: JPEG
+    width: 433
+    height: 577
+    size: 71 KB
+    url: /uploads/5f8eb9369b040a81c4b49196_Handling-rucksack-small.jpg
+  - label: Medium
+    format: AVIF
+    width: 433
+    height: 577
+    size: 56 KB
+    url: /variants/5f8eb9369b040a81c4b49196_Handling-rucksack-small-640.avif
+  - label: Medium
+    format: WebP
+    width: 433
+    height: 577
+    size: 69 KB
+    url: /variants/5f8eb9369b040a81c4b49196_Handling-rucksack-small-640.webp
+  - label: Large
+    format: AVIF
+    width: 433
+    height: 577
+    size: 56 KB
+    url: /variants/5f8eb9369b040a81c4b49196_Handling-rucksack-small-1280.avif
+  - label: Large
+    format: WebP
+    width: 433
+    height: 577
+    size: 69 KB
+    url: /variants/5f8eb9369b040a81c4b49196_Handling-rucksack-small-1280.webp

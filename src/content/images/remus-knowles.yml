@@ -1,0 +1,40 @@
+image: /uploads/64c7c005cf539d6f7dd1a0c6_Remus-Knowles.jpeg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1365
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 1365
+    height: 2048
+    size: 518 KB
+    url: /uploads/64c7c005cf539d6f7dd1a0c6_Remus-Knowles.jpeg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 960
+    size: 146 KB
+    url: /variants/64c7c005cf539d6f7dd1a0c6_Remus-Knowles-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 960
+    size: 166 KB
+    url: /variants/64c7c005cf539d6f7dd1a0c6_Remus-Knowles-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1920
+    size: 347 KB
+    url: /variants/64c7c005cf539d6f7dd1a0c6_Remus-Knowles-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1920
+    size: 456 KB
+    url: /variants/64c7c005cf539d6f7dd1a0c6_Remus-Knowles-1280.webp

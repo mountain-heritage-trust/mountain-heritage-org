@@ -12,3 +12,8 @@
 /team/david-johnston-smith  /about/about-us  301
 /team/david-litherland      /about/about-us  301
 /team/fiona-bennett         /about/about-us  301
+
+# Generated image variants moved out of the CMS media folder (so trustees
+# only see originals in the media library). Keep old variant URLs working
+# for cached pages and anyone who linked to one. See docs/images.md.
+/uploads/optimised/*  /variants/:splat  301

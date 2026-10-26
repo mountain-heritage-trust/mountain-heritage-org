@@ -1,0 +1,40 @@
+image: /uploads/5e996d89b22d0d9fcbab63d4_IMG_1923.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1920
+height: 1280
+versions:
+  - label: Original
+    format: JPEG
+    width: 1920
+    height: 1280
+    size: 134 KB
+    url: /uploads/5e996d89b22d0d9fcbab63d4_IMG_1923.JPG
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 427
+    size: 13 KB
+    url: /variants/5e996d89b22d0d9fcbab63d4_IMG_1923-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 427
+    size: 16 KB
+    url: /variants/5e996d89b22d0d9fcbab63d4_IMG_1923-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 853
+    size: 36 KB
+    url: /variants/5e996d89b22d0d9fcbab63d4_IMG_1923-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 853
+    size: 47 KB
+    url: /variants/5e996d89b22d0d9fcbab63d4_IMG_1923-1280.webp

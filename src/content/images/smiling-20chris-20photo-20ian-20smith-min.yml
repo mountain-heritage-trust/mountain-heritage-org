@@ -1,0 +1,40 @@
+image: /uploads/66b14719c4c0d5df5ad6f26b_66b1460ff2365ee14c55f876_smiling-20Chris-20Photo-20Ian-20Smith-min.jpeg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: Ian Smith
+width: 2280
+height: 2672
+versions:
+  - label: Original
+    format: JPEG
+    width: 2280
+    height: 2672
+    size: 229 KB
+    url: /uploads/66b14719c4c0d5df5ad6f26b_66b1460ff2365ee14c55f876_smiling-20Chris-20Photo-20Ian-20Smith-min.jpeg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 750
+    size: 48 KB
+    url: /variants/66b14719c4c0d5df5ad6f26b_66b1460ff2365ee14c55f876_smiling-20Chris-20Photo-20Ian-20Smith-min-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 750
+    size: 61 KB
+    url: /variants/66b14719c4c0d5df5ad6f26b_66b1460ff2365ee14c55f876_smiling-20Chris-20Photo-20Ian-20Smith-min-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1500
+    size: 205 KB
+    url: /variants/66b14719c4c0d5df5ad6f26b_66b1460ff2365ee14c55f876_smiling-20Chris-20Photo-20Ian-20Smith-min-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1500
+    size: 249 KB
+    url: /variants/66b14719c4c0d5df5ad6f26b_66b1460ff2365ee14c55f876_smiling-20Chris-20Photo-20Ian-20Smith-min-1280.webp

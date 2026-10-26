@@ -1,0 +1,40 @@
+image: /uploads/5ea7f3933a5d6a2e86c42310_Nigel.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1280
+height: 811
+versions:
+  - label: Original
+    format: JPEG
+    width: 1280
+    height: 811
+    size: 117 KB
+    url: /uploads/5ea7f3933a5d6a2e86c42310_Nigel.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 406
+    size: 20 KB
+    url: /variants/5ea7f3933a5d6a2e86c42310_Nigel-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 406
+    size: 27 KB
+    url: /variants/5ea7f3933a5d6a2e86c42310_Nigel-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 811
+    size: 52 KB
+    url: /variants/5ea7f3933a5d6a2e86c42310_Nigel-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 811
+    size: 73 KB
+    url: /variants/5ea7f3933a5d6a2e86c42310_Nigel-1280.webp

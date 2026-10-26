@@ -1,0 +1,40 @@
+image: /uploads/5e8d86f0f68d58448321e6ac_Carabiners-colour-small.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1023
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1023
+    size: 128 KB
+    url: /uploads/5e8d86f0f68d58448321e6ac_Carabiners-colour-small.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 320
+    size: 11 KB
+    url: /variants/5e8d86f0f68d58448321e6ac_Carabiners-colour-small-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 320
+    size: 13 KB
+    url: /variants/5e8d86f0f68d58448321e6ac_Carabiners-colour-small-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 639
+    size: 29 KB
+    url: /variants/5e8d86f0f68d58448321e6ac_Carabiners-colour-small-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 639
+    size: 37 KB
+    url: /variants/5e8d86f0f68d58448321e6ac_Carabiners-colour-small-1280.webp

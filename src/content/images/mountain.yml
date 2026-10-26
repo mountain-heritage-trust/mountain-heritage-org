@@ -1,0 +1,40 @@
+image: /uploads/5ea7f55b9abcc597cc142e5f_mountain.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1280
+height: 819
+versions:
+  - label: Original
+    format: JPEG
+    width: 1280
+    height: 819
+    size: 166 KB
+    url: /uploads/5ea7f55b9abcc597cc142e5f_mountain.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 410
+    size: 35 KB
+    url: /variants/5ea7f55b9abcc597cc142e5f_mountain-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 410
+    size: 41 KB
+    url: /variants/5ea7f55b9abcc597cc142e5f_mountain-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 819
+    size: 105 KB
+    url: /variants/5ea7f55b9abcc597cc142e5f_mountain-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 819
+    size: 122 KB
+    url: /variants/5ea7f55b9abcc597cc142e5f_mountain-1280.webp

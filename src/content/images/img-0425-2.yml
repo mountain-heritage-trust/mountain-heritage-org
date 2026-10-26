@@ -1,0 +1,40 @@
+image: /uploads/5fcded7d3eb7ea90ba3db886_IMG_0425-2-.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 904
+height: 848
+versions:
+  - label: Original
+    format: JPEG
+    width: 904
+    height: 848
+    size: 92 KB
+    url: /uploads/5fcded7d3eb7ea90ba3db886_IMG_0425-2-.JPG
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 600
+    size: 29 KB
+    url: /variants/5fcded7d3eb7ea90ba3db886_IMG_0425-2--640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 600
+    size: 39 KB
+    url: /variants/5fcded7d3eb7ea90ba3db886_IMG_0425-2--640.webp
+  - label: Large
+    format: AVIF
+    width: 904
+    height: 848
+    size: 47 KB
+    url: /variants/5fcded7d3eb7ea90ba3db886_IMG_0425-2--1280.avif
+  - label: Large
+    format: WebP
+    width: 904
+    height: 848
+    size: 60 KB
+    url: /variants/5fcded7d3eb7ea90ba3db886_IMG_0425-2--1280.webp

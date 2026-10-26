@@ -1,0 +1,40 @@
+image: /uploads/5f96b71a0c8d394d65cbe803_clothing-outerwear.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 719
+height: 495
+versions:
+  - label: Original
+    format: JPEG
+    width: 719
+    height: 495
+    size: 28 KB
+    url: /uploads/5f96b71a0c8d394d65cbe803_clothing-outerwear.JPG
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 441
+    size: 11 KB
+    url: /variants/5f96b71a0c8d394d65cbe803_clothing-outerwear-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 441
+    size: 13 KB
+    url: /variants/5f96b71a0c8d394d65cbe803_clothing-outerwear-640.webp
+  - label: Large
+    format: AVIF
+    width: 719
+    height: 495
+    size: 13 KB
+    url: /variants/5f96b71a0c8d394d65cbe803_clothing-outerwear-1280.avif
+  - label: Large
+    format: WebP
+    width: 719
+    height: 495
+    size: 15 KB
+    url: /variants/5f96b71a0c8d394d65cbe803_clothing-outerwear-1280.webp

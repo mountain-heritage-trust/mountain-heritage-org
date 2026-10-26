@@ -1,0 +1,40 @@
+image: /uploads/5e8dd78e6df941816ecd91d6_1-6-NME-Mallory-tent.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2022
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 2022
+    height: 2048
+    size: 521 KB
+    url: /uploads/5e8dd78e6df941816ecd91d6_1-6-NME-Mallory-tent.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 648
+    size: 61 KB
+    url: /variants/5e8dd78e6df941816ecd91d6_1-6-NME-Mallory-tent-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 648
+    size: 69 KB
+    url: /variants/5e8dd78e6df941816ecd91d6_1-6-NME-Mallory-tent-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1296
+    size: 134 KB
+    url: /variants/5e8dd78e6df941816ecd91d6_1-6-NME-Mallory-tent-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1296
+    size: 170 KB
+    url: /variants/5e8dd78e6df941816ecd91d6_1-6-NME-Mallory-tent-1280.webp

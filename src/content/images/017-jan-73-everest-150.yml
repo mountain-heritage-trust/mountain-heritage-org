@@ -1,0 +1,40 @@
+image: /uploads/5c643908e3d0a04ba3c04b02_017-Jan-73-Everest-150.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1375
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1375
+    size: 430 KB
+    url: /uploads/5c643908e3d0a04ba3c04b02_017-Jan-73-Everest-150.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 430
+    size: 65 KB
+    url: /variants/5c643908e3d0a04ba3c04b02_017-Jan-73-Everest-150-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 430
+    size: 66 KB
+    url: /variants/5c643908e3d0a04ba3c04b02_017-Jan-73-Everest-150-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 859
+    size: 150 KB
+    url: /variants/5c643908e3d0a04ba3c04b02_017-Jan-73-Everest-150-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 859
+    size: 167 KB
+    url: /variants/5c643908e3d0a04ba3c04b02_017-Jan-73-Everest-150-1280.webp

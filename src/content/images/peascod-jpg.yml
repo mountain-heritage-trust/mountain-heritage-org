@@ -1,0 +1,40 @@
+image: /uploads/67370fbb18abc03252304c55_peascod.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1000
+height: 1000
+versions:
+  - label: Original
+    format: JPEG
+    width: 1000
+    height: 1000
+    size: 58 KB
+    url: /uploads/67370fbb18abc03252304c55_peascod.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 640
+    size: 12 KB
+    url: /variants/67370fbb18abc03252304c55_peascod-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 640
+    size: 17 KB
+    url: /variants/67370fbb18abc03252304c55_peascod-640.webp
+  - label: Large
+    format: AVIF
+    width: 1000
+    height: 1000
+    size: 24 KB
+    url: /variants/67370fbb18abc03252304c55_peascod-1280.avif
+  - label: Large
+    format: WebP
+    width: 1000
+    height: 1000
+    size: 33 KB
+    url: /variants/67370fbb18abc03252304c55_peascod-1280.webp

@@ -1,0 +1,40 @@
+image: /uploads/untitled-design-1.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1600
+height: 1000
+versions:
+  - label: Original
+    format: JPEG
+    width: 1600
+    height: 1000
+    size: 112 KB
+    url: /uploads/untitled-design-1.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 400
+    size: 8 KB
+    url: /variants/untitled-design-1-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 400
+    size: 11 KB
+    url: /variants/untitled-design-1-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 800
+    size: 21 KB
+    url: /variants/untitled-design-1-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 800
+    size: 32 KB
+    url: /variants/untitled-design-1-1280.webp

@@ -1,0 +1,40 @@
+image: /uploads/5fb2383d01624e825f9e9a5d_Nat-Allen-Scrapbook-small.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 402
+height: 621
+versions:
+  - label: Original
+    format: JPEG
+    width: 402
+    height: 621
+    size: 27 KB
+    url: /uploads/5fb2383d01624e825f9e9a5d_Nat-Allen-Scrapbook-small.JPG
+  - label: Medium
+    format: AVIF
+    width: 402
+    height: 621
+    size: 13 KB
+    url: /variants/5fb2383d01624e825f9e9a5d_Nat-Allen-Scrapbook-small-640.avif
+  - label: Medium
+    format: WebP
+    width: 402
+    height: 621
+    size: 15 KB
+    url: /variants/5fb2383d01624e825f9e9a5d_Nat-Allen-Scrapbook-small-640.webp
+  - label: Large
+    format: AVIF
+    width: 402
+    height: 621
+    size: 13 KB
+    url: /variants/5fb2383d01624e825f9e9a5d_Nat-Allen-Scrapbook-small-1280.avif
+  - label: Large
+    format: WebP
+    width: 402
+    height: 621
+    size: 15 KB
+    url: /variants/5fb2383d01624e825f9e9a5d_Nat-Allen-Scrapbook-small-1280.webp

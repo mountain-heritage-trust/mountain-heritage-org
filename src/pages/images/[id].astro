@@ -1,0 +1,77 @@
+---
+// One page per image record: the picture, its caption, date and credit,
+// where it is used on the site, and the versions available. Captions
+// around the site link here ("Image details"). Images nobody has
+// described yet are noindex and left out of the sitemap (astro.config.mjs).
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Image from '../../components/Image.astro';
+import { getImageUsage } from '../../lib/images';
+import { captionLine } from '../../lib/caption-line';
+
+export async function getStaticPaths() {
+  const records = await getCollection('images');
+  return records.map((record) => ({ params: { id: record.id }, props: { record } }));
+}
+
+const { record } = Astro.props;
+const d = record.data;
+const usedOn = (await getImageUsage()).get(d.image) ?? [];
+const described = captionLine(d) !== null;
+const caption = d.caption ? String(d.caption) : '';
+const title = caption || 'Image details';
+const description = [caption, d.date, d.credit].filter(Boolean).join(' · ') || undefined;
+---
+<BaseLayout title={title} description={description} ogImage={d.image} noindex={!described}>
+  <article class="article image-record">
+    <Breadcrumbs items={[{ href: '/', label: 'Home' }, { label: 'Image details' }]} />
+    <h1>{title}</h1>
+
+    <Image
+      src={d.image}
+      class="image-record__image"
+      sizes="(max-width: 720px) 100vw, 720px"
+      loading="eager"
+    />
+
+    {(d.date || d.credit) && (
+      <dl class="image-record__details">
+        {d.date && (<><dt>Date</dt><dd>{d.date}</dd></>)}
+        {d.credit && (<><dt>Credit</dt><dd>{d.credit}</dd></>)}
+      </dl>
+    )}
+
+    {usedOn.length > 0 && (
+      <section>
+        <h2>Where this image appears</h2>
+        <ul>
+          {usedOn.map((u) => <li><a href={u.href}>{u.title}</a></li>)}
+        </ul>
+      </section>
+    )}
+
+    <section>
+      <h2>Available versions</h2>
+      <table class="image-record__versions">
+        <thead>
+          <tr><th scope="col">Version</th><th scope="col">Size</th><th scope="col">File</th><th scope="col"><span class="visually-hidden">Link</span></th></tr>
+        </thead>
+        <tbody>
+          {d.versions.map((v) => (
+            <tr>
+              <td>{v.label} <span class="image-record__format">{v.format}</span></td>
+              <td>{v.width && v.height ? `${v.width} × ${v.height}` : '—'}</td>
+              <td>{v.size}</td>
+              <td><a href={encodeURI(v.url)}>Open</a></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <p class="image-record__note">
+        Images on this site may be subject to copyright. To ask about using
+        this image, please <a href="/contact">get in touch</a>.
+      </p>
+    </section>
+  </article>
+</BaseLayout>

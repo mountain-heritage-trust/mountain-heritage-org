@@ -93,6 +93,34 @@ For best results, use images that are:
 Always add **alt text** describing the image, for visitors using screen
 readers and to improve SEO.
 
+## Describing images: captions, dates and credits
+
+Every picture you upload gets an entry in the **Image library** (in the
+left-hand menu) about a minute after you save. Open an image there to add:
+
+- **Caption** — what the picture shows: who, what and where. This
+  appears under the image on cover images and on pictures placed on a
+  line of their own in a post.
+- **Alt text** — a short description for visitors using screen readers.
+  Used wherever the picture appears without alt text of its own.
+- **Date** — when it was taken. "1961", "c. 1953" or "1970s" are all fine.
+- **Credit** — the photographer or source. Shown publicly with the
+  caption, so please check it.
+- **Notes** — for your own use; never shown on the site.
+
+You only need to describe a picture once; the details appear everywhere
+it is used. Each described picture also gets a public **Image details**
+page, linked from its caption, showing where it appears and the versions
+available.
+
+Some images show a **Suggested credit** taken from the original
+filename. These are guesses: if one is right, copy it into **Credit**.
+The **Has a suggested credit to check** filter lists them.
+
+The **Versions** list at the bottom shows the smaller copies the site
+makes automatically for faster loading. You don't need to do anything
+with them, and they no longer clutter the media library.
+
 ## Embedding a YouTube video
 
 Paste the video's YouTube link on a line of its own in the body, with

@@ -1,0 +1,40 @@
+image: /uploads/632b08c1db5a2b1af1e409fa_Guidebook-blog-5.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1536
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1536
+    size: 314 KB
+    url: /uploads/632b08c1db5a2b1af1e409fa_Guidebook-blog-5.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 480
+    size: 27 KB
+    url: /variants/632b08c1db5a2b1af1e409fa_Guidebook-blog-5-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 480
+    size: 33 KB
+    url: /variants/632b08c1db5a2b1af1e409fa_Guidebook-blog-5-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 960
+    size: 75 KB
+    url: /variants/632b08c1db5a2b1af1e409fa_Guidebook-blog-5-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 960
+    size: 99 KB
+    url: /variants/632b08c1db5a2b1af1e409fa_Guidebook-blog-5-1280.webp

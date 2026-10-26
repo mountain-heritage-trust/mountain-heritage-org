@@ -1,0 +1,40 @@
+image: /uploads/5cb6e8866bcb727be030d572_Ian-Smith-min.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1536
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 1536
+    height: 2048
+    size: 392 KB
+    url: /uploads/5cb6e8866bcb727be030d572_Ian-Smith-min.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 853
+    size: 50 KB
+    url: /variants/5cb6e8866bcb727be030d572_Ian-Smith-min-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 853
+    size: 69 KB
+    url: /variants/5cb6e8866bcb727be030d572_Ian-Smith-min-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1707
+    size: 156 KB
+    url: /variants/5cb6e8866bcb727be030d572_Ian-Smith-min-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1707
+    size: 222 KB
+    url: /variants/5cb6e8866bcb727be030d572_Ian-Smith-min-1280.webp

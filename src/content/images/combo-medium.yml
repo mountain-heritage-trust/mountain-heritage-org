@@ -1,0 +1,40 @@
+image: /uploads/600a9a20d14626eb5bf6be67_combo-medium.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1885
+height: 1060
+versions:
+  - label: Original
+    format: JPEG
+    width: 1885
+    height: 1060
+    size: 232 KB
+    url: /uploads/600a9a20d14626eb5bf6be67_combo-medium.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 360
+    size: 26 KB
+    url: /variants/600a9a20d14626eb5bf6be67_combo-medium-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 360
+    size: 31 KB
+    url: /variants/600a9a20d14626eb5bf6be67_combo-medium-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 720
+    size: 65 KB
+    url: /variants/600a9a20d14626eb5bf6be67_combo-medium-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 720
+    size: 83 KB
+    url: /variants/600a9a20d14626eb5bf6be67_combo-medium-1280.webp

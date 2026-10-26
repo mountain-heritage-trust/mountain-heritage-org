@@ -1,0 +1,40 @@
+image: /uploads/5c643d43e3d0a0e864c04be9_N60-001-Lowe-George.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1312
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1312
+    size: 190 KB
+    url: /uploads/5c643d43e3d0a0e864c04be9_N60-001-Lowe-George.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 410
+    size: 15 KB
+    url: /variants/5c643d43e3d0a0e864c04be9_N60-001-Lowe-George-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 410
+    size: 20 KB
+    url: /variants/5c643d43e3d0a0e864c04be9_N60-001-Lowe-George-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 820
+    size: 37 KB
+    url: /variants/5c643d43e3d0a0e864c04be9_N60-001-Lowe-George-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 820
+    size: 55 KB
+    url: /variants/5c643d43e3d0a0e864c04be9_N60-001-Lowe-George-1280.webp

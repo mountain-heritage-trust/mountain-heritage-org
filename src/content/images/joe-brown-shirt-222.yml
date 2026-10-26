@@ -1,0 +1,40 @@
+image: /uploads/5e982f2f4e166509e7eb0c9e_Joe-Brown-shirt-222.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1254
+height: 1499
+versions:
+  - label: Original
+    format: JPEG
+    width: 1254
+    height: 1499
+    size: 159 KB
+    url: /uploads/5e982f2f4e166509e7eb0c9e_Joe-Brown-shirt-222.JPG
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 765
+    size: 15 KB
+    url: /variants/5e982f2f4e166509e7eb0c9e_Joe-Brown-shirt-222-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 765
+    size: 24 KB
+    url: /variants/5e982f2f4e166509e7eb0c9e_Joe-Brown-shirt-222-640.webp
+  - label: Large
+    format: AVIF
+    width: 1254
+    height: 1499
+    size: 61 KB
+    url: /variants/5e982f2f4e166509e7eb0c9e_Joe-Brown-shirt-222-1280.avif
+  - label: Large
+    format: WebP
+    width: 1254
+    height: 1499
+    size: 83 KB
+    url: /variants/5e982f2f4e166509e7eb0c9e_Joe-Brown-shirt-222-1280.webp

@@ -1,0 +1,40 @@
+image: /uploads/5c3f1a5c2d8e2b4cb8de8b71_doug-scott-now-450x300.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 450
+height: 300
+versions:
+  - label: Original
+    format: JPEG
+    width: 450
+    height: 300
+    size: 12 KB
+    url: /uploads/5c3f1a5c2d8e2b4cb8de8b71_doug-scott-now-450x300.jpg
+  - label: Medium
+    format: AVIF
+    width: 450
+    height: 300
+    size: 6 KB
+    url: /variants/5c3f1a5c2d8e2b4cb8de8b71_doug-scott-now-450x300-640.avif
+  - label: Medium
+    format: WebP
+    width: 450
+    height: 300
+    size: 7 KB
+    url: /variants/5c3f1a5c2d8e2b4cb8de8b71_doug-scott-now-450x300-640.webp
+  - label: Large
+    format: AVIF
+    width: 450
+    height: 300
+    size: 6 KB
+    url: /variants/5c3f1a5c2d8e2b4cb8de8b71_doug-scott-now-450x300-1280.avif
+  - label: Large
+    format: WebP
+    width: 450
+    height: 300
+    size: 7 KB
+    url: /variants/5c3f1a5c2d8e2b4cb8de8b71_doug-scott-now-450x300-1280.webp

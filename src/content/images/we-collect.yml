@@ -1,0 +1,40 @@
+image: /uploads/6010289c1911b21add293d57_we-collect.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1779
+height: 999
+versions:
+  - label: Original
+    format: JPEG
+    width: 1779
+    height: 999
+    size: 170 KB
+    url: /uploads/6010289c1911b21add293d57_we-collect.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 359
+    size: 22 KB
+    url: /variants/6010289c1911b21add293d57_we-collect-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 359
+    size: 26 KB
+    url: /variants/6010289c1911b21add293d57_we-collect-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 719
+    size: 55 KB
+    url: /variants/6010289c1911b21add293d57_we-collect-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 719
+    size: 68 KB
+    url: /variants/6010289c1911b21add293d57_we-collect-1280.webp

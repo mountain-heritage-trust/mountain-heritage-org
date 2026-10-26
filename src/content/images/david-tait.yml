@@ -1,0 +1,40 @@
+image: /uploads/64c7d51d0e551e5295270f19_David-Tait.jpeg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 480
+height: 640
+versions:
+  - label: Original
+    format: JPEG
+    width: 480
+    height: 640
+    size: 52 KB
+    url: /uploads/64c7d51d0e551e5295270f19_David-Tait.jpeg
+  - label: Medium
+    format: AVIF
+    width: 480
+    height: 640
+    size: 34 KB
+    url: /variants/64c7d51d0e551e5295270f19_David-Tait-640.avif
+  - label: Medium
+    format: WebP
+    width: 480
+    height: 640
+    size: 39 KB
+    url: /variants/64c7d51d0e551e5295270f19_David-Tait-640.webp
+  - label: Large
+    format: AVIF
+    width: 480
+    height: 640
+    size: 34 KB
+    url: /variants/64c7d51d0e551e5295270f19_David-Tait-1280.avif
+  - label: Large
+    format: WebP
+    width: 480
+    height: 640
+    size: 39 KB
+    url: /variants/64c7d51d0e551e5295270f19_David-Tait-1280.webp

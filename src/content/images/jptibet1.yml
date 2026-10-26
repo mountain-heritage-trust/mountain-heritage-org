@@ -1,0 +1,40 @@
+image: /uploads/5fc6491265bea1313d654968_JPTibet1.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 786
+height: 512
+versions:
+  - label: Original
+    format: JPEG
+    width: 786
+    height: 512
+    size: 18 KB
+    url: /uploads/5fc6491265bea1313d654968_JPTibet1.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 417
+    size: 13 KB
+    url: /variants/5fc6491265bea1313d654968_JPTibet1-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 417
+    size: 17 KB
+    url: /variants/5fc6491265bea1313d654968_JPTibet1-640.webp
+  - label: Large
+    format: AVIF
+    width: 786
+    height: 512
+    size: 16 KB
+    url: /variants/5fc6491265bea1313d654968_JPTibet1-1280.avif
+  - label: Large
+    format: WebP
+    width: 786
+    height: 512
+    size: 21 KB
+    url: /variants/5fc6491265bea1313d654968_JPTibet1-1280.webp

@@ -1,0 +1,40 @@
+image: /uploads/5f8eb7b3e2d7b72e3d0baffa_img332-smaller-still.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 399
+height: 625
+versions:
+  - label: Original
+    format: JPEG
+    width: 399
+    height: 625
+    size: 43 KB
+    url: /uploads/5f8eb7b3e2d7b72e3d0baffa_img332-smaller-still.jpg
+  - label: Medium
+    format: AVIF
+    width: 399
+    height: 625
+    size: 28 KB
+    url: /variants/5f8eb7b3e2d7b72e3d0baffa_img332-smaller-still-640.avif
+  - label: Medium
+    format: WebP
+    width: 399
+    height: 625
+    size: 32 KB
+    url: /variants/5f8eb7b3e2d7b72e3d0baffa_img332-smaller-still-640.webp
+  - label: Large
+    format: AVIF
+    width: 399
+    height: 625
+    size: 28 KB
+    url: /variants/5f8eb7b3e2d7b72e3d0baffa_img332-smaller-still-1280.avif
+  - label: Large
+    format: WebP
+    width: 399
+    height: 625
+    size: 32 KB
+    url: /variants/5f8eb7b3e2d7b72e3d0baffa_img332-smaller-still-1280.webp

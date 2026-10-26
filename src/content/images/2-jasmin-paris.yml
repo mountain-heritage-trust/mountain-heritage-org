@@ -1,0 +1,40 @@
+image: /uploads/6723e0d68c04d47a38438320_2.-Jasmin-Paris.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1280
+height: 854
+versions:
+  - label: Original
+    format: JPEG
+    width: 1280
+    height: 854
+    size: 136 KB
+    url: /uploads/6723e0d68c04d47a38438320_2.-Jasmin-Paris.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 427
+    size: 26 KB
+    url: /variants/6723e0d68c04d47a38438320_2.-Jasmin-Paris-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 427
+    size: 34 KB
+    url: /variants/6723e0d68c04d47a38438320_2.-Jasmin-Paris-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 854
+    size: 64 KB
+    url: /variants/6723e0d68c04d47a38438320_2.-Jasmin-Paris-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 854
+    size: 88 KB
+    url: /variants/6723e0d68c04d47a38438320_2.-Jasmin-Paris-1280.webp

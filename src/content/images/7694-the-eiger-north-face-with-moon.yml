@@ -1,0 +1,40 @@
+image: /uploads/5c4efc91fb3e2cb0488047cc_7694-The-Eiger-North-Face-with-moon.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1212
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 1212
+    height: 2048
+    size: 334 KB
+    url: /uploads/5c4efc91fb3e2cb0488047cc_7694-The-Eiger-North-Face-with-moon.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 1081
+    size: 90 KB
+    url: /variants/5c4efc91fb3e2cb0488047cc_7694-The-Eiger-North-Face-with-moon-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 1081
+    size: 108 KB
+    url: /variants/5c4efc91fb3e2cb0488047cc_7694-The-Eiger-North-Face-with-moon-640.webp
+  - label: Large
+    format: AVIF
+    width: 1212
+    height: 2048
+    size: 207 KB
+    url: /variants/5c4efc91fb3e2cb0488047cc_7694-The-Eiger-North-Face-with-moon-1280.avif
+  - label: Large
+    format: WebP
+    width: 1212
+    height: 2048
+    size: 260 KB
+    url: /variants/5c4efc91fb3e2cb0488047cc_7694-The-Eiger-North-Face-with-moon-1280.webp

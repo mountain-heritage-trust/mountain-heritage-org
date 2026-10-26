@@ -1,0 +1,40 @@
+image: /uploads/5f8eb735aa6c7ba4ededb4db_wethree-small.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1109
+height: 225
+versions:
+  - label: Original
+    format: JPEG
+    width: 1109
+    height: 225
+    size: 49 KB
+    url: /uploads/5f8eb735aa6c7ba4ededb4db_wethree-small.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 130
+    size: 15 KB
+    url: /variants/5f8eb735aa6c7ba4ededb4db_wethree-small-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 130
+    size: 16 KB
+    url: /variants/5f8eb735aa6c7ba4ededb4db_wethree-small-640.webp
+  - label: Large
+    format: AVIF
+    width: 1109
+    height: 225
+    size: 33 KB
+    url: /variants/5f8eb735aa6c7ba4ededb4db_wethree-small-1280.avif
+  - label: Large
+    format: WebP
+    width: 1109
+    height: 225
+    size: 38 KB
+    url: /variants/5f8eb735aa6c7ba4ededb4db_wethree-small-1280.webp

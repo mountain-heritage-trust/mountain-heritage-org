@@ -5,6 +5,8 @@ import { execSync } from 'node:child_process';
 import { autoLinkBlogPlugin } from './src/lib/auto-links.ts';
 import { youtubeEmbedPlugin } from './src/lib/youtube-embed.ts';
 import { SHOP_PUBLIC } from './src/lib/shop-flags.ts';
+import { imageCaptionsPlugin, loadImageRecordsSync } from './src/lib/image-captions.ts';
+import { captionLine } from './src/lib/caption-line.ts';
 
 // Build-time metadata. We resolve the commit hash here, in the config
 // (which runs in a real Node context), and inject it as a Vite compile-
@@ -59,6 +61,12 @@ function loadGitLastMod() {
 
 const LAST_MOD = loadGitLastMod();
 
+// /images/<id> pages for images nobody has described yet are thin, so they
+// are noindex (see src/pages/images/[id].astro) and kept out of the sitemap.
+const UNDESCRIBED_IMAGES = new Set(
+  [...loadImageRecordsSync().values()].filter((r) => !captionLine(r)).map((r) => r.id),
+);
+
 // Map a URL path to the source file behind it (markdown for content
 // collections, .astro for standalone pages). Returned path is relative
 // to the repo root, matching git's pathnames.
@@ -76,6 +84,8 @@ function urlPathToSource(pathname) {
   if (archive) return `src/content/archive/${archive[1]}.md`;
   const about = clean.match(/^\/about\/([^/]+)$/);
   if (about) return `src/content/about/${about[1]}.md`;
+  const image = clean.match(/^\/images\/([^/]+)$/);
+  if (image) return `src/content/images/${image[1]}.yml`;
   const shop = clean.match(/^\/shop\/([^/]+)$/);
   if (shop && !['basket', 'success'].includes(shop[1])) return `src/content/shop/${shop[1]}.md`;
   // Standalone pages live at src/pages/<path>.astro
@@ -88,6 +98,7 @@ const PRIORITIES = [
   { match: (p) => /^\/about\//.test(p), priority: 0.8, changefreq: 'monthly' },
   { match: (p) => /^\/(blog|team|exhibitions|collections)\//.test(p), priority: 0.7, changefreq: 'yearly' },
   { match: (p) => /^\/shop\//.test(p), priority: 0.6, changefreq: 'monthly' },
+  { match: (p) => /^\/images\//.test(p), priority: 0.3, changefreq: 'yearly' },
   { match: (p) => /^\/(privacy-notice|terms-of-use|supporters|man-mountain-learning-resources)$/.test(p), priority: 0.4, changefreq: 'yearly' },
 ];
 
@@ -111,6 +122,7 @@ export default defineConfig({
       filter: (page) =>
         !page.includes('/admin') &&
         !/\/shop\/(basket|success)\/?$/.test(page) &&
+        !UNDESCRIBED_IMAGES.has(page.match(/\/images\/([^/]+)\/?$/)?.[1] ?? '') &&
         // Keep the whole shop out of the sitemap until launch.
         (SHOP_PUBLIC || !/\/shop(\/|$)/.test(page)),
       serialize(item) {
@@ -126,7 +138,7 @@ export default defineConfig({
     }),
   ],
   markdown: {
-    rehypePlugins: [youtubeEmbedPlugin(), autoLinkBlogPlugin()],
+    rehypePlugins: [youtubeEmbedPlugin(), autoLinkBlogPlugin(), imageCaptionsPlugin()],
   },
   vite: {
     define: {

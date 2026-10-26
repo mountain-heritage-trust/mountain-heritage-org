@@ -1,0 +1,40 @@
+image: /uploads/64c7d5b88c28959a8b615237_Charlotte-Whitmore.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1536
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 1536
+    height: 2048
+    size: 376 KB
+    url: /uploads/64c7d5b88c28959a8b615237_Charlotte-Whitmore.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 853
+    size: 53 KB
+    url: /variants/64c7d5b88c28959a8b615237_Charlotte-Whitmore-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 853
+    size: 69 KB
+    url: /variants/64c7d5b88c28959a8b615237_Charlotte-Whitmore-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1707
+    size: 143 KB
+    url: /variants/64c7d5b88c28959a8b615237_Charlotte-Whitmore-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1707
+    size: 202 KB
+    url: /variants/64c7d5b88c28959a8b615237_Charlotte-Whitmore-1280.webp

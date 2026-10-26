@@ -1,0 +1,40 @@
+image: /uploads/5f8eb5ee83508a009bbf6a77_SWH-copy-of-The-Complete-Mountaineer-small.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 500
+height: 500
+versions:
+  - label: Original
+    format: JPEG
+    width: 500
+    height: 500
+    size: 34 KB
+    url: /uploads/5f8eb5ee83508a009bbf6a77_SWH-copy-of-The-Complete-Mountaineer-small.JPG
+  - label: Medium
+    format: AVIF
+    width: 500
+    height: 500
+    size: 20 KB
+    url: /variants/5f8eb5ee83508a009bbf6a77_SWH-copy-of-The-Complete-Mountaineer-small-640.avif
+  - label: Medium
+    format: WebP
+    width: 500
+    height: 500
+    size: 25 KB
+    url: /variants/5f8eb5ee83508a009bbf6a77_SWH-copy-of-The-Complete-Mountaineer-small-640.webp
+  - label: Large
+    format: AVIF
+    width: 500
+    height: 500
+    size: 20 KB
+    url: /variants/5f8eb5ee83508a009bbf6a77_SWH-copy-of-The-Complete-Mountaineer-small-1280.avif
+  - label: Large
+    format: WebP
+    width: 500
+    height: 500
+    size: 25 KB
+    url: /variants/5f8eb5ee83508a009bbf6a77_SWH-copy-of-The-Complete-Mountaineer-small-1280.webp

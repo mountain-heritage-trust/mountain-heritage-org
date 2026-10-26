@@ -1,0 +1,40 @@
+image: /uploads/5e97020bea68d22c6948b809_IMG_4284.JPG
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1548
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1548
+    size: 419 KB
+    url: /uploads/5e97020bea68d22c6948b809_IMG_4284.JPG
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 484
+    size: 52 KB
+    url: /variants/5e97020bea68d22c6948b809_IMG_4284-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 484
+    size: 61 KB
+    url: /variants/5e97020bea68d22c6948b809_IMG_4284-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 968
+    size: 131 KB
+    url: /variants/5e97020bea68d22c6948b809_IMG_4284-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 968
+    size: 164 KB
+    url: /variants/5e97020bea68d22c6948b809_IMG_4284-1280.webp

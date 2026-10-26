@@ -1,0 +1,40 @@
+image: /uploads/5f8eb6db2210957ad1e896f8_Dorothy-Kellogg-epic-view-1951-sm.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 624
+height: 400
+versions:
+  - label: Original
+    format: JPEG
+    width: 624
+    height: 400
+    size: 29 KB
+    url: /uploads/5f8eb6db2210957ad1e896f8_Dorothy-Kellogg-epic-view-1951-sm.jpg
+  - label: Medium
+    format: AVIF
+    width: 624
+    height: 400
+    size: 15 KB
+    url: /variants/5f8eb6db2210957ad1e896f8_Dorothy-Kellogg-epic-view-1951-sm-640.avif
+  - label: Medium
+    format: WebP
+    width: 624
+    height: 400
+    size: 20 KB
+    url: /variants/5f8eb6db2210957ad1e896f8_Dorothy-Kellogg-epic-view-1951-sm-640.webp
+  - label: Large
+    format: AVIF
+    width: 624
+    height: 400
+    size: 15 KB
+    url: /variants/5f8eb6db2210957ad1e896f8_Dorothy-Kellogg-epic-view-1951-sm-1280.avif
+  - label: Large
+    format: WebP
+    width: 624
+    height: 400
+    size: 20 KB
+    url: /variants/5f8eb6db2210957ad1e896f8_Dorothy-Kellogg-epic-view-1951-sm-1280.webp

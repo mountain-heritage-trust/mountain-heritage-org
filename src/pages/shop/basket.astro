@@ -150,7 +150,7 @@ const feedback: Record<string, { text: string; kind: 'error' | 'info' }> = {
       if (!item.cover) return '<span class="basket-line__thumb basket-line__thumb--placeholder" aria-hidden="true"></span>';
       const m = item.cover.match(/^\/uploads\/([^/]+)\.(jpe?g|png)$/i);
       const src = m
-        ? `/uploads/optimised/${encodeURIComponent(m[1])}-640.webp`
+        ? `/variants/${encodeURIComponent(m[1])}-640.webp`
         : item.cover;
       return `<img class="basket-line__thumb" src="${src}" alt="" width="64" height="64" loading="lazy" />`;
     }

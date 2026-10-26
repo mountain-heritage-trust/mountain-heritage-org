@@ -1,0 +1,40 @@
+image: /uploads/5e9835f95a134216f379bae8_helmet.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 501
+height: 460
+versions:
+  - label: Original
+    format: JPEG
+    width: 501
+    height: 460
+    size: 28 KB
+    url: /uploads/5e9835f95a134216f379bae8_helmet.jpg
+  - label: Medium
+    format: AVIF
+    width: 501
+    height: 460
+    size: 13 KB
+    url: /variants/5e9835f95a134216f379bae8_helmet-640.avif
+  - label: Medium
+    format: WebP
+    width: 501
+    height: 460
+    size: 16 KB
+    url: /variants/5e9835f95a134216f379bae8_helmet-640.webp
+  - label: Large
+    format: AVIF
+    width: 501
+    height: 460
+    size: 13 KB
+    url: /variants/5e9835f95a134216f379bae8_helmet-1280.avif
+  - label: Large
+    format: WebP
+    width: 501
+    height: 460
+    size: 16 KB
+    url: /variants/5e9835f95a134216f379bae8_helmet-1280.webp

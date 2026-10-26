@@ -1,0 +1,40 @@
+image: /uploads/bonington-mountaineer-cover.png
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1681
+height: 935
+versions:
+  - label: Original
+    format: PNG
+    width: 1681
+    height: 935
+    size: 1.0 MB
+    url: /uploads/bonington-mountaineer-cover.png
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 356
+    size: 27 KB
+    url: /variants/bonington-mountaineer-cover-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 356
+    size: 35 KB
+    url: /variants/bonington-mountaineer-cover-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 712
+    size: 81 KB
+    url: /variants/bonington-mountaineer-cover-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 712
+    size: 106 KB
+    url: /variants/bonington-mountaineer-cover-1280.webp

@@ -1,0 +1,40 @@
+image: /uploads/5c59b95048d7cd57a7f0ba52_astley-clark.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1368
+height: 912
+versions:
+  - label: Original
+    format: JPEG
+    width: 1368
+    height: 912
+    size: 131 KB
+    url: /uploads/5c59b95048d7cd57a7f0ba52_astley-clark.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 427
+    size: 21 KB
+    url: /variants/5c59b95048d7cd57a7f0ba52_astley-clark-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 427
+    size: 26 KB
+    url: /variants/5c59b95048d7cd57a7f0ba52_astley-clark-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 853
+    size: 50 KB
+    url: /variants/5c59b95048d7cd57a7f0ba52_astley-clark-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 853
+    size: 67 KB
+    url: /variants/5c59b95048d7cd57a7f0ba52_astley-clark-1280.webp

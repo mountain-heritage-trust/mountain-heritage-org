@@ -1,0 +1,40 @@
+image: /uploads/67402af4f351ac898cdf9c8d_Screenshot-2024-11-22-at-07.53.36.png
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1046
+height: 936
+versions:
+  - label: Original
+    format: PNG
+    width: 1046
+    height: 936
+    size: 625 KB
+    url: /uploads/67402af4f351ac898cdf9c8d_Screenshot-2024-11-22-at-07.53.36.png
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 573
+    size: 82 KB
+    url: /variants/67402af4f351ac898cdf9c8d_Screenshot-2024-11-22-at-07.53.36-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 573
+    size: 93 KB
+    url: /variants/67402af4f351ac898cdf9c8d_Screenshot-2024-11-22-at-07.53.36-640.webp
+  - label: Large
+    format: AVIF
+    width: 1046
+    height: 936
+    size: 180 KB
+    url: /variants/67402af4f351ac898cdf9c8d_Screenshot-2024-11-22-at-07.53.36-1280.avif
+  - label: Large
+    format: WebP
+    width: 1046
+    height: 936
+    size: 222 KB
+    url: /variants/67402af4f351ac898cdf9c8d_Screenshot-2024-11-22-at-07.53.36-1280.webp
