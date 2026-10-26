@@ -115,16 +115,16 @@ it is used. Each described picture also gets a public **Image details**
 page, linked from its caption, showing where it appears and the versions
 available.
 
-Many images show a **Suggested caption**, **Suggested date** or
-**Suggested credit**. These were drafted from the original filenames and
-the pages each picture appears on. They are suggestions, not facts:
-check each one, then copy it into **Caption**, **Date** or **Credit**,
-editing as needed. Where a suggestion was less clear-cut it was checked
-against an outside source (climbing-history.org, the BMC, publishers and
-the like), listed under **Suggestion source**; suggestions that couldn't
-be confirmed were removed. The **Has a suggested caption to check**
-and **Has a suggested credit to check** filters list them. Nothing is
-shown on the site until it is in the Caption, Date or Credit field.
+Many captions and dates were filled in from the original filenames and
+the pages each picture appears on. Where the filename alone wasn't
+clear-cut, the caption was checked against an outside source
+(climbing-history.org, the BMC, publishers and the like), recorded in
+**Notes**. If you spot a mistake, just correct it.
+
+Some images also show a **Suggested credit**, guessed from the filename.
+Check it, then copy it into **Credit** if it is right; the **Has a
+suggested credit to check** filter lists them. Nothing is shown on the
+site until it is in the Credit field.
 
 The **Versions** list at the bottom shows the smaller copies the site
 makes automatically for faster loading. You don't need to do anything

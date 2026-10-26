@@ -164,12 +164,7 @@ for (const file of files) {
 
   const next = { image };
   for (const k of EDITABLE) next[k] = rec.data[k] ?? null;
-  // Suggestions are written once (credit by this script on creation;
-  // caption and date by a one-off review of filenames and page context)
-  // and only ever read here.
-  next.suggestedCaption = rec.data.suggestedCaption ?? null;
-  next.suggestedDate = rec.data.suggestedDate ?? null;
-  next.suggestionSource = rec.data.suggestionSource ?? null;
+  // Written once, on creation, and only ever read here.
   next.suggestedCredit = rec.data.suggestedCredit ?? null;
   next.width = width;
   next.height = height;

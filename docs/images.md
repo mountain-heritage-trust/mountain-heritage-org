@@ -115,10 +115,13 @@ CMS **Image library** (see [cms.md](cms.md#image-library)).
 | `date` | trustee (free text: "c. 1953") | yes |
 | `credit` | trustee | yes |
 | `notes` | trustee | no |
-| `suggestedCaption`, `suggestedDate` | one-off drafting pass (October 2026), from filenames and page context | no |
-| `suggestionSource` | same pass: external source(s) that confirmed a less certain suggestion (unconfirmed ones were removed) | no |
 | `suggestedCredit` | script, once, on creation | no |
 | `width`, `height`, `versions` | script, every run | `versions` on `/images/<id>` |
+
+Most captions and dates were seeded in October 2026 from filenames and
+page context. Ones that weren't clear-cut from the filename were only
+kept if an outside source confirmed them; that source is recorded in
+`notes`.
 
 `scripts/image-records.mjs`:
 
@@ -127,7 +130,7 @@ CMS **Image library** (see [cms.md](cms.md#image-library)).
   `… Collection`). It never writes `credit` itself; a trustee copies a
   checked suggestion across.
 - refreshes only the script-owned fields on existing records, so trustee
-  edits are never overwritten. It keeps the `suggested*` fields as they are.
+  edits are never overwritten. It keeps `suggestedCredit` as it is.
 - deletes records whose original has gone.
 - only writes files that change, so re-runs are a no-op.
 
