@@ -109,6 +109,18 @@ main {
   padding: 2rem 1.5rem;
 }
 
+/* Pages without an <article> wrapper (listings, 404) would otherwise get
+   the default heading top margin and start lower than every other page. */
+main > h1:first-child {
+  margin-top: 0;
+}
+
+/* main's bottom padding already separates content from the donate banner;
+   a trailing section margin on top of that leaves a large empty band. */
+main > :last-child {
+  margin-bottom: 0;
+}
+
 /* Site banner (editable in Sveltia → Site settings → Site banner) */
 .site-banner {
   background: var(--color-brand-blue);
@@ -293,10 +305,10 @@ main {
 .footer-nav,
 .social-links {
   list-style: none;
-  margin: 0 0 1rem;
+  margin: 0 0 1.25rem;
   padding: 0;
   display: flex;
-  gap: 1.5rem;
+  gap: 0.5rem 1.5rem;
   flex-wrap: wrap;
 }
 
@@ -466,6 +478,10 @@ main {
 .breadcrumb a {
   color: var(--color-muted);
   text-decoration: none;
+  /* Pad the tap target up to ~30px tall; negative margin keeps the
+     line box the same height. */
+  padding: 0.25rem 0;
+  margin: -0.25rem 0;
 }
 
 .breadcrumb a:hover {
@@ -578,12 +594,13 @@ main {
   flex-wrap: wrap;
 }
 
-.button--on-hero {
+/* Doubled class so these beat the base .button rule declared further down. */
+.button.button--on-hero {
   background: #ffffff;
   color: var(--color-brand-blue);
 }
 
-.button--on-hero:hover {
+.button.button--on-hero:hover {
   background: rgba(255, 255, 255, 0.92);
   color: var(--color-brand-blue);
 }
@@ -594,6 +611,12 @@ main {
   .home-hero__cta {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  /* Stacked, the two buttons should read as a matched pair. */
+  .home-hero__cta > a {
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
   }
 }
 
@@ -1099,6 +1122,15 @@ main {
   padding: 0.75rem 1.5rem;
 }
 
+/* At full size "Donate via JustGiving" wraps inside the card on phones. */
+@media (max-width: 30rem) {
+  .donate-cta .donate-button--large {
+    display: flex;
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+  }
+}
+
 .donate-cta-note {
   margin: 1rem 0 0;
   font-size: 0.9375rem;
@@ -1109,7 +1141,7 @@ main {
 .donate-banner {
   background: var(--color-accent);
   color: #ffffff;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .donate-banner__inner {
@@ -1174,7 +1206,7 @@ main {
 
 .download-link {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   gap: 1rem;
   padding: 0.875rem 1.125rem;
@@ -1300,7 +1332,7 @@ main {
     margin-left: 0;
   }
 
-  .donate-button {
+  .site-header .donate-button {
     margin-left: auto;
     padding: 0.4rem 0.85rem;
     font-size: 0.8125rem;
@@ -1642,7 +1674,7 @@ main {
     margin-left: auto;
   }
 
-  .basket-link:not([hidden]) + .donate-button {
+  .site-header .basket-link:not([hidden]) + .donate-button {
     margin-left: 0;
   }
 

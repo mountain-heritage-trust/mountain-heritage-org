@@ -40,6 +40,11 @@ component picks up the new values. Source of truth for colour values is
 - Buttons follow the brand convention: uppercase, semi-bold or bold
   Montserrat, purple background (or purple border for inverted variant).
 - All interactive elements must show a visible focus ring (`:focus-visible`).
+- Mobile overrides for a shared class must be scoped to where they apply.
+  The compact mobile donate button is `.site-header .donate-button`, not
+  `.donate-button`, so the hero, banner and donate-page buttons keep
+  their full size.
+- Check layout changes at phone width (375px) as well as desktop.
 
 ## Accessibility baseline
 
