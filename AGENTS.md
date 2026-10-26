@@ -43,7 +43,7 @@ This file is the entry point for anyone — human or LLM — working on the proj
 There are two environments (see [docs/deployment.md](docs/deployment.md)):
 
 - **Staging** — every push to `main` rebuilds the staging Worker (`mountain-heritage-org.remus-ddf.workers.dev`) within ~1 minute.
-- **Production** — deploys only from a `vX.Y.Z` release tag via GitHub Actions. Promote developer changes with `/deploy --patch` (or `--minor`/`--major`), which requires confirmation. Trustee edits via the CMS (`[cms]` commits) auto-bump the patch version and deploy production with no extra steps.
+- **Production** — deploys only from a `vX.Y.Z` release tag via GitHub Actions. Promote developer changes with `/deploy --patch` (or `--minor`/`--major`); running the command is the go-ahead, so it tags and pushes without a further prompt. Trustee edits via the CMS (`[cms]` commits) auto-bump the patch version and deploy production with no extra steps.
 
 So pushing `main` is safe for iteration, but a fix isn't live for visitors until it's promoted.
 

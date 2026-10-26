@@ -61,7 +61,7 @@ A project skill that wraps the git work:
   production: verifies the tree is clean and in sync with `origin/main` (so we
   only ever promote a commit already built and checked on staging), builds,
   computes the next semver from the latest tag, creates an annotated tag, and
-  pushes it (which triggers the production deploy). Asks for confirmation first.
+  pushes it (which triggers the production deploy). Runs without a further confirmation prompt.
 
 ### Rollback
 

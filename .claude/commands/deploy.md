@@ -19,8 +19,9 @@ In short: pushing `main` rebuilds **staging**; pushing a `vX.Y.Z` tag deploys
 
 ## If `--patch`, `--minor`, or `--major` was given → promote to PRODUCTION
 
-This tags a release, which triggers the production deploy. Be careful — this is
-user-facing.
+This tags a release, which triggers the production deploy. Running the command
+is the go-ahead: don't stop to ask before tagging. Tell the user the version and
+the commits it includes when reporting the result.
 
 1. **Preconditions** (stop and report if any fail):
    - On the `main` branch.
@@ -32,12 +33,10 @@ user-facing.
    (treat missing as `v0.0.0`). Compute the next version by incrementing the
    major / minor / patch component per the argument (resetting lower components
    to 0 for major/minor).
-4. **Confirm with the user**: show the new version and the commit subject being
-   promoted, and ask them to confirm before proceeding.
-5. Create and push an annotated tag:
+4. Create and push an annotated tag:
    - `git tag -a vX.Y.Z -m "release vX.Y.Z"`
    - `git push origin vX.Y.Z`
-6. Tell the user GitHub Actions will build and deploy production, and that they
+5. Tell the user GitHub Actions will build and deploy production, and that they
    can watch it in the repo's Actions tab.
 
 Note: trustee edits made through `/admin` deploy to production automatically, so
