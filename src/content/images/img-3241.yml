@@ -1,0 +1,40 @@
+image: /uploads/img_3241.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1365
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1365
+    size: 585 KB
+    url: /uploads/img_3241.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 427
+    size: 26 KB
+    url: /variants/img_3241-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 427
+    size: 30 KB
+    url: /variants/img_3241-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 853
+    size: 58 KB
+    url: /variants/img_3241-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 853
+    size: 74 KB
+    url: /variants/img_3241-1280.webp
