@@ -22,6 +22,15 @@ We thought this was really interesting, summing up the exhibition. As we moved f
 
 ![](/uploads/dsc05203-x.jpg)
 
+With climbers such as Mabel Barker and Siegfried Herford climbing with little more than some snappable hemp rope and hobnail boots, the risks were so extreme. Climbing a diff could be more risky than those currently tackling a 8b+ sport climb, given there's no room for error. This meant only the boldest of climbers could even get off the ground.
+
+With the advent of safety gear, that risk shunts up the grades, and only once those E grades are reached, with sparse protection and difficult moves, with sticky shoes, harnesses and helmets, could we even begin to try and compare the risk.
+
+This leaves room in the lower grades for those with slightly more self-preservation to be able to head to the crag. Whilst climbing is always dangerous, the risk is minimised, and more can be involved.
+
+If you head to the exhibition, you'll be able to see the full progression of this protection, from piton to prototype 2027 gear. 
+
+
 We're extremely grateful for all the contributions to the 3D objects, the photos and the information that have been provided by supporters. 
 
 Again, this exhibition has been made possible with support from the BMC, UKClimbing, DMM, Needle Sport, The Climbers Shop, [Joe Brown](https://www.mountain-heritage.org/team/joe-brown) Shops, Beta Climbing Design, Mountain Rescue England and Wales (MREW), The Fell and Rock Climbing Club and the National Heritage Lottery Fund.
