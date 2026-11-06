@@ -30,10 +30,11 @@ This leaves room in the lower grades for those with slightly more self-preservat
 
 If you head to the exhibition, you'll be able to see the full progression of this protection, from piton to prototype 2027 gear. 
 
+![](/uploads/img_3210.jpg)
 
 We're extremely grateful for all the contributions to the 3D objects, the photos and the information that have been provided by supporters. 
 
-Again, this exhibition has been made possible with support from the BMC, UKClimbing, DMM, Needle Sport, The Climbers Shop, [Joe Brown](https://www.mountain-heritage.org/team/joe-brown) Shops, Beta Climbing Design, Mountain Rescue England and Wales (MREW), The Fell and Rock Climbing Club and the National Heritage Lottery Fund.
+Again, this exhibition has been made possible with support from the BMC, UKClimbing, DMM, Needle Sport, The Climbers Shop, Outside, [Joe Brown](https://www.mountain-heritage.org/team/joe-brown) Shops, Beta Climbing Design, Mountain Rescue England and Wales (MREW), The Fell and Rock Climbing Club and the National Heritage Lottery Fund.
 
 Cockermouth MRT, the team covering Pillar, have contributed to the exhibition, showcasing the important work they do in the surrounding hills. Without MREW, safe ventures into the fells would not be possible.
 
