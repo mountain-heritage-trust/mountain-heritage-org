@@ -1,0 +1,40 @@
+image: /uploads/dsc05204-x.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 2048
+height: 1536
+versions:
+  - label: Original
+    format: JPEG
+    width: 2048
+    height: 1536
+    size: 285 KB
+    url: /uploads/dsc05204-x.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 480
+    size: 25 KB
+    url: /variants/dsc05204-x-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 480
+    size: 31 KB
+    url: /variants/dsc05204-x-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 960
+    size: 62 KB
+    url: /variants/dsc05204-x-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 960
+    size: 84 KB
+    url: /variants/dsc05204-x-1280.webp

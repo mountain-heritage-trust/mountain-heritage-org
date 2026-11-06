@@ -1,0 +1,40 @@
+image: /uploads/dsc05203-x.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1536
+height: 2048
+versions:
+  - label: Original
+    format: JPEG
+    width: 1536
+    height: 2048
+    size: 297 KB
+    url: /uploads/dsc05203-x.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 853
+    size: 40 KB
+    url: /variants/dsc05203-x-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 853
+    size: 52 KB
+    url: /variants/dsc05203-x-640.webp
+  - label: Large
+    format: AVIF
+    width: 1280
+    height: 1707
+    size: 90 KB
+    url: /variants/dsc05203-x-1280.avif
+  - label: Large
+    format: WebP
+    width: 1280
+    height: 1707
+    size: 127 KB
+    url: /variants/dsc05203-x-1280.webp
