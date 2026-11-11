@@ -1,0 +1,40 @@
+image: /uploads/siegfried_herford_central_buttress.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 590
+height: 393
+versions:
+  - label: Original
+    format: JPEG
+    width: 590
+    height: 393
+    size: 104 KB
+    url: /uploads/siegfried_herford_central_buttress.jpg
+  - label: Medium
+    format: AVIF
+    width: 590
+    height: 393
+    size: 47 KB
+    url: /variants/siegfried_herford_central_buttress-640.avif
+  - label: Medium
+    format: WebP
+    width: 590
+    height: 393
+    size: 59 KB
+    url: /variants/siegfried_herford_central_buttress-640.webp
+  - label: Large
+    format: AVIF
+    width: 590
+    height: 393
+    size: 47 KB
+    url: /variants/siegfried_herford_central_buttress-1280.avif
+  - label: Large
+    format: WebP
+    width: 590
+    height: 393
+    size: 59 KB
+    url: /variants/siegfried_herford_central_buttress-1280.webp
