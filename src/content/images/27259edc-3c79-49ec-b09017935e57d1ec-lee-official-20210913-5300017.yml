@@ -1,0 +1,40 @@
+image: /uploads/27259edc-3c79-49ec-b09017935e57d1ec-lee-official-20210913-5300017.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1200
+height: 800
+versions:
+  - label: Original
+    format: JPEG
+    width: 1200
+    height: 800
+    size: 447 KB
+    url: /uploads/27259edc-3c79-49ec-b09017935e57d1ec-lee-official-20210913-5300017.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 427
+    size: 67 KB
+    url: /variants/27259edc-3c79-49ec-b09017935e57d1ec-lee-official-20210913-5300017-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 427
+    size: 74 KB
+    url: /variants/27259edc-3c79-49ec-b09017935e57d1ec-lee-official-20210913-5300017-640.webp
+  - label: Large
+    format: AVIF
+    width: 1200
+    height: 800
+    size: 225 KB
+    url: /variants/27259edc-3c79-49ec-b09017935e57d1ec-lee-official-20210913-5300017-1280.avif
+  - label: Large
+    format: WebP
+    width: 1200
+    height: 800
+    size: 252 KB
+    url: /variants/27259edc-3c79-49ec-b09017935e57d1ec-lee-official-20210913-5300017-1280.webp

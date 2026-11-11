@@ -1,0 +1,40 @@
+image: /uploads/heavy-water.jpg
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 1024
+height: 768
+versions:
+  - label: Original
+    format: JPEG
+    width: 1024
+    height: 768
+    size: 212 KB
+    url: /uploads/heavy-water.jpg
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 480
+    size: 57 KB
+    url: /variants/heavy-water-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 480
+    size: 67 KB
+    url: /variants/heavy-water-640.webp
+  - label: Large
+    format: AVIF
+    width: 1024
+    height: 768
+    size: 143 KB
+    url: /variants/heavy-water-1280.avif
+  - label: Large
+    format: WebP
+    width: 1024
+    height: 768
+    size: 178 KB
+    url: /variants/heavy-water-1280.webp

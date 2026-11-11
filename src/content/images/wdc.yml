@@ -1,0 +1,40 @@
+image: /uploads/wdc.png
+caption: null
+alt: null
+date: null
+credit: null
+notes: null
+suggestedCredit: null
+width: 945
+height: 1181
+versions:
+  - label: Original
+    format: PNG
+    width: 945
+    height: 1181
+    size: 835 KB
+    url: /uploads/wdc.png
+  - label: Medium
+    format: AVIF
+    width: 640
+    height: 800
+    size: 137 KB
+    url: /variants/wdc-640.avif
+  - label: Medium
+    format: WebP
+    width: 640
+    height: 800
+    size: 152 KB
+    url: /variants/wdc-640.webp
+  - label: Large
+    format: AVIF
+    width: 945
+    height: 1181
+    size: 333 KB
+    url: /variants/wdc-1280.avif
+  - label: Large
+    format: WebP
+    width: 945
+    height: 1181
+    size: 351 KB
+    url: /variants/wdc-1280.webp
