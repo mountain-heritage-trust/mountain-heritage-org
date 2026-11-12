@@ -16,18 +16,17 @@ Pioneering climbers such as Siegfried Herford, inventor of the Girdle Traverse, 
 
 There are some fantastic articles, including Jeff Connor’s piece for[ UKC on Herford](https://www.ukclimbing.com/articles/features/remembering_the_fallen-11424) and the late John Appleby’s[ Footless Crow blog on Colin Kirkus](https://footlesscrow.blogspot.com/2021/04/colin-kirkus-pathfinder.html). In this piece, we’re looking to explore how the military has shaped climbing more generally.
 
-
 ![](/uploads/wdc.png)
 
 **Gear**
 
 Speaking to founder and patron John Innerdale whilst looking around the Pillar 200 Exhibition at the Beacon, he remembered how he sourced his climbing equipment:
 
-_“We used to go down to the war department stores and purchase the WD oval carabiners and boots.”_
+_“We used to go down to the war department stores and purchase the WD oval karabiners and boots.”_
 
-Looking through the archives, you can see that the equipment used post-war, up until the late 1950s, all had a similar style and design. Carabiners were used throughout WWII with numerous applications. In fact, carabiners were invented during the 1600s to allow rifles to be carried on horseback by the military.
+Looking through the archives, you can see that the equipment used post-war, up until the late 1950s, all had a similar style and design. Karabiners were used throughout WWII with numerous applications. In fact, karabiners were invented during the 1600s to allow rifles to be carried on horseback by the military.
 
-Post-war, there was a surplus of hard-wearing boots, clothing, carabiners, ropes and other pieces of equipment available to the general public. Not only was this equipment ubiquitous, but there also wasn’t really anything else available at the time that was suitable for the adventurous sport of climbing. With rationing continuing well into the 1950s, this was the only realistic way to purchase climbing equipment.
+Post-war, there was a surplus of hard-wearing boots, clothing, karabiners, ropes and other pieces of equipment available to the general public. Not only was this equipment ubiquitous, but there also wasn’t really anything else available at the time that was suitable for the adventurous sport of climbing. With rationing continuing well into the 1950s, this was the only realistic way to purchase climbing equipment.
 
 The effect of this ubiquitous military-turned-climbing gear was no doubt a driving force in the[ aforementioned](https://www.mountain-heritage.org/blog/launch-of-pillar-200-at-the-beacon/) democratisation of climbing. With readily available kit, climbing became more accessible to the working class of the period, and we started to see a boom in talented climbers who otherwise may not have been able to enter the somewhat elitist climbing circles of the pre-war period.
 
